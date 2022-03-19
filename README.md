@@ -25,28 +25,28 @@ Rinse and repeat.
 ## Fist-time setup:
 
 1. First you want to pull down the folder to your local machine. Open the folder you want to create the repo inside of with your terminal, then run in the terminal:  
-    git clone https://github.com/KumarRevatureReston/220314---UTA-SH---Scala-Big-Data.git
+    `git clone https://github.com/KumarRevatureReston/220314---UTA-SH---Scala-Big-Data.git`
 
-A new folder should be created.  
+    A new folder should be created.  
 
 2. Create a local branch.  This branch will be where you make all your incremental/developmental changes.  
-    git branch local  
+    `git branch local`
 To checkout your branch, type:  
-    git checkout local  
+    `git checkout local`
 
 3. Now, you can make any changes to the repo that you need to such as adding your files.  For the first time, you probably want to copy the `Example` folder and rename it to your name.  Then, add your files 
 to the respective folder.  You can do this with your file explorer or any other method you prefer.  
 
 4. Once you've made your changes you need to commit them.   
-    git add .  
-    git commit -m "I have successfully made my fist commit via the terminal! :)"  
+    `git add .`  
+    `git commit -m "I have successfully made my fist commit via the terminal! :)"`  
 
 Your files should now be added to your local repository.  You can now access this point in time of your repo from anywhere in the future!  
 
 5. Now that you have saved your changes to your local branch, you want to save them to the main branch and push it to Github, think of it as submitting the final draft.  
-    git checkout main
-    git merge local
-    git push origin main
+    `git checkout main`
+    `git merge local`
+    `git push origin main`
 
 You will be prompted to login to your github account.  
 
@@ -55,19 +55,19 @@ You will be prompted to login to your github account.
 At this point, you will just be repeating the same thing over and over again.
 
 1. Get on the right branch:  
-    git checkout local
+    `git checkout local`
 
 2. Add your changes.  
-    git add .
+    `git add .`
 
 3. Commit your changes.  
-    git commit -m "What did I change? Put a brief description here"
+    `git commit -m "What did I change? Put a brief description here"`
 
 4. Get on the right branch:  
-    git checkout main
+    `git checkout main`
 
 5. Push your changes
-    git push origin main
+    `git push origin main`
 
 That's it, you know basic git! Now you can manage repos on remote servers where a GUI is not an option. 
 
