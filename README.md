@@ -30,7 +30,7 @@ Rinse and repeat.
     A new folder should be created.  
 
 2. Create a local branch.  This branch will be where you make all your incremental/developmental changes.  
-    `git branch local`
+    `git branch local`  
 To checkout your branch, type:  
     `git checkout local`
 
@@ -40,6 +40,10 @@ to the respective folder.  You can do this with your file explorer or any other 
 4. Once you've made your changes you need to commit them.   
     `git add .`  
     `git commit -m "I have successfully made my fist commit via the terminal! :)"`  
+    
+    At this point, you may be prompted to use some git config commands.  Those commands are necessary for other users to know who is making the changes.  So, copy those commands and put your name and email.  
+    Then try rerunning the commit command.
+
 
 Your files should now be added to your local repository.  You can now access this point in time of your repo from anywhere in the future!  
 
