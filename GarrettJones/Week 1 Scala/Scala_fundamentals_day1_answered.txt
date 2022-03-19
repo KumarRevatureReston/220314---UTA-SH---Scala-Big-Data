@@ -1,0 +1,383 @@
+1) 
+10+2
+
+returns 12
+2)
+val msg = "Hello World"
+
+assigns an immutable variable with inferred type String.
+3)
+msg="Hello!"
+
+Fails because msg is immutable and cannot be changed after declaration.
+4)
+var msg = "Hello World"
+
+Depends, fails because there is already a variable called msg.  However, if this is a new document then yes this will work.
+5)
+msg="Hello!"
+
+Correct, if you initialized msg as type var and not val.
+
+6)
+msg = 3
+
+Fails because msg is expecting a return type of String
+
+7)
+val x = {val a=10;val b=100; b-a}
+
+Returns 90.  {} defines a code block inside of which a=10, b=100, the last expression or return is b-a which evaluates to Int 90.
+
+8)
+val file = scala.io.Source.fromFile("kumar").mkString
+
+val  m = { print ("foo "); 1}
+
+First line, reads a file `kumar` to a string `file`.  This operation will fail if the file `kumar` is not stored in the same directory as where this line is called.
+Second line, prints to console String "foo" and stores Int 1 inside m.  1 can also be considered as a true Boolean in conditional statements.
+
+10)
+var x = 5
+
+This assignment will succeed so long as x has not already been assigned to another value.  otherwise it will fail.
+
+11)
+val s = if (x> 0 && x<6) 1 else 0
+
+vim Demo_1.scala
+
+Object Demo_1{
+def main(args:Array[String]) {
+var x=15;
+if( x<20) {
+println("This is if statement");
+}
+} }
+
+First line returns 1 and stores it inside variable s.  
+Second line is a command line command, not a scala expression.  The command opens the Demo_1.scala file inside the terminal text editor vim.
+Third section, creates the objectr and main function for Demo_1 which is the entry point for this program.  The main function takes an array of Strings called args from the command line.
+Then, variable x is assigned value of 15 and passed into an if conditional statement.  The conditional statement will evaluate to true and execute the code in the conditional
+block (println("This is ...") . 
+
+
+12)
+val t = if (x> 0 && x<6) "positive" else "negative"
+
+
+Provided that x: Int has been defined the value of t will evaluate to "positive" or "negative" depending on if x is greater than 0 but less than 6.  If x is less than 6 and greater than 0
+the expression will assign "positive" to variable 't'
+
+13)
+var args = "hello"
+
+Error.  You cannot redefine variable args inside the main function because it is already defined as type Array[String].  You could redefine it in any scope outside the main
+function where it does not already exist though.
+
+14)
+args.foreach(arg=>println(arg))
+
+This prints out each argument passed to args array using an arrow function if there were any passed.  Otherwise, if the array is empty it throws an array.
+The advantage of doing it this way is that you can pass arguments println() function before sending it to the higher order function (foreach).
+For example:
+args.foreach(arg=>println(arg+" <- CMD line argument.")
+This allows me to pass another string into println alongside every iteration in the args array.
+
+15)
+args.foreach(println) // Sequentially prints out every element in the array to its own line.
+
+val x = List(1,2,3)  // Creates list of 3 elements
+x.foreach{println}   // For each element in list execute code block {println}  REALLY useful.
+
+You could also do:
+x.foreach{arg=>{println(arg)}}  //Passes arg into the code block and executes it for each element.
+
+16)
+for(i<-1 to 5)
+println(i)
+
+Prints the value of i from 1 to 5 on a new line sequentially.
+
+17)
+val in  = "hello world"
+var sum = 0
+for (i<-0 until in.length) sum+=i // For 
+print(sum)
+
+prints to console Int 55
+
+18)
+for(i<-1 to 3;j<-1 to 3)
+println(10*i+j)
+
+19)
+for(i<-1 to 3;j<-1 to 3 if i==j) println(10*i+j)
+
+20)
+for(i<-1 to 3;x=4-i;j<- x to 3) println(10*i+j)
+
+21)
+val x = for(i<-1 to 20)yield i*2.5
+for (i<-x) println(i)
+
+while loop
+vim Demo_4.scala
+Object Demo_4{
+def main(args:Array[String]) {
+var a=10;
+while( a<20) {
+println("value of a = " + a);
+a= a+1;
+}
+} }
+
+
+dowhile loop
+var nodb = 2
+
+do {
+nodb +=1
+println(s"nodb = $nodb")
+}while(nodb < 10)
+
+
+
+22)
+
+def sayhello() {
+println("Hello")
+}
+
+def sum(a:Int,b:Int) {
+println(a+b)
+}
+
+sum(2,5)
+
+def func():Int={
+return 7
+}
+
+
+def sum(a:Int,b:Any):Any= {
+println("hello")
+}
+
+
+
+23)
+def factorial(n:Int):Int=if(n==0)1 else n*factorial(n-1)
+
+Object Demo{
+def main(args:Array[String]) = {
+var result= functionExamp(15,2)
+println(result)
+}
+def functionExamp(a:Int,b:Int):Int={
+if(b == 0)
+0
+else
+a+functionExamp(a,b-1)
+} }
+
+
+24)
+def rect_area(length:Float,breadth:Float)
+{ val area = length*breadth; print(area)}
+
+25)
+
+Arrays with values
+
+var a = Array(1,2,3)
+a(4)
+a(0)
+
+Arrays without values
+var a = new Array[Int](3)
+a(1)
+a(1)= 2
+a
+ 
+val a = new Array[Int](10)
+val s = new Array[String](10)
+val st = Array("Hello","world")
+
+26)
+import scala.collection.mutable.ArrayBuffer
+val a = ArrayBuffer[Int]()
+a +=1
+a +=(2,3,5)
+a ++=Array(6,7,8)
+
+practice for Array
+-----------------------------------------------------------------
+https://www.geeksforgeeks.org/scala-arrays/
+----------------------------------------------------------------
+
+27) List
+val list = 1 :: 2 :: 3 :: Nil
+val list = List(1,2,3)
+val x = List(1,2.0,33D,4000L)
+val x = List.range(1,10)
+val x = List.fill(3)("foo")
+val x = List.tabulate(5)(n=>n*n)
+
+import scala.collection.mutable.ListBuffer
+var fruits = new ListBuffer[String]()
+fruits += "Apple"
+fruits += ("strawberry","kiwi")
+fruits -= ("Apple","kiwi")
+val fruitslists = fruits.toList
+
+
+val x = List(3)
+val y = 1 :: 2 :: x
+val z = -1 :: y
+
+val originalList1 = List(7,8,4,3,2)
+val newList1 = originalList1.filter(_>3)
+
+val p = List(111,200,321)
+val q = List(4,-5,60)
+val r =  p ++ q
+val r = p ::: q
+val r = List.concat(p,q)
+
+
+val lst = List(1,2,3,4,5,6,7,8)
+lst.head
+lst.tail
+
+def sum(l: List[Int]):Int = { if(l == Nil) 0 else l.head + sum(l.tail)}
+val y = sum(lst)
+
+practice for Array
+--------------------------------------------------------------------------
+https://www.geeksforgeeks.org/scala-lists/
+--------------------------------------------------------------------------
+
+28)Tuples
+
+A tuple is immutable, unlike an array in scala which is mutable. An example of a tuple storing an integer, a string, and boolean value. Type of tuple is defined by, the number of the element it contains and datatype of those elements
+
+val a = (1,4, "Bob", "Jack")
+a._2
+a _2
+
+val ab = (4,3,2,1)
+ab.productIterator.foreach{ i => println("value ="+i)}
+val t =("exam","test")
+println(("swapped Tuple: " + t.swap)
+val mn = (1,"wonderful",20.2356)
+println("concatenated String: " + mn.toString())
+
+practice for Tuple
+--------------------------------------------------------------
+"https://www.geeksforgeeks.org/scala-tuple/"
+--------------------------------------------------------------
+
+29) set
+var s : Set[Int] = Set(1,3,5,7)
+var s1 = Set(7,9,8,9)
+var s2 = Set(10,11,12,13)
+s1++s2
+var x1 = Set(7,9,8,9)
+var x2 = Set(10,11,12,13)
+x1.++(x2)
+
+var a1 = Set(11,44,33,22)
+var b1 = Set(77,99,22,88)
+a1.&(b1)
+
+var a1 = Set(11,44,33,22)
+var b1 = Set(77,99,22,88)
+a1.intersect(b1)
+
+practice for sets
+-------------------------------------------------------------
+https://www.geeksforgeeks.org/set-in-scala-set-1/
+-------------------------------------------------------------
+
+
+30)
+val mapping = Map("Vishal"-> "Kumar","Vijay" -> "verma")
+mapping.keys.foreach{i=>println(i+" "+mapping(i))}
+mapping.contains("Vishal")
+
+------------------------------------------------------------
+https://www.geeksforgeeks.org/scala-map/
+-----------------------------------------------------------
+
+31)What is the difference between Expressions and Statements in Scala?
+
+A statement
+-----------------
+println("hello")
+
+An expression --> something that returns.
+-------------------
+val x = println("hello")
+
+-------------------------------------------------------------
+32) Pure functions.
+
+The function’s output depends only on its input variables
+It doesn’t mutate any hidden state
+It doesn’t have any “back doors”: It doesn’t read data from the outside world (including the console, web services, databases, files, etc.), or write data to the outside world
+
+Impure functions.
+
+Read hidden inputs, i.e., they access variables and data not explicitly passed into the function as input parameters
+Write hidden outputs
+Mutate the parameters they are given
+Perform some sort of I/O with the outside world
+
+Example is an assignment.............
+
+--------------------------------------------------------------
+33)Filtering and transformation
+
+val m1 = List(5, 12, 3, 13)
+          
+//Applying filter method
+val result = m1.filter(_ < 10)
+          
+// Displays output
+println(result)
+---------------------------------------------
+val m1 = Map(3 -> "geeks", 4 -> "for", 2 -> "cs")
+          
+// Applying transform method
+val result = m1.transform((key,value) => value.toUpperCase)
+          
+// Displays output
+println(result)
+-----------------------------------------------
+
+34)FlatMap
+val name = Seq("Nidhi", "Singh")
+val result1 = name.map(_.toLowerCase)
+
+val result2 = result1.flatten
+List(n, i, d, h, i, s, i, n, g, h)
+
+name.flatMap(_.toLowerCase)
+List(n, i, d, h, i, s, i, n, g, h)
+---------------------------------------------------------------------
+
+1. Write a Scala program to compute the sum of the two given integer values. If the two values are the same, then return triples their sum. 
+2. Write a Scala program to create a new string with the last char added at the front and back of a given string of length 1 or more
+3. Write a Scala program to get the absolute difference between n and 51. If n is greater than 51 return triple the absolute difference.
+4. Write a Scaljkvara program to check two given integers, and return true if one of them is 30 or if their sum is 30.
+5. Write a Scala program to check a given integer and return true if it is within 20 of 100 or 300.
+6. Write a Scala program to create a new string where 'if' is added to the front of a given string. If the string already begins with 'if', return the string unchanged
+7. Write a Scala program to remove the character in a given position of a given string.The given position will be in the range 0...string length -1 inclusive. 
+8. Write a Scala program to exchange the first and last characters in a given string and return the new string. 
+
+Source----
+"https://www.w3resource.com/scala-exercises/basic/index.php"
+
+
+
