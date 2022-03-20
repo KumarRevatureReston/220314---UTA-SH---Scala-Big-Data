@@ -1,4 +1,4 @@
-1.Try/Catch
+#1.Try/Catch
 {
 
 	def main(args: Array[String])
@@ -15,7 +15,7 @@
 	}
 }
 
-2. without Exception Handling
+#2. without Exception Handling
 class ExceptionExample{  
     def divide(a:Int, b:Int) = {  
             a/b             // Exception occurred here  
@@ -30,7 +30,7 @@ object MainObject{
     }  
 }
 
-3. class ExceptionExample{  
+#3. class ExceptionExample{  
     def divide(a:Int, b:Int) = {  
         try{  
             a/b  
@@ -48,7 +48,7 @@ object MainObject{
     }  
 }  
 
-4. Finally
+#4. Finally
 class ExceptionExample{  
     def divide(a:Int, b:Int) = {  
         try{  
@@ -76,7 +76,7 @@ object MainObject{
     }  
 }  
 
-5.Pattern Matching 
+#5.Pattern Matching 
 object MainObject {  
    def main(args: Array[String]) {  
         var result = search ("Hello")  
@@ -91,7 +91,7 @@ object MainObject {
         }  
 }
 
-6. list
+#6. list
 val numbersList: List[Int] = List(1, 2, 3 ,4)
 val emptyList: List[Int] = List()
 
@@ -109,7 +109,7 @@ def main(args:Array[String]) {
    }
 }
 
-7.set
+#7.set
 val emptySet: Set[Int] = Set() 
 
 val numbersSet: Set[Int] = Set(1, 2, 3, 4)
@@ -126,7 +126,7 @@ object Student {
    }
 }
 
-8. Merge two Set
+#8. Merge two Set
 import scala.collection.immutable._  
 object MainObject{  
         def main(args:Array[String]){  
@@ -141,7 +141,7 @@ object MainObject{
     }  
 
 
-9. Concatenating lists
+#9. Concatenating lists
 object Country {
 	def main(args:Array[String]) {
 	val country_1 =  List("States","Britain","New Zealand")
@@ -159,7 +159,7 @@ object Country {
 }
 
 
-10. Story Telling : Scala’s pattern matching
+#10. Story Telling : Scala’s pattern matching
 https://towardsdatascience.com/how-to-use-scalas-pattern-matching-362a01aa32ca
 Someone can take a lead and do a code walk through on Pattern Matching 
 
