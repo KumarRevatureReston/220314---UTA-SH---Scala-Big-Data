@@ -1,0 +1,189 @@
+1.Try/Catch
+{
+
+	def main(args: Array[String])
+	{
+          // create a map, which is similar to a dictionary
+          // abc is the key for author, pqr is the key for coder
+          val name = Map("abc" -> "author","pqr" -> "coder")
+
+		
+		  val x = name.get("abc") // get "author" from map assign to x
+		  val y = name.get("xyz") // no element with key "xyz" so y becomes None
+
+
+		  println(x) // "author"
+		  println(y) // None
+	}
+}
+
+2. without Exception Handling
+class ExceptionExample{  
+    def divide(a:Int, b:Int) = {  
+            a/b             // Exception occurred here  
+        println("Rest of the code is executing...")  
+    }  
+}  
+object MainObject{  
+    def main(args:Array[String]) { 
+        //create instance of exceptionexample class
+        var e = new ExceptionExample() 
+        // call divide method on instance
+        e.divide(100,0)  //uncaught divide by zero exception   
+    }  
+}
+
+3. class ExceptionExample{  
+    def divide(a:Int, b:Int) = {  
+        try{  
+            // try catch block catches arithmetic exceptions
+            a/b  
+        }catch{  
+            // if an arithmetic exception is caught, prints the exception
+            case e: ArithmeticException => println(e)  
+        }  
+        // after try and/or catch blocks have run fully, execution continues here
+        println("Rest of the code is executing...")  
+    }  
+}  
+object MainObject{  
+    def main(args:Array[String]){  
+        //create instance of exceptionexample class
+        var e = new ExceptionExample()  
+        e.divide(100,0)  //caught divide by zero exception   
+   
+    }  
+}  
+
+4. Finally
+class ExceptionExample{  
+    // divide method, takes two integers
+    def divide(a:Int, b:Int) = {  
+        try{  
+        // try block
+            a/b // evaluates a divided by b, the result is not used, but an exception could still be thrown here
+                // it should be noted that compilers for many languages would just remove expressions like this that don't change any state and whose results are unused
+            var arr = Array(1,2) // create array of integers with elements 1 and 2
+            arr(10) // array index out of bounds exception
+        }catch{  
+        // catch block
+            case e: ArithmeticException => println(e)  // print arithmetic exception
+            case ex: Exception =>println(ex) // print exception
+            case th: Throwable=>println("found a unknown exception"+th) // print throwable
+        }  
+        finally{  
+            // finally block, always executes
+            println("Finaly block always executes")  
+        }  
+        println("Rest of the code is executing...")  
+    }  
+}  
+  
+  
+object MainObject{  
+    def main(args:Array[String]) = {  
+        // create instance of exceptionexample class
+        var e = new ExceptionExample()  
+        // run divide method on e
+        e.divide(100,10) // array index out of bounds exception is caught
+        // finally block executes
+        // then "rest of the code..."
+        
+    }  
+}  
+
+5.Pattern Matching 
+object MainObject {  
+   def main(args: Array[String]) = {  
+      var result = search ("Hello")
+      // search uses match to match "Hello" case
+      // println("Hello") is run and the return value (Unit) is assigned to result
+      println(result)
+      // this outputs as "()"
+    }  
+    def search (a:Any):Any = a match{  
+      case 1  => println("One")  
+      case "Two" => println("Two")  
+      case "Hello" => println("Hello")  
+      case _ => println("No")                
+    }  
+}
+
+6. list
+val numbersList: List[Int] = List(1, 2, 3 ,4) // create list of integers 1 -> 4
+val emptyList: List[Int] = List() // create new empty list of integers
+
+// double declaration error
+val numbersList: List[Int] = 1 :: 2 :: 3 :: 4 :: Nil
+// creates new list of integers 1 -> 4 using :: syntax and Nil to end it
+
+object Student {
+def main(args:Array[String]) = {
+    val names= "Harry" :: ("Adam" :: ("Jill" :: Nil)) // create list of strings harry, adam, jill
+    val age = Nil // assign Nil to age
+      println( "Head of names array : " + names.head ) // first element Harry
+      println( "Tail of names array : " + names.tail ) // all elements other than first: adam, jill
+      println( "Check if names is empty : " + names.isEmpty ) // names is not empty so output is false
+      println( "Check if age is empty : " + age.isEmpty ) // Nil isEmpty so output is true
+   }
+}
+
+7.set
+val emptySet: Set[Int] = Set() // create empty set of integers
+
+val numbersSet: Set[Int] = Set(1, 2, 3, 4) // create set of integers with 4 elements
+
+object Student {
+   def main(args: Array[String]) {
+      val name = Set("Smith", "Brown", "Allen") // create set of strings with 3 elements
+      val id: Set[Int] = Set() // create empty set of integers
+
+      println( "Head of name : " + name.head ) // first element, smith
+      println( "Tail of name : " + name.tail ) // remaining elements, brown, allen
+      println( "Check if name is empty : " + name.isEmpty ) // false, contains elements
+      println( "Check if id is empty : " + id.isEmpty ) // true, contains no elements
+   }
+}
+
+8. Merge two Set
+import scala.collection.immutable._  
+object MainObject{  
+        def main(args:Array[String]){  
+            val games = Set("Cricket","Football","Hocky","Golf")   // create set of strings with 4 elements
+            val alphabet = Set("A","B","C","D","E")   // create set of strings (or char maybe) with 5 elements, A-E
+            val mergeSet = games ++ alphabet            // Merging two sets  
+            println("Elements in games set: "+games.size)   // print size of collection  
+            println("Elements in alphabet set: "+alphabet.size)   // print size of collection
+            println("Elements in mergeSet: "+mergeSet.size)  // print size of the merged set
+            println(mergeSet)  // print merged set
+        }  
+    }  
+
+
+9. Concatenating lists
+object Country {
+	def main(args:Array[String]) {
+	val country_1 =  List("States","Britain","New Zealand") // create list of strings with 3 elements
+	val country_2 = List("Austria","Belgium","Canada") // create list of strings with 3 elements
+
+    // create a new list with the elements of 
+    // country2 in front of the elements in country1
+	val country = country_1 ::: country_2 
+	println( "country_1 ::: country_2 : " + country ) // print elements of combined list
+
+    // create a new list with the elements of 
+    // country1 in front of the elements in country2
+	val cont = country_1.:::(country_2) 
+            println( "country_1.:::(country_2) : " + cont ) // print elements of combined list
+	// create a new list with the elements of 
+    // country1 in front of the elements in country2
+    val con = List.concat(country_1, country_2)
+            println( "List.concat(country_1, country_2) : " + con  ) // print elements of combined list
+
+   }
+}
+
+// this isn't a question and the linked article is a tutorial so ¯\_(ツ)_/¯
+10. Story Telling : Scala’s pattern matching
+https://towardsdatascience.com/how-to-use-scalas-pattern-matching-362a01aa32ca
+Someone can take a lead and do a code walk through on Pattern Matching 

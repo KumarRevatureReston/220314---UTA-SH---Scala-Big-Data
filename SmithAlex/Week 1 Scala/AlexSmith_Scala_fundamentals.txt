@@ -1,0 +1,449 @@
+1) // expression, 12
+10+2
+
+2) // assign string value to msg variable declared as val
+val msg = "Hello World"
+
+3) // msg is immutable so this would fail
+msg="Hello!"
+
+4) // assign string value to msg variable declared as var
+var msg = "Hello World"
+
+5) // assign new string value to msg variable declared as var
+msg="Hello!"
+
+6) // this assignment fails because the type of msg is string, not int
+msg = 3
+
+7) 	// this is basically an anonymous function that gets evaluated
+	// and the resulting value of the final expression b-a, 90, is assigned to x
+val x = {val a=10;val b=100; b-a}
+
+8) // this fails because I don't have file "kumar"
+val file = scala.io.Source.fromFile("kumar").mkString
+// foo is printed and then m is set to 1
+val  m = { print ("foo "); 1}
+
+
+10) // assign value 5 to variable x declared as var
+var x = 5
+
+11) // assign value 1 to s because the condition evaluates to true
+val s = if (x> 0 && x<6) 1 else 0
+
+vim Demo_1.scala
+	// assuming the project is set up and compiled correctly
+	// this will output "This is if statement" because the
+	// condition evaluates to true
+Object Demo_1{
+def main(args:Array[String]) {
+var x=15;
+if( x<20) {
+println("This is if statement");
+}
+} }
+
+
+12) // assigns string value "negative" to variable t declared as val
+	// because the condition evaluates to false
+val t = if (x> 0 && x<6) "positive" else "negative"
+
+13) // assigns string value "hello" to variable args declared as var
+var args = "hello"
+
+14) // attempts to print each string contained within args
+	// fails because args is a string and not a string array or collection
+args.foreach(arg=>println(arg))
+
+15) // attempts to run println for each item contained within args
+	// fails because args is a string and not a string array or collection
+args.foreach(println)
+
+val x = List(1,2,3) 
+x.foreach{println} 	// runs println for each value in x
+					// prints "1\n2\n3"
+
+
+16) // loops through values 1 to 5, stored in variable i, and prints them
+	// prints "1\n2\n3\n4\n5"
+for(i<-1 to 5)
+println(i)
+
+17) // assigns string value "hello world" to variable in declared as val
+	// assigns value 0 to variable sum declared as var
+	// starting with i = 0 and looping until i = in.length(11)
+	// sum each value of i
+	// this effectively sums the integers 0 through 10, which is 55
+	// prints 55
+val in  = "hello world"
+var sum = 0
+for (i<-0 until in.length) sum+=i
+print(sum)
+
+18) // essentially creates a nested loop for i from 1 to 3
+	// and then within that loop j from 1 to 3
+	// within the inner loop it prints 10*i + j
+	// prints "11\n12\n13\n21\n22\n23\n31\n32\n33"
+for(i<-1 to 3;j<-1 to 3)
+println(10*i+j)
+
+19) // essentially creates a nested loop for i from 1 to 3
+	// and then within that loop j from 1 to 3
+	// within the inner loop it prints 10*i + j ONLY IF i == j
+	// so it only prints when i and j are 1, i and j are 2, and i and j are 3
+	// prints "11\n22\n33"
+for(i<-1 to 3;j<-1 to 3 if i==j) println(10*i+j)
+
+20) // does the same as the above code, but the inner loop's run count is from
+	// x (4-i) to 3, instead of from 1 to 3 each time, 
+	// so the inner loop's start value and run count are dynamic and change based on i's value
+prints "13\n22\n23\n31\n32\n33"
+for(i<-1 to 3;x=4-i;j<- x to 3) println(10*i+j)
+
+21) // loop through the numbers 1 to 20, stored in i, and yields
+	// a collection composed of the numbers 1 to 20 multiplied by 2.5
+	// {2.5, 5.0, 7.5 ...} which is assigned to the variable x which is declared as val
+	// then every element in x, stored in i, is printed
+	// this prints "2.5\n5.0\7.5..."
+val x = for(i<-1 to 20)yield i*2.5
+for (i<-x) println(i)
+
+while loop
+vim Demo_4.scala
+Object Demo_4{
+def main(args:Array[String]) {
+var a=10; // assign 10 to var a
+while( a<20) { // loop while a is less than 20
+println("value of a = " + a); // print the value of a each iteration of the loop
+a= a+1; // increment a so the loop eventually ends
+}
+} }
+
+do while is no longer supported in scala 3
+
+var nodb = 2
+
+// a do while loop executes the loop body first
+// it then checks the condition. if the condition
+// is true, it executes the loop body again
+// if false, it continues and does not execute the loop again
+do { 
+nodb +=1 // increment nodb so the loop terminates eventually
+println(s"nodb = $nodb") // print value of nodb using string interpolation
+}while(nodb < 10) // loop condition, will loop while nodb is less than 10
+
+
+
+22)
+
+// defines method sayhello that prints "Hello" when called
+def sayhello() : Unit = { 
+println("Hello")
+}
+
+// defines method sum that accepts two arguments and prints their sum
+def sum(a:Int,b:Int) : Unit = { 
+println(a+b) // sums a + b and prints the result
+}
+
+sum(2,5) // calls sum with 2 and 5 as the arguments
+
+// defines method called func that just returns integer 7
+def func():Int={
+return 7
+}
+
+// defines method called sum that accepts two arguments, one int, and one of any type
+// it doesn't do anythign with the args, it just prints hello
+def sum(a:Int,b:Any):Any= {
+println("hello")
+}
+
+
+
+23) // recursive function that computes a factorial
+def factorial(n:Int):Int=if(n==0)1 else n*factorial(n-1)
+
+// defines function that returns a result based on the arguments supplied
+// calls that function, stores result in result var
+// prints result
+Object Demo{
+def main(args:Array[String]) = {
+var result= functionExamp(15,2)
+println(result)
+}
+def functionExamp(a:Int,b:Int):Int={
+if(b == 0)
+0
+else
+a+functionExamp(a,b-1)
+} }
+
+
+24) added : Unit =
+// defines method rect_area that accepts 2 Float arguments
+// performs area calculation and prints the result
+def rect_area(length:Float,breadth:Float) : Unit =
+{ val area = length*breadth; print(area)}
+
+25)
+
+Arrays with values
+
+var a = Array(1,2,3) // create array with 3 values
+a(4) // out of bounds
+a(0) // first element
+
+Arrays without values
+var a = new Array[Int](3) // create empty array
+a(1)//  access first element, value is 0
+a(1)= 2 // set value of first element to 2
+a // the variable holding the array
+ 
+val a = new Array[Int](10) // create Int array of ten elements
+val s = new Array[String](10) // create string array of ten elements
+val st = Array("Hello","world") // create string array with elements "hello" and "world"
+
+26)
+import scala.collection.mutable.ArrayBuffer import arraybuffer
+val a = ArrayBuffer[Int]() // create int arraybuffer
+a +=1 // add 1 to arraybuffer
+a +=(2,3,5) // add 2,3,5 to arraybuffer
+a ++=Array(6,7,8) // add 6,7,8 to arraybuffer
+
+practice for Array
+-----------------------------------------------------------------
+https://www.geeksforgeeks.org/scala-arrays/
+----------------------------------------------------------------
+
+27) List 
+val list = 1 :: 2 :: 3 :: Nil // create a list with elements 1,2,3 using the :: operator
+val list = List(1,2,3) // create a list with elements 1,2,3
+// create list of (int) 1, (inferred double) 2.0, (explicit double) 33, (explicit long) 4000
+val x = List(1,2.0,33D,4000L) 
+val x = List.range(1,10) // create list of ints 1-9 inclusive
+val x = List.fill(3)("foo") // create list of 3 strings foo, foo, foo
+val x = List.tabulate(5)(n=>n*n) // create a list of n^2 for ints 0-4 inclusive
+
+import scala.collection.mutable.ListBuffer // import listbuffer
+var fruits = new ListBuffer[String]() // create listbuffer for strings
+fruits += "Apple" // add apple to listbuffer
+fruits += ("strawberry","kiwi") // add strawberry and kiwi to listbuffer
+fruits -= ("Apple","kiwi") // remove apple and kiwi from listbuffer
+// make an immutable list from the mutable listbuffer
+val fruitslists = fruits.toList
+
+
+val x = List(3) // create list of ints with one element, 3
+val y = 1 :: 2 :: x // create list of ints with 3 elements, 1,2,3
+val z = -1 :: y // create list of ints with 4 elements, -1,1,2,3
+
+// create list of ints with these elements
+val originalList1 = List(7,8,4,3,2)
+// create list based off originalList1 
+// with all elements greater than 3 removed
+val newList1 = originalList1.filter(_>3) // List(7,8,4)
+
+val p = List(111,200,321) // create list of these 3 ints
+val q = List(4,-5,60) // create list of these 3 ints
+val r =  p ++ q // ++ concat operator: create list composed of p elements followed by q elements
+val r = p ::: q // cons operator method: create list composed of p elements followed by q elements
+val r = List.concat(p,q) // concat method: create list composed of p elements followed by q elements
+
+
+val lst = List(1,2,3,4,5,6,7,8) // create list of these ints
+lst.head // first element, 1
+lst.tail // last element, 8
+
+// recursive sum function
+def sum(l: List[Int]):Int = { if(l == Nil) 0 else l.head + sum(l.tail)}
+val y = sum(lst)
+
+practice for Array
+--------------------------------------------------------------------------
+https://www.geeksforgeeks.org/scala-lists/
+--------------------------------------------------------------------------
+
+28)Tuples
+
+A tuple is immutable, unlike an array in scala which is mutable.
+An example of a tuple storing an integer, a string, and boolean value.
+Type of tuple is defined by, the number of the element it contains and datatype of those elements
+
+val a = (1,4, "Bob", "Jack") // tuple of 2 ints and 2 strings
+a._2 // 2nd element, 4. tuple indexing starts at 1
+a _2
+
+val ab = (4,3,2,1) // tuple of 4 ints
+// iterating the tuple and printing the value of each element
+ab.productIterator.foreach{ i => println("value ="+i)}
+val t =("exam","test") // tuple of 2 strings
+println(("swapped Tuple: " + t.swap) // swap method of a tuple2 swaps the position of the elements
+val mn = (1,"wonderful",20.2356) // tuple of int, string, double
+println("concatenated String: " + mn.toString()) // tostring displays the entire tuple and its values in string form
+
+practice for Tuple
+--------------------------------------------------------------
+"https://www.geeksforgeeks.org/scala-tuple/"
+--------------------------------------------------------------
+
+29) set
+var s : Set[Int] = Set(1,3,5,7) // create a set of 4 ints
+var s1 = Set(7,9,8,9) // create a set of 3 ints, duplicate 9 is removed
+var s2 = Set(10,11,12,13) // create a set of 4 ints
+s1++s2 // create a combined set with all elements from both sets
+var x1 = Set(7,9,8,9) // create a set of 3 ints, duplicate 9 is removed
+var x2 = Set(10,11,12,13) // create a set of 4 ints
+x1.++(x2) // create a combined set with all elements from both sets
+
+var a1 = Set(11,44,33,22) // create a set of 4 ints
+var b1 = Set(77,99,22,88) // create a set of 4 ints
+a1.&(b1) // create a set containing only the elements found in both sets (22)
+
+var a1 = Set(11,44,33,22) // create a set of 4 ints
+var b1 = Set(77,99,22,88) // create a set of 4 ints
+a1.intersect(b1) // create a set containing only the elements found in both sets (22)
+
+practice for sets
+-------------------------------------------------------------
+https://www.geeksforgeeks.org/set-in-scala-set-1/
+-------------------------------------------------------------
+
+
+30)
+// create a mapping of strings to strings
+val mapping = Map("Vishal"-> "Kumar","Vijay" -> "verma")
+// display the key and value for each keyvaluepair in the map
+mapping.keys.foreach{i=>println(i+" "+mapping(i))}
+// true, the mapping does contain a value for key "Vishal"
+mapping.contains("Vishal")
+
+------------------------------------------------------------
+https://www.geeksforgeeks.org/scala-map/
+-----------------------------------------------------------
+
+31)What is the difference between Expressions and Statements in Scala?
+
+A statement
+-----------------
+println("hello")
+
+An expression --> something that returns.
+-------------------
+val x = println("hello")
+
+-------------------------------------------------------------
+32) Pure functions.
+
+The function’s output depends only on its input variables
+It doesn’t mutate any hidden state
+It doesn’t have any “back doors”: It doesn’t read data from the outside world (including the console, web services, databases, files, etc.), or write data to the outside world
+
+Impure functions.
+
+Read hidden inputs, i.e., they access variables and data not explicitly passed into the function as input parameters
+Write hidden outputs
+Mutate the parameters they are given
+Perform some sort of I/O with the outside world
+
+Example is an assignment.............
+
+--------------------------------------------------------------
+33)Filtering and transformation
+
+val m1 = List(5, 12, 3, 13) // list of 4 ints
+          
+//Applying filter method, creates list of all elements whose value is less than 10
+val result = m1.filter(_ < 10) // (5, 3)
+          
+// Displays output
+println(result) 
+---------------------------------------------
+// create map of integers to strings
+val m1 = Map(3 -> "geeks", 4 -> "for", 2 -> "cs")
+          
+// Applying transform method, transform into a map of integers to (now upper-case) strings
+val result = m1.transform((key,value) => value.toUpperCase)
+          
+// Displays output
+println(result)
+-----------------------------------------------
+
+34)FlatMap
+val name = Seq("Nidhi", "Singh") // sequence of 2 strings
+// create collection where elements are replaced with the value of element.toLowerCase
+val result1 = name.map(_.toLowerCase)
+
+val result2 = result1.flatten // flatten collection of strings to list of char
+List(n, i, d, h, i, s, i, n, g, h) // result
+
+// flatmap effectively combines these actions into a single step
+name.flatMap(_.toLowerCase) 
+List(n, i, d, h, i, s, i, n, g, h)
+---------------------------------------------------------------------
+
+1. Write a Scala program to compute the sum of the two given integer values. If the two values are the same, then return triples their sum. 
+def sumOrTriple(a:Int, b:Int) : Int = {  
+  try {
+    if (a == b) { return 3 * (a+b); }
+    else { return a+b; }
+  }
+  catch { case e: Any => return -1; }
+}
+2. Write a Scala program to create a new string with the last char added at the front and back of a given string of length 1 or more
+def str(a:String) : String = {  
+  try { return "" + a.last + a + a.last; }
+  catch { case e: Any => return ""; }
+}
+3. Write a Scala program to get the absolute difference between n and 51. If n is greater than 51 return triple the absolute difference.
+def dif(a:Int) : Int = { 
+  try {
+    if (a > 51) { return 3 * (a - 51); }
+    else { return 51 - a; }
+  }
+  catch { case e: Any => return -1; }
+}
+4. Write a Scala program to check two given integers, and return true if one of them is 30 or if their sum is 30.
+def thirty(a:Int, b:Int) : Boolean = { 
+  try {
+    if (a == 30 || b == 30 || (a+b) == 30) { return true; }
+    else { return false; }
+  }
+  catch { case e: Any => return false; }
+}
+5. Write a Scala program to check a given integer and return true if it is within 20 of 100 or 300.
+def twenty(a:Int) : Boolean = { 
+  try {
+    if ((100 - a).abs < 21 || (300 - a).abs < 21) { return true; }
+    else { return false; }
+  }
+  catch { case e: Any => return false; }
+}
+6. Write a Scala program to create a new string where 'if' is added to the front of a given string. If the string already begins with 'if', return the string unchanged
+def ifstr(a:String) : String = {  
+  try { 
+    if (a.startsWith("if")) { return a; }
+    else { return "if" + a; }
+  }
+  catch { case e: Any => return ""; }
+}
+7. Write a Scala program to remove the character in a given position of a given string.The given position will be in the range 0...string length -1 inclusive. 
+def removeCharAt(a:String, i:Int) : String = {  
+  try { return a.updated(i, '\u0000'); }
+  catch { case e: Any => return ""; }
+}
+8. Write a Scala program to exchange the first and last characters in a given string and return the new string. 
+def swapHeadLast(a:String) : String = {  
+  try { 
+    val c = a.head;
+    return a.updated(0, a.last).updated(a.length - 1, c);
+  }
+  catch { case e: Any => return ""; }
+}
+
+Source----
+"https://www.w3resource.com/scala-exercises/basic/index.php"
+
+
+

@@ -1,0 +1,107 @@
+1.//min and max of the elements
+object Demo {
+   def main(args: Array[String]) {
+      val num = Set(5,6,9,20,30,45) // create a set of integers with 6 elements      
+      println( "Min element in Set(5,6,9,20,30,45) : " + num.min ) // print the lowest value in the set
+      println( "Max element in Set(5,6,9,20,30,45) : " + num.max ) // print the highest value in the set
+   }
+}
+
+2.//common elements between two sets
+object Demo {
+   def main(args: Array[String]) {
+      val num1 = Set(5,6,9,20,30,45) // create a set of integers with 6 elements
+      val num2 = Set(50,60,9,20,35,55) // create a set of integers with 6 elements
+
+      // intersection in this context means values that exist within both sets
+       println( "num1.&(num2) : " + num1.&(num2) ) // print the intersection of sets num1 and num2
+      println( "num1.intersect(num2) : " + num1.intersect(num2) ) // print the intersection of sets num1 and num2
+   }
+}
+
+
+3.object Demo {
+   def main(args: Array[String]) {
+      // create a map of color names to hex color strings
+      val colors1 = Map("red" -> "#FF0000", "azure" -> "#F0FFFF", "peru" -> "#CD853F")
+      // create a map of color names to hex color strings
+      val colors2 = Map("blue" -> "#0033FF", "yellow" -> "#FFFF00", "red" -> "#FF0000")
+
+      // use two or more Maps with ++ as operator
+      // create a new map combining the elements of colors1 and colors2
+      // the elements of colors2 are first in the new map
+      var colors = colors1 ++ colors2 
+      // print new combined map
+      println( "colors1 ++ colors2 : " + colors )
+
+      // use two maps with ++ as method
+      // create a new map combining the elements of colors1 and colors2
+      // the elements of colors2 are first in the new map
+      colors = colors1.++(colors2)
+      // print new combined map
+      println( "colors1.++(colors2)) : " + colors )
+   }
+}
+
+4./Print Keys and Values 
+object Demo {
+   def main(args: Array[String]) {
+      // create a map of color names to hex color strings
+      val colors = Map("red" -> "#FF0000", "azure" -> "#F0FFFF","peru" -> "#CD853F")
+
+      // for each key in colors
+      colors.keys.foreach{ i =>
+         // print key  
+         print( "Key = " + i )
+         // print value for that key
+         println(" Value = " + colors(i) )}
+   }
+}
+
+5.//Checkin for a key in Map
+object Demo {
+   def main(args: Array[String]) {
+      // create a map of color names to hex color strings
+      val colors = Map("red" -> "#FF0000", "azure" -> "#F0FFFF", "peru" -> "#CD853F")
+
+       // if colors contains a mapping for key red
+      if( colors.contains( "red" )) {
+         // print value for key red
+         println("Red key exists with value :"  + colors("red")) 
+      } else {
+            // if colors did not contain a mapping for key red this would run
+           println("Red key does not exist")
+      }
+      
+      // if colors contains a mapping for key maroon
+      if( colors.contains( "maroon" )) {
+         // if colors did contain a mapping for key maroon this would run
+         println("Maroon key exists with value :"  + colors("maroon"))
+      } else {
+         // colors does not contain a mapping for key maroon so this runs
+         println("Maroon key does not exist")
+      }
+   }
+}
+
+6. // Scala program of flatMap
+
+// Creating object
+object Revature
+{
+
+	def main(args:Array[String])
+	{
+      // create list of integers with 3 elements
+		val list = List(2, 3, 4) 
+      // define function f that takes an integer argument and returns a list
+      // of 3 integers whose values depend on the value of the argument
+		def f(x:Int) = List(x-1, x, x+1)
+      // take the list, for each element in list create a new list using
+      // function f defined above, flatten the resulting lists into a sequence
+		val result = list.flatMap(y => f(y))
+      // print resulting sequence
+		println(result)
+
+	}
+}
