@@ -1,0 +1,120 @@
+Scala Future sample code:
+
+//Creating Future
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext.Implicits.global
+object Addition extends App {
+ val firstNum = 5
+ val secondNum = 6
+ val addition = Future {
+   Thread.sleep(500)
+   firstNum + secondNum
+ }
+ println(addition.isCompleted)
+ println(addition.value)
+}
+
+
+//Call backs
+import scala.concurrent.{Future}
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.util.{Failure, Success}
+object Addition extends App {
+ val firstNum = 5
+ val secondNum = 6
+ val addition = Future {
+
+   firstNum + secondNum
+ }
+ Thread.sleep(100)
+ addition.onComplete {
+   case Success(value) => println("addition=" + value)
+   case Failure(e)     => println("not complete yet")
+ }
+}
+
+
+// use for construct to extract values when futures complete
+val b1 = futureInt
+val b2 = futureInt
+for (i1 <‑ b1; i2 <‑ b2) yield println("Sum of values is " + (i1 + i2))
+Thread sleep 3000
+
+// wait directly for completion of futures
+val c1 = futureInt
+val c2 = futureInt
+println("Sum of values is " + (Await.result(c1, Duration.Inf) +
+  Await.result(c2, Duration.Inf)))
+
+import scala.concurrent.duration.Duration
+import scala.concurrent.{Await, Future}
+import scala.concurrent.ExecutionContext.Implicits.global
+
+object Example {
+
+  def taskHello: Future[Unit] = {
+    Future{
+      printInfo("Starting Task-Hello")
+      println("Hello")
+      printInfo("Finished Task-Hello")
+    }
+
+  }
+
+  def main(args: Array[String]): Unit = {
+    printInfo("Start Program")
+    val task: Future[Unit] = taskHello
+    printInfo("Continue")
+    Await.result(task, Duration.Inf)
+  }
+ def printInfo(txt: String): Unit = {
+   val thread = Thread.currentThread.getName
+   println(s"${LocalDateTime.now} [$thread] $txt")
+ }
+}
+
+
+###Thread. sleep causes the current thread to suspend execution for a specified period.
+### For example, with thread. sleep(3000), we intended 3,000 milliseconds, but it could potentially sleep
+for more than 3,000 milliseconds too as it waits for its turn in the scheduler
+Ref: http://www.beyondthelines.net/computing/scala-future-and-execution-context/
+
+//Option
+object option
+{
+
+	def main(args: Array[String])
+	{
+		val name = Map("abc" -> "Kumar","pqr" -> "Revature")
+
+		
+		val x = name.get("abc")
+		val y = name.get("xyz")
+
+
+		println(x)  
+		println(y)  
+	}
+}
+
+// Scala program of Either
+
+object EitherExample extends App
+{
+
+	def Name(name: String): Either[String, String] =
+	{
+	
+		if (name.isEmpty)
+	
+			Left("No Name")
+
+		else
+			Right(name)
+	}
+	
+	
+	println(Name("Kumar"))
+
+	println(Name(""))
+}
