@@ -125,7 +125,7 @@ INSERT INTO `order_items` VALUES (9,6,5,7.28);
 INSERT INTO `order_items` VALUES (10,1,10,6.01);
 INSERT INTO `order_items` VALUES (10,9,9,4.28);
 
-CREATE TABLE `sql_store`.`order_item_notes` (
+IF NOT EXISTS CREATE TABLE `sql_store`.`order_item_notes` (
   `note_id` INT NOT NULL,
   `order_Id` INT NOT NULL,
   `product_id` INT NOT NULL,
