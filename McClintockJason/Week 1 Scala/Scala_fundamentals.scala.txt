@@ -1,0 +1,112 @@
+//1)added values to integers and included a println
+val a1 = List(10, 2)
+val result = a1.sum
+
+//2)println addition for output
+val msg = "Hello World"
+println(msg)
+
+//3)assigned a value to msg and println for output
+val msg = "Hello!"
+println(msg)
+
+//4)println addition for output
+var msg = "Hello World"
+println(msg)
+
+//5)assigned a value to msg and println for output
+var msg= "Hello!"
+println(msg)
+
+//6)assigned a value to msg and println for output
+val msg = 3
+println(msg)
+
+//7) no change needed
+val x = {val a=10; val b=100; b-a}
+println(x)
+
+//8)system cannot find "kumar" file - if kumar file present code will pull as a read file
+//val file = scala.io.Source.fromFile("kumar").mkString
+
+//9)adding a print will give the last value in method to be displayed
+val  m = { print ("foo "); 1}
+println(m)
+
+//10) no change needed
+var x = 5
+
+//11) condition becomes always true object Demo_1 not defined as object for Object
+val s = if (x> 0 && x<6) 1 else 0
+
+//vim Demo_1.scala
+
+//Object Demo_1 {
+  def main(args:Array[String]): Unit =
+    {
+    val x=15
+    if( x<20) {
+      println("This is if statement")
+    }
+    }
+
+//12)t listed as positive from declaration of x as 5
+val t = if (x> 0 && x<6) "positive" else "negative"
+println(t)
+
+//13)would need to have a new array added and method called
+var args = "hello"
+
+//14)populates the above variable hello and returns each char as a new line
+args.foreach(arg=>println(arg))
+
+//15)works as intended
+args.foreach(println)
+
+val x = List(1,2,3)
+x.foreach{println}
+
+//16)runs as intended
+for(i<-1 to 5)
+  println(i)
+
+//17)11 char for val in length sum = 55
+val in  = "hello world"
+var sum = 0
+for (i<-0 until in.length) sum+=i
+print(sum)
+
+//18)tuple for mathematics in the expression
+for(i<-1 to 3;j<-1 to 3)
+  println(10*i+j)
+
+//19)same as above
+for(i<-1 to 3;j<-1 to 3 if i==j) println(10*i+j)
+
+//20)
+for(i<-1 to 3;x=4-i;j<- x to 3) println(10*i+j)
+
+//21)i could not figure out what to do with this
+/*val x = for(i<-1 to 20)yield i*2.5
+for (i<-x) println(i)
+
+while loop
+vim Demo_4.scala
+Object Demo_4{
+  def main(args:Array[String]) {
+    var a=10;
+    while( a<20) {
+      println("value of a = " + a);
+      a= a+1;
+    }
+  } }
+
+
+dowhile loop
+var nodb = 2
+
+do {
+  nodb +=1
+  println(s"nodb = $nodb")
+}while(nodb < 10)*/
+

@@ -7,3 +7,5 @@ Scala_fundmentals-day1.txt
 scala_class-day2.txt
 
 sets_mapsFlatmapsDay5.txt
+
+Just a change
