@@ -1,0 +1,190 @@
+val name = Map("abc" -> "author","pqr" -> "coder")
+
+		
+		  val x = name.get("abc")
+		  val y = name.get("xyz")
+
+
+		  println(x)  //Some(author)
+
+		  println(y)  //None
+
+//......................................................
+/*Exception in thread "main" java.lang.ArithmeticException: / by zero
+
+class ExceptionExample{  
+    def divide(a:Int, b:Int) = {  
+            a/b             // Exception occurred here  
+        println("Rest of the code is executing...")  
+    }  
+}  
+object MainObject{  
+    def main(args:Array[String]){  
+        var e = new ExceptionExample()  
+        e.divide(100,0)  
+   
+    }  
+}
+//...........................................................
+class ExceptionExample{  
+   def divide(a:Int, b:Int) = {  
+        try{  
+            a/b  
+        }catch{  
+            case e: ArithmeticException => println(e)  
+        }  
+        println("Rest of the code is executing...")  
+    }  
+
+  }
+object Hello_World {
+  def main(args: Array[String]): Unit = {
+  
+	
+
+      var e = new ExceptionExample()  
+        e.divide(100,0) //java.lang.ArithmeticException: / by zero
+                         //Rest of the code is executing...
+
+}  
+
+ }   
+//........................................................
+class ExceptionExample{  
+    def divide(a:Int, b:Int) = {  
+        try{  
+            a/b  
+            var arr = Array(1,2)  
+            arr(10)  
+        }catch{  
+            case e: ArithmeticException => println(e)  
+            case ex: Exception =>println(ex)  
+            case th: Throwable=>println("found a unknown exception"+th)  
+        }  
+        finally{  
+            println("Finaly block always executes")  
+        }  
+        println("Rest of the code is executing...")  
+    }  
+}  
+
+object Hello_World {
+  def main(args: Array[String]): Unit = {
+  
+	
+
+      var e = new ExceptionExample()  
+        e.divide(100,0)// java.lang.ArithmeticException: / by zero
+                      //Finaly block always executes
+                       //Rest of the code is executing...
+
+}  
+
+ }   
+//...................................................
+
+
+//result : Hello
+object MainObject {  
+   def main(args: Array[String]) {  
+        var result = search ("Hello")  
+        print(result)  
+    }  
+    def search (a:Any):Any = a match{  
+        case 1  => println("One")  
+        case "Two" => println("Two")  
+        case "Hello" => println("Hello")  
+        case _ => println("No")  
+              
+        }  
+}
+
+//..............................................
+
+/*
+Head of names array : Harry
+Tail of names array : List(Adam, Jill)
+Check if names is empty : false
+Check if age is empty : true
+*/
+val numbersList: List[Int] = List(1, 2, 3 ,4)
+val emptyList: List[Int] = List()
+
+val numbersList: List[Int] = 1 :: 2 :: 3 :: 4 :: Nil
+
+
+object Student {
+def main(args:Array[String]) {
+    val names= "Harry" :: ("Adam" :: ("Jill" :: Nil))
+    val age = Nil
+      println( "Head of names array : " + names.head )
+      println( "Tail of names array : " + names.tail )
+      println( "Check if names is empty : " + names.isEmpty )
+      println( "Check if age is empty : " + age.isEmpty )
+   }
+}
+//....................................................
+
+/*
+Head of name : Smith
+Tail of name : Set(Brown, Allen)
+Check if name is empty : false
+Check if id is empty : true
+*/
+val emptySet: Set[Int] = Set() 
+val numbersSet: Set[Int] = Set(1, 2, 3, 4)
+object Student {
+   def main(args: Array[String]) {
+      val name = Set("Smith", "Brown", "Allen")
+      val id: Set[Int] = Set()
+
+      println( "Head of name : " + name.head )
+      println( "Tail of name : " + name.tail )
+      println( "Check if name is empty : " + name.isEmpty )
+      println( "Check if id is empty : " + id.isEmpty )
+   }
+}
+//....................................................
+/*
+Elements in games set: 4
+Elements in alphabet set: 5
+Elements in mergeSet: 9
+Set(E, Football, Golf, Hocky, A, B, C, Cricket, D)
+*/
+import scala.collection.immutable._  
+object MainObject{  
+        def main(args:Array[String]){  
+            val games = Set("Cricket","Football","Hocky","Golf")  
+            val alphabet = Set("A","B","C","D","E")   
+            val mergeSet = games ++ alphabet     
+            println("Elements in games set: "+games.size)
+            println("Elements in alphabet set: "+alphabet.size)   
+            println("Elements in mergeSet: "+mergeSet.size)  
+            println(mergeSet)  
+        }  
+    }  
+
+
+//....................................................
+/*
+country_1 ::: country_2 : List(States, Britain, New Zealand, Austria, Belgium, Canada)
+country_1.:::(country_2) : List(Austria, Belgium, Canada, States, Britain, New Zealand)
+List.concat(country_1, country_2) : List(States, Britain, New Zealand, Austria, Belgium, Canada)
+*/
+	val country_1 =  List("States","Britain","New Zealand")
+	val country_2 = List("Austria","Belgium","Canada")
+
+	val country = country_1 ::: country_2
+	println( "country_1 ::: country_2 : " + country )
+
+	val cont = country_1.:::(country_2)
+            println( "country_1.:::(country_2) : " + cont )
+	val con = List.concat(country_1, country_2)
+            println( "List.concat(country_1, country_2) : " + con  )
+
+//......................................................
+
+
+
+
+  
