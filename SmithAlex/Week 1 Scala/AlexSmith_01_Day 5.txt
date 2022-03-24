@@ -1,0 +1,129 @@
+Scala Future sample code:
+
+//Creating Future 
+import scala.concurrent.{Await, Future} // add await import
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.duration.Duration // add duration import
+object Addition extends App {
+ val firstNum = 5 // some values
+ val secondNum = 6
+ val addition = Future { // define future
+   Thread.sleep(500)
+   firstNum + secondNum
+ }
+ Await.result(addition, Duration.Inf) // add await to actually wait for result
+ println(addition.isCompleted) // true
+ println(addition.value) // some(success(11)) - 11 is the result of firstnum + secondnum
+}
+
+
+//Call backs
+import scala.concurrent.{Await, Future} // add await import
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.util.{Failure, Success}
+import scala.concurrent.duration.Duration // add duration import
+object Addition extends App { 
+// basically same as above except this time the onComplete callback outputs the result value
+ val firstNum = 5
+ val secondNum = 6
+ val addition = Future {
+
+   firstNum + secondNum
+ }
+ Thread.sleep(100)
+ addition.onComplete {
+   case Success(value) => println("addition=" + value)
+   case Failure(e)     => println("not complete yet")
+ }
+ Await.result(addition, Duration.Inf) // add await to actually wait for result
+}
+
+
+// use for construct to extract values when futures complete
+val b1 = futureInt // undefined
+val b2 = futureInt // undefined
+for (i1 <‑ b1; i2 <‑ b2) yield println("Sum of values is " + (i1 + i2))
+Thread sleep 3000
+
+// wait directly for completion of futures
+val c1 = futureInt // undefined
+val c2 = futureInt // undefined
+println("Sum of values is " + (Await.result(c1, Duration.Inf) +
+  Await.result(c2, Duration.Inf)))
+
+import scala.concurrent.duration.Duration
+import scala.concurrent.{Await, Future}
+import scala.concurrent.ExecutionContext.Implicits.global
+
+object Example {
+
+  def taskHello: Future[Unit] = { // define future
+    Future{
+      printInfo("Starting Task-Hello")
+      println("Hello")
+      printInfo("Finished Task-Hello")
+    }
+
+  }
+
+  def main(args: Array[String]): Unit = {
+    printInfo("Start Program") // main thread
+    val task: Future[Unit] = taskHello
+    printInfo("Continue") // main thread
+    Await.result(task, Duration.Inf) // worker thread
+  }
+ def printInfo(txt: String): Unit = {
+   val thread = Thread.currentThread.getName // get current thread name
+   println(s"${LocalDateTime.now} [$thread] $txt") // print string interpolated info
+ }
+}
+
+
+###Thread. sleep causes the current thread to suspend execution for a specified period.
+### For example, with thread. sleep(3000), we intended 3,000 milliseconds, but it could potentially sleep
+for more than 3,000 milliseconds too as it waits for its turn in the scheduler
+Ref: http://www.beyondthelines.net/computing/scala-future-and-execution-context/
+
+//Option
+object option
+{
+	def main(args: Array[String])
+	{
+    // create mapping from strings to strings
+		val name = Map("abc" -> "Kumar","pqr" -> "Revature")
+		
+		val x = name.get("abc") // map.get returns result as an option, in this case Some("Kumar")
+		val y = name.get("xyz") // map.get returns result as an option, in this case None
+
+		println(x)  // Some("Kumar")
+		println(y)  // None
+	}
+}
+
+// Scala program of Either
+
+// A common use of Either is as an alternative to scala.Option for dealing with possibly missing values.
+// In this usage, scala.None is replaced with a scala.util.Left which can contain useful information.
+// scala.util.Right takes the place of scala.Some. 
+// Convention dictates that Left is used for failure and Right is used for success.
+
+object EitherExample extends App
+{
+
+	def Name(name: String): Either[String, String] =
+	{
+	
+		if (name.isEmpty)
+      // passed arg is empty, left (failure), return value Left("No Name")
+			Left("No Name")
+
+		else
+      // passed arg is not empty, right (success), return value Right(name)
+			Right(name)
+	}
+	
+	
+	println(Name("Kumar")) // Right(Kumar)
+
+	println(Name("")) // Left(No Name)
+}
