@@ -21,7 +21,7 @@ SELECT product_id,name,unit_price WHERE unit_price>15 AND unit_price<25;
 SELECT name,unit_price FROM products WHERE unit_price>(SELECT AVG(unit_price) from products);
 
 -- 8. Write a query to get Product list (name, unit price) of ten most expensive products. 
-SELECT name,unit_price FROM products ORDER BY unit_price ASC LIMIT 10;
+SELECT name,unit_price FROM products ORDER BY unit_price DESC LIMIT 10;
 
 -- 9. Write a query to count current and discontinued products. 
 SELECT COUNT(name) FROM products GROUP BY discontinued;
