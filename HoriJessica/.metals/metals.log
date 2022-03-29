@@ -8,3 +8,4 @@
 2022.03.28 12:16:16 WARN  no build target for: C:\Users\Jessica\Desktop\Scala-Big-Data\HoriJessica\Week 1 Scala\Programs.scala
 2022.03.28 12:16:22 INFO  no build target found for C:\Users\Jessica\Desktop\Scala-Big-Data\HoriJessica\Week 1 Scala\Programs.scala. Using presentation compiler with project's scala-library version: 3.1.1
 2022.03.28 12:16:26 INFO  time: code lens generation in 8.96s
+2022.03.28 17:44:31 INFO  shutting down Metals

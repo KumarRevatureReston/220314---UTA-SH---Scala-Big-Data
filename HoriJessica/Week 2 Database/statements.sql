@@ -21,13 +21,18 @@ CREATE TABLE dup_countries AS SELECT * FROM countries;
 
 --5. Write a SQL statement to create a table countries set a constraint NULL.
 
+CREATE TABLE IF NOT EXISTS countries (
+country_id varchar(2) NOT NULL,
+country_name varchar(255) NOT NULL,
+region_id int NOT NULL
+);
 
-
+desc countries;
 
 --6. Write a SQL statement to create a table named jobs including columns job_id, job_title, min_salary, max_salary and check whether the max_salary amount exceeding the upper limit 25000.
 
 CREATE TABLE jobs (
-job_id int PRIMARY_KEY,
+job_id varchar(20),
 job_title varchar(255),
 min_salary decimal,
 max_salary decimal,
@@ -37,15 +42,38 @@ CHECK(max_salary>25000)
 
 --7. Write a SQL statement to create a table named countries including columns country_id, country_name and region_id and make sure that no countries except Italy, India and China will be entered in the table.
 
-
+CREATE TABLE IF NOT EXISTS countries (
+country_id varchar(2),
+country_namee varchar(255)
+CHECK(country_name IN('Italy','India','China')) ,
+region_id int
+);
 --8. Write a SQL statement to create a table named job_histry including columns employee_id, start_date, end_date, job_id and department_id and make sure that the value against column end_date will be entered at the time of insertion to the format like '--/--/----'.
 
+CREATE TABLE IF NOT EXISTS job_history (
+employee_id varchar(20) NOT NULL,
+start_date date NOT NULL,
+end_date date NOT NULL
+CHECK (end_date LIKE '--/--/----'),
+job_id varchar(20) NOT NULL,
+department_id varchar(50) NOT NULL
+);
 
 --9. Write a SQL statement to create a table named countries including columns country_id,country_name and region_id and make sure that no duplicate data against column country_id will be allowed at the time of insertion.
-
+CREATE TABLE IF NOT EXISTS countries (
+country_id varchar(2) NOT NULL,
+country_name varchar(255) NOT NULL,
+region_id int NOT NULL,
+UNIQUE(country_id)
+);
 
 --10. Write a SQL statement to create a table named jobs including columns job_id, job_title, min_salary and max_salary, and make sure that, the default value for job_title is blank and min_salary is 8000 and max_salary is NULL will be entered automatically at the time of insertion if no value assigned for the specified columns.
-
+CREATE TABLE IF NOT EXISTS jobs (
+job_id varchar(20) NOT NULL UNIQUE,
+job_title varchar(50) NOT NULL DEFAULT ' ',
+min_salary decimal(6,0) DEFAULT 8000,
+max_salary decimal(6,0) DEFAULT NULL
+);
 
 --11. Write a SQL statement to create a table named countries including columns country_id, country_name and region_id and make sure that the country_id column will be a key field which will not contain any duplicate data at the time of insertion.
 
