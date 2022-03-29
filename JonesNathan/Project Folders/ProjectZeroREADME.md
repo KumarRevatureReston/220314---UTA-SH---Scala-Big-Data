@@ -1,6 +1,8 @@
 Database location: C:/Users/natha/databases/airports2.csv
-  Sample fields: id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,scheduled_service,gps_code,iata_code,local_code,home_link,wikipedia_link,keywords
-  Sample record: 6523,00A,heliport,Total Rf Heliport,40.07080078,-74.93360138,11,NA,US,US-PA,Bensalem,no,00A,,00A,,,
+
+Sample fields: id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,scheduled_service,gps_code,iata_code,local_code,home_link,wikipedia_link,keywords
+
+Sample record: 6523,00A,heliport,Total Rf Heliport,40.07080078,-74.93360138,11,NA,US,US-PA,Bensalem,no,00A,,00A,,,
 
 What queries to address: Will be set up to import/reset the original database if the user chooses, and will be arranged to allow for CRUD operations of Insert, Select, Update, and Delete.
 
