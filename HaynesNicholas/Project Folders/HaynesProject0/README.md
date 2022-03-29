@@ -1,4 +1,4 @@
-The airports.csv file in this folder is obtained from the link below.
+The airports.csv file in this folder is obtained from the link below. It is already in the appropriate project folder to be imported to the database. 
 
 https://davidmegginson.github.io/ourairports-data/airports.csv
 
