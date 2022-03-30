@@ -1,0 +1,188 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0",
+        "workspaceDir": "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0",
+        "sources": [
+            "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\src\\main\\scala",
+            "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\src\\main\\scala-2.13",
+            "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\src\\main\\scala-2",
+            "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\src\\main\\java",
+            "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.7\\scala-library-2.13.7.jar",
+            "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.3.3\\postgresql-42.3.3.jar",
+            "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.5.0\\checker-qual-3.5.0.jar"
+        ],
+        "out": "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\.bloop\\root",
+        "classesDir": "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\.bloop\\root\\scala-2.13\\classes",
+        "resources": [
+            "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\src\\main\\resources",
+            "C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.7",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.7\\scala-library-2.13.7.jar",
+                "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.7\\scala-compiler-2.13.7.jar",
+                "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.7\\scala-reflect-2.13.7.jar",
+                "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.20.0\\jline-3.20.0.jar",
+                "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.8.0\\jna-5.8.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-11.0.13",
+                "options": [
+                    "-Duser.dir=C:\\Users\\Andre Xie\\Desktop\\Week 3\\project0"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.7\\scala-library-2.13.7.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.7\\scala-library-2.13.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "42.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "postgresql",
+                            "path": "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.3.3\\postgresql-42.3.3.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\postgresql\\postgresql\\42.3.3\\postgresql-42.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.5.0\\checker-qual-3.5.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.5.0\\checker-qual-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.7",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.7\\scala-library-2.13.7.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Andre Xie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.7\\scala-library-2.13.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
