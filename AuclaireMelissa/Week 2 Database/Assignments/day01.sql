@@ -15,7 +15,7 @@ create table countries(
 */
 
 
--- 2. Write a SQL statement to create a simple table countries including columns country_id,country_name and 
+-- 2. Write a SQL statement to create a simple table countries including columns country_id, country_name and 
 -- region_id which is already exists.
 DROP TABLE if EXISTS countries;
 create table countries(
@@ -115,13 +115,14 @@ CREATE TABLE IF NOT EXISTS countries (
 -- 10. Write a SQL statement to create a table named jobs including columns job_id, job_title, min_salary and max_salary, and make sure that, 
 -- the default value for job_title is blank and min_salary is 8000 and max_salary is NULL will be entered automatically at the time of insertion if no value assigned for the specified columns.
 
-
+/*
 CREATE TABLE IF NOT EXISTS jobs( 
 	job_id VARCHAR(10) NOT NULL UNIQUE, 
 	job_title VARCHAR(35) NOT NULL DEFAULT ' ', 
 	min_salary DECIMAL(6,0) DEFAULT 8000, 
 	max_salary DECIMAL(6,0) DEFAULT NULL
 );
+*/
 
 
 
@@ -200,7 +201,7 @@ CREATE TABLE IF NOT EXISTS departments (
 
 DROP TABLE IF EXISTS employees;
 
-/*
+
 CREATE TABLE IF NOT EXISTS employees (
 	employee_id DECIMAL(6,0) NOT NULL PRIMARY KEY,
 	first_name VARCHAR(20) DEFAULT NULL,
@@ -217,7 +218,7 @@ CREATE TABLE IF NOT EXISTS employees (
 	REFERENCES departments(department_id,manager_id)
 )ENGINE=InnoDB;
 DESC employees;
-*/
+
 
 -- 16. Write a SQL statement to create a table employees including columns employee_id, first_name, last_name, email, phone_number hire_date, 
 -- job_id, salary, commission, manager_id and department_id and make sure that, the employee_id column does not contain any duplicate value at 
@@ -311,15 +312,15 @@ CREATE TABLE IF NOT EXISTS jobs (
 /*
 DROP TABLE IF EXISTS employees;
 CREATE TABLE IF NOT EXISTS employees ( 
-employee_id DECIMAL(6,0) NOT NULL PRIMARY KEY, 
-first_name VARCHAR(20) DEFAULT NULL, 
-last_name VARCHAR(25) NOT NULL, 
-job_id INTEGER, 
-salary DECIMAL(8,2) DEFAULT NULL, 
-FOREIGN KEY(job_id) 
-REFERENCES  jobs(job_id)
-ON DELETE SET NULL 
-ON UPDATE SET NULL
+    employee_id DECIMAL(6,0) NOT NULL PRIMARY KEY, 
+    first_name VARCHAR(20) DEFAULT NULL, 
+    last_name VARCHAR(25) NOT NULL, 
+    job_id INTEGER, 
+    salary DECIMAL(8,2) DEFAULT NULL, 
+    FOREIGN KEY(job_id) 
+    REFERENCES  jobs(job_id)
+    ON DELETE SET NULL 
+    ON UPDATE SET NULL
 )ENGINE=InnoDB;
 */
 
