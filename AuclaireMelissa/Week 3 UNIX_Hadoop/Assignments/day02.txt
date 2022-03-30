@@ -1,0 +1,1403 @@
+Filesystem             Size  Used Avail Use% Mounted on
+tmpfs                   13G  3.2M   13G   1% /run
+/dev/mapper/data-root  1.8T  1.7T   87G  96% /
+tmpfs                   63G   53M   63G   1% /dev/shm
+tmpfs                  5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                  4.0M     0  4.0M   0% /sys/fs/cgroup
+/dev/nvme0n1p1         467M  324M  108M  76% /boot
+tmpfs                   13G  4.0M   13G   1% /run/user/1000
+/dev/sda2              3.7T  2.6T  1.2T  69% /media/charmi/TOSHIBA EXT
+
+
+
+Disk /dev/loop0: 1.13 MiB, 1187840 bytes, 2320 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop1: 1.04 MiB, 1085440 bytes, 2120 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop2: 4 KiB, 4096 bytes, 8 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop3: 213.45 MiB, 223821824 bytes, 437152 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop4: 215.38 MiB, 225841152 bytes, 441096 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop5: 104.55 MiB, 109625344 bytes, 214112 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop6: 772.91 MiB, 810459136 bytes, 1582928 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop7: 61.89 MiB, 64901120 bytes, 126760 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/nvme0n1: 1.82 TiB, 2000398934016 bytes, 3907029168 sectors
+Disk model: Samsung SSD 970 EVO Plus 2TB            
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xdd961186
+
+Device         Boot      Start        End    Sectors  Size Id Type
+/dev/nvme0n1p1 *          4096    1023998    1019903  498M 83 Linux
+/dev/nvme0n1p2         1024000 3898636462 3897612463  1.8T 83 Linux
+/dev/nvme0n1p3      3898636464 3907025070    8388607    4G 82 Linux swap / Solaris
+
+
+Disk /dev/sda: 3.64 TiB, 4000787027968 bytes, 7814037164 sectors
+Disk model: External USB 3.0
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: gpt
+Disk identifier: CBB934E3-3740-4911-8E5B-EDA823D549C5
+
+Device      Start        End    Sectors  Size Type
+/dev/sda1      34     262177     262144  128M Microsoft reserved
+/dev/sda2  264192 7814035455 7813771264  3.6T Microsoft basic data
+
+
+
+Disk /dev/mapper/cryptdata: 1.81 TiB, 1995560803840 bytes, 3897579695 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/data-root: 1.81 TiB, 1995557568512 bytes, 3897573376 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop10: 82.9 MiB, 86925312 bytes, 169776 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop9: 55.52 MiB, 58212352 bytes, 113696 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop11: 489.46 MiB, 513236992 bytes, 1002416 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop12: 134.81 MiB, 141357056 bytes, 276088 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop13: 55.51 MiB, 58204160 bytes, 113680 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop21: 164.76 MiB, 172761088 bytes, 337424 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop15: 155.56 MiB, 163115008 bytes, 318584 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop17: 110.68 MiB, 116051968 bytes, 226664 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop19: 197.77 MiB, 207376384 bytes, 405032 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop18: 773.3 MiB, 810864640 bytes, 1583720 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop16: 134.8 MiB, 141348864 bytes, 276072 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop22: 219 MiB, 229638144 bytes, 448512 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop20: 210.11 MiB, 220319744 bytes, 430312 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop23: 219 MiB, 229638144 bytes, 448512 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop14: 82.89 MiB, 86917120 bytes, 169760 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop28: 155.56 MiB, 163115008 bytes, 318584 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop24: 110.8 MiB, 116178944 bytes, 226912 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop25: 117.18 MiB, 122871808 bytes, 239984 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop26: 162.87 MiB, 170778624 bytes, 333552 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop27: 61.89 MiB, 64901120 bytes, 126760 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop29: 247.91 MiB, 259948544 bytes, 507712 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop30: 248.76 MiB, 260841472 bytes, 509456 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop33: 76 KiB, 77824 bytes, 152 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop31: 189.41 MiB, 198615040 bytes, 387920 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop34: 72 KiB, 73728 bytes, 144 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop32: 260.71 MiB, 273375232 bytes, 533936 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop35: 82.23 MiB, 86220800 bytes, 168400 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop37: 64.67 MiB, 67809280 bytes, 132440 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop38: 346.87 MiB, 363720704 bytes, 710392 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop36: 130.15 MiB, 136474624 bytes, 266552 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop40: 1.98 MiB, 2076672 bytes, 4056 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop39: 81.56 MiB, 85520384 bytes, 167032 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop42: 16.31 MiB, 17104896 bytes, 33408 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop41: 43.63 MiB, 45748224 bytes, 89352 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop43: 43.59 MiB, 45703168 bytes, 89264 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop46: 189.56 MiB, 198770688 bytes, 388224 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop44: 123.81 MiB, 129822720 bytes, 253560 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop45: 670.76 MiB, 703344640 bytes, 1373720 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop47: 169.57 MiB, 177803264 bytes, 347272 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop48: 94.91 MiB, 99524608 bytes, 194384 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop49: 611.18 MiB, 640868352 bytes, 1251696 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop50: 87.59 MiB, 91848704 bytes, 179392 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop51: 65.21 MiB, 68378624 bytes, 133552 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop54: 190 MiB, 199233536 bytes, 389128 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop53: 34.7 MiB, 36384768 bytes, 71064 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop52: 399.42 MiB, 418820096 bytes, 818008 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop56: 994.66 MiB, 1042972672 bytes, 2037056 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop55: 93.21 MiB, 97734656 bytes, 190888 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop58: 1 GiB, 1077014528 bytes, 2103544 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop59: 995.34 MiB, 1043689472 bytes, 2038456 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop57: 322.82 MiB, 338501632 bytes, 661136 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop61: 64.85 MiB, 68001792 bytes, 132816 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop60: 35.13 MiB, 36835328 bytes, 71944 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop62: 65.1 MiB, 68259840 bytes, 133320 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop63: 129.39 MiB, 135671808 bytes, 264984 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop64: 362.16 MiB, 379756544 bytes, 741712 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop65: 346.87 MiB, 363720704 bytes, 710392 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/cryptswap: 4 GiB, 4294442496 bytes, 8387583 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop67: 322.9 MiB, 338583552 bytes, 661296 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop68: 11.75 MiB, 12320768 bytes, 24064 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop66: 86.7 MiB, 90906624 bytes, 177552 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop69: 610.99 MiB, 640671744 bytes, 1251312 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop70: 86.84 MiB, 91058176 bytes, 177848 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop71: 424.16 MiB, 444768256 bytes, 868688 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop72: 573.23 MiB, 601079808 bytes, 1173984 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop73: 130.15 MiB, 136474624 bytes, 266552 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop74: 670.25 MiB, 702803968 bytes, 1372664 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop75: 168.22 MiB, 176390144 bytes, 344512 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop76: 165.75 MiB, 173801472 bytes, 339456 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop77: 180.06 MiB, 188805120 bytes, 368760 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Model: TOSHIBA External USB 3.0 (scsi)
+Disk /dev/sda: 4001GB
+Sector size (logical/physical): 512B/4096B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End     Size    File system  Name                          Flags
+ 1      17.4kB  134MB   134MB                Microsoft reserved partition  msftres
+ 2      135MB   4001GB  4001GB  ntfs         Basic data partition          msftdata
+
+
+Model: Linux device-mapper (crypt) (dm)
+Disk /dev/mapper/cryptswap: 4294MB
+Sector size (logical/physical): 512B/512B
+Partition Table: loop
+Disk Flags: 
+
+Number  Start  End     Size    File system     Flags
+ 1      0.00B  4294MB  4294MB  linux-swap(v1)
+
+
+Model: Linux device-mapper (linear) (dm)
+Disk /dev/mapper/data-root: 1996GB
+Sector size (logical/physical): 512B/512B
+Partition Table: loop
+Disk Flags: 
+
+Number  Start  End     Size    File system  Flags
+ 1      0.00B  1996GB  1996GB  ext4
+
+
+                                                                          Model: Linux device-mapper (crypt) (dm)
+Disk /dev/mapper/cryptdata: 1996GB
+Sector size (logical/physical): 512B/512B
+Partition Table: unknown
+Disk Flags: 
+
+Model: Samsung SSD 970 EVO Plus 2TB (nvme)
+Disk /dev/nvme0n1: 2000GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags: 
+
+Number  Start   End     Size    Type     File system     Flags
+ 1      2097kB  524MB   522MB   primary  ext4            boot
+ 2      524MB   1996GB  1996GB  primary
+ 3      1996GB  2000GB  4295MB  primary  linux-swap(v1)
+
+
+NAME            MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+loop0             7:0    0   1.1M  1 loop  /snap/ark/15
+loop1             7:1    0     1M  1 loop  /snap/ark/6
+loop2             7:2    0     4K  1 loop  /snap/bare/5
+loop3             7:3    0 213.5M  1 loop  /snap/blender/1653
+loop4             7:4    0 215.4M  1 loop  /snap/blender/1925
+loop5             7:5    0 104.5M  1 loop  /snap/brackets/138
+loop6             7:6    0 772.9M  1 loop  /snap/clion/184
+loop7             7:7    0  61.9M  1 loop  /snap/core20/1405
+loop9             7:9    0  55.5M  1 loop  /snap/core18/2344
+loop10            7:10   0  82.9M  1 loop  /snap/discord/132
+loop11            7:11   0 489.5M  1 loop  /snap/datagrip/129
+loop12            7:12   0 134.8M  1 loop  /snap/chromium/1945
+loop13            7:13   0  55.5M  1 loop  /snap/core18/2284
+loop14            7:14   0  82.9M  1 loop  /snap/discord/131
+loop15            7:15   0 155.6M  1 loop  /snap/firefox/1167
+loop16            7:16   0 134.8M  1 loop  /snap/chromium/1944
+loop17            7:17   0 110.7M  1 loop  /snap/core/12821
+loop18            7:18   0 773.3M  1 loop  /snap/clion/180
+loop19            7:19   0 197.8M  1 loop  /snap/boxy-svg/101
+loop20            7:20   0 210.1M  1 loop  /snap/eclipse/48
+loop21            7:21   0 164.8M  1 loop  /snap/gnome-3-28-1804/161
+loop22            7:22   0   219M  1 loop  /snap/gnome-3-34-1804/77
+loop23            7:23   0   219M  1 loop  /snap/gnome-3-34-1804/72
+loop24            7:24   0 110.8M  1 loop  /snap/core/12725
+loop25            7:25   0 117.2M  1 loop  /snap/docker/1690
+loop26            7:26   0 162.9M  1 loop  /snap/gnome-3-28-1804/145
+loop27            7:27   0  61.9M  1 loop  /snap/core20/1376
+loop28            7:28   0 155.6M  1 loop  /snap/firefox/1159
+loop29            7:29   0 247.9M  1 loop  /snap/gnome-3-38-2004/87
+loop30            7:30   0 248.8M  1 loop  /snap/gnome-3-38-2004/99
+loop31            7:31   0 189.4M  1 loop  /snap/guiscrcpy/256
+loop32            7:32   0 260.7M  1 loop  /snap/kde-frameworks-5-core18/32
+loop33            7:33   0    76K  1 loop  /snap/gog-galaxy-wine/499
+loop34            7:34   0    72K  1 loop  /snap/gog-galaxy-wine/495
+loop35            7:35   0  82.2M  1 loop  /snap/shotcut/571
+loop36            7:36   0 130.2M  1 loop  /snap/strimio-desktop/59
+loop37            7:37   0  64.7M  1 loop  /snap/sublime-text/110
+loop38            7:38   0 346.9M  1 loop  /snap/wine-platform-runtime/289
+loop39            7:39   0  81.6M  1 loop  /snap/shotcut/607
+loop40            7:40   0     2M  1 loop  /snap/serve/170
+loop41            7:41   0  43.6M  1 loop  /snap/snapd/15177
+loop42            7:42   0  16.3M  1 loop  /snap/mysql/3
+loop43            7:43   0  43.6M  1 loop  /snap/snapd/14978
+loop44            7:44   0 123.8M  1 loop  /snap/tusk/29
+loop45            7:45   0 670.8M  1 loop  /snap/pycharm-professional/271
+loop46            7:46   0 189.6M  1 loop  /snap/inkscape/10024
+loop47            7:47   0 169.6M  1 loop  /snap/spotify/58
+loop48            7:48   0  94.9M  1 loop  /snap/slack/60
+loop49            7:49   0 611.2M  1 loop  /snap/goland/173
+loop50            7:50   0  87.6M  1 loop  /snap/todoist/325
+loop51            7:51   0  65.2M  1 loop  /snap/gtk-common-themes/1519
+loop52            7:52   0 399.4M  1 loop  /snap/obs-studio/1284
+loop53            7:53   0  34.7M  1 loop  /snap/ruby/247
+loop54            7:54   0   190M  1 loop  /snap/inkscape/10088
+loop55            7:55   0  93.2M  1 loop  /snap/youtube-dl/4630
+loop56            7:56   0 994.7M  1 loop  /snap/intellij-idea-ultimate/348
+loop57            7:57   0 322.8M  1 loop  /snap/wine-platform-6-stable/8
+loop58            7:58   0     1G  1 loop  /snap/rider/263
+loop59            7:59   0 995.3M  1 loop  /snap/intellij-idea-ultimate/341
+loop60            7:60   0  35.1M  1 loop  /snap/ruby/260
+loop61            7:61   0  64.9M  1 loop  /snap/sublime-text/112
+loop62            7:62   0  65.1M  1 loop  /snap/gtk-common-themes/1515
+loop63            7:63   0 129.4M  1 loop  /snap/slack/49
+loop64            7:64   0 362.2M  1 loop  /snap/obs-studio/1276
+loop65            7:65   0 346.9M  1 loop  /snap/wine-platform-runtime/290
+loop66            7:66   0  86.7M  1 loop  /snap/simplescreenrecorder/1
+loop67            7:67   0 322.9M  1 loop  /snap/wine-platform-6-stable/14
+loop68            7:68   0  11.8M  1 loop  /snap/ngrok/35
+loop69            7:69   0   611M  1 loop  /snap/goland/168
+loop70            7:70   0  86.8M  1 loop  /snap/todoist/366
+loop71            7:71   0 424.2M  1 loop  /snap/kde-frameworks-5-qt-5-15-3-core20/8
+loop72            7:72   0 573.2M  1 loop  /snap/rubymine/277
+loop73            7:73   0 130.2M  1 loop  /snap/strimio-desktop/58
+loop74            7:74   0 670.2M  1 loop  /snap/pycharm-professional/278
+loop75            7:75   0 168.2M  1 loop  /snap/spotify/57
+loop76            7:76   0 165.8M  1 loop  /snap/codium/247
+loop77            7:77   0 180.1M  1 loop  /snap/boxy-svg/107
+sda               8:0    0   3.6T  0 disk  
+├─sda1            8:1    0   128M  0 part  
+└─sda2            8:2    0   3.6T  0 part  /media/charmi/TOSHIBA EXT
+nvme0n1         259:0    0   1.8T  0 disk  
+├─nvme0n1p1     259:1    0   498M  0 part  /boot
+├─nvme0n1p2     259:2    0   1.8T  0 part  
+│ └─cryptdata   253:0    0   1.8T  0 crypt 
+│   └─data-root 253:1    0   1.8T  0 lvm   /
+└─nvme0n1p3     259:3    0     4G  0 part  
+  └─cryptswap   253:2    0     4G  0 crypt [SWAP]
+ 1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
+ 6) SIGABRT	 7) SIGBUS	 8) SIGFPE	 9) SIGKILL	10) SIGUSR1
+11) SIGSEGV	12) SIGUSR2	13) SIGPIPE	14) SIGALRM	15) SIGTERM
+16) SIGSTKFLT	17) SIGCHLD	18) SIGCONT	19) SIGSTOP	20) SIGTSTP
+21) SIGTTIN	22) SIGTTOU	23) SIGURG	24) SIGXCPU	25) SIGXFSZ
+26) SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGIO	30) SIGPWR
+31) SIGSYS	34) SIGRTMIN	35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
+38) SIGRTMIN+4	39) SIGRTMIN+5	40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
+43) SIGRTMIN+9	44) SIGRTMIN+10	45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
+48) SIGRTMIN+14	49) SIGRTMIN+15	50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
+53) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
+58) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
+63) SIGRTMAX-1	64) SIGRTMAX	
+    PID TTY          TIME CMD
+  71386 pts/3    00:00:00 bash
+ 179564 pts/3    00:00:00 ps
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Mar26 ?        00:00:16 /sbin/init splash
+root           2       0  0 Mar26 ?        00:00:00 [kthreadd]
+root           3       2  0 Mar26 ?        00:00:00 [rcu_gp]
+root           4       2  0 Mar26 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 Mar26 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 Mar26 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 Mar26 ?        00:00:00 [rcu_tasks_rude_]
+root          11       2  0 Mar26 ?        00:00:00 [rcu_tasks_trace]
+root          12       2  0 Mar26 ?        00:00:02 [ksoftirqd/0]
+root          13       2  0 Mar26 ?        00:00:39 [rcu_sched]
+root          14       2  0 Mar26 ?        00:00:00 [migration/0]
+root          15       2  0 Mar26 ?        00:00:00 [idle_inject/0]
+root          16       2  0 Mar26 ?        00:00:00 [cpuhp/0]
+root          17       2  0 Mar26 ?        00:00:00 [cpuhp/1]
+root          18       2  0 Mar26 ?        00:00:00 [idle_inject/1]
+root          19       2  0 Mar26 ?        00:00:00 [migration/1]
+root          20       2  0 Mar26 ?        00:00:00 [ksoftirqd/1]
+root          22       2  0 Mar26 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          23       2  0 Mar26 ?        00:00:00 [cpuhp/2]
+root          24       2  0 Mar26 ?        00:00:00 [idle_inject/2]
+root          25       2  0 Mar26 ?        00:00:00 [migration/2]
+root          26       2  0 Mar26 ?        00:00:00 [ksoftirqd/2]
+root          28       2  0 Mar26 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          29       2  0 Mar26 ?        00:00:00 [cpuhp/3]
+root          30       2  0 Mar26 ?        00:00:00 [idle_inject/3]
+root          31       2  0 Mar26 ?        00:00:00 [migration/3]
+root          32       2  0 Mar26 ?        00:00:00 [ksoftirqd/3]
+root          34       2  0 Mar26 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          35       2  0 Mar26 ?        00:00:00 [cpuhp/4]
+root          36       2  0 Mar26 ?        00:00:00 [idle_inject/4]
+root          37       2  0 Mar26 ?        00:00:00 [migration/4]
+root          38       2  0 Mar26 ?        00:00:00 [ksoftirqd/4]
+root          40       2  0 Mar26 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          41       2  0 Mar26 ?        00:00:00 [cpuhp/5]
+root          42       2  0 Mar26 ?        00:00:00 [idle_inject/5]
+root          43       2  0 Mar26 ?        00:00:00 [migration/5]
+root          44       2  0 Mar26 ?        00:00:00 [ksoftirqd/5]
+root          46       2  0 Mar26 ?        00:00:00 [kworker/5:0H-kblockd]
+root          47       2  0 Mar26 ?        00:00:00 [cpuhp/6]
+root          48       2  0 Mar26 ?        00:00:00 [idle_inject/6]
+root          49       2  0 Mar26 ?        00:00:00 [migration/6]
+root          50       2  0 Mar26 ?        00:00:00 [ksoftirqd/6]
+root          52       2  0 Mar26 ?        00:00:00 [kworker/6:0H-kblockd]
+root          53       2  0 Mar26 ?        00:00:00 [cpuhp/7]
+root          54       2  0 Mar26 ?        00:00:00 [idle_inject/7]
+root          55       2  0 Mar26 ?        00:00:00 [migration/7]
+root          56       2  0 Mar26 ?        00:00:00 [ksoftirqd/7]
+root          58       2  0 Mar26 ?        00:00:00 [kworker/7:0H-events_highpri]
+root          59       2  0 Mar26 ?        00:00:00 [cpuhp/8]
+root          60       2  0 Mar26 ?        00:00:00 [idle_inject/8]
+root          61       2  0 Mar26 ?        00:00:00 [migration/8]
+root          62       2  0 Mar26 ?        00:00:00 [ksoftirqd/8]
+root          64       2  0 Mar26 ?        00:00:00 [kworker/8:0H-kblockd]
+root          65       2  0 Mar26 ?        00:00:00 [cpuhp/9]
+root          66       2  0 Mar26 ?        00:00:00 [idle_inject/9]
+root          67       2  0 Mar26 ?        00:00:00 [migration/9]
+root          68       2  0 Mar26 ?        00:00:00 [ksoftirqd/9]
+root          70       2  0 Mar26 ?        00:00:00 [kworker/9:0H-events_highpri]
+root          71       2  0 Mar26 ?        00:00:00 [cpuhp/10]
+root          72       2  0 Mar26 ?        00:00:00 [idle_inject/10]
+root          73       2  0 Mar26 ?        00:00:00 [migration/10]
+root          74       2  0 Mar26 ?        00:00:00 [ksoftirqd/10]
+root          76       2  0 Mar26 ?        00:00:00 [kworker/10:0H-events_highpri]
+root          77       2  0 Mar26 ?        00:00:00 [cpuhp/11]
+root          78       2  0 Mar26 ?        00:00:00 [idle_inject/11]
+root          79       2  0 Mar26 ?        00:00:00 [migration/11]
+root          80       2  0 Mar26 ?        00:00:00 [ksoftirqd/11]
+root          82       2  0 Mar26 ?        00:00:00 [kworker/11:0H-events_highpri]
+root          83       2  0 Mar26 ?        00:00:00 [cpuhp/12]
+root          84       2  0 Mar26 ?        00:00:00 [idle_inject/12]
+root          85       2  0 Mar26 ?        00:00:00 [migration/12]
+root          86       2  0 Mar26 ?        00:00:00 [ksoftirqd/12]
+root          88       2  0 Mar26 ?        00:00:00 [kworker/12:0H-events_highpri]
+root          89       2  0 Mar26 ?        00:00:00 [cpuhp/13]
+root          90       2  0 Mar26 ?        00:00:00 [idle_inject/13]
+root          91       2  0 Mar26 ?        00:00:00 [migration/13]
+root          92       2  0 Mar26 ?        00:00:00 [ksoftirqd/13]
+root          94       2  0 Mar26 ?        00:00:00 [kworker/13:0H-events_highpri]
+root          95       2  0 Mar26 ?        00:00:00 [cpuhp/14]
+root          96       2  0 Mar26 ?        00:00:00 [idle_inject/14]
+root          97       2  0 Mar26 ?        00:00:00 [migration/14]
+root          98       2  0 Mar26 ?        00:00:00 [ksoftirqd/14]
+root         100       2  0 Mar26 ?        00:00:00 [kworker/14:0H-events_highpri]
+root         101       2  0 Mar26 ?        00:00:00 [cpuhp/15]
+root         102       2  0 Mar26 ?        00:00:00 [idle_inject/15]
+root         103       2  0 Mar26 ?        00:00:00 [migration/15]
+root         104       2  0 Mar26 ?        00:00:00 [ksoftirqd/15]
+root         106       2  0 Mar26 ?        00:00:00 [kworker/15:0H-events_highpri]
+root         107       2  0 Mar26 ?        00:00:00 [cpuhp/16]
+root         108       2  0 Mar26 ?        00:00:00 [idle_inject/16]
+root         109       2  0 Mar26 ?        00:00:00 [migration/16]
+root         110       2  0 Mar26 ?        00:00:02 [ksoftirqd/16]
+root         112       2  0 Mar26 ?        00:00:00 [kworker/16:0H-events_highpri]
+root         113       2  0 Mar26 ?        00:00:00 [cpuhp/17]
+root         114       2  0 Mar26 ?        00:00:00 [idle_inject/17]
+root         115       2  0 Mar26 ?        00:00:00 [migration/17]
+root         116       2  0 Mar26 ?        00:00:00 [ksoftirqd/17]
+root         118       2  0 Mar26 ?        00:00:00 [kworker/17:0H-events_highpri]
+root         119       2  0 Mar26 ?        00:00:00 [cpuhp/18]
+root         120       2  0 Mar26 ?        00:00:00 [idle_inject/18]
+root         121       2  0 Mar26 ?        00:00:00 [migration/18]
+root         122       2  0 Mar26 ?        00:00:00 [ksoftirqd/18]
+root         124       2  0 Mar26 ?        00:00:00 [kworker/18:0H-events_highpri]
+root         125       2  0 Mar26 ?        00:00:00 [cpuhp/19]
+root         126       2  0 Mar26 ?        00:00:00 [idle_inject/19]
+root         127       2  0 Mar26 ?        00:00:00 [migration/19]
+root         128       2  0 Mar26 ?        00:00:00 [ksoftirqd/19]
+root         130       2  0 Mar26 ?        00:00:00 [kworker/19:0H-events_highpri]
+root         131       2  0 Mar26 ?        00:00:00 [cpuhp/20]
+root         132       2  0 Mar26 ?        00:00:00 [idle_inject/20]
+root         133       2  0 Mar26 ?        00:00:00 [migration/20]
+root         134       2  0 Mar26 ?        00:00:00 [ksoftirqd/20]
+root         136       2  0 Mar26 ?        00:00:00 [kworker/20:0H-events_highpri]
+root         137       2  0 Mar26 ?        00:00:00 [cpuhp/21]
+root         138       2  0 Mar26 ?        00:00:00 [idle_inject/21]
+root         139       2  0 Mar26 ?        00:00:00 [migration/21]
+root         140       2  0 Mar26 ?        00:00:00 [ksoftirqd/21]
+root         142       2  0 Mar26 ?        00:00:00 [kworker/21:0H-events_highpri]
+root         143       2  0 Mar26 ?        00:00:00 [cpuhp/22]
+root         144       2  0 Mar26 ?        00:00:00 [idle_inject/22]
+root         145       2  0 Mar26 ?        00:00:00 [migration/22]
+root         146       2  0 Mar26 ?        00:00:00 [ksoftirqd/22]
+root         148       2  0 Mar26 ?        00:00:00 [kworker/22:0H-events_highpri]
+root         149       2  0 Mar26 ?        00:00:00 [cpuhp/23]
+root         150       2  0 Mar26 ?        00:00:00 [idle_inject/23]
+root         151       2  0 Mar26 ?        00:00:00 [migration/23]
+root         152       2  0 Mar26 ?        00:00:00 [ksoftirqd/23]
+root         154       2  0 Mar26 ?        00:00:00 [kworker/23:0H-events_highpri]
+root         155       2  0 Mar26 ?        00:00:00 [cpuhp/24]
+root         156       2  0 Mar26 ?        00:00:00 [idle_inject/24]
+root         157       2  0 Mar26 ?        00:00:00 [migration/24]
+root         158       2  0 Mar26 ?        00:00:00 [ksoftirqd/24]
+root         160       2  0 Mar26 ?        00:00:00 [kworker/24:0H-events_highpri]
+root         161       2  0 Mar26 ?        00:00:00 [cpuhp/25]
+root         162       2  0 Mar26 ?        00:00:00 [idle_inject/25]
+root         163       2  0 Mar26 ?        00:00:00 [migration/25]
+root         164       2  0 Mar26 ?        00:00:00 [ksoftirqd/25]
+root         166       2  0 Mar26 ?        00:00:00 [kworker/25:0H-events_highpri]
+root         167       2  0 Mar26 ?        00:00:00 [cpuhp/26]
+root         168       2  0 Mar26 ?        00:00:00 [idle_inject/26]
+root         169       2  0 Mar26 ?        00:00:00 [migration/26]
+root         170       2  0 Mar26 ?        00:00:00 [ksoftirqd/26]
+root         172       2  0 Mar26 ?        00:00:00 [kworker/26:0H-events_highpri]
+root         173       2  0 Mar26 ?        00:00:00 [cpuhp/27]
+root         174       2  0 Mar26 ?        00:00:00 [idle_inject/27]
+root         175       2  0 Mar26 ?        00:00:00 [migration/27]
+root         176       2  0 Mar26 ?        00:00:00 [ksoftirqd/27]
+root         178       2  0 Mar26 ?        00:00:00 [kworker/27:0H-kblockd]
+root         179       2  0 Mar26 ?        00:00:00 [cpuhp/28]
+root         180       2  0 Mar26 ?        00:00:00 [idle_inject/28]
+root         181       2  0 Mar26 ?        00:00:00 [migration/28]
+root         182       2  0 Mar26 ?        00:00:00 [ksoftirqd/28]
+root         184       2  0 Mar26 ?        00:00:00 [kworker/28:0H-kblockd]
+root         185       2  0 Mar26 ?        00:00:00 [cpuhp/29]
+root         186       2  0 Mar26 ?        00:00:00 [idle_inject/29]
+root         187       2  0 Mar26 ?        00:00:00 [migration/29]
+root         188       2  0 Mar26 ?        00:00:00 [ksoftirqd/29]
+root         190       2  0 Mar26 ?        00:00:00 [kworker/29:0H-events_highpri]
+root         191       2  0 Mar26 ?        00:00:00 [cpuhp/30]
+root         192       2  0 Mar26 ?        00:00:00 [idle_inject/30]
+root         193       2  0 Mar26 ?        00:00:00 [migration/30]
+root         194       2  0 Mar26 ?        00:00:00 [ksoftirqd/30]
+root         196       2  0 Mar26 ?        00:00:00 [kworker/30:0H-events_highpri]
+root         197       2  0 Mar26 ?        00:00:00 [cpuhp/31]
+root         198       2  0 Mar26 ?        00:00:00 [idle_inject/31]
+root         199       2  0 Mar26 ?        00:00:00 [migration/31]
+root         200       2  0 Mar26 ?        00:00:00 [ksoftirqd/31]
+root         202       2  0 Mar26 ?        00:00:00 [kworker/31:0H-events_highpri]
+root         203       2  0 Mar26 ?        00:00:00 [kdevtmpfs]
+root         204       2  0 Mar26 ?        00:00:00 [netns]
+root         205       2  0 Mar26 ?        00:00:00 [inet_frag_wq]
+root         206       2  0 Mar26 ?        00:00:06 [kauditd]
+root         210       2  0 Mar26 ?        00:00:00 [khungtaskd]
+root         211       2  0 Mar26 ?        00:00:00 [oom_reaper]
+root         212       2  0 Mar26 ?        00:00:00 [writeback]
+root         213       2  0 Mar26 ?        00:00:02 [kcompactd0]
+root         214       2  0 Mar26 ?        00:00:00 [ksmd]
+root         215       2  0 Mar26 ?        00:00:01 [khugepaged]
+root         262       2  0 Mar26 ?        00:00:00 [kintegrityd]
+root         263       2  0 Mar26 ?        00:00:00 [kblockd]
+root         264       2  0 Mar26 ?        00:00:00 [blkcg_punt_bio]
+root         266       2  0 Mar26 ?        00:00:00 [tpm_dev_wq]
+root         267       2  0 Mar26 ?        00:00:00 [ata_sff]
+root         268       2  0 Mar26 ?        00:00:00 [md]
+root         269       2  0 Mar26 ?        00:00:00 [edac-poller]
+root         270       2  0 Mar26 ?        00:00:00 [devfreq_wq]
+root         271       2  0 Mar26 ?        00:00:00 [watchdogd]
+root         273       2  0 Mar26 ?        00:00:00 [kworker/1:1H-kblockd]
+root         274       2  0 Mar26 ?        00:00:00 [irq/26-AMD-Vi]
+root         276       2  0 Mar26 ?        00:00:00 [kswapd0]
+root         277       2  0 Mar26 ?        00:00:00 [ecryptfs-kthrea]
+root         279       2  0 Mar26 ?        00:00:00 [kthrotld]
+root         280       2  0 Mar26 ?        00:00:00 [irq/27-aerdrv]
+root         281       2  0 Mar26 ?        00:00:00 [irq/28-aerdrv]
+root         282       2  0 Mar26 ?        00:00:00 [irq/29-aerdrv]
+root         283       2  0 Mar26 ?        00:00:00 [irq/31-aerdrv]
+root         284       2  0 Mar26 ?        00:00:00 [irq/32-aerdrv]
+root         313       2  0 Mar26 ?        00:00:00 [acpi_thermal_pm]
+root         315       2  0 Mar26 ?        00:00:00 [vfio-irqfd-clea]
+root         316       2  0 Mar26 ?        00:00:00 [mld]
+root         317       2  0 Mar26 ?        00:00:00 [ipv6_addrconf]
+root         326       2  0 Mar26 ?        00:00:00 [kstrp]
+root         329       2  0 Mar26 ?        00:00:00 [zswap-shrink]
+root         365       2  0 Mar26 ?        00:00:00 [charger_manager]
+root         407       2  0 Mar26 ?        00:00:00 [kworker/31:1H-kblockd]
+root         410       2  0 Mar26 ?        00:00:00 [kworker/2:1H-kblockd]
+root         426       2  0 Mar26 ?        00:00:00 [kworker/29:1H-kblockd]
+root         434       2  0 Mar26 ?        00:00:00 [nvme-wq]
+root         435       2  0 Mar26 ?        00:00:00 [nvme-reset-wq]
+root         437       2  0 Mar26 ?        00:00:00 [nvme-delete-wq]
+root         438       2  0 Mar26 ?        00:00:00 [scsi_eh_0]
+root         439       2  0 Mar26 ?        00:00:00 [scsi_tmf_0]
+root         442       2  0 Mar26 ?        00:00:00 [cryptd]
+root         502       2  0 Mar26 ?        00:00:00 [scsi_eh_1]
+root         503       2  0 Mar26 ?        00:00:00 [scsi_tmf_1]
+root         511       2  0 Mar26 ?        00:00:00 [kworker/0:1H-kblockd]
+root         513       2  0 Mar26 ?        00:00:00 [kworker/16:1H-kblockd]
+root         514       2  0 Mar26 ?        00:00:00 [kworker/9:1H-kblockd]
+root         517       2  0 Mar26 ?        00:00:00 [scsi_eh_2]
+root         518       2  0 Mar26 ?        00:00:00 [scsi_tmf_2]
+root         519       2  0 Mar26 ?        00:00:00 [usb-storage]
+root         520       2  0 Mar26 ?        00:00:00 [uas]
+root         521       2  0 Mar26 ?        00:00:00 [kworker/28:1H-kblockd]
+root         523       2  0 Mar26 ?        00:00:00 [kworker/4:1H-kblockd]
+root         527       2  0 Mar26 ?        00:00:00 [kworker/30:1H-kblockd]
+root         554       2  0 Mar26 ?        00:00:00 [raid5wq]
+root         587       2  0 Mar26 ?        00:00:00 [kworker/10:1H-kblockd]
+root         595       2  0 Mar26 ?        00:00:00 [kworker/5:1H-kblockd]
+root         596       2  0 Mar26 ?        00:00:00 [kworker/8:1H-kblockd]
+root         741       2  0 Mar26 ?        00:00:00 [kdmflush]
+root         747       2  0 Mar26 ?        00:00:00 [kcryptd_io/253:]
+root         748       2  0 Mar26 ?        00:00:00 [kcryptd/253:0]
+root         749       2  0 Mar26 ?        00:00:28 [dmcrypt_write/2]
+root         752       2  0 Mar26 ?        00:00:00 [kworker/26:1H-kblockd]
+root         754       2  0 Mar26 ?        00:00:00 [kdmflush]
+root         757       2  0 Mar26 ?        00:00:00 [kworker/14:1H-kblockd]
+root         760       2  0 Mar26 ?        00:00:00 [kworker/15:1H-kblockd]
+root         769       2  0 Mar26 ?        00:00:00 [kworker/25:1H-kblockd]
+root         784       2  0 Mar26 ?        00:00:00 [kworker/13:1H-kblockd]
+root         804       2  0 Mar26 ?        00:00:00 [kworker/6:1H-kblockd]
+root         810       2  0 Mar26 ?        00:00:29 [jbd2/dm-1-8]
+root         811       2  0 Mar26 ?        00:00:00 [ext4-rsv-conver]
+root         871       1  0 Mar26 ?        00:01:08 /lib/systemd/systemd-journald
+root         874       2  0 Mar26 ?        00:00:00 [kworker/7:1H-kblockd]
+root         878       2  0 Mar26 ?        00:00:00 [kworker/11:1H-kblockd]
+root         881       2  0 Mar26 ?        00:00:00 [kworker/20:1H-kblockd]
+root         894       2  0 Mar26 ?        00:00:00 [kworker/12:1H-kblockd]
+root         903       2  0 Mar26 ?        00:00:00 [kworker/23:1H-kblockd]
+root         907       2  0 Mar26 ?        00:00:00 [kworker/18:1H-kblockd]
+root         909       2  0 Mar26 ?        00:00:00 [kworker/27:1H-kblockd]
+root         912       1  0 Mar26 ?        00:00:00 /lib/systemd/systemd-udevd
+root         945       2  0 Mar26 ?        00:00:00 [kworker/17:1H-kblockd]
+root         971       2  0 Mar26 ?        00:00:00 [kworker/22:1H-kblockd]
+root         973       2  0 Mar26 ?        00:00:00 [kworker/24:1H-kblockd]
+root         974       2  0 Mar26 ?        00:00:00 [kworker/3:1H-kblockd]
+root         997       2  0 Mar26 ?        00:00:00 [kworker/19:1H-kblockd]
+root        1058       2  0 Mar26 ?        00:00:00 [cfg80211]
+root        1067       2  0 Mar26 ?        00:00:04 [kworker/u65:1-rb_allocator]
+root        1073       2  0 Mar26 ?        00:00:00 [kworker/21:1H-kblockd]
+root        1078       2  0 Mar26 ?        00:00:38 [irq/105-iwlwifi]
+root        1081       2  0 Mar26 ?        00:00:07 [irq/106-iwlwifi]
+root        1082       2  0 Mar26 ?        00:00:09 [irq/107-iwlwifi]
+root        1083       2  0 Mar26 ?        00:00:06 [irq/108-iwlwifi]
+root        1084       2  0 Mar26 ?        00:00:06 [irq/109-iwlwifi]
+root        1086       2  0 Mar26 ?        00:00:07 [irq/110-iwlwifi]
+root        1087       2  0 Mar26 ?        00:00:18 [irq/111-iwlwifi]
+root        1088       2  0 Mar26 ?        00:00:05 [irq/112-iwlwifi]
+root        1089       2  0 Mar26 ?        00:00:04 [irq/113-iwlwifi]
+root        1090       2  0 Mar26 ?        00:00:07 [irq/114-iwlwifi]
+root        1091       2  0 Mar26 ?        00:00:04 [irq/115-iwlwifi]
+root        1092       2  0 Mar26 ?        00:00:05 [irq/116-iwlwifi]
+root        1093       2  0 Mar26 ?        00:00:06 [irq/117-iwlwifi]
+root        1094       2  0 Mar26 ?        00:00:09 [irq/118-iwlwifi]
+root        1095       2  0 Mar26 ?        00:00:07 [irq/119-iwlwifi]
+root        1096       2  0 Mar26 ?        00:00:00 [irq/120-iwlwifi]
+root        1098       2  0 Mar26 ?        00:00:00 [led_workqueue]
+root        1241       2  0 Mar26 ?        00:00:00 [nv_queue]
+root        1242       2  0 Mar26 ?        00:00:00 [nv_queue]
+root        1312       2  0 Mar26 ?        00:00:51 [nvidia-modeset/]
+root        1313       2  0 Mar26 ?        00:00:00 [nvidia-modeset/]
+root        1315       2  0 Mar26 ?        00:21:59 [irq/122-nvidia]
+root        1316       2  0 Mar26 ?        00:00:00 [nvidia]
+root        1317       2  0 Mar26 ?        00:04:01 [nv_queue]
+root        1335       2  0 Mar26 ?        00:00:00 [jbd2/nvme0n1p1-]
+root        1336       2  0 Mar26 ?        00:00:00 [ext4-rsv-conver]
+root        1338       2  0 Mar26 ?        00:00:00 [kdmflush]
+root        1339       2  0 Mar26 ?        00:00:00 [kcryptd_io/253:]
+root        1340       2  0 Mar26 ?        00:00:00 [kcryptd/253:2]
+root        1341       2  0 Mar26 ?        00:00:00 [dmcrypt_write/2]
+systemd+    1485       1  0 Mar26 ?        00:01:30 /lib/systemd/systemd-resolved
+systemd+    1486       1  0 Mar26 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root        1690       2  0 Mar26 ?        00:00:00 [card0-crtc0]
+root        1691       2  0 Mar26 ?        00:00:00 [card0-crtc1]
+root        1692       2  0 Mar26 ?        00:00:00 [card0-crtc2]
+root        1693       2  0 Mar26 ?        00:00:00 [card0-crtc3]
+root        1917       2  0 Mar26 ?        00:00:00 [UVM global queu]
+root        1918       2  0 Mar26 ?        00:00:00 [UVM deferred re]
+root        1919       2  0 Mar26 ?        00:00:00 [UVM Tools Event]
+root        2115       1  0 Mar26 ?        00:00:02 /usr/lib/accountsservice/accounts-daemon
+root        2116       1  0 Mar26 ?        00:00:33 /usr/sbin/acpid
+avahi       2119       1  0 Mar26 ?        00:00:15 avahi-daemon: running [pop-os.local]
+root        2123       1  0 Mar26 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+root        2126       1  0 Mar26 ?        00:00:00 /usr/sbin/cron -f -P
+message+    2127       1  0 Mar26 ?        00:01:08 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        2128       1  0 Mar26 ?        00:01:50 /usr/sbin/NetworkManager --no-daemon
+root        2133       1  0 Mar26 ?        00:00:17 /usr/sbin/irqbalance --foreground
+root        2138       1  0 Mar26 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        2142       1  0 Mar26 ?        00:00:01 /usr/libexec/polkitd --no-debug
+root        2144       1  0 Mar26 ?        00:00:04 /usr/bin/pop-upgrade daemon
+nvidia-+    2146       1  0 Mar26 ?        00:00:00 /usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose
+syslog      2151       1  0 Mar26 ?        00:00:03 /usr/sbin/rsyslogd -n -iNONE
+root        2160       1  0 Mar26 ?        00:00:36 /usr/lib/snapd/snapd
+root        2164       1  0 Mar26 ?        00:00:00 /usr/libexec/switcheroo-control
+root        2165       1  0 Mar26 ?        00:00:00 /usr/bin/python3 /usr/lib/system76-driver/system76-daemon
+root        2168       1  0 Mar26 ?        00:00:37 /usr/bin/system76-power daemon
+root        2170       1  0 Mar26 ?        00:00:01 /lib/systemd/systemd-logind
+root        2173       1  0 Mar26 ?        00:00:27 /usr/bin/touchegg --daemon
+root        2174       1  0 Mar26 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root        2176       1  0 Mar26 ?        00:00:04 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+daemon      2180       1  0 Mar26 ?        00:00:00 /usr/sbin/atd -f
+avahi       2198    2119  0 Mar26 ?        00:00:00 avahi-daemon: chroot helper
+root        2263       1  0 Mar26 ?        00:01:25 dockerd --group docker --exec-root=/run/snap.docker --data-root=/var/snap/docker/common/var-lib-docker --pidfile=/run/snap.docker/docker.pid --config-file=/var/snap/docker/1690/config/daemon.json
+root        2279       1  0 Mar26 ?        00:00:00 /usr/sbin/ModemManager
+mysql       2345       1  0 Mar26 ?        00:02:44 /usr/sbin/mysqld
+root        2349       1  0 Mar26 ?        00:00:00 /usr/sbin/gdm3
+colord      2355       1  0 Mar26 ?        00:00:00 /usr/libexec/colord
+postgres    2375       1  0 Mar26 ?        00:00:02 /usr/lib/postgresql/14/bin/postgres -D /var/lib/postgresql/14/main -c config_file=/etc/postgresql/14/main/postgresql.conf
+postgres    2376       1  0 Mar26 ?        00:00:06 /usr/lib/postgresql/13/bin/postgres -D /var/lib/postgresql/13/main -c config_file=/etc/postgresql/13/main/postgresql.conf
+postgres    2435    2375  0 Mar26 ?        00:00:00 postgres: 14/main: checkpointer 
+postgres    2436    2375  0 Mar26 ?        00:00:00 postgres: 14/main: background writer 
+postgres    2437    2375  0 Mar26 ?        00:00:00 postgres: 14/main: walwriter 
+postgres    2438    2375  0 Mar26 ?        00:00:00 postgres: 14/main: autovacuum launcher 
+postgres    2439    2375  0 Mar26 ?        00:00:00 postgres: 14/main: stats collector 
+postgres    2440    2375  0 Mar26 ?        00:00:00 postgres: 14/main: logical replication launcher 
+postgres    2441    2376  0 Mar26 ?        00:00:00 postgres: 13/main: checkpointer 
+postgres    2442    2376  0 Mar26 ?        00:00:01 postgres: 13/main: background writer 
+postgres    2443    2376  0 Mar26 ?        00:00:01 postgres: 13/main: walwriter 
+postgres    2444    2376  0 Mar26 ?        00:00:02 postgres: 13/main: autovacuum launcher 
+postgres    2445    2376  0 Mar26 ?        00:00:02 postgres: 13/main: stats collector 
+postgres    2446    2376  0 Mar26 ?        00:00:00 postgres: 13/main: logical replication launcher 
+rtkit       2472       1  0 Mar26 ?        00:00:01 /usr/libexec/rtkit-daemon
+root        2567       1  0 Mar26 ?        00:00:01 /usr/libexec/upowerd
+root        2755       1  0 Mar26 ?        00:00:06 /usr/libexec/packagekitd
+plex        3063       1  0 Mar26 ?        00:02:25 /usr/lib/plexmediaserver/Plex Media Server
+plex        3083    3063  0 Mar26 ?        00:01:51 Plex Plug-in [com.plexapp.system] /usr/lib/plexmediaserver/Resources/Plug-ins-6327e27bf/Framework.bundle/Contents/Resources/Versions/2/Python/bootstrap.py --server-version 1.19.1.2701-6327e27bf /usr/lib/plexmediaserver/Resources/Plug-ins-6327e27bf/System.bundle
+plex        3123    3063  0 Mar26 ?        00:00:28 /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.19.1.2701-6327e27bf 32600 /waitmutex
+root        3163    2349  0 Mar26 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+charmi      3272       1  0 Mar26 ?        00:00:02 /lib/systemd/systemd --user
+charmi      3273    3272  0 Mar26 ?        00:00:00 (sd-pam)
+charmi      3300    3272  0 Mar26 ?        00:00:00 /usr/bin/pipewire
+charmi      3302    3272  0 Mar26 ?        00:00:00 /usr/bin/pipewire-media-session
+charmi      3304    3272  2 Mar26 ?        01:08:40 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+charmi      3309    3272  0 Mar26 ?        00:00:03 /usr/libexec/tracker-miner-fs
+charmi      3320    3272  0 Mar26 ?        00:00:16 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+charmi      3325       1  0 Mar26 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+charmi      3348    3272  0 Mar26 ?        00:00:00 /usr/libexec/gvfsd
+charmi      3355    3272  0 Mar26 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+charmi      3365    3272  0 Mar26 ?        00:00:01 /usr/libexec/gvfs-udisks2-volume-monitor
+root        3383       2  0 Mar26 ?        00:00:00 [krfcommd]
+charmi      3392    3272  0 Mar26 ?        00:00:02 /usr/libexec/gvfs-afc-volume-monitor
+charmi      3398    3272  0 Mar26 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+charmi      3403    3272  0 Mar26 ?        00:00:00 /usr/libexec/goa-daemon
+charmi      3427    3272  0 Mar26 ?        00:00:00 /usr/libexec/goa-identity-service
+charmi      3435    3272  0 Mar26 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+charmi      3447    3272  0 Mar26 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+charmi      3800    3163  0 Mar26 tty2     00:00:00 /usr/libexec/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=pop /usr/bin/gnome-session --session=pop
+root        3802    3800  1 Mar26 tty2     00:40:50 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+charmi      4008    3800  0 Mar26 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --session=pop
+charmi      4074    3272  0 Mar26 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+charmi      4079    4074  0 Mar26 ?        00:00:01 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+charmi      4091    3272  0 Mar26 ?        00:00:05 /usr/libexec/at-spi2-registryd --use-gnome-session
+charmi      4125    3272  0 Mar26 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+charmi      4155    3272  0 Mar26 ?        00:00:02 /usr/libexec/gnome-session-binary --systemd-service --session=pop
+charmi      4236    3272  1 Mar26 ?        00:36:35 /usr/bin/gnome-shell
+root        4252    2263  0 Mar26 ?        00:03:07 containerd --config /run/snap.docker/containerd/containerd.toml --log-level error
+charmi      4270    3272  0 Mar26 ?        00:00:00 /usr/libexec/gvfsd-metadata
+charmi      4281    4236  0 Mar26 ?        00:01:52 ibus-daemon --panel disable --xim
+charmi      4286    4281  0 Mar26 ?        00:00:00 /usr/libexec/ibus-dconf
+charmi      4287    4281  0 Mar26 ?        00:00:16 /usr/libexec/ibus-extension-gtk3
+charmi      4289    3272  0 Mar26 ?        00:00:04 /usr/libexec/ibus-x11 --kill-daemon
+charmi      4292    3272  0 Mar26 ?        00:00:53 /usr/libexec/ibus-portal
+charmi      4309    3272  0 Mar26 ?        00:00:00 /usr/libexec/xdg-permission-store
+charmi      4312    3272  0 Mar26 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+charmi      4320    3272  0 Mar26 ?        00:00:00 /usr/libexec/evolution-source-registry
+charmi      4340    3272  0 Mar26 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+charmi      4343    3272  0 Mar26 ?        00:00:00 /usr/libexec/dconf-service
+charmi      4363    3272  0 Mar26 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+root        4380       2  0 Mar26 ?        00:00:00 bpfilter_umh
+charmi      4418    3272  0 Mar26 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+charmi      4423    3348  0 Mar26 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+charmi      4470    3272  0 Mar26 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+charmi      4473    3272  0 Mar26 ?        00:00:01 /usr/libexec/gsd-color
+charmi      4475    3272  0 Mar26 ?        00:00:00 /usr/libexec/gsd-datetime
+charmi      4479    3272  0 Mar26 ?        00:00:07 /usr/libexec/gsd-housekeeping
+charmi      4483    3272  0 Mar26 ?        00:00:01 /usr/libexec/gsd-keyboard
+charmi      4484    3272  0 Mar26 ?        00:00:03 /usr/libexec/gsd-media-keys
+charmi      4485    3272  0 Mar26 ?        00:00:02 /usr/libexec/gsd-power
+charmi      4489    3272  0 Mar26 ?        00:00:00 /usr/libexec/gsd-print-notifications
+charmi      4492    3272  0 Mar26 ?        00:00:00 /usr/libexec/gsd-rfkill
+charmi      4493    3272  0 Mar26 ?        00:00:01 /usr/libexec/gsd-screensaver-proxy
+charmi      4495    3272  0 Mar26 ?        00:00:56 /usr/libexec/gsd-sharing
+charmi      4498    3272  0 Mar26 ?        00:00:00 /usr/libexec/gsd-smartcard
+charmi      4500    3272  0 Mar26 ?        00:00:00 /usr/libexec/gsd-sound
+charmi      4505    3272  0 Mar26 ?        00:00:01 /usr/libexec/gsd-wacom
+charmi      4508    3272  0 Mar26 ?        00:00:01 /usr/libexec/gsd-xsettings
+charmi      4658    4155  0 Mar26 ?        00:00:00 /usr/bin/python3 /usr/lib/hidpi-daemon/hidpi-daemon
+charmi      4665    4155  0 Mar26 ?        00:00:00 touchegg
+charmi      4668    4155  0 Mar26 ?        00:00:00 /usr/bin/python3 /usr/lib/hidpi-daemon/hidpi-notification
+charmi      4670    4155  0 Mar26 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+charmi      4671    4155  0 Mar26 ?        00:00:00 /usr/bin/python3 /usr/lib/system76-driver/system76-user-daemon
+charmi      4679    4155  0 Mar26 ?        00:00:00 /bin/sh /usr/lib/pentablet/pentablet.sh
+charmi      4687    4679  0 Mar26 ?        00:00:10 /usr/lib/pentablet/pentablet
+charmi      4689    4155  0 Mar26 ?        00:00:03 /usr/bin/pop-upgrade release check
+charmi      4697    4155  0 Mar26 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+root        4802       1  0 Mar26 ?        00:00:00 /usr/bin/python3 /usr/lib/pop-transition/service.py
+charmi      4895    3272  0 Mar26 ?        00:00:00 /usr/libexec/gsd-printer
+charmi      5023    4281  0 Mar26 ?        00:00:02 /usr/lib/ibus-mozc/ibus-engine-mozc --ibus
+charmi      5108    5023  0 Mar26 ?        00:00:00 /usr/lib/mozc/mozc_server
+root        5326       1  0 Mar26 ?        00:00:00 /sbin/mount.ntfs /dev/sda2 /media/charmi/TOSHIBA EXT -o rw,nodev,nosuid,uid=1000,gid=1000,windows_names,uhelper=udisks2
+charmi      5549    3272  0 Mar26 ?        00:03:32 /usr/libexec/gnome-terminal-server
+charmi      5556    5549  0 Mar26 pts/0    00:00:00 bash
+charmi      5943    4236  0 Mar26 ?        00:00:00 /bin/sh /snap/goland/173/bin/goland.sh
+charmi      5985    5943  1 Mar26 ?        00:38:53 /snap/goland/173/jbr/bin/java -classpath /snap/goland/173/lib/util.jar:/snap/goland/173/lib/bootstrap.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+IgnoreUnrecognizedVMOptions -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Xmx2048m -XX:ErrorFile=/home/charmi/java_error_in_goland_%p.log -XX:HeapDumpPath=/home/charmi/java_error_in_goland_.hprof -Djb.vmOptionsFile=/home/charmi/.config/JetBrains/GoLand2021.3/goland64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=GoLand2021.3 -Didea.platform.prefix=GoLand -Dsplash=true com.intellij.idea.Main
+charmi      6105    5985  0 Mar26 ?        00:00:04 /snap/goland/173/bin/fsnotifier
+charmi      6117    3272  0 Mar26 ?        00:00:02 /usr/bin/python3 /usr/bin/redshift-gtk
+charmi      6122    6117  0 Mar26 ?        00:00:18 /usr/bin/redshift -v
+geoclue     6128       1  0 Mar26 ?        00:00:16 /usr/libexec/geoclue
+charmi      6494    3272  0 Mar26 ?        00:00:00 bwrap --args 42 firefox --new-window
+charmi      6501    3272  0 Mar26 ?        00:00:00 /usr/libexec/flatpak-session-helper
+charmi      6505    3272  0 Mar26 ?        00:00:00 server --sh -n /run/user/1000/.flatpak-helper/pkcs11-flatpak-6501 --provider p11-kit-trust.so pkcs11:model=p11-kit-trust?write-protected=yes
+charmi      6507    3272  0 Mar26 ?        00:00:00 /usr/libexec/xdg-document-portal
+root        6511    6507  0 Mar26 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+charmi      6517    3272  0 Mar26 ?        00:00:00 bwrap --args 42 xdg-dbus-proxy --args=44
+charmi      6518    6517  0 Mar26 ?        00:00:15 xdg-dbus-proxy --args=44
+charmi      6520    6494  0 Mar26 ?        00:00:00 bwrap --args 42 firefox --new-window
+charmi      6521    6520  9 Mar26 ?        05:13:33 /app/lib/firefox/firefox --new-window
+charmi      6614    6521  0 Mar26 ?        00:02:15 /app/lib/firefox/firefox-bin -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi      6719    6521  3 Mar26 ?        02:10:29 /app/lib/firefox/firefox-bin -contentproc -childID 3 -isForBrowser -prefsLen 5561 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi      6906    6521  0 Mar26 ?        00:19:25 /app/lib/firefox/firefox-bin -contentproc -childID 7 -isForBrowser -prefsLen 6319 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi      7130    6521  0 Mar26 ?        00:06:01 /app/lib/firefox/firefox-bin -contentproc -parentBuildID 20220126154723 -prefsLen 6319 -prefMapSize 257576 -appDir /app/lib/firefox/browser 2 true rdd
+charmi      7527    4155  0 Mar26 ?        00:01:53 io.elementary.appcenter -s
+charmi      7755    4281  0 Mar26 ?        00:00:25 /usr/libexec/ibus-engine-simple
+charmi      8260    6521  1 Mar26 ?        00:54:05 /app/lib/firefox/firefox-bin -contentproc -childID 23 -isForBrowser -prefsLen 6792 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi      8938    6521  2 Mar26 ?        01:17:52 /app/lib/firefox/plugin-container /home/charmi/.mozilla/firefox/r96j8nm2.default-release/gmp-widevinecdm/4.10.2391.0 2 true gmplugin
+charmi      9254    4236  0 Mar26 ?        00:00:00 bwrap --args 41 joplin-desktop
+charmi      9266    3272  0 Mar26 ?        00:00:00 bwrap --args 41 xdg-dbus-proxy --args=43
+charmi      9267    9266  0 Mar26 ?        00:00:01 xdg-dbus-proxy --args=43
+charmi      9271    9254  0 Mar26 ?        00:00:00 bwrap --args 41 joplin-desktop
+charmi      9272    9271  0 Mar26 ?        00:00:26 /app/joplin-desktop/joplin
+charmi      9275    9272  0 Mar26 ?        00:00:00 cat
+charmi      9276    9272  0 Mar26 ?        00:00:00 cat
+charmi      9281    3272  0 Mar26 ?        00:00:00 /usr/libexec/flatpak-portal
+charmi      9287    9272  0 Mar26 ?        00:00:00 /app/joplin-desktop/joplin --type=zygote --no-zygote-sandbox
+charmi      9289    9272  0 Mar26 ?        00:00:00 /app/joplin-desktop/chrome-sandbox /app/joplin-desktop/joplin --type=zygote
+charmi      9291    9281  0 Mar26 ?        00:00:00 bwrap --args 42 /app/bin/zypak-helper child - /app/joplin-desktop/joplin --type=zygote
+charmi      9300    3272  0 Mar26 ?        00:00:00 bwrap --args 38 xdg-dbus-proxy --args=41
+charmi      9301    9300  0 Mar26 ?        00:00:00 xdg-dbus-proxy --args=41
+charmi      9305    9271  0 Mar26 ?        00:00:00 bwrap --args 42 /app/bin/zypak-helper child - /app/joplin-desktop/joplin --type=zygote
+charmi      9308    9305  0 Mar26 ?        00:00:00 /app/joplin-desktop/joplin --type=zygote
+charmi      9336    3272  0 Mar26 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+charmi      9339    9287  0 Mar26 ?        00:10:11 /app/joplin-desktop/joplin --type=gpu-process --field-trial-handle=9530739173369170174,1057826114550066074,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --user-data-dir=/home/charmi/.var/app/net.cozic.joplin_desktop/config/Joplin --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+charmi      9347    3272  0 Mar26 ?        00:00:22 /usr/libexec/xdg-desktop-portal-gtk
+charmi      9354    9272  0 Mar26 ?        00:00:13 /app/joplin-desktop/joplin --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=9530739173369170174,1057826114550066074,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --user-data-dir=/home/charmi/.var/app/net.cozic.joplin_desktop/config/Joplin --shared-files=v8_context_snapshot_data:100
+charmi      9362    9272  0 Mar26 ?        00:02:58 /app/joplin-desktop/joplin --type=renderer --user-data-dir=/home/charmi/.var/app/net.cozic.joplin_desktop/config/Joplin --app-path=/app/joplin-desktop/resources/app --no-sandbox --no-zygote --field-trial-handle=9530739173369170174,1057826114550066074,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+charmi      9389    9339  0 Mar26 ?        00:00:00 /app/joplin-desktop/joplin --type=broker
+charmi      9787    4236  0 Mar26 ?        00:00:00 /bin/sh /snap/intellij-idea-ultimate/348/bin/idea.sh
+charmi      9833    9787  0 Mar26 ?        00:21:06 /snap/intellij-idea-ultimate/348/jbr/bin/java -classpath /snap/intellij-idea-ultimate/348/lib/util.jar:/snap/intellij-idea-ultimate/348/lib/bootstrap.jar:/lib/tools.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=512m -XX:+IgnoreUnrecognizedVMOptions -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -Xmx2048m -XX:ErrorFile=/home/charmi/java_error_in_idea_%p.log -XX:HeapDumpPath=/home/charmi/java_error_in_idea_.hprof -Djb.vmOptionsFile=/home/charmi/.config/JetBrains/IntelliJIdea2021.3/idea64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=IntelliJIdea2021.3 -Didea.jre.check=true -Dsplash=true com.intellij.idea.Main
+charmi      9951    9833  0 Mar26 ?        00:00:04 /snap/intellij-idea-ultimate/348/bin/fsnotifier
+charmi     13066    6521  0 Mar26 ?        00:27:30 /app/lib/firefox/firefox-bin -contentproc -childID 37 -isForBrowser -prefsLen 7137 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi     14904    6521  0 Mar27 ?        00:00:02 /app/lib/firefox/firefox-bin -contentproc -parentBuildID 20220126154723 -prefsLen 9465 -prefMapSize 257576 -appDir /app/lib/firefox/browser 2 true socket
+charmi     19977    5023  0 Mar27 ?        00:00:06 /usr/lib/mozc/mozc_renderer
+charmi     20582    6521  1 Mar27 ?        00:41:07 /app/lib/firefox/firefox-bin -contentproc -childID 43 -isForBrowser -prefsLen 10562 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi     22450    3348  0 Mar27 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+charmi     22464    3348  0 Mar27 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+charmi     22886    6521  1 Mar27 ?        00:32:47 /app/lib/firefox/firefox-bin -contentproc -childID 46 -isForBrowser -prefsLen 10590 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi     24613    4236  0 Mar27 ?        00:00:00 /bin/sh /snap/rider/263/bin/rider.sh
+charmi     24658   24613  0 Mar27 ?        00:07:12 /snap/rider/263/jbr/bin/java -classpath /snap/rider/263/lib/util.jar:/snap/rider/263/lib/bootstrap.jar:/lib/tools.jar -Xms128m -Xmx1500m -XX:ReservedCodeCacheSize=240m -XX:+IgnoreUnrecognizedVMOptions -XX:+UseG1GC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -ea -Dsun.io.useCanonCaches=false -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Djdk.module.illegalAccess.silent=true -Dkotlinx.coroutines.debug=off -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/charmi/java_error_in_rider_%p.log -XX:HeapDumpPath=/home/charmi/java_error_in_rider_.hprof -Djb.vmOptionsFile=/snap/rider/263/bin/rider64.vmoptions -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader -Didea.vendor.name=JetBrains -Didea.paths.selector=Rider2021.3 -Didea.platform.prefix=Rider -Dide.native.launcher=true -Didea.class.before.app=com.jetbrains.rider.protocol.EarlyBackendStarter -Didea.log.config.file=log.xml -Didea.show.customize.ide.wizard=true -Didea.jre.check=true -Dsplash=true com.intellij.idea.Main
+charmi     24742   24658  0 Mar27 ?        00:18:07 /snap/rider/263/lib/ReSharperHost/linux-x64/dotnet/dotnet exec --runtimeconfig /snap/rider/263/lib/ReSharperHost/Rider.Backend.netcore.runtimeconfig.json /snap/rider/263/lib/ReSharperHost/Rider.Backend.exe --Port=38221
+charmi     25087   24658  0 Mar27 ?        00:00:04 /snap/rider/263/bin/fsnotifier
+charmi     26203    5985  0 Mar27 pts/2    00:00:00 /bin/bash --rcfile /snap/goland/173/plugins/terminal/jediterm-bash.in -i
+charmi     29704    3325  0 Mar27 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+charmi     29818    5985  0 Mar27 ?        00:00:00 /snap/goland/173/jbr/lib/jcef_helper --type=zygote --no-zygote-sandbox --disable-in-process-stack-traces --no-sandbox --force-device-scale-factor=1.0 --locales-dir-path=/snap/goland/173/jbr/lib/locales --log-file=/home/charmi/jcef_5985.log --log-severity=disable --resources-dir-path=/snap/goland/173/jbr/lib --lang=en-US
+charmi     29819    5985  0 Mar27 ?        00:00:00 /snap/goland/173/jbr/lib/jcef_helper --type=zygote --disable-in-process-stack-traces --no-sandbox --force-device-scale-factor=1.0 --locales-dir-path=/snap/goland/173/jbr/lib/locales --log-file=/home/charmi/jcef_5985.log --log-severity=disable --resources-dir-path=/snap/goland/173/jbr/lib --lang=en-US
+charmi     29832   29818  0 Mar27 ?        00:06:06 /snap/goland/173/jbr/lib/jcef_helper --type=gpu-process --field-trial-handle=11750864808525770838,14719421364640371673,131072 --enable-features=CastMediaRouteProvider --disable-features=SpareRendererForSitePerProcess --no-sandbox --locales-dir-path=/snap/goland/173/jbr/lib/locales --log-file=/home/charmi/jcef_5985.log --log-severity=disable --resources-dir-path=/snap/goland/173/jbr/lib --lang=en-US --gpu-preferences=UAAAAAAAAAAgACAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --disable-in-process-stack-traces --log-file=/home/charmi/jcef_5985.log --shared-files
+charmi     29849    5985  0 Mar27 ?        00:00:09 /snap/goland/173/jbr/lib/jcef_helper --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=11750864808525770838,14719421364640371673,131072 --enable-features=CastMediaRouteProvider --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --locales-dir-path=/snap/goland/173/jbr/lib/locales --log-file=/home/charmi/jcef_5985.log --log-severity=disable --resources-dir-path=/snap/goland/173/jbr/lib --lang=en-US --disable-in-process-stack-traces --log-file=/home/charmi/jcef_5985.log --shared-files=v8_context_snapshot_data:100
+charmi     29887   29819  0 Mar27 ?        00:00:01 /snap/goland/173/jbr/lib/jcef_helper --type=renderer --disable-in-process-stack-traces --no-sandbox --force-device-scale-factor=1.0 --log-file=/home/charmi/jcef_5985.log --field-trial-handle=11750864808525770838,14719421364640371673,131072 --enable-features=CastMediaRouteProvider --disable-features=SpareRendererForSitePerProcess --lang=en-US --locales-dir-path=/snap/goland/173/jbr/lib/locales --log-file=/home/charmi/jcef_5985.log --log-severity=disable --resources-dir-path=/snap/goland/173/jbr/lib --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+charmi     30452    5549  0 Mar27 pts/1    00:00:00 bash
+charmi     35170    3348  0 Mar27 ?        00:00:00 /usr/libexec/gvfsd-http --spawner :1.3 /org/gtk/gvfs/exec_spaw/4
+charmi     38508    3272  0 Mar27 ?        00:00:30 /usr/bin/nautilus --gapplication-service
+charmi     39373    3272  0 Mar27 ?        00:00:19 /snap/codium/247/usr/share/codium/codium --ms-enable-electron-run-as-node --no-sandbox .
+charmi     39375   39373  0 Mar27 ?        00:00:00 /snap/codium/247/usr/share/codium/codium --type=zygote --no-zygote-sandbox --no-sandbox
+charmi     39376   39373  0 Mar27 ?        00:00:00 /snap/codium/247/usr/share/codium/codium --type=zygote --no-sandbox
+charmi     39400   39375  0 Mar27 ?        00:06:07 /snap/codium/247/usr/share/codium/codium --type=gpu-process --field-trial-handle=10599166262146170532,10146446843585745773,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+charmi     39408   39373  0 Mar27 ?        00:00:09 /snap/codium/247/usr/share/codium/codium --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=10599166262146170532,10146446843585745773,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --no-sandbox --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+charmi     39451   39373  0 Mar27 ?        00:00:16 /snap/codium/247/usr/share/codium/codium --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=10599166262146170532,10146446843585745773,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/codium/247/usr/share/codium/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:25032bdc-90cc-4d5d-96db-d3b9c3ea79d7 --vscode-window-kind=shared-process
+charmi     39528   39451  0 Mar27 ?        00:00:04 /snap/codium/247/usr/share/codium/codium /snap/codium/247/usr/share/codium/resources/app/out/bootstrap-fork --type=ptyHost
+charmi     39859    3272  0 Mar27 ?        00:00:27 /usr/bin/gedit --gapplication-service
+charmi     41463    3272  0 Mar27 ?        00:00:04 /usr/bin/snap userd
+charmi     42169    6521  0 Mar27 ?        00:15:34 /app/lib/firefox/firefox-bin -contentproc -childID 98 -isForBrowser -prefsLen 11448 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi     43352   26203  0 Mar27 pts/2    00:00:19 go run cmd/web/main.go cmd/web/middleware.go cmd/web/routes.go
+charmi     43520   43352  0 Mar27 pts/2    00:00:00 /tmp/go-build2932962815/b001/exe/main
+charmi     59346    6521  0 Mar27 ?        00:01:48 /app/lib/firefox/firefox-bin -contentproc -childID 143 -isForBrowser -prefsLen 11534 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi     69741    6521  0 Mar27 ?        00:00:41 /app/lib/firefox/firefox-bin -contentproc -childID 155 -isForBrowser -prefsLen 11454 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi     71386    5549  0 Mar27 pts/3    00:00:00 bash
+charmi     71755   39373  0 Mar27 ?        00:00:35 /snap/codium/247/usr/share/codium/codium --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=10599166262146170532,10146446843585745773,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/codium/247/usr/share/codium/resources/app --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=11 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:80ed7fa3-097d-4e60-86d3-5708e77fff91
+charmi     71784   39373  0 Mar27 ?        00:00:10 /snap/codium/247/usr/share/codium/codium --inspect-port=0 /snap/codium/247/usr/share/codium/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+charmi     71785   39451  0 Mar27 ?        00:00:04 /snap/codium/247/usr/share/codium/codium /snap/codium/247/usr/share/codium/resources/app/out/bootstrap-fork --type=fileWatcher
+charmi     71851   71784  0 Mar27 ?        00:00:03 /snap/codium/247/usr/share/codium/codium /snap/codium/247/usr/share/codium/resources/app/extensions/html-language-features/server/dist/node/htmlServerMain --node-ipc --clientProcessId=71784
+charmi     77318    6521  0 Mar27 ?        00:00:48 /app/lib/firefox/firefox-bin -contentproc -childID 158 -isForBrowser -prefsLen 11571 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi     78518    5985  1 Mar27 ?        00:32:44 /usr/lib/firefox/firefox file:///home/charmi/Downloads/udemy_trevor_golang/working%20html/index.html
+charmi     78581   78518  0 Mar27 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210903235534 -prefsLen 1 -prefMapSize 261452 -appdir /usr/lib/firefox/browser 78518 true socket
+charmi     78644   78518  1 Mar27 ?        00:21:32 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 462 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi     78648   78518  1 Mar27 ?        00:36:50 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 462 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi     78688   78518  0 Mar27 ?        00:00:10 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 556 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi     78818   78518  0 Mar27 ?        00:02:02 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 6106 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi     78852   78518  0 Mar27 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210903235534 -prefsLen 6106 -prefMapSize 261452 -appdir /usr/lib/firefox/browser 78518 true rdd
+charmi     79951   78518  0 Mar27 ?        00:01:37 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 6590 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi     80196    3272  0 Mar27 ?        00:00:02 /usr/bin/pop-upgrade release check
+charmi     93184   78518  0 Mar28 ?        00:00:42 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 10236 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi    121041   78518  0 Mar28 ?        00:00:52 /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 10236 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi    121168   78518  0 Mar28 ?        00:00:35 /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 10236 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi    122423    6521  1 Mar28 ?        00:19:29 /app/lib/firefox/firefox-bin -contentproc -childID 205 -isForBrowser -prefsLen 11553 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    122478    6521  2 Mar28 ?        00:27:49 /app/lib/firefox/firefox-bin -contentproc -childID 206 -isForBrowser -prefsLen 11553 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    122596    6521  1 Mar28 ?        00:25:04 /app/lib/firefox/firefox-bin -contentproc -childID 207 -isForBrowser -prefsLen 11553 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    123399    6521  0 Mar28 ?        00:03:11 /app/lib/firefox/firefox-bin -contentproc -childID 208 -isForBrowser -prefsLen 11635 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    124111    6521  1 Mar28 ?        00:21:04 /app/lib/firefox/firefox-bin -contentproc -childID 211 -isForBrowser -prefsLen 11761 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    124155    6521  0 Mar28 ?        00:00:51 /app/lib/firefox/firefox-bin -contentproc -childID 212 -isForBrowser -prefsLen 11761 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    124495    3272  0 Mar28 ?        00:00:01 evince /home/charmi/Documents/Stiller/Bottom Surgery Ready Checklist.pdf
+charmi    124502    3272  0 Mar28 ?        00:00:00 /usr/libexec/evinced
+charmi    124602    6521  0 Mar28 ?        00:00:31 /app/lib/firefox/firefox-bin -contentproc -childID 214 -isForBrowser -prefsLen 11789 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    125058    6521  0 Mar28 ?        00:00:30 /app/lib/firefox/firefox-bin -contentproc -childID 216 -isForBrowser -prefsLen 11789 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    125232    6521  0 Mar28 ?        00:09:12 /app/lib/firefox/firefox-bin -contentproc -childID 217 -isForBrowser -prefsLen 11788 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    125342    6521  0 Mar28 ?        00:11:51 /app/lib/firefox/firefox-bin -contentproc -childID 219 -isForBrowser -prefsLen 11817 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    125556    6521  0 Mar28 ?        00:00:32 /app/lib/firefox/firefox-bin -contentproc -childID 221 -isForBrowser -prefsLen 11873 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    125558    6521  0 Mar28 ?        00:00:33 /app/lib/firefox/firefox-bin -contentproc -childID 222 -isForBrowser -prefsLen 11873 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      127366       2  0 Mar28 ?        00:00:02 [kworker/0:1-mm_percpu_wq]
+charmi    129557    6521  0 Mar28 ?        00:08:10 /app/lib/firefox/firefox-bin -contentproc -childID 228 -isForBrowser -prefsLen 11900 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    129559    6521  0 Mar28 ?        00:00:29 /app/lib/firefox/firefox-bin -contentproc -childID 229 -isForBrowser -prefsLen 11900 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    129751    6521  0 Mar28 ?        00:00:28 /app/lib/firefox/firefox-bin -contentproc -childID 231 -isForBrowser -prefsLen 11995 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    130363    6521  0 Mar28 ?        00:00:03 /app/lib/firefox/firefox-bin -contentproc -childID 232 -isForBrowser -prefsLen 12044 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    130497    4236  0 Mar28 ?        00:03:00 /snap/spotify/58/usr/share/spotify/spotify
+charmi    130654  130497  0 Mar28 ?        00:00:00 /snap/spotify/58/usr/share/spotify/spotify --type=zygote --no-zygote-sandbox --no-sandbox --log-severity=disable --user-agent-product=Chrome/98.0.4758.102 Spotify/1.1.80.699 --lang=en --user-data-dir=/home/charmi/snap/spotify/58/.config/spotify/User Data --log-file=/snap/spotify/58/usr/share/spotify/debug.log
+charmi    130655  130497  0 Mar28 ?        00:00:00 /snap/spotify/58/usr/share/spotify/spotify --type=zygote --no-sandbox --log-severity=disable --user-agent-product=Chrome/98.0.4758.102 Spotify/1.1.80.699 --lang=en --user-data-dir=/home/charmi/snap/spotify/58/.config/spotify/User Data --log-file=/snap/spotify/58/usr/share/spotify/debug.log
+charmi    130670  130654  0 Mar28 ?        00:00:00 /snap/spotify/58/usr/share/spotify/spotify --type=gpu-process --no-sandbox --log-severity=disable --user-agent-product=Chrome/98.0.4758.102 Spotify/1.1.80.699 --lang=en --user-data-dir=/home/charmi/snap/spotify/58/.config/spotify/User Data --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --log-file=/snap/spotify/58/usr/share/spotify/debug.log --shared-files --field-trial-handle=0,6206279398295813078,16912667566479588499,131072
+charmi    130679  130655  0 Mar28 ?        00:00:00 /snap/spotify/58/usr/share/spotify/spotify --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --no-sandbox --log-severity=disable --user-agent-product=Chrome/98.0.4758.102 Spotify/1.1.80.699 --lang=en --user-data-dir=/home/charmi/snap/spotify/58/.config/spotify/User Data --log-file=/snap/spotify/58/usr/share/spotify/debug.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,6206279398295813078,16912667566479588499,131072
+charmi    130684  130497  0 Mar28 ?        00:00:10 /snap/spotify/58/usr/share/spotify/spotify --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --log-severity=disable --user-agent-product=Chrome/98.0.4758.102 Spotify/1.1.80.699 --lang=en --user-data-dir=/home/charmi/snap/spotify/58/.config/spotify/User Data --log-file=/snap/spotify/58/usr/share/spotify/debug.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,6206279398295813078,16912667566479588499,131072
+charmi    130750  130655  0 Mar28 ?        00:01:02 /snap/spotify/58/usr/share/spotify/spotify --type=renderer --log-severity=disable --user-agent-product=Chrome/98.0.4758.102 Spotify/1.1.80.699 --disable-spell-checking --user-data-dir=/home/charmi/snap/spotify/58/.config/spotify/User Data --no-sandbox --log-file=/snap/spotify/58/usr/share/spotify/debug.log --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=137407895284 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,6206279398295813078,16912667566479588499,131072
+charmi    131199    6521  0 Mar28 ?        00:01:22 /app/lib/firefox/firefox-bin -contentproc -childID 233 -isForBrowser -prefsLen 12095 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    133466    4236  0 Mar28 ?        00:00:00 bwrap --args 40 /app/dbeaver/dbeaver
+charmi    133474    3272  0 Mar28 ?        00:00:00 bwrap --args 38 xdg-dbus-proxy --args=43
+charmi    133475  133474  0 Mar28 ?        00:00:01 xdg-dbus-proxy --args=43
+charmi    133478  133466  0 Mar28 ?        00:00:00 bwrap --args 40 /app/dbeaver/dbeaver
+charmi    133479  133478  0 Mar28 ?        00:00:00 /app/dbeaver/dbeaver
+charmi    133501  133479  1 Mar28 ?        00:12:09 /app/dbeaver/jre/bin/java -XX:+IgnoreUnrecognizedVMOptions --add-modules=ALL-SYSTEM -Dosgi.requiredJavaVersion=11 -Xms64m -Xmx1024m -jar /app/dbeaver//plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -os linux -ws gtk -arch x86_64 -showsplash -launcher /app/dbeaver/dbeaver -name Dbeaver --launcher.library /app/dbeaver//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.2.400.v20211117-0650/eclipse_11600.so -startup /app/dbeaver//plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar --launcher.overrideVmargs -exitdata 168007 -vm /app/dbeaver/jre/bin/java -vmargs -XX:+IgnoreUnrecognizedVMOptions --add-modules=ALL-SYSTEM -Dosgi.requiredJavaVersion=11 -Xms64m -Xmx1024m -jar /app/dbeaver//plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar
+postgres  133686    2376  0 Mar28 ?        00:00:00 postgres: 13/main: postgres postgres 127.0.0.1(39704) idle
+postgres  133688    2376  0 Mar28 ?        00:00:00 postgres: 13/main: postgres postgres 127.0.0.1(39708) idle
+charmi    134014   78518  0 Mar28 ?        00:00:34 /usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 10598 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi    134137   78518  0 Mar28 ?        00:00:41 /usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 10598 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi    134338   78518  0 Mar28 ?        00:00:39 /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 10598 -prefMapSize 261452 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 78518 true tab
+charmi    134454    5549  0 Mar28 pts/5    00:00:00 bash
+charmi    134487    4236  0 Mar28 ?        00:02:33 /snap/discord/132/usr/share/discord/Discord --no-sandbox
+charmi    134578  134487  0 Mar28 ?        00:00:00 /snap/discord/132/usr/share/discord/Discord --type=zygote --no-zygote-sandbox --no-sandbox
+charmi    134579  134487  0 Mar28 ?        00:00:00 /snap/discord/132/usr/share/discord/Discord --type=zygote --no-sandbox
+charmi    134605  134578  0 Mar28 ?        00:06:35 /snap/discord/132/usr/share/discord/Discord --type=gpu-process --field-trial-handle=18204792949954311276,6308417055616935612,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --no-sandbox --enable-crash-reporter=e8e30bb3-a561-42a0-a9ed-74cf802d4b73,no_channel --global-crash-keys=e8e30bb3-a561-42a0-a9ed-74cf802d4b73,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+charmi    134614  134487  0 Mar28 ?        00:00:12 /snap/discord/132/usr/share/discord/Discord --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=18204792949954311276,6308417055616935612,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=e8e30bb3-a561-42a0-a9ed-74cf802d4b73,no_channel --global-crash-keys=e8e30bb3-a561-42a0-a9ed-74cf802d4b73,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --shared-files=v8_context_snapshot_data:100
+charmi    134685  134487  1 Mar28 ?        00:16:16 /snap/discord/132/usr/share/discord/Discord --type=renderer --no-sandbox --autoplay-policy=no-user-gesture-required --field-trial-handle=18204792949954311276,6308417055616935612,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --enable-crash-reporter=e8e30bb3-a561-42a0-a9ed-74cf802d4b73,no_channel --global-crash-keys=e8e30bb3-a561-42a0-a9ed-74cf802d4b73,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --app-path=/snap/discord/132/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --enable-node-leakage-in-renderers
+charmi    134744  134487  0 Mar28 ?        00:00:00 /snap/discord/132/usr/share/discord/Discord --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=18204792949954311276,6308417055616935612,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=e8e30bb3-a561-42a0-a9ed-74cf802d4b73,no_channel --global-crash-keys=e8e30bb3-a561-42a0-a9ed-74cf802d4b73,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.17 --shared-files=v8_context_snapshot_data:100
+root      136280       2  0 Mar28 ?        00:00:00 [kworker/u65:2-rb_allocator]
+charmi    142383    5556  0 Mar28 pts/0    00:00:04 ./nanominer
+charmi    142385  142383  3 Mar28 pts/0    00:32:09 ./nanominer restarts_count 0
+root      142398       2  0 Mar28 ?        00:00:00 [UVM GPU1 BH]
+root      142399       2  0 Mar28 ?        00:00:00 [UVM GPU1 KC]
+charmi    145072    6521  0 Mar28 ?        00:00:25 /app/lib/firefox/firefox-bin -contentproc -childID 250 -isForBrowser -prefsLen 11845 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    147401    6521  3 Mar28 ?        00:27:52 /app/lib/firefox/firefox-bin -contentproc -childID 251 -isForBrowser -prefsLen 12038 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    147569    6521  0 Mar28 ?        00:04:05 /app/lib/firefox/firefox-bin -contentproc -childID 254 -isForBrowser -prefsLen 12039 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    152777    6521  0 Mar28 ?        00:00:17 /app/lib/firefox/firefox-bin -contentproc -childID 260 -isForBrowser -prefsLen 12075 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    152778    6521  0 Mar28 ?        00:00:16 /app/lib/firefox/firefox-bin -contentproc -childID 261 -isForBrowser -prefsLen 12075 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    152787    6521  0 Mar28 ?        00:00:19 /app/lib/firefox/firefox-bin -contentproc -childID 262 -isForBrowser -prefsLen 12075 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    152929    6521  0 Mar28 ?        00:00:17 /app/lib/firefox/firefox-bin -contentproc -childID 263 -isForBrowser -prefsLen 12183 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    153015    6521  0 Mar28 ?        00:00:17 /app/lib/firefox/firefox-bin -contentproc -childID 264 -isForBrowser -prefsLen 12235 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    153085    6521  0 Mar28 ?        00:00:20 /app/lib/firefox/firefox-bin -contentproc -childID 265 -isForBrowser -prefsLen 12263 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    154410    6521  0 Mar28 ?        00:00:17 /app/lib/firefox/firefox-bin -contentproc -childID 268 -isForBrowser -prefsLen 12326 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    154889    6521  0 Mar28 ?        00:00:26 /app/lib/firefox/firefox-bin -contentproc -childID 269 -isForBrowser -prefsLen 12302 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    156834    6521  0 Mar28 ?        00:00:57 /app/lib/firefox/firefox-bin -contentproc -childID 273 -isForBrowser -prefsLen 12255 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    156843    6521  0 Mar28 ?        00:00:25 /app/lib/firefox/firefox-bin -contentproc -childID 274 -isForBrowser -prefsLen 12255 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    156895    6521  0 Mar28 ?        00:00:43 /app/lib/firefox/firefox-bin -contentproc -childID 275 -isForBrowser -prefsLen 12255 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    156977    6521  0 Mar28 ?        00:00:26 /app/lib/firefox/firefox-bin -contentproc -childID 276 -isForBrowser -prefsLen 12255 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    156984    6521  0 Mar28 ?        00:00:20 /app/lib/firefox/firefox-bin -contentproc -childID 277 -isForBrowser -prefsLen 12255 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    156985    6521  0 Mar28 ?        00:01:29 /app/lib/firefox/firefox-bin -contentproc -childID 278 -isForBrowser -prefsLen 12255 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      157232       2  0 Mar28 ?        00:00:00 [kworker/19:0-mm_percpu_wq]
+root      157428       2  0 Mar28 ?        00:00:00 [kworker/21:0-mm_percpu_wq]
+root      157496       2  0 Mar28 ?        00:00:00 [kworker/28:1-events]
+charmi    157907    6521  0 Mar28 ?        00:00:02 /app/lib/firefox/firefox-bin -contentproc -childID 281 -isForBrowser -prefsLen 12367 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    157960    6521  0 Mar28 ?        00:01:56 /app/lib/firefox/firefox-bin -contentproc -childID 283 -isForBrowser -prefsLen 12367 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    158007    6521  0 Mar28 ?        00:00:16 /app/lib/firefox/firefox-bin -contentproc -childID 284 -isForBrowser -prefsLen 12367 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    158094    6521  0 Mar28 ?        00:00:19 /app/lib/firefox/firefox-bin -contentproc -childID 285 -isForBrowser -prefsLen 12367 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    158100    6521  0 Mar28 ?        00:01:07 /app/lib/firefox/firefox-bin -contentproc -childID 286 -isForBrowser -prefsLen 12367 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      158175       2  0 Mar28 ?        00:00:00 [kworker/17:1-rcu_par_gp]
+charmi    158313    6521  0 Mar28 ?        00:00:35 /app/lib/firefox/firefox-bin -contentproc -childID 287 -isForBrowser -prefsLen 12395 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    158540    6521  0 Mar28 ?        00:01:32 /app/lib/firefox/firefox-bin -contentproc -childID 288 -isForBrowser -prefsLen 12423 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    159038    6521  0 Mar28 ?        00:01:07 /app/lib/firefox/firefox-bin -contentproc -childID 289 -isForBrowser -prefsLen 12423 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    159813    6521  0 Mar28 ?        00:00:15 /app/lib/firefox/firefox-bin -contentproc -childID 290 -isForBrowser -prefsLen 12272 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    159861    6521  0 Mar28 ?        00:00:15 /app/lib/firefox/firefox-bin -contentproc -childID 291 -isForBrowser -prefsLen 12273 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    159934    6521  0 Mar28 ?        00:01:15 /app/lib/firefox/firefox-bin -contentproc -childID 292 -isForBrowser -prefsLen 12273 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      160080       2  0 Mar28 ?        00:00:00 [kworker/7:2-rcu_par_gp]
+charmi    160159    6521  0 Mar28 ?        00:00:24 /app/lib/firefox/firefox-bin -contentproc -childID 293 -isForBrowser -prefsLen 12161 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      160759       2  0 Mar28 ?        00:00:00 [kworker/13:0-mm_percpu_wq]
+charmi    161147    6521  0 Mar28 ?        00:00:23 /app/lib/firefox/firefox-bin -contentproc -childID 294 -isForBrowser -prefsLen 12325 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    161271    6521  0 Mar28 ?        00:00:14 /app/lib/firefox/firefox-bin -contentproc -childID 295 -isForBrowser -prefsLen 12353 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    161990    6521  1 Mar28 ?        00:06:12 /app/lib/firefox/firefox-bin -contentproc -childID 296 -isForBrowser -prefsLen 12357 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    163155    6521  0 Mar28 ?        00:00:27 /app/lib/firefox/firefox-bin -contentproc -childID 299 -isForBrowser -prefsLen 12555 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      164079       2  0 00:00 ?        00:00:00 [kworker/4:1-mm_percpu_wq]
+root      164081       2  0 00:00 ?        00:00:00 [kworker/5:1-rcu_par_gp]
+root      164091       1  0 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+root      164094       1  0 00:00 ?        00:00:00 /usr/sbin/cups-browsed
+charmi    166510    6521  0 01:14 ?        00:02:53 /app/lib/firefox/firefox-bin -contentproc -childID 300 -isForBrowser -prefsLen 12114 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      166541       2  0 01:14 ?        00:00:00 [kworker/6:0-mm_percpu_wq]
+charmi    166592    6521  0 01:14 ?        00:02:09 /app/lib/firefox/firefox-bin -contentproc -childID 301 -isForBrowser -prefsLen 12114 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+charmi    166829    6521  0 01:17 ?        00:00:01 /app/lib/firefox/firefox-bin -contentproc -childID 303 -isForBrowser -prefsLen 12165 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      170142       2  0 03:00 ?        00:00:00 [kworker/20:2-events]
+root      170987       2  0 03:28 ?        00:00:00 [kworker/23:1-mm_percpu_wq]
+root      171264       2  0 03:36 ?        00:00:00 [kworker/22:2-mm_percpu_wq]
+root      172131       2  0 04:09 ?        00:00:00 [kworker/30:1-mm_percpu_wq]
+root      172225       2  0 04:13 ?        00:00:00 [kworker/12:0-events]
+root      173310       2  0 04:52 ?        00:00:00 [kworker/11:0-events]
+root      173781       2  0 05:08 ?        00:00:00 [kworker/10:1-events]
+root      174171       2  0 05:23 ?        00:00:00 [kworker/4:2]
+root      174326       2  0 05:29 ?        00:00:00 [kworker/25:1-mm_percpu_wq]
+root      174650       2  0 05:41 ?        00:00:00 [kworker/u64:0-kcryptd/253:0]
+root      175043       2  0 05:56 ?        00:00:00 [kworker/0:2-cgroup_destroy]
+root      175123       2  0 05:59 ?        00:00:00 [kworker/26:1-events]
+root      175236       2  0 06:04 ?        00:00:00 [kworker/3:0-mm_percpu_wq]
+root      175289       2  0 06:06 ?        00:00:00 [kworker/27:0-mm_percpu_wq]
+root      175539       2  0 06:16 ?        00:00:00 [kworker/u64:13-kcryptd/253:0]
+root      175548       2  0 06:16 ?        00:00:00 [kworker/6:2]
+root      175640       2  0 06:21 ?        00:00:00 [kworker/9:2-mm_percpu_wq]
+root      175719       2  0 06:23 ?        00:00:00 [kworker/8:1-mm_percpu_wq]
+root      175747       2  0 06:24 ?        00:00:00 [kworker/20:0]
+root      175916       2  0 06:28 ?        00:00:00 [kworker/14:1-mm_percpu_wq]
+root      176047       2  0 06:33 ?        00:00:00 [kworker/24:1-mm_percpu_wq]
+root      176195       2  0 06:39 ?        00:00:00 [kworker/10:0-mm_percpu_wq]
+root      176362       2  0 06:45 ?        00:00:00 [kworker/22:1]
+root      176375       2  0 06:46 ?        00:00:00 [kworker/19:2]
+root      176661       2  0 06:55 ?        00:00:00 [kworker/u64:1-kcryptd/253:0]
+root      176896       2  0 07:03 ?        00:00:00 [kworker/7:0-mm_percpu_wq]
+charmi    176934    4236  0 07:03 ?        00:00:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:27:2560:1344:1
+root      177013       2  0 07:04 ?        00:00:00 [kworker/5:2-mm_percpu_wq]
+root      177014       2  0 07:04 ?        00:00:00 [kworker/2:1-events]
+charmi    177063    3272  0 07:04 ?        00:00:00 bwrap --args 38 zoom zoommtg://revature.zoom.us/join?action=join&confno=91719400058&confid=dXRpZD1VVElEXzY3YzNkZGE1NDY1NTQ4MjliZDM1ZjVmMjg3YWNkNGE2JnVzcz1abnllMEZXQ3hHeFpHQm9ya3o2eHRzSkhLTW56RVdVN2NTTW5YR1RlMzYzZTBWY3dMdDdLUldvYzJnZ0w5RWdhMkdwYjM0NXdXREJZRXVUV2JMNUpUamJDNlI3dWRnLjB6bzZaVlpHQjU2ZDgzX00mdGlkPWU5YzBjNTJmZDZhMTRhYWZiYmQ5Njg3NjBlMjU5Yzg4&browser=firefox
+charmi    177071    3272  0 07:04 ?        00:00:00 bwrap --args 38 xdg-dbus-proxy --args=41
+charmi    177072  177071  0 07:04 ?        00:00:00 xdg-dbus-proxy --args=41
+root      177073       2  0 07:04 ?        00:00:00 [kworker/17:0-mm_percpu_wq]
+root      177074       2  0 07:04 ?        00:00:00 [kworker/18:1-mm_percpu_wq]
+charmi    177076  177063  0 07:04 ?        00:00:00 bwrap --args 38 zoom zoommtg://revature.zoom.us/join?action=join&confno=91719400058&confid=dXRpZD1VVElEXzY3YzNkZGE1NDY1NTQ4MjliZDM1ZjVmMjg3YWNkNGE2JnVzcz1abnllMEZXQ3hHeFpHQm9ya3o2eHRzSkhLTW56RVdVN2NTTW5YR1RlMzYzZTBWY3dMdDdLUldvYzJnZ0w5RWdhMkdwYjM0NXdXREJZRXVUV2JMNUpUamJDNlI3dWRnLjB6bzZaVlpHQjU2ZDgzX00mdGlkPWU5YzBjNTJmZDZhMTRhYWZiYmQ5Njg3NjBlMjU5Yzg4&browser=firefox
+charmi    177077  177076  0 07:04 ?        00:00:00 /app/extra/zoom/ZoomLauncher zoommtg://revature.zoom.us/join?action=join&confno=91719400058&confid=dXRpZD1VVElEXzY3YzNkZGE1NDY1NTQ4MjliZDM1ZjVmMjg3YWNkNGE2JnVzcz1abnllMEZXQ3hHeFpHQm9ya3o2eHRzSkhLTW56RVdVN2NTTW5YR1RlMzYzZTBWY3dMdDdLUldvYzJnZ0w5RWdhMkdwYjM0NXdXREJZRXVUV2JMNUpUamJDNlI3dWRnLjB6bzZaVlpHQjU2ZDgzX00mdGlkPWU5YzBjNTJmZDZhMTRhYWZiYmQ5Njg3NjBlMjU5Yzg4&browser=firefox
+charmi    177078  177077 16 07:04 ?        00:08:23 /app/extra/zoom/zoom zoommtg://revature.zoom.us/join?action=join&confno=91719400058&confid=dXRpZD1VVElEXzY3YzNkZGE1NDY1NTQ4MjliZDM1ZjVmMjg3YWNkNGE2JnVzcz1abnllMEZXQ3hHeFpHQm9ya3o2eHRzSkhLTW56RVdVN2NTTW5YR1RlMzYzZTBWY3dMdDdLUldvYzJnZ0w5RWdhMkdwYjM0NXdXREJZRXVUV2JMNUpUamJDNlI3dWRnLjB6bzZaVlpHQjU2ZDgzX00mdGlkPWU5YzBjNTJmZDZhMTRhYWZiYmQ5Njg3NjBlMjU5Yzg4&browser=firefox
+root      177377       2  0 07:06 ?        00:00:00 [kworker/27:1]
+charmi    177672    6521  0 07:10 ?        00:00:02 /app/lib/firefox/firefox-bin -contentproc -childID 304 -isForBrowser -prefsLen 12096 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      177700       2  0 07:10 ?        00:00:00 [kworker/u64:11-kcryptd/253:0]
+charmi    177747    6521  0 07:10 ?        00:00:00 /app/lib/firefox/firefox-bin -contentproc -childID 305 -isForBrowser -prefsLen 12096 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      177828       2  0 07:12 ?        00:00:00 [kworker/3:1-cgroup_destroy]
+root      178086       2  0 07:20 ?        00:00:00 [kworker/26:0]
+root      178165       2  0 07:22 ?        00:00:00 [kworker/16:0-mm_percpu_wq]
+root      178193       2  0 07:23 ?        00:00:00 [kworker/u64:2-kcryptd/253:0]
+root      178199       2  0 07:23 ?        00:00:00 [kworker/u64:6-kcryptd/253:0]
+root      178346       2  0 07:27 ?        00:00:00 [kworker/12:1]
+root      178468       2  0 07:30 ?        00:00:00 [kworker/29:1-kdmflush]
+root      178482       2  0 07:31 ?        00:00:00 [kworker/u64:8-kcryptd/253:0]
+root      178558       2  0 07:32 ?        00:00:00 [kworker/9:1-mm_percpu_wq]
+root      178585       2  0 07:32 ?        00:00:00 [kworker/11:1-cgroup_destroy]
+root      178621       2  0 07:33 ?        00:00:00 [kworker/16:2]
+root      178641       2  0 07:33 ?        00:00:00 [kworker/23:2-cgroup_destroy]
+root      178646       2  0 07:34 ?        00:00:00 [kworker/25:0-events]
+root      178758       2  0 07:36 ?        00:00:00 [kworker/24:2-events]
+root      178768       2  0 07:36 ?        00:00:00 [kworker/14:0-cgroup_destroy]
+root      178788       2  0 07:37 ?        00:00:00 [kworker/13:1-events]
+root      178810       2  0 07:37 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+root      178811       2  0 07:37 ?        00:00:00 [kworker/u64:4-kcryptd/253:0]
+root      178850       2  0 07:39 ?        00:00:00 [kworker/u64:9-kcryptd/253:0]
+root      178851       2  0 07:39 ?        00:00:00 [kworker/u64:10-kcryptd/253:0]
+root      178853       2  0 07:39 ?        00:00:00 [kworker/u64:15-kcryptd/253:0]
+root      178854       2  0 07:39 ?        00:00:00 [kworker/u64:16-kcryptd/253:0]
+root      178855       2  0 07:39 ?        00:00:00 [kworker/u64:17-kcryptd/253:0]
+root      178866       2  0 07:39 ?        00:00:00 [kworker/15:2-mm_percpu_wq]
+root      178900       2  0 07:40 ?        00:00:00 [kworker/18:0]
+root      178904       2  0 07:40 ?        00:00:00 [kworker/21:1-mm_percpu_wq]
+root      179016       2  0 07:43 ?        00:00:00 [kworker/31:2-events]
+root      179017       2  0 07:43 ?        00:00:00 [kworker/2:2-mm_percpu_wq]
+root      179031       2  0 07:43 ?        00:00:00 [kworker/28:0-mm_percpu_wq]
+root      179075       2  0 07:44 ?        00:00:00 [kworker/u64:18-kcryptd/253:0]
+charmi    179101    6521  0 07:44 ?        00:00:00 /app/lib/firefox/firefox-bin -contentproc -childID 306 -isForBrowser -prefsLen 12068 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      179144       2  0 07:45 ?        00:00:00 [kworker/1:1-mm_percpu_wq]
+root      179185       2  0 07:45 ?        00:00:00 [kworker/29:0-cgroup_destroy]
+root      179190       2  0 07:45 ?        00:00:00 [kworker/15:0-mm_percpu_wq]
+root      179246       2  0 07:46 ?        00:00:00 [kworker/8:0-events]
+root      179312       2  0 07:48 ?        00:00:00 [kworker/31:1-events]
+root      179321       2  0 07:48 ?        00:00:00 [kworker/30:2-cgroup_destroy]
+root      179361       2  0 07:49 ?        00:00:00 [kworker/2:0-events]
+charmi    179399    6521  0 07:49 ?        00:00:00 /app/lib/firefox/firefox-bin -contentproc -childID 307 -isForBrowser -prefsLen 12142 -prefMapSize 257576 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /app/lib/firefox/browser 2 true tab
+root      179466       2  0 07:50 ?        00:00:00 [kworker/9:0-mld]
+root      179485       2  0 07:50 ?        00:00:00 [kworker/13:2]
+root      179508       2  0 07:51 ?        00:00:00 [kworker/15:1-events]
+root      179522       2  0 07:51 ?        00:00:00 [kworker/11:2-cgroup_destroy]
+root      179535       2  0 07:52 ?        00:00:00 [kworker/8:2-events]
+root      179559       2  0 07:52 ?        00:00:00 [kworker/3:2-cgroup_destroy]
+root      179568       2  0 07:53 ?        00:00:00 [kworker/28:2]
+root      179578       2  0 07:53 ?        00:00:00 [kworker/1:2]
+root      179579       2  0 07:53 ?        00:00:00 [kworker/31:0-events]
+root      179596       2  0 07:53 ?        00:00:00 [kworker/24:0-events]
+charmi    179597   71386  0 07:54 pts/3    00:00:00 ps -ef
+/dev/mapper/cryptdata: UUID="IfeHtV-3tw7-4ZHx-tHTZ-uX64-RBvo-paZBrN" TYPE="LVM2_member"
+/dev/mapper/data-root: UUID="54b5c68f-c56d-4e30-9cd9-73a620d03ebd" BLOCK_SIZE="4096" TYPE="ext4"
+  *-namespace
+       description: NVMe namespace
+       physical id: 1
+       logical name: /dev/nvme0n1
+       size: 1863GiB (2TB)
+       capabilities: partitioned partitioned:dos
+       configuration: logicalsectorsize=512 sectorsize=512 signature=dd961186
+  *-disk
+       description: SCSI Disk
+       product: External USB 3.0
+       vendor: TOSHIBA
+       physical id: 0.0.0
+       bus info: scsi@2:0.0.0
+       logical name: /dev/sda
+       version: 5438
+       serial: 20201125004435F
+       size: 3726GiB (4TB)
+       capabilities: gpt-1.00 partitioned partitioned:gpt
+       configuration: ansiversion=6 guid=cbb934e3-3740-4911-8e5b-eda823d549c5 logicalsectorsize=512 sectorsize=4096

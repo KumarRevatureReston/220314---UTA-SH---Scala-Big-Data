@@ -1,0 +1,347 @@
+Welcome to S2CC2DB
+Here is the Current CSV file being used for this program:
+_____________________________
+List(ID,Address,City,State,Country,Name,Employees, 1,3666 21st St,San Francisco,CA 94114,USA,Madeira,8, 2,735 Dolores St,San Francisco,CA 94119,USA,Bready Shop,15, 3,332 Hill St,San Francisco,California 94114,USA,Super River,25, 4,3995 23rd St,San Francisco,CA 94114,USA,Ben's Shop,10, 5,1056 Sanchez St,San Francisco,California,USA,Sanchez,12, 6,551 Alvarado St,San Francisco,CA 94114,USA,Richvalley,20, 7,868 Bevel Dr,Houston,TX 77001,USA,Great Grocer's,15, 8,421 Mary's St,Houston,TX 77001,USA,Lil Lamb's Butcher,10, 9,595 Crestfall Dr,Houston,TX 77001,USA,Dustin's Salad Prep,11, 10,767 76th St,Houston,TX 77001,USA,Sam's Gormet Hams,3)
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+would you like to see the created blank table? Y or N:
+y
+This is just a gag, the return for the function to create the table is UNIT
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+would you like to see the table with the CSV file inserted? Y or N:
+y
+Would you like the table presented in ASC or DESC order? ASC or DESC:
+asc
+____________________________________________________
+   1
+   3666 21st St
+   San Francisco
+   CA 94114
+   USA
+   Madeira
+   8
+____________________________________________________
+   2
+   735 Dolores St
+   San Francisco
+   CA 94119
+   USA
+   Bready Shop
+   15
+____________________________________________________
+   3
+   332 Hill St
+   San Francisco
+   California 94114
+   USA
+   Super River
+   25
+____________________________________________________
+   4
+   3995 23rd St
+   San Francisco
+   CA 94114
+   USA
+   Ben's Shop
+   10
+____________________________________________________
+   5
+   1056 Sanchez St
+   San Francisco
+   California
+   USA
+   Sanchez
+   12
+____________________________________________________
+   6
+   551 Alvarado St
+   San Francisco
+   CA 94114
+   USA
+   Richvalley
+   20
+____________________________________________________
+   7
+   868 Bevel Dr
+   Houston
+   TX 77001
+   USA
+   Great Grocer's
+   15
+____________________________________________________
+   8
+   421 Mary's St
+   Houston
+   TX 77001
+   USA
+   Lil Lamb's Butcher
+   10
+____________________________________________________
+   9
+   595 Crestfall Dr
+   Houston
+   TX 77001
+   USA
+   Dustin's Salad Prep
+   11
+____________________________________________________
+   10
+   767 76th St
+   Houston
+   TX 77001
+   USA
+   Sam's Gormet Hams
+   3
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+would you like to ensure the csv was inserted into the database? This will insert the contents of the file once more. Y or N:
+y
+Okay we will now display what your database looks like currently.
+____________________________________________________
+   1
+   3666 21st St
+   San Francisco
+   CA 94114
+   USA
+   Madeira
+   8
+____________________________________________________
+   1
+   3666 21st St
+   San Francisco
+   CA 94114
+   USA
+   Madeira
+   8
+____________________________________________________
+   2
+   735 Dolores St
+   San Francisco
+   CA 94119
+   USA
+   Bready Shop
+   15
+____________________________________________________
+   2
+   735 Dolores St
+   San Francisco
+   CA 94119
+   USA
+   Bready Shop
+   15
+____________________________________________________
+   3
+   332 Hill St
+   San Francisco
+   California 94114
+   USA
+   Super River
+   25
+____________________________________________________
+   3
+   332 Hill St
+   San Francisco
+   California 94114
+   USA
+   Super River
+   25
+____________________________________________________
+   4
+   3995 23rd St
+   San Francisco
+   CA 94114
+   USA
+   Ben's Shop
+   10
+____________________________________________________
+   4
+   3995 23rd St
+   San Francisco
+   CA 94114
+   USA
+   Ben's Shop
+   10
+____________________________________________________
+   5
+   1056 Sanchez St
+   San Francisco
+   California
+   USA
+   Sanchez
+   12
+____________________________________________________
+   5
+   1056 Sanchez St
+   San Francisco
+   California
+   USA
+   Sanchez
+   12
+____________________________________________________
+   6
+   551 Alvarado St
+   San Francisco
+   CA 94114
+   USA
+   Richvalley
+   20
+____________________________________________________
+   6
+   551 Alvarado St
+   San Francisco
+   CA 94114
+   USA
+   Richvalley
+   20
+____________________________________________________
+   7
+   868 Bevel Dr
+   Houston
+   TX 77001
+   USA
+   Great Grocer's
+   15
+____________________________________________________
+   7
+   868 Bevel Dr
+   Houston
+   TX 77001
+   USA
+   Great Grocer's
+   15
+____________________________________________________
+   8
+   421 Mary's St
+   Houston
+   TX 77001
+   USA
+   Lil Lamb's Butcher
+   10
+____________________________________________________
+   8
+   421 Mary's St
+   Houston
+   TX 77001
+   USA
+   Lil Lamb's Butcher
+   10
+____________________________________________________
+   9
+   595 Crestfall Dr
+   Houston
+   TX 77001
+   USA
+   Dustin's Salad Prep
+   11
+____________________________________________________
+   9
+   595 Crestfall Dr
+   Houston
+   TX 77001
+   USA
+   Dustin's Salad Prep
+   11
+____________________________________________________
+   10
+   767 76th St
+   Houston
+   TX 77001
+   USA
+   Sam's Gormet Hams
+   3
+____________________________________________________
+   10
+   767 76th St
+   Houston
+   TX 77001
+   USA
+   Sam's Gormet Hams
+   3
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+would you like to ensure there was no duplicated recordings in your database? Y or N:
+y
+Okay we will now display what your database looks like currently. Would you like it in ASC or DESC order? ASC or DESC:
+asc
+____________________________________________________
+   1
+   3666 21st St
+   San Francisco
+   CA 94114
+   USA
+   Madeira
+   8
+____________________________________________________
+   2
+   735 Dolores St
+   San Francisco
+   CA 94119
+   USA
+   Bready Shop
+   15
+____________________________________________________
+   3
+   332 Hill St
+   San Francisco
+   California 94114
+   USA
+   Super River
+   25
+____________________________________________________
+   4
+   3995 23rd St
+   San Francisco
+   CA 94114
+   USA
+   Ben's Shop
+   10
+____________________________________________________
+   5
+   1056 Sanchez St
+   San Francisco
+   California
+   USA
+   Sanchez
+   12
+____________________________________________________
+   6
+   551 Alvarado St
+   San Francisco
+   CA 94114
+   USA
+   Richvalley
+   20
+____________________________________________________
+   7
+   868 Bevel Dr
+   Houston
+   TX 77001
+   USA
+   Great Grocer's
+   15
+____________________________________________________
+   8
+   421 Mary's St
+   Houston
+   TX 77001
+   USA
+   Lil Lamb's Butcher
+   10
+____________________________________________________
+   9
+   595 Crestfall Dr
+   Houston
+   TX 77001
+   USA
+   Dustin's Salad Prep
+   11
+____________________________________________________
+   10
+   767 76th St
+   Houston
+   TX 77001
+   USA
+   Sam's Gormet Hams
+   3
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+This concludes implementing your file into an database via the Scala and Postsql languages.
+[success] Total time: 53 s, completed Mar 29, 2022, 8:38:48 PM
+sbt:Project0-myEnviornment>
