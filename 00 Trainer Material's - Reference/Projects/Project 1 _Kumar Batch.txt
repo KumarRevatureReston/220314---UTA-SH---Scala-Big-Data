@@ -1,0 +1,23 @@
+Topic: Analyze MovieLens data
+Dataset: http://grouplens.org/datasets/
+	Use the ml-100k.zip file dataset.
+
+Problem Statement:
+Import csv data about movies and their ratings into HDFS, then create tables from the imported files in Hive.
+Once imported, create queries to analyze and display data about the movies and their ratings. 
+
+Example Queries to analyze:
+1.Display first 5 entries from movies table
+2.Count number of unique movies
+3.Which movie received the highest number of ratings
+4.Top 25 most rated movies etc.
+
+Step 1: Verify the Dataset [https://grouplens.org/datasets/movielens/]
+Step 2: Load Data into HDFS [https://cloudxlab.com/assessment/displayslide/326/hive-movielens-assignment]
+Step 3: Create tables in Apache Hive
+Step 4: Load data into Hive table
+Step 5: Query to analyze and display the result [https://github.com/Crone1/Pig-and-Hive-MovieLens-Analysis/blob/main/Hive_movieLens_analysis.hive]
+
+Ref: https://www.youtube.com/watch?v=4tW9HY0Q460
+https://towardsdatascience.com/getting-started-with-hive-ad8a93862f1a
+
