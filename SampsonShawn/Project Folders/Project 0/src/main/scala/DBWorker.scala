@@ -16,12 +16,11 @@ object DBWorker extends UserSettings{
       val statement: Statement = connection.createStatement()
 
       // CLI Interface
+      //println(!args.isEmpty)
 
-      println(args(0) + " "+ args(1))
-
-      if (args(0).toUpperCase != "COPY") {
+      if ( !args.isEmpty && args(0).toUpperCase != "COPY") {
           database(args(0), args(1))
-      }else{
+      }else if ( !args.isEmpty ){
           database(args(0), args(1), args(2))
         }
 
@@ -64,6 +63,9 @@ object DBWorker extends UserSettings{
 
       //11. Delete second table
       //database("sqle", "DROP TABLE test_table")
+
+      //12. Find airport based on location
+      //database("sqlq", "select name from airports where (type = 'small_airport') and (latitude_deg between 31 and 34) and (longitude_deg between -98 and -96 )")
 
 
 
