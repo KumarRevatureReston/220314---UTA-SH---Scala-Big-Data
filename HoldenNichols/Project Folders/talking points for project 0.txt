@@ -1,0 +1,49 @@
+Utilized JDBC, java database connectivity to have a connection between Postgre Sql and Scala
+
+All of my sql commands are called via 2 methods. One method has UNIT return type, this method is
+predominantly used for the majority of my sql commands for anything related to updating/modifying the table.
+The 2nd method I use for SQL commands returns ANY return type. This method is used for my SELECT statments
+within my main function, since when I call forth a SELECT I will want a visible return to see the data.
+
+My code begins with a simple greeting in the terminal and displays a printed list of the current csv file in use. It then prompts
+for user input if they would like to see the created blank table for the file to be placed on. I utilized match and case functions
+here to evaluate the user's input, and had match and case funtions throughout my project, with a few having sub match functions within another.
+
+I used a realatively small csv file for this project with fictional data regarding grocery stores, and relevent data to the specific store.
+The queries I preformed where not that intensive as they are just Select all statments with an order by statment attached for asc or desc order.
+
+The issue when it came to modifying my created database was interesting when it came to deleting duplicate entries. Normally a table
+contains a key value, which allows for easy organization of data within the table and ensuring a unique value to each row. My table does not
+have a key value within the table, though for future table creations with this data the ID column would fulfill that role. As a result of
+not having a key value to use as a tool to identify duplicate data I had to rely on the ctid in the table. The ctid is a unique temporary id for each
+row in the table and the ctid is dependent upon the location within the table, essentialy an item pointer. The ctid is good to be used as a momentary tool
+however in the long run it is not great to rely upon since the ctid changes for a row each time the table is updated.
+
+In summary, my application converts a CSV file into a PostgresSQL database using postgres commands through Scala. The terminal provides a few prompts for the user
+to see if they would like to view the database between certain steps. These steps being after the csv is intially added, after the csv is added a 2nd time if
+the user wishes to add once more, and then shows the table one final time after the user stated to delete duplicate entries or not.
+
+
+
+Queries used -
+
+Select * FROM foodstores2 ORDER BY ID ASC
+
+Select * FROM foodstores2 ORDER BY ID DESC
+
+DELETE FROM foodstores2 a USING foodstores2 b WHERE a=b and a.ctid < b.ctid
+
+Copy foodstores2 (ID, Address, City, State, Country, Name, Employees) FROM 'C:/Users/Holden/Downloads/supermarkets/supermarkets.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE IF NOT EXISTS foodstores2(ID int,Address varchar(50), City varchar(20),State varchar(50),Country varchar(20),Name varchar(30),Employees int);
+
+
+Queries created but not used -
+
+ALTER TABLE foodstores1 DROP COLUMN ID;
+ALTER TABLE foodstores1 DROP COLUMN Address
+ALTER TABLE foodstores1 DROP COLUMN City
+ALTER TABLE foodstores1 DROP COLUMN State
+ALTER TABLE foodstores1 DROP COLUMN Country
+ALTER TABLE foodstores1 DROP COLUMN Name
+ALTER TABLE foodstores1 DROP COLUMN Employees
