@@ -1,0 +1,92 @@
+CREATE STATEMENT EXAMPLE
+CREATE TABLE IF NOT EXISTS airports (
+                                      id int, 
+                                      ident text, 
+                                      type text, 
+                                      name text, 
+                                      latitude_deg double precision, 
+                                      longitude_deg double precision,
+                                      elevation_ft int, 
+                                      continent text, 
+                                      iso_country text, 
+                                      iso_region text, 
+                                      municipality text,
+                                      scheduled_service text, 
+                                      gps_code text, 
+                                      iata_code text, 
+                                      local_code text, 
+                                      home_link text, 
+                                      wikipedia_link text, 
+                                      keywords text);
+
+Insert INTO airports (
+                      id, 
+                      ident, 
+                      type, 
+                      name, 
+                      latitude_deg, 
+                      longitude_deg, 
+                      elevation_ft, 
+                      continent, 
+                      iso_country, 
+                      iso_region, 
+                      municipality, 
+                      scheduled_service, 
+                      gps_code, 
+                      iata_code, 
+                      local_code, 
+                      home_link, 
+                      wikipedia_link, 
+                      keywords) 
+                                VALUES ( 
+                                ${row(0)}, 
+                                ${row(1)}, 
+                                ${row(2)}, 
+                                ${row(3)}, 
+                                ${row(4)}, 
+                                ${row(5)}, 
+                                ${row(6)}, 
+                                ${row(7)}, 
+                                ${row(8)}, 
+                                ${row(9)}, 
+                                ${row(10)}, 
+                                ${row(11)}, 
+                                ${row(12)}, 
+                                ${row(13)}, 
+                                ${row(14)}, 
+                                ${row(15)}, 
+                                ${row(16)}, 
+                                ${row(17)});
+
+READ STATEMENTS EXAMPLES
+SELECT id, name, iso_country, elevation_ft FROM airports WHERE iso_country = 'US' AND elevation_ft <= 50;
+
+SELECT COUNT(*) FROM airports;
+
+SELECT COUNT(*) FROM airports WHERE iso_country = 'US';
+
+SELECT type, COUNT(*) FROM airports WHERE iso_country = 'US' GROUP BY type;
+
+UPDATE STATEMENTS EXAMPLES
+SELECT id, type, name FROM airports WHERE id = 6523;
+
+UPDATE airports SET type = 'airport', name = 'Total Rf Airport' WHERE id = 6523;
+
+SELECT id, type, name FROM airports WHERE id = 6523;
+
+UPDATE airports SET type = 'heliport', name = 'Total Rf Heliport' WHERE id = 6523;
+
+DELETE STATEMENTS EXAMPLES
+INSERT INTO airports (id, type, name) VALUES (99999, 'seaplane port', 'Fair Haven Seaport');
+
+SELECT id, type, name FROM airports WHERE id = 99999;
+
+DELETE FROM airports WHERE id = 99999;
+
+SELECT id, type, name FROM airports WHERE id = 99999;
+
+
+
+
+
+
