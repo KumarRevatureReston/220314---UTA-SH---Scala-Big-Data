@@ -1,0 +1,35 @@
+sbt:smd> ~run
+[info] running airports
+Connecting to database...
+Commands:
+I - Import directory files to database
+IT - Import directory files to database (for testing)
+F - View files in directory
+P - Peek at database table
+R - Read data in database table
+U - Update/Create/Delete data in database
+E - Exit program
+Enter a command:
+f
+airports.csv
+Enter a command:
+---------------------------------------------------------------------------------------
+Type query to read from database
+SELECT * FROM testtable
+List(id               , name             , bunnies          )
+---------------------------------------------------------------------------------------
+List(1                , Matt             , 1                )
+List(2                , John             , 0                )
+List(3                , Madison          , 7                )
+List(4                , Michael          , 2                )
+---------------------------------------------------------------------------------------
+List(List(1                , Matt             , 1                ), List(2                , John             , 0                ), List(3                , Madison          , 7                ), List(4                , Michael       
+   , 2                ))
+Enter a command:
+e
+Goodbye.
+[success] Total time: 246 s (04:06), completed Mar 30, 2022 10:36:43 AM
+[info] 1. Monitoring source files for root/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[info] Received input event: CancelWatch.
+sbt:smd> 

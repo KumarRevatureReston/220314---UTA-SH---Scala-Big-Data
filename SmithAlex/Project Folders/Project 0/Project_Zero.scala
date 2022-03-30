@@ -24,17 +24,14 @@ object Hello_World {
       
       try {
 
-        Console.println("Commands: create, read, update, delete, list, import, exit")
-        Console.println("Enter command:")
+        Console.println("Enter Command: create, read, update, delete, list, import, exit")
 
         val input = scala.io.StdIn.readLine()
         
-        if (input == null || input.isEmpty()) {
-          Console.println("Command not recognized.")
-        }
-        else if (input == "quit" || input == "exit" || input == "stop") { 
-          execute = false
-        }
+        if (input == null || input.isEmpty()) { Console.println("Command not recognized.") }
+        
+        else if (input == "quit" || input == "exit" || input == "stop") { execute = false }
+
         else if (input == "create") {
           Console.println("CREATE -> Enter name for new person:")
           var newPerson = scala.io.StdIn.readLine()
@@ -86,15 +83,12 @@ object Hello_World {
             Console.println("Person deleted.")
           }
         }
-        else if (input == "list") {
-          Db.printPeople()
-        }
-        else if (input == "import") {
-          Db.importPeople()
-        }
-        else {
-          Console.println("Command not recognized.")
-        }    
+        else if (input == "list") { Db.printPeople() }
+
+        else if (input == "import") { Db.importPeople() }
+
+        else { Console.println("Command not recognized.") }
+
       }
       catch {
         case a : Any => Console.println("An error occured. Try again.")
@@ -135,12 +129,15 @@ object Db {
   }
 
   def nextId() : Int = {
+    var results = result("SELECT * FROM people")
+    nextIdValue = 0
+    while (results.next) { nextIdValue += 1 }
     nextIdValue += 1
     return nextIdValue
   }
 
   def printPeople() {
-    printPerson(result("SELECT * FROM people"))
+    printPerson(result("SELECT * FROM people ORDER BY id"))
   }
 
   def printPerson(result: ResultSet) : Unit = {
