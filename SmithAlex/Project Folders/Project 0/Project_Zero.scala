@@ -9,8 +9,6 @@ import java.sql.Connection
 import java.sql.ResultSet
 import java.sql._
 
-//import java.sql._
-
 object Hello_World {
   
   def main(args: scala.Array[String]): Unit = {
@@ -26,12 +24,15 @@ object Hello_World {
       
       try {
 
-        Console.println("Commands: create, read, update, delete, list, quit")
+        Console.println("Commands: create, read, update, delete, list, import, exit")
         Console.println("Enter command:")
 
         val input = scala.io.StdIn.readLine()
         
-        if (input == null || input.isEmpty() || input == "quit" || input == "exit" || input == "stop") { 
+        if (input == null || input.isEmpty()) {
+          Console.println("Command not recognized.")
+        }
+        else if (input == "quit" || input == "exit" || input == "stop") { 
           execute = false
         }
         else if (input == "create") {
@@ -41,7 +42,7 @@ object Hello_World {
             Console.println("Invalid name. Create cancelled.")
           }
           else {
-            Db.query(s"INSERT INTO people (id, name) VALUES (${Db.nextId()}, '${newPerson.replace("'","")}')")
+            Db.query(s"INSERT INTO people (id, name) VALUES (${Db.nextId()}, '${newPerson.replace("'","''")}')")
             Console.println("Person created.")
           }
         }
@@ -69,7 +70,7 @@ object Hello_World {
               Console.println("Invalid name. update cancelled.")
             }
             else {
-              Db.query(s"UPDATE people SET name = '${name.replace("'","")}' WHERE id = $id")
+              Db.query(s"UPDATE people SET name = '${name.replace("'","''")}' WHERE id = $id")
               Console.println("Updated person.")
             }
           }
@@ -88,6 +89,9 @@ object Hello_World {
         else if (input == "list") {
           Db.printPeople()
         }
+        else if (input == "import") {
+          Db.importPeople()
+        }
         else {
           Console.println("Command not recognized.")
         }    
@@ -98,7 +102,7 @@ object Hello_World {
 
     }
 
-    Console.println("Press any key to exit...")
+    Console.println("Application stopped.")
 
   }
 
@@ -113,19 +117,11 @@ object Db {
   def start() : Unit = {
     println("Connecting to database")
     Class.forName("org.postgresql.Driver")
-    connection = DriverManager.getConnection("jdbc:postgresql://localhost:5433/postgres", "postgres", "*Alpha777")
+    connection = DriverManager.getConnection("jdbc:postgresql://localhost:5433/postgres", 
+    "postgres", 
+    "*Alpha777"
+    )
     println("Successfully connected to database")
-    query("DELETE FROM people")
-    println("Importing data from csv")
-    val source = Source.fromFile("MOCK_DATA.csv")
-    for (line <- source.getLines) {
-      val vals = line.split(",")
-      val queryString = "INSERT INTO people (id, name) VALUES (" + vals(0).trim() + ", '" + vals(1).trim() + "')"
-      //println(s"DB: $queryString")
-      query(queryString)
-    }
-    source.close()
-    println("Successfully imported data from csv")
   }
 
   def query(sqlQuery: String) {
@@ -144,15 +140,27 @@ object Db {
   }
 
   def printPeople() {
-    val results = result("SELECT * FROM people")
-    while(results.next()) {
-      println(s"${results.getString(1)} ${results.getString(2)}")
-    }
+    printPerson(result("SELECT * FROM people"))
   }
+
   def printPerson(result: ResultSet) : Unit = {
     while(result.next()) {
       println(s"${result.getString(1)} ${result.getString(2)}")
     }
+  }
+
+  def importPeople() : Unit = {
+    query("DELETE FROM people")
+    println("Importing data from csv")
+    val source = Source.fromFile("MOCK_DATA.csv")
+    for (line <- source.getLines) {
+      val vals = line.split(",")
+      val queryString = "INSERT INTO people (id, name) VALUES (" + vals(0).trim() + ", '" + vals(1).trim() + "')"
+      //println(s"DB: $queryString")
+      query(queryString)
+    }
+    source.close()
+    println("Successfully imported data from csv")
   }
 
 }
