@@ -1,4 +1,5 @@
-Database location: C:/Users/natha/databases/airports2.csv
+Database location: C:/Users/natha/databases/airports4.csv               
+//Will need to change path and password in Scala for others to utilize
 
 Sample fields: id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,scheduled_service,gps_code,iata_code,local_code,home_link,wikipedia_link,keywords
 
@@ -9,6 +10,7 @@ What queries to address: Will be set up to import/reset the original database if
 How to execute: ProjectZero.scala will be imported into VS Code and will be run through the Terminal. After typing Run -> projectZero, the program will prompt the user to provide inputs. Program will use println to indicate what the program is looking for as far as inputs.
 
 How to interpret results: Results will be displayed to the user when possible, println in code will give feedback and updates and database itself can be accessed in PostgreSQL.
+
 
 Query lines for presentation.
 
