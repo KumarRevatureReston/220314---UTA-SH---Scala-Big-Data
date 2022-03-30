@@ -16,29 +16,29 @@ How to interpret results: Results will be displayed to the user when possible, p
 
 Query lines for presentation:
 CREATE
-* id, ident, type, name  		-  	'7777', 'NJNJ', 'closed', 'Nathans Airfeld'   //create new record
+id, ident, type, name  		-  	'7777', 'NJNJ', 'closed', 'Nathans Airfeld'
 
 READ
-* id, ident, type, name		-       WHERE id = '7777'		//see that typo made
+id, ident, type, name		-       WHERE id = '7777'		//see that typo made
 
 UPDATE
-* name = 'Nathans Airfield' WHERE id = '7777'				//fix typo
+name = 'Nathans Airfield' WHERE id = '7777'				//fix typo
 
 READ
-* id, ident, type, name		-       WHERE id = '7777'		//show that typo fixed
-* *				-	WHERE id = '6566'		//introduce new data
+id, ident, type, name		-       WHERE id = '7777'		//show that typo fixed
+.*				-	WHERE id = '6566'		//introduce new data
 
 UPDATE
-* name = 'Big Data Heliport', type = 'heliport' WHERE id = '6566'		//multiple field update
+name = 'Big Data Heliport', type = 'heliport' WHERE id = '6566'		//multiple field update
 
 READ 
-*	*			-	WHERE id = '6566'		//show they changed
+.*				-	WHERE id = '6566'		//show they changed
 
 DELETE
-* iso_region = 'US-TX'							//remove TX records
+iso_region = 'US-TX'							//remove TX records
 
 READ
-*	*			-	WHERE id = '6566'		//show that it is gone
+.*				-	WHERE id = '6566'		//show that it is gone
 
 CREATE
 id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,scheduled_service,gps_code,iata_code,local_code,home_link,wikipedia_link,keywords
@@ -46,5 +46,6 @@ id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country
 '6562','00TA','closed','SW Region FAA Heliport','32.8269','-97.305801','598','NA','US','US-TX','Fort Worth','no','','','','','','00TA'
 
 READ
-*	*			- 	WHERE id = '6562'		//show full data set
+.*				- 	WHERE id = '6562'		//show full data set
+
 ---------
