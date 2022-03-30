@@ -5,3 +5,8 @@ I wasn't able to create a command line interface that worked properly in the tim
 The program should be able to create tables, insert data, read from the PostgreSQL table with constraints, Update table values, and Delete table records.
 
 proof the table uploaded, queries that were processed, and sample outputs will be put in the folder screenshots.
+
+UPDATE since I last posted this project:
+I have create a progam that take in the same data and uploads it to a database. the link to the file can be found above and in the data folder.
+
+I have created a command line interface that takes in basic inputs. The program now creates a new table, flights, within the database and populates it with records created from user input that amount to a flight scheduler. The inputs return the scheduled flights id, origin, longitudes, and latitudes, departure time, journey time, and estimated time of arrival.
