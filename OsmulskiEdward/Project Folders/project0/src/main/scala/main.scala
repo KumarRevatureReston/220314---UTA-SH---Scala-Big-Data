@@ -1,8 +1,8 @@
-import scala.io.Source
-import scala.io.BufferedSource
 import java.sql.DriverManager
 import java.sql.Connection
-
+import scala.io.StdIn.readLine
+import scala.io.StdIn.readInt
+import java.lang.Math._
 
 object Main {
   def main(args: Array[String]): Unit = {
@@ -23,7 +23,7 @@ object Main {
       "continent text, iso_country text, iso_region text, municipality text, scheduled_service text, gps_code text, iata_code text, local_code text, home_link text, " +
       "wikipedia_link text, keywords text);"
     )
-    //var row = File.getRow(0,file) //row 23 has an example of an apostrophe used, row 39 has a comma both screw up the date input, row 2736 has weird formatted word
+    //var row = File.getRow(0,file) //row 23 has an example of an apostrophe used, row 39 has a comma both screw up the data input, row 2736 has weird formatted word
     //row.foreach(arg => println("{_" + arg + "_}"))
 
 
@@ -97,6 +97,84 @@ object Main {
     //PSQL.update("DROP TABLE airports;")
 
 
+    //APPLICATION
+    println("\n\n")
+    println("This is the beginning of the application use of this program\n\n")
+    println("----------Air Travel Planner----------\n")
+    PSQL.update("CREATE TABLE IF NOT EXISTS flights ( id text, origin text, origin_longitude_deg double precision, origin_latitude_deg double precision, time_departure int, destination text, destination_longitude_deg double precision, destination_latitude_deg double precision, estimated_journey_time text, time_arrival int) ")
+
+
+    println("What is this flight's identifier?")
+    var id:String = readLine()
+    id = s""""$id""""
+    id = id.replace("\"","\'")
+    PSQL.update(s"INSERT INTO flights (id) VALUES (${id});")
+
+
+    println("What is the flight's origin?")
+    var origin:String = readLine()
+    println("What is that airport's identifier code?")
+    var ident:String = readLine()
+    var origin_original = origin
+    origin = s""""$origin"""".replace("\"", "\'")
+    ident = s""""$ident"""".replace("\"", "\'")
+    var resultArr = PSQL.select(s"SELECT id, ident, name, latitude_deg, longitude_deg, municipality, iso_country FROM airports WHERE name = ${origin} AND ident = ${ident};")
+    //println("Is this information correct? [Y/N]")
+    //var response:String = readLine()                              //work it in later
+    //if (response.equals("N"))
+    var origin_longitude_deg = resultArr(4).toDouble
+    var origin_latitude_deg = resultArr(3).toDouble
+    var origin_new = s"${resultArr(1)} ${origin_original}"
+    origin_new = s""""${origin_new}""""
+    origin_new = origin_new.replace("\"","\'")
+    PSQL.update(s"UPDATE flights SET origin = ${origin_new}, origin_longitude_deg = ${origin_longitude_deg}, origin_latitude_deg = ${origin_latitude_deg} WHERE id = ${id};")
+
+    println("When is departure scheduled?\nFormat as 24-hr time. i.e 0900 for 9AM")
+    var time_departure = readInt()
+    PSQL.update(s"UPDATE flights SET time_departure = ${time_departure};")
+
+    println("What is the flight's destination?")
+    var destination:String = readLine()
+    println("What is that airport's identifier code?")
+    var ident2:String = readLine()
+    var destination_original = destination
+    destination = s""""${destination}"""".replace("\"","\'")
+    ident2 = s""""$ident2"""".replace("\"", "\'")
+    resultArr = PSQL.select(s"SELECT id, ident, name, latitude_deg, longitude_deg, municipality, iso_country FROM airports WHERE name = ${destination} AND ident = ${ident2};")
+    //println("Is this information correct? [Y/N]")
+    //var response2:String = readLine()
+    //if (response.equals("N")
+    var destination_longitude_deg = resultArr(4).toDouble
+    var destination_latitude_deg = resultArr(3).toDouble
+    var destination_new = s"${resultArr(1)} ${destination_original}"
+    destination_new = s""""${destination_new}"""".replace("\"","\'")
+    PSQL.update(s"UPDATE flights SET destination = ${destination_new}, destination_longitude_deg = ${destination_longitude_deg}, destination_latitude_deg = ${destination_latitude_deg} WHERE id = ${id};")
+
+    var long_1 = origin_longitude_deg/(180/Math.PI)
+    var lat_1 = origin_latitude_deg/(180/Math.PI)
+
+    var long_2 = destination_longitude_deg/(180/Math.PI)
+    var lat_2 = destination_latitude_deg/(180/Math.PI)
+
+    var distance:Double = 3963.0 * Math.acos( (Math.sin(lat_1) * Math.sin(lat_2)) + (Math.cos(lat_1) * Math.cos(lat_2) * Math.cos(long_2 - long_1)))
+    val airspeed_747:Double = 580
+    var time = distance/airspeed_747
+    var hours = Math.floor(time)
+    var minutes = Math.round(((time-hours)*60))
+    var estimated_journey_time = s"'${hours} hours & ${minutes} minutes'"
+    hours = hours*100
+    var time_arrival = (time_departure + hours + minutes).toInt
+    if (time_arrival >= 2400)
+      time_arrival = time_arrival - 2400
+    PSQL.update(s"UPDATE flights SET estimated_journey_time = ${estimated_journey_time}, time_arrival = ${time_arrival} WHERE id = ${id}")
+
+    PSQL.select(s"SELECT * FROM flights WHERE id = ${id}")
+    //println("Does all this look correct? [Y/N]")
+    println("\n\nThe schedule ordered by time of departure:")
+    PSQL.select("SELECT * FROM flights ORDER BY time_departure")
+
+
+
     PSQL.closeConnection()
   }
 }
@@ -119,7 +197,7 @@ object PSQL{
 
   //////////SELECT STATEMENTS////////////////////////////////////////
 
-  def select(query:String): Any = {
+  def select(query:String): Seq[String] = {
 
     val select = connection.createStatement()
     val result = select.executeQuery(query)

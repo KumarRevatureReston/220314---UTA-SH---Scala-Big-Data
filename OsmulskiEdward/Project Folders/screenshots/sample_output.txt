@@ -1,6 +1,6 @@
 Examples of read operations:
 
-Airport id, name, iso_country, elevation_ft of airports in US under 150ft of elevation
+Airport id, name, iso_country, elevation_ft of airports in US under 50ft of elevation
 6532                                    |Ringhaver Heliport                      |US                                      |25                                      |
 6533                                    |River Oak Airport                       |US                                      |35                                      |
 6536                                    |Kaupulehu Heliport                      |US                                      |43                                      |
@@ -2642,5 +2642,33 @@ checking the record to be deleted exists...
 99999                                   |seaplane port                           |Fair Haven Seaport                      |
 deleting the record...
 checking again if the record exists...
+
+
+
+This is the beginning of the application use of this program
+
+
+----------Air Travel Planner----------
+
+What is this flight's identifier?
+AA1077
+What is the flight's origin?
+Walter Airport
+What is that airport's identifier code?
+0IL8
+7232                                    |0IL8                                    |Walter Airport                          |41.87250137                             |-88.72370148                            |De Kalb                                 |US                                      |
+When is departure scheduled?
+Format as 24-hr time. i.e 0900 for 9AM
+0900
+What is the flight's destination?
+Warngau Airfield
+What is that airport's identifier code?
+DE-0005
+322973                                  |DE-0005                                 |Warngau Airfield                        |47.825011                               |11.703733                               |München                                 |DE                                      |
+AA1077                                  |0IL8 Walter Airport                     |-88.72370148                            |41.87250137                             |900                                     |DE-0005 Warngau Airfield                |11.703733                               |47.825011                               |7.0 hours & 53 minutes                  |1653                                    |
+
+
+The schedule ordered by time of departure:
+AA1077                                  |0IL8 Walter Airport                     |-88.72370148                            |41.87250137                             |900                                     |DE-0005 Warngau Airfield                |11.703733                               |47.825011                               |7.0 hours & 53 minutes                  |1653                                    |
 
 Process finished with exit code 0

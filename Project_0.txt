@@ -1,0 +1,42 @@
+USING JDBC WITH SCALA
+
+ORIGINAL TABLE SOURCE: https://ourairports.com/data/
+
+Table was made smaller with fewer columns to improve readability for this project. 
+
+-------------------------------------------------
+CREATE TABLE airports_test (id INT, name TEXT, continent TEXT)
+
+INSERT INTO airports_test (id, name, continent) VALUES ("+arg._1+", '"+arg._2+"', '"+arg._3+"');
+
+SELECT * FROM airports_test;
+
+
+sbt:project0> run
+[info] compiling 1 Scala source to C:\Users\Andre Xie\Desktop\Week 3\project0\target\scala-2.13\classes ...
+[warn] 1 deprecation (since 2.13.3); re-run with -deprecation for details
+[warn] one warning found
+[info] running Project0
+Trying
+   1   Dummy_1   NA
+   2   Dummy_2   NA
+   3   Dummy_3   CN
+   4   Dummy_4   JP
+[success] Total time: 1 s, completed Mar 29, 2022, 2:28:15 PM
+
+-------------------------------------------------
+DELETE FROM airports_test WHERE continent = 'NA';
+SELECT * FROM airports_test;
+
+sbt:project0> run
+[info] compiling 1 Scala source to C:\Users\Andre Xie\Desktop\Week 3\project0\target\scala-2.13\classes ...
+[warn] 1 deprecation (since 2.13.3); re-run with -deprecation for details
+[warn] one warning found
+[info] running Project0
+Trying
+   3   Dummy_3   CN
+   4   Dummy_4   JP
+[success] Total time: 0 s, completed Mar 29, 2022, 2:38:15 PM
+--------------------------------------------------
+DROP TABLE airports_test;
+
