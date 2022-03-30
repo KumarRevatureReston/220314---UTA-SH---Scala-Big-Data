@@ -1,4 +1,4 @@
-Database location: C:/Users/natha/databases/airports2.csv
+Database location: C:/Users/natha/databases/airports4.csv
 
 Sample fields: id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,scheduled_service,gps_code,iata_code,local_code,home_link,wikipedia_link,keywords
 
