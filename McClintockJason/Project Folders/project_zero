@@ -1,2 +1,0 @@
-
-select *from game_stats order by game_rank asc;
