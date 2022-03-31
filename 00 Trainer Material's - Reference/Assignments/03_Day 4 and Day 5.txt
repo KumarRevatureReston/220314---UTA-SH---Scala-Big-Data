@@ -1,0 +1,141 @@
+1) Command for Uploading a file in HDFS
+Hadoop fs –put
+
+This command is used to upload a file from the local file system to HDFS. Multiple files can be uploaded using this command by separating the filenames with a space.
+
+2) Command for Downloading a file in HDFS
+Hadoop fs –get
+
+This command is used to download a file from the local file system to HDFS. Multiple files can be downloaded using this command by separating the filenames with a space.
+
+3) Command for Viewing the Contents of a file
+Hadoop fs –cat
+
+4) Command for Moving Files from Source to Destination
+Hadoop fs –mv
+
+5) Command for Removing a Directory or File in HDFS
+Hadoop fs –rm
+
+Note- To remove a directory, the directory should be empty before using the rm command.
+
+6) Command for Copying files from local file system to HDFS
+Hadoop fs –copyFromLocal 
+
+7) Command to display the length of a file
+Hadoop fs –du
+
+8) Command to view the content of a directory
+Hadoop fs –ls
+
+9) Command to create a Directory in HDFS
+Hadoop fs –mkdir
+
+10) Command to display the first few lines of a file
+Hadoop fs –head 
+
+
+1. Create a directory in HDFS at given path(s).
+Usage: hadoop fs -mkdir <paths>
+Example: hadoop fs -mkdir /user/kumar/dir1 /user/kumar/dir2
+
+
+2.  List the contents of a directory.
+Usage : hadoop fs -ls <args>
+Example: hadoop fs -ls /user/kumar
+
+
+
+3. Upload and download a file in HDFS.
+Upload: hadoop fs -put:
+Copy single src file, or multiple src files from local file system to the Hadoop data file system
+
+1Usage:
+2hadoop fs -put <localsrc> ... <HDFS_dest_Path>
+3Example:
+4hadoop fs -put /home/saurzcode/Samplefile.txt  /user/saurzcode/dir3/
+
+Download:
+
+hadoop fs -get:
+
+Copies/Downloads files to the local file system
+
+1Usage:
+2hadoop fs -get <hdfs_src> <localdst>
+3Example:
+4hadoop fs -get /user/saurzcode/dir3/Samplefile.txt /home/
+
+
+4. See contents of a file
+Same as unix cat command:
+
+1Usage:
+2hadoop fs -cat <path[filename]>
+3Example:
+4hadoop fs -cat /user/saurzcode/dir1/abc.txt
+
+
+5. Copy a file from source to destination
+This command allows multiple sources as well in which case the destination must be a directory.
+
+1Usage:
+2hadoop fs -cp <source> <dest>
+3Example:
+4hadoop fs -cp /user/saurzcode/dir1/abc.txt /user/saurzcode/dir2
+
+
+6. Copy a file from/To Local file system to HDFS
+copyFromLocal
+
+1Usage:
+2hadoop fs -copyFromLocal <localsrc> URI
+3Example:
+4hadoop fs -copyFromLocal /home/saurzcode/abc.txt  /user/saurzcode/abc.txt
+Similar to put command, except that the source is restricted to a local file reference.
+
+copyToLocal
+
+1Usage:
+2hadoop fs -copyToLocal [-ignorecrc] [-crc] URI <localdst>
+
+Similar to get command, except that the destination is restricted to a local file reference.
+
+7. Move file from source to destination.
+Note:- Moving files across filesystem is not permitted.
+
+1Usage :
+2hadoop fs -mv <src> <dest>
+3Example:
+4hadoop fs -mv /user/saurzcode/dir1/abc.txt /user/saurzcode/dir2
+
+8. Remove a file or directory in HDFS.
+Remove files specified as argument. Deletes directory only when it is empty
+
+1 Usage :
+2hadoop fs -rm <arg>
+3Example:
+4hadoop fs -rm /user/saurzcode/dir1/abc.txt
+Recursive version of delete.
+
+1Usage :
+2hadoop fs -rmr <arg>
+3Example:
+4hadoop fs -rmr /user/saurzcode/
+
+
+9. Display last few lines of a file.
+Similar to tail command in Unix.
+
+1Usage :
+2hadoop fs -tail <path[filename]>
+3Example:
+4hadoop fs -tail /user/saurzcode/dir1/abc.txt
+
+
+10. Display the aggregate length of a file.
+1Usage :
+2hadoop fs -du <path>
+3Example:
+4hadoop fs -du /user/saurzcode/dir1/abc.txt
+Please comment which of these commands you found most useful while dealing with Hadoop /HDFS.
