@@ -29,7 +29,7 @@ acc_balance NUMERIC(10,2);
 
 
 # 2.	Basic functionality
-The project Read from the data base to search an account, list all the accounts, open and add a new client to the account, close an account and erase an account. To do that the program uses the library slick in Scala with the options SELECT, UPDATE, DELETE and INSERT, with the option COUNT to count the number of the accounts.
+The project reads from the data base to search an account, list all the accounts, open and add a new client to the account, close an account and erase an account. To do that the program uses the library slick in Scala with the options SELECT, UPDATE, DELETE and INSERT, with the option COUNT to count the number of the accounts.
 
 The project searches the account for the client to make a transaction and ask for the password before. The options for the client are "Make a deposit", "Make a withdrawal" "View Balance". For all that the application uses SELECT and UPDATE, to make modifications to the table. 
  
