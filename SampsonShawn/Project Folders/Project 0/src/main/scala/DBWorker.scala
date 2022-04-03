@@ -4,6 +4,59 @@ import scala.language.postfixOps
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 import scala.util.matching.Regex
 
+// test function runs
+
+//Use e (execute) or q (query) or u (update) to specify how to perform commands
+
+
+//1. Create table and upload csv file
+//database("COPY","airports.csv","airports")
+
+//2. Write a SQL query to display all the documents in the collection restaurants.
+//database("sqlq", "SELECT * FROM airports")
+
+//3. Write a SQL query to display the fields id and type from airports
+//database("sqlq", "SELECT id,type FROM airports ORDER BY type DESC")
+
+//4. Write a SQL query to display the fields id, type, but exclude the field _id for all the documents in the collection heliport.
+//database("sqlq", "SELECT id,type FROM airports WHERE type != 'heliport'")
+
+//5. Update a field in the airports table with new data
+//database("sqle", "UPDATE airports SET type = 'small_airport' WHERE id = '6526'")
+//database("sqlq", "SELECT * FROM airports WHERE id = '6526'")
+//database("sqlq", "UPDATE airports SET type = 'closed' WHERE id = '6526' returning *")
+
+//6. Delete a row where id = '6526'
+//database("sqle", "DELETE FROM airports WHERE id = '6526'")
+//database("sqlq", "SELECT * FROM airports WHERE id = '6526'")
+
+//7. Empty the database airports
+//database("sqle", "TRUNCATE TABLE airports")
+//database("sqlq", "SELECT * FROM airports")
+
+//8. Delete a table
+//database("sqle", "DROP TABLE airports")
+//database("sqlq", "SELECT * FROM airports")
+
+//9. Create another shorter table
+//database("sqle", "create table if not exists test_table(column1 int, column2 int) " )
+//database("sqlq", "SELECT * FROM test_table")
+
+//10. Insert new row into new table
+//database("sqlq", "INSERT INTO test_table(column1, column2) VALUES (5, 7) RETURNING *" )
+
+//11. Delete second table
+//database("sqle", "DROP TABLE test_table")
+
+//12. Find airport based on location
+//database("sqlq", "select COUNT(*) from airports where (type = 'small_airport') and (latitude_deg between 31 and 34) and (longitude_deg between -98 and -96 )")
+
+
+//database("remove table airports")
+
+
+
+
 object DBWorker extends UserSettings{
 
   def main(args: Array[String]) {
@@ -16,57 +69,16 @@ object DBWorker extends UserSettings{
       val statement: Statement = connection.createStatement()
 
       // CLI Interface
-      //println(!args.isEmpty)
 
       if ( !args.isEmpty && args(0).toUpperCase != "COPY") {
+        if ( args.length == 2 ) {
           database(args(0), args(1))
+        }else if ( args.length == 1){
+          database(args(0))
+        }else{ println("Not a valid command.")}
       }else if ( !args.isEmpty ){
           database(args(0), args(1), args(2))
         }
-
-      //Use sqle (execute) or sqlselect to access all sql commands
-
-      //1. Create table and upload csv file
-      //database("COPY","airports.csv","airports")
-
-      //2. Write a SQL query to display all the documents in the collection restaurants.
-      //database("sqlq", "SELECT * FROM airports")
-
-      //3. Write a SQL query to display the fields id and type from airports
-      //database("sqlq", "SELECT id,type FROM airports ORDER BY type DESC")
-
-      //4. Write a SQL query to display the fields id, type, but exclude the field _id for all the documents in the collection heliport.
-      //database("sqlq", "SELECT id,type FROM airports WHERE type != 'heliport'")
-
-      //5. Update a field in the airports table with new data
-      //database("sqle", "UPDATE airports SET type = 'small_airport' WHERE id = '6526'")
-      //database("sqlq", "SELECT * FROM airports WHERE id = '6526'")
-      //database("sqlq", "UPDATE airports SET type = 'closed' WHERE id = '6526' returning *")
-
-      //6. Delete a row where id = '6526'
-      //database("sqle", "DELETE FROM airports WHERE id = '6526'")
-      //database("sqlq", "SELECT * FROM airports WHERE id = '6526'")
-
-      //7. Empty the database airports
-      //database("sqle", "TRUNCATE TABLE airports")
-      //database("sqlq", "SELECT * FROM airports")
-
-      //8. Delete a table
-      //database("sqle", "DROP TABLE airports")
-      //database("sqlq", "SELECT * FROM airports")
-
-      //9. Create another shorter table
-      //database("sqle", "create table if not exists test_table(column1 int, column2 int) " )
-      //database("sqlq", "SELECT * FROM test_table")
-
-      //10. Insert new row into new table
-      //database("sqlq", "INSERT INTO test_table(column1, column2) VALUES (5, 7) RETURNING *" )
-
-      //11. Delete second table
-      //database("sqle", "DROP TABLE test_table")
-
-      //12. Find airport based on location
-      //database("sqlq", "select COUNT(*) from airports where (type = 'small_airport') and (latitude_deg between 31 and 34) and (longitude_deg between -98 and -96 )")
 
 
 
@@ -92,7 +104,8 @@ object DBWorker extends UserSettings{
             uploadCsvFile(statement, fileName, name )
 
           }
-          case "SQLE" | "SQLQ" => sqlCommand(statement, command, sqlString1)
+          case "E" | "Q" | "U" => sqlCommand(statement, command.toUpperCase, sqlString1)
+          case _ => sqlCommandFilter(statement, command)
         }
 
       } catch {
@@ -196,20 +209,56 @@ object DBWorker extends UserSettings{
       println("Table Created")
     }
 
-    def sqlCommand(statement: Statement, sqlCommand:String, command:String): Unit ={
 
-      if (sqlCommand.toUpperCase == "SQLQ"){
-        val resultSet = statement.executeQuery(command)
-        if ( resultSet != null) { printReturnData(resultSet) }
-      }else if( sqlCommand.toUpperCase == "SQLE"){
-        val resultSet = statement.execute(command)
-        if ( resultSet != null) { println("SQL Ran Successfully") }
-      }else{
-        println("not a proper command")
+    def sqlCommandFilter(statement: Statement, sqlString:String ): Unit ={
+
+      //parse string for keywords, also check for the returning keyword
+      //println(sqlString)
+
+      val returning = sqlString.toUpperCase.contains("RETURNING")
+      println(s"returning = ${returning}")
+      val keywordString = sqlString.toUpperCase
+
+      val executeKeyword:String = {
+        if ( keywordString.contains("CREATE") || keywordString.contains("ALTER") || keywordString.contains("DROP") || keywordString.contains("TRUNCATE") ||
+          keywordString.contains("RENAME") || keywordString.contains("GRANT") || keywordString.contains("REVOKE") || keywordString.contains("COMMIT") ||
+          keywordString.contains("ROLLBACK") || keywordString.contains("SAVEPOINT")){
+          if( returning == false ){
+            "E"
+          }else{ "Q" }
+        }else if ( keywordString.contains("SELECT") ){
+          "Q"
+        }else if (keywordString.contains("INSERT") || keywordString.contains("UPDATE") || keywordString.contains("DELETE")){
+          if ( returning == false ){
+            "U"
+          }else{ "Q" }
+        }else{
+          "Please enter a valid command."
+        }
       }
 
+      if ( executeKeyword != "Please enter a valid command."){
+      sqlCommand(statement, executeKeyword, sqlString )
+      }else{println(executeKeyword)}
+
+    }
 
 
+    def sqlCommand(statement: Statement, sqlCommand:String, command:String): Unit ={
+
+      if (sqlCommand == "Q"){
+        val resultSet = statement.executeQuery(command)
+        if ( resultSet != null) { printReturnData(resultSet) }
+      }else if( sqlCommand == "E"){
+        val resultSet = statement.execute(command)
+        if ( resultSet != null) {
+          println("SQL Execute Ran Successfully")
+          //println(resultSet)
+        }
+      }else if (sqlCommand == "U"){
+        val resultSet = statement.executeUpdate(command)
+        println(s"${resultSet} rows have been updated.")
+      }
 
     }
 
