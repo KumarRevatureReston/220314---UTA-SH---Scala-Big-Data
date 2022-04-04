@@ -18,6 +18,9 @@ Step 3: Create tables in Apache Hive
 Step 4: Load data into Hive table
 Step 5: Query to analyze and display the result [https://github.com/Crone1/Pig-and-Hive-MovieLens-Analysis/blob/main/Hive_movieLens_analysis.hive]
 
-Ref: https://www.youtube.com/watch?v=4tW9HY0Q460
+Ref Links: https://www.youtube.com/watch?v=4tW9HY0Q460
+https://github.com/Crone1/Pig-and-Hive-MovieLens-Analysis/blob/main/Hive_movieLens_analysis.hive
 https://towardsdatascience.com/getting-started-with-hive-ad8a93862f1a
+https://medium.com/@notesharsha/13-steps-to-import-data-into-hive-from-your-local-drive-using-ambari-sandbox-hiveql-bonus-a44bffae89d7
+
 
