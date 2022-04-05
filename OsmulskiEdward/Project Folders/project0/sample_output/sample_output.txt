@@ -1,1 +1,203 @@
+PS C:\Users\esosmulski\IdeaProjects\slick> sbt
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 17.0.2)
+[info] loading global plugins from C:\Users\esosmulski\.sbt\1.0\plugins
+[info] loading project definition from C:\Users\esosmulski\IdeaProjects\slick\project
+[info] loading settings for project root from build.sbt ...
+[info] set current project to slick (in build file:/C:/Users/esosmulski/IdeaProjects/slick/)
+[info] sbt server started at local:sbt-server-1b7205c09bf399a4f716
+[info] started sbt server
+sbt:slick> run
+[info] compiling 1 Scala source to C:\Users\esosmulski\IdeaProjects\slick\target\scala-2.13\classes ...
+[warn] 2 deprecations (since 2.13.3); re-run with -deprecation for details
+[warn] one warning found
+[info] running Main
+What is the absolute path to the file?
+C:/Users/esosmulski/Downloads/airports2.csv
 
+
+
+This is the beginning of the application use of this program
+
+
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+update
+Would you like to create, cancel, or update flight details?
+create
+
+What is this flight's identifier?
+AA2066
+What is the flight's origin airport?
+Walter Airport
+What is that airport's identifier code?
+0IL8
+7232                                    |0IL8                                    |Walter Airport                          |41.87250137                             |-88.72370148                            |De Kalb                                 |US                                      |
+
+Is this information correct? [Y/N]
+Y
+When is departure scheduled?
+Format as 24-hr time. i.e 0900 for 9AM
+0900
+What is the flight's destination?
+Rebel Field
+What is that airport's identifier code?
+0LA9
+7282                                    |0LA9                                    |Rebel Field                             |30.5862999                              |-90.8615036                             |Watson                                  |US                                      |
+
+Is this information correct? [Y/N]
+Y
+American Airlines                       |AA2066                                  |0IL8 Walter Airport                     |-88.72370148                            |41.87250137                             |900                                     |0LA9 Rebel Field                        |-90.8615036                             |30.5862999                              |1.0 hours & 22 minutes                  |1022                                    |
+
+Does This look correct? [Y/N]
+Y
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+create
+Valid inputs are 'update', 'view', or 'q' to quit
+Please try again
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+update
+Would you like to create, cancel, or update flight details?
+create
+
+What is this flight's identifier?
+UA4222
+What is the flight's origin airport?
+Walter Airport
+What is that airport's identifier code?
+0IL8
+7232                                    |0IL8                                    |Walter Airport                          |41.87250137                             |-88.72370148                            |De Kalb                                 |US                                      |
+
+Is this information correct? [Y/N]
+Y
+When is departure scheduled?
+Format as 24-hr time. i.e 0900 for 9AM
+0900
+What is the flight's destination?
+Warngau Airfield
+What is that airport's identifier code?
+DE-0005
+322973                                  |DE-0005                                 |Warngau Airfield                        |47.825011                               |11.703733                               |M├╝nchen                                 |DE                                      |
+
+Is this information correct? [Y/N]
+Y
+United Airlines                         |UA4222                                  |0IL8 Walter Airport                     |-88.72370148                            |41.87250137                             |900                                     |DE-0005 Warngau Airfield                |11.703733                               |47.825011                               |7.0 hours & 53 minutes                  |1653                                    |
+
+Does This look correct? [Y/N]
+Y
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+update
+Would you like to create, cancel, or update flight details?
+update
+
+What is the flight identifier of the flight plan you wish to edit?
+LH3537
+Lufthansa                               |LH3537                                  |US-2208 UTMB Health Angleton Danbury Campus Helipad|-95.40397                               |29.18446                                |900                                     |10PN One Meridian Plaza Heliport        |-75.24410248                            |39.93069839                             |2.0 hours & 21 minutes                  |1121                                    |
+Is this the flight plan you want to edit? [Y/N]
+Y
+Which field would you like to change?
+flight number
+flight origin
+flight destination
+departure time
+flight number
+What is the flight's new identifier?
+LH3536
+Updated flight plan:
+Lufthansa                               |LH3536                                  |US-2208 UTMB Health Angleton Danbury Campus Helipad|-95.40397                               |29.18446                                |900                                     |10PN One Meridian Plaza Heliport        |-75.24410248                            |39.93069839                             |2.0 hours & 21 minutes                  |1121                                    |
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+view
+Would you like to see the schedule or look up a record?
+schedule
+
+Delta Airlines                          |DL4032                                  |LS93 Greenwood Plantation Ultralightport|-90.89839935                            |29.61079979                             |600                                     |OIBB Bushehr Airport                    |50.83459854                             |28.94479942                             |13.0 hours & 14 minutes                 |1914                                    |
+British Airways                         |BA2376                                  |KE-0001 Mfangano Airport                |34.063998                               |-0.4665                                 |800                                     |DE-0211 Warburg Airfield                |9.0876                                  |51.4973                                 |6.0 hours & 41 minutes                  |1441                                    |
+Lufthansa                               |LH3536                                  |US-2208 UTMB Health Angleton Danbury Campus Helipad|-95.40397                               |29.18446                                |900                                     |10PN One Meridian Plaza Heliport        |-75.24410248                            |39.93069839                             |2.0 hours & 21 minutes                  |1121                                    |
+American Airlines                       |AA9526                                  |BR-1475 Ages Bonfim Heliport            |-40.146038                              |-10.516958                              |900                                     |US-2695 Capistrano Airport (1946)       |-117.67644                              |33.48549                                |10.0 hours & 13 minutes                 |1913                                    |
+American Airlines                       |AA2066                                  |0IL8 Walter Airport                     |-88.72370148                            |41.87250137                             |900                                     |0LA9 Rebel Field                        |-90.8615036                             |30.5862999                              |1.0 hours & 22 minutes                  |1022                                    |
+United Airlines                         |UA4222                                  |0IL8 Walter Airport                     |-88.72370148                            |41.87250137                             |900                                     |DE-0005 Warngau Airfield                |11.703733                               |47.825011                               |7.0 hours & 53 minutes                  |1653                                    |
+British Airways                         |BA6095                                  |VYPA Hpa-N Airport                      |97.67459869                             |16.89369965                             |1100                                    |FR-0077 Centre Hospitalier Heliport     |6.359722137                             |46.90055466                             |9.0 hours & 23 minutes                  |2023                                    |
+American Airlines                       |AA1077                                  |IT-0259 Campo di Volo Campogalliano     |10.85416                                |44.70355                                |1200                                    |09AZ Stronghold Airport                 |-110.040007                             |31.924848                               |10.0 hours & 18 minutes                 |2218                                    |
+United Airlines                         |UA7777                                  |US-5104 Earlybird Heliport              |-89.272665                              |40.642378                               |1400                                    |AR-0575 La Reserva Heliport             |-58.90043                               |-34.27045                               |9.0 hours & 32 minutes                  |2332                                    |
+Spirit Airlines                         |NK5282                                  |SWOW Moura Airport                      |-61.633088                              |-1.463542                               |1500                                    |BR-1390 Rancho Bela Vista Airport       |-56.63685                               |-13.509056                              |1.0 hours & 33 minutes                  |1633                                    |
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+update
+Would you like to create, cancel, or update flight details?
+q
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+view
+Would you like to see the schedule or look up a record?
+record
+
+What is the flight number of the flight you would like to view?
+AA2066
+American Airlines                       |AA2066                                  |0IL8 Walter Airport                     |-88.72370148                            |41.87250137                             |900                                     |0LA9 Rebel Field                        |-90.8615036                             |30.5862999                              |1.0 hours & 22 minutes                  |1022                                    |
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+update
+Would you like to create, cancel, or update flight details?
+cancel
+
+What is the flight's identifier that you want to cancel?
+AA2066
+American Airlines                       |AA2066                                  |0IL8 Walter Airport                     |-88.72370148                            |41.87250137                             |900                                     |0LA9 Rebel Field                        |-90.8615036                             |30.5862999                              |1.0 hours & 22 minutes                  |1022                                    |
+Is this the flight you want to cancel? [Y/N]
+Y
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+view
+Would you like to see the schedule or look up a record?
+record
+
+What is the flight number of the flight you would like to view?
+AA2066
+
+
+
+----------Air Travel Planner----------
+
+Would you like to update or view the scheduler?
+q
+[success] Total time: 438 s (07:18), completed Apr 5, 2022, 12:58:52 PM
+sbt:slick>
