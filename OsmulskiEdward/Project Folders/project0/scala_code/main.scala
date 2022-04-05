@@ -11,7 +11,7 @@ object Main {
     //this sets the path for the csv file
     println("What is the absolute path to the file?")
     var file:String = readLine()
-    //val file = "C:/Users/esosmulski/Downloads/airports2.csv" //This was used during testing so that I didn't have to reinput the file path
+    //val file = "C:/Users/esosmulski/Downloads/airports2.csv"
     //val file = Source.fromResource("airports2.csv")  //if you wanted to set the val file as bufferedsource
 
 
@@ -25,20 +25,25 @@ object Main {
       "continent text, iso_country text, iso_region text, municipality text, scheduled_service text, gps_code text, iata_code text, local_code text, home_link text, " +
       "wikipedia_link text, keywords text);"
     )
+    //var row = File.getRow(0,file) //row 23 has an example of an apostrophe used, row 39 has a comma both screw up the data input, row 2736 has weird formatted word
+    //row.foreach(arg => println("{_" + arg + "_}"))
 
 
-    //UPDATE =====populating the table (currently commented out since the table already exists and it takes a while to upload the whole thing)
+    //UPDATE =====populating the table
     /*
     for(i <- 1 until size) {
+
       var params = File.getRow(0,file)
+
       var row = File.getRow(i,file)
+
       PSQL.update(s"Insert INTO airports (id, ident, type, name, latitude_deg, longitude_deg, elevation_ft, continent, iso_country, iso_region, municipality, scheduled_service, " +
         s"gps_code, iata_code, local_code, home_link, wikipedia_link, keywords) VALUES ( ${row(0)}, ${row(1)}, ${row(2)}, ${row(3)}, ${row(4)}, ${row(5)}, ${row(6)}, ${row(7)}, ${row(8)}, " +
         s"${row(9)}, ${row(10)}, ${row(11)}, ${row(12)}, ${row(13)}, ${row(14)}, ${row(15)}, ${row(16)}, ${row(17)});"
       )
     }
     */
-
+   
 
     //APPLICATION
     println("\n\n")
@@ -79,7 +84,7 @@ object PSQL{
       for (i <- 1 to result.getMetaData.getColumnCount) {
 
         row = row :+ result.getString(i)
-        printf("%-40s|", result.getString(i))
+        printf("%s|", result.getString(i))
 
       }
       println("")
@@ -310,7 +315,7 @@ object Scheduler{
 
     Scheduler.calculations(id, time)
 
-    PSQL.select(s"SELECT * FROM flights WHERE flight_number = ${id};")
+    Scheduler.confirmation(id)
 
   }
 
@@ -367,7 +372,7 @@ object Scheduler{
 
     try {
 
-      resultArr = PSQL.select(s"SELECT id, ident, name, latitude_deg, longitude_deg, municipality, iso_country FROM airports WHERE id = ${query_origin} AND ident = ${query_ident};")
+      resultArr = PSQL.select(s"SELECT id, ident, name, latitude_deg, longitude_deg, municipality, iso_country FROM airports WHERE name = ${query_origin} AND ident = ${query_ident};")
       println()
       if (resultArr.isEmpty) {
         throw new invalidInputException
@@ -664,7 +669,6 @@ object Scheduler{
     if (newId.equalsIgnoreCase("Q")) {
       Application.update()
     }
-    newId = s""""${newId}"""".replace("\"", "\'")
 
     var newAirline = ""
     newId.substring(0,2) match {
@@ -682,6 +686,8 @@ object Scheduler{
       case "JL" => newAirline = "'Japan Airlines'"
       case _ => newAirline = "NULL"
     }
+
+    newId = s""""${newId}"""".replace("\"", "\'")
 
     PSQL.update(s"UPDATE flights SET airline = ${newAirline}, flight_number = ${newId} WHERE flight_number = ${id};")
 
@@ -732,7 +738,7 @@ object Scheduler{
 
     try {
 
-      resultArr = PSQL.select(s"SELECT id, ident, name, latitude_deg, longitude_deg, municipality, iso_country FROM airports WHERE id = ${query_origin} AND ident = ${query_ident};")
+      resultArr = PSQL.select(s"SELECT id, ident, name, latitude_deg, longitude_deg, municipality, iso_country FROM airports WHERE name = ${query_origin} AND ident = ${query_ident};")
       println()
       if (resultArr.isEmpty) {
         throw new invalidInputException
