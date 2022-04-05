@@ -9,7 +9,9 @@ object Main {
 
 
     //this sets the path for the csv file
-    val file = "C:/Users/esosmulski/Downloads/airports2.csv"
+    println("What is the absolute path to the file?")
+    var file:String = readLine()
+    //val file = "C:/Users/esosmulski/Downloads/airports2.csv" //This was used during testing so that I didn't have to reinput the file path
     //val file = Source.fromResource("airports2.csv")  //if you wanted to set the val file as bufferedsource
 
 
@@ -23,11 +25,9 @@ object Main {
       "continent text, iso_country text, iso_region text, municipality text, scheduled_service text, gps_code text, iata_code text, local_code text, home_link text, " +
       "wikipedia_link text, keywords text);"
     )
-    //var row = File.getRow(0,file) //row 23 has an example of an apostrophe used, row 39 has a comma both screw up the data input, row 2736 has weird formatted word
-    //row.foreach(arg => println("{_" + arg + "_}"))
 
 
-    //UPDATE =====populating the table
+    //UPDATE =====populating the table (currently commented out since the table already exists and it takes a while to upload the whole thing)
     /*
     for(i <- 1 until size) {
 
@@ -41,60 +41,6 @@ object Main {
       )
     }
     */
-
-
-    // READ =====getting a selection rom a table.  Returns a List of Strings
-    println("Examples of read operations:\n")
-
-    println("Airport id, name, iso_country, elevation_ft of airports in US under 50ft of elevation")
-    PSQL.select("SELECT id, name, iso_country, elevation_ft FROM airports WHERE iso_country = 'US' AND elevation_ft <= 50;")
-        //or example of aggregate function
-    println("Count of all records from airports")
-    PSQL.select("SELECT COUNT(*) FROM airports;")
-        //or
-    println("All airports in the US")
-    PSQL.select("SELECT COUNT(*) FROM airports WHERE iso_country = 'US';")
-        //or example of using a group by
-    println("Count of airports by type in the US")
-    PSQL.select("SELECT type, COUNT(*) FROM airports WHERE iso_country = 'US' GROUP BY type;")
-
-
-
-    //UPDATE =====updating a value in the table
-    println("Example of updating operations to records:\n")
-
-        //seeing what the record says
-    println("Checking to see the original record...")
-    PSQL.select("SELECT id, type, name FROM airports WHERE id = 6523;")
-        //updating the value of the record
-    println("Updating the record...")
-    PSQL.update("UPDATE airports SET type = 'airport', name = 'Total Rf Airport' WHERE id = 6523;")
-        //checking that it updated
-    println("Checking to see the record has been updated...")
-    PSQL.select("SELECT id, type, name FROM airports WHERE id = 6523;")
-        //changing it back and checking
-    PSQL.update("UPDATE airports SET type = 'heliport', name = 'Total Rf Heliport' WHERE id = 6523;")
-
-
-    //DELETE =====deleting a value from the table
-    println("Example of Deleting a record:\n")
-
-        //creating a record to delete
-    println("Creating a record to delete...")
-    PSQL.update("INSERT INTO airports (id, type, name) VALUES (99999, 'seaplane port', 'Fair Haven Seaport');")
-        //pulling that record
-    println("checking the record to be deleted exists...")
-    PSQL.select("SELECT id, type, name FROM airports WHERE id = 99999;")
-        //deleting the record
-    println("deleting the record...")
-    PSQL.update("DELETE FROM airports WHERE id = 99999;")
-        //querying to see if the record still exists
-    println("checking again if the record exists...")
-    PSQL.select("SELECT id, type, name FROM airports WHERE id = 99999;")
-
-
-    //DELETE =====deleting the whole table
-    //PSQL.update("DROP TABLE airports;")
 
 
     //APPLICATION
