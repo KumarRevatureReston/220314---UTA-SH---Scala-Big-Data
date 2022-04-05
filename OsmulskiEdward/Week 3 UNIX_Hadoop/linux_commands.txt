@@ -1,0 +1,185 @@
+1) mkdir: creates new directories for the user.In order to do this you must have write permission in the parent directory of the new directory
+esosmulski@DESKTOP-LS40VKB:~$ mkdir newexampledirectory
+
+2) ls: lists all the contents of the specified directory.It can be used to obtain information on the files and directories within it
+esosmulski@DESKTOP-LS40VKB:~$ ls
+newexampledirectory
+
+3) cd: used to change from one directory to another
+esosmulski@DESKTOP-LS40VKB:~$ cd newexampledirectory/
+
+4) pwd: prints name of the current working directory.The command gives the full pathname of your current directory
+esosmulski@DESKTOP-LS40VKB:~/newexampledirectory$ pwd
+/home/esosmulski/newexampledirectory
+
+5) mv: move or rename files or directories.It is used to change the name of files or directories, or to move them into other directories. mv cannot move directories from one file-system to another, so, if it is necessary to do that, use cp instead
+esosmulski@DESKTOP-LS40VKB:~$ mv newexampledirectory dir1
+
+6) cp: copy files or directories and is used to make copies of the new files and directories.
+esosmulski@DESKTOP-LS40VKB:~/dir1$ cp sample001 sample002
+
+7) rmdir: remove files or directories. rmdir removesnamed empty directories. If you need to delete a non-empty directory rm -r can be used instead
+esosmulski@DESKTOP-LS40VKB:~$ rmdir dir3
+
+8) find: search for files in a specified directory hierarchy and all its subdirectories
+esosmulski@DESKTOP-LS40VKB:~$ find /home -name sample002
+/home/esosmulski/dir1/sample002
+
+9) history: prints recently used commands
+esosmulski@DESKTOP-LS40VKB:~$ history
+    1  mkdir newexampledirectory
+    2  ls
+    3  cd newexampledirectory/
+    4  pwd
+    5  cd ..
+    6  mkdir dir2
+    7  mkdir dir3
+    8  cd newexampledirectory/
+    9  cat >sample001
+   10  cd ..
+   11  mv newexampledirectory dir1
+   12  ls
+   13  cd dir1/
+   14  cp sample001 sample002
+   15  ls
+   16  cd ..
+   17  rmdir dir3
+   18  find /home -name sample002
+   19  history
+
+10) cat: concatenate files and print on the standard output.takes a copy of a file and sends it to the standard output (i.e. to be displayed on your terminal, unless redirected elsewhere), so it is generally used either to read files, or to string together copies of several files, writing the outputto a new file
+esosmulski@DESKTOP-LS40VKB:~/dir1$ cat >sample001
+Data here
+esosmulski@DESKTOP-LS40VKB:~/dir1$ cat sample001
+Data here
+
+11) echo: displays the text that the user types.It is generally used in shell programs.
+esosmulski@DESKTOP-LS40VKB:~/dir1$ echo echoed text here
+echoed text here
+
+12) grep: prints lines that matches a pattern.It also searches for lines containing a specified pattern and, by default, writes them to the standard output.
+esosmulski@DESKTOP-LS40VKB:~/dir1$ grep -i "Data" sample001
+Data here
+ 
+13) wc: print the number of newlines, words, and bytes in files.If no filename is given, wc will count thestandard input instead
+esosmulski@DESKTOP-LS40VKB:~/dir1$ wc sample001
+ 1  2 10 sample001
+
+14) chmod: change file access permissions.It alters the permissions on files and directories using either symbolic or octal numeric codes
+esosmulski@DESKTOP-LS40VKB:~/dir1$ chmod u=r sample001
+
+15) ps: report a snapshot of the current processes.This information includes the process id, the controlling terminal (if there is one), the cpu time used so far, and the name of the command being run.
+esosmulski@DESKTOP-LS40VKB:~/dir1$ ps
+  PID TTY          TIME CMD
+    8 tty1     00:00:00 bash
+   85 tty1     00:00:00 ps
+
+16) kill: to kill a process using signal mechanism.It requires the process id (PID). This can be found by using ps
+esosmulski@DESKTOP-LS40VKB:~/dir1$ kill
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+
+17) date: displays the current date and time
+esosmulski@DESKTOP-LS40VKB:~/dir1$ date
+Mon Apr  4 16:24:22 EDT 2022
+
+18) diff: finds the differences between two files.The default output will contain lines such as n1 a n2,n3 and n4,n5 c n6,n7 , (where n1 a n2,n3 means that file2has the extra lines n2 to n3 following the line that has the number n1 in file1, and n4,n5 c n6,n7means that lines n4 to n5 in file1 differ from lines n6 to n7 in file2)
+esosmulski@DESKTOP-LS40VKB:~/dir1$ diff sample001 sample002
+1c1
+< Data here
+---
+> Some data
+
+19) file: prints the type of file and the categoryto which its contents belong.
+esosmulski@DESKTOP-LS40VKB:~/dir1$ file *
+sample001: ASCII text
+sample002: ASCII text
+
+20) wc: prints the total number of lines in a file
+esosmulski@DESKTOP-LS40VKB:~/dir1$ wc sample001
+ 1  2 10 sample001
+
+21) ftp: file transfer program;used to make connections with another system
+esosmulski@DESKTOP-LS40VKB:~$ ftp
+ftp>
+
+22) man: displays an online reference manual page
+esosmulski@DESKTOP-LS40VKB:~$ man man
+
+23) more: scan through a text file page by page.Also,it displays the contents of a file on a terminal one screenful at a time.
+esosmulski@DESKTOP-LS40VKB:~/dir1$ more sample001
+Data here
+
+24) vim: a programmer’s text editor
+esosmulski@DESKTOP-LS40VKB:~$ vim
+
+[1]+  Stopped                 vim
+
+25) sort: sorts lines of text files in alphabetical order.By default, it sorts lines using a character bycharacter comparison, working from left to right, andusing the order of the ASCII character set.
+esosmulski@DESKTOP-LS40VKB:~/dir1$ sort sample003
+Data here
+and here
+some here as well
+
+26) chown:changes the file owner and group
+esosmulski@DESKTOP-LS40VKB:~/dir1$ chown user2 sample001
+
+27) who:shows how many users are logged in
+esosmulski@DESKTOP-LS40VKB:~$ who
+
+28) du:estimate file space usage
+esosmulski@DESKTOP-LS40VKB:~$ du
+4       ./.landscape
+4       ./.ssh
+0       ./dir1
+0       ./dir2
+24      .
+
+29) df:report file system disk space usage
+esosmulski@DESKTOP-LS40VKB:~$ df
+Filesystem     1K-blocks      Used Available Use% Mounted on
+rootfs         976129384 311335036 664794348  32% /
+none           976129384 311335036 664794348  32% /dev
+none           976129384 311335036 664794348  32% /run
+none           976129384 311335036 664794348  32% /run/lock
+none           976129384 311335036 664794348  32% /run/shm
+none           976129384 311335036 664794348  32% /run/user
+tmpfs          976129384 311335036 664794348  32% /sys/fs/cgroup
+C:\            976129384 311335036 664794348  32% /mnt/c
+D:\            976744444 676956092 299788352  70% /mnt/d
+
+30) passwd:update user’s authentication details.Youwill be prompted twice for your new password. Neither password will be displayed on the screen
+esosmulski@DESKTOP-LS40VKB:~$ passwd
+Changing password for esosmulski.
+Current password:
+New password:
+Retype new password:
+passwd: password updated successfully
+
+31) compress: compresses a file.It reduces the size of named files, replacing them with files of the same name extended by .Z .The amount of space saved by compression varies. If no saving of space would occur, then the file willnot be altered.
+esosmulski@DESKTOP-LS40VKB:~$ compress sample001
+
+Command 'compress' not found, but can be installed with:
+
+sudo apt install ncompress
+
+SHELL SCRIPTS:
+1) Swap two numbers without using third variable
+#!/bin/bash
+echo "first number"
+read x
+echo "second number"
+read y
+echo "x is $x and y is $y"
+
+x=$((x+y))
+y=$((x-y))
+x=$((x-y))
+echo "x is now $x and y is now $y"
+
+esosmulski@DESKTOP-LS40VKB:~/tutorial$ ./swap
+first number
+5
+second number
+3
+x is 5 and y is 3
+x is now 3 and y is now 5
