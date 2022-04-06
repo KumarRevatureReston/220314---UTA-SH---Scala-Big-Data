@@ -1,26 +1,5 @@
 import java.sql.{Connection, DriverManager, ResultSet}
 
-/*
-object pgsqlconn extends App {
-  println("Postgres connector")         //remove this later perhaps
-
-  //classOf[org.postgresql.Driver]  //this doesnt seem to be doing anything
-  val conn_url = "jdbc:postgresql://localhost:5432/uni_students"
-  val conn = DriverManager.getConnection(conn_url, "postgres", "password")    //need own password
-  try {
-    val stm = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY)
-
-    val rs = stm.executeQuery("SELECT * from undergrads")
-
-    while(rs.next) {
-      println(rs.getString("std_id"))
-    }
- } finally {
-     conn.close()
-  }
-}
-*/
-
 
 object CSV{
   def readCSV(file: String): Seq[String] = {
