@@ -18,12 +18,12 @@ object ScalaJdbcConnectSelect{
     
     def main(args: Array[String]): Unit = {
         var userInput = " "
-        print(""""C" to create new database, "R" to read current database, "U" to update database, "D" to delete database, or "E" to exit""")
+        print(""""C" to create new database, "R" to read current database, "I" to insert into database, "U" to update database, "D" to delete row from database, or "E" to exit""")
         print("\nEnter Input: ")
         userInput = scala.io.StdIn.readLine()
         
         //create
-        if  (userInput == "c" || userInput == "C") {
+        if (userInput == "c" || userInput == "C") {
             CRUD.create()
             //println("create")
         }
@@ -34,7 +34,12 @@ object ScalaJdbcConnectSelect{
             //println("read")
         }
         
-        // update
+        //insert
+        else if (userInput == "I" || userInput == "i"){
+            CRUD.insert()
+        }
+        
+        //update
         else if (userInput == "u" || userInput == "U") {
             CRUD.update()
             println("update")

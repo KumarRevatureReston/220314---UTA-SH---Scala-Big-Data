@@ -36,10 +36,18 @@ object CRUD{
     }
     val readMyFile = open(filepath).read()
     
+    //insert
+    def insert(): Unit = {
+        val connection = ScalaJdbcConnectSelect.connection
+        val sql = " INSERT INTO emps1 (id, last_name, email, gender, department, start_date, salary, job_title, region_id) VALUES ('1001', 'Daniels', 'dd@website.com', 'Male', 'Computers', '2020-01-01', '123456', 'Programmer', '3'); "
+        val st = connection.createStatement()
+        val resultsetexecuteQuery = st.executeQuery(sql)
+    }
+    
     //update
     def update(): Unit = {
         val connection = ScalaJdbcConnectSelect.connection
-        val sql = " UPDATE emps SET last_name='Howard' WHERE id='1001'"
+        val sql = " UPDATE emps1 SET last_name='Howard' WHERE id='1001'"
         val st = connection.createStatement()
         val resultsetexecuteQuery = st.executeQuery(sql)
     }
