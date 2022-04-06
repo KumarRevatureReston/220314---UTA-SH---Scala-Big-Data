@@ -48,7 +48,7 @@ It is also possible to just let the Scala program determine which type to use by
 It is setup to filter to the following:
 1. DDL,DCL,TCL Commands filter to "E" and use .execute()
 2. SELECT, DML + Keyword RETURNING in a statement filters to "Q" and uses .executeQuery()
-3. INSERT, UPDATE, DELETE without RETURNING keyword filters to "U" and uses .executeUpdate()
+3. DML - INSERT, UPDATE, DELETE without RETURNING keyword filters to "U" and uses .executeUpdate()
 
 Exe: run "select * from airports"
 
