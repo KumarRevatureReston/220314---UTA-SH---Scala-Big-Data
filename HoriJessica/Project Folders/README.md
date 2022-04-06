@@ -1,12 +1,12 @@
-For Countries_List, the program should read data from a CSV file. 
-The CSV file is in this folder. 
+This is a Postgres helper bot that runs a set of predetermined commands for a dataset.
 
-You should be able to Create a table. 
+For Countries_List, the CSV file is in the project folder. 
+
+You should be able to Create a table with set values.
+You should be able to Add a CSV to the table. 
 You should be able to Read data in a table. 
-You should be able to Update data in a table. 
-You should be able to Delete data from a table. 
+You should be able to Update a record in a table. 
+You should be able to Delete a record from a table. 
+You should be able to Delete the entire table from the database.
 
-The program was able to create a database "sample" and add the columns that were asked. 
-However the program is now broken and non functional. 
-I already deleted that table from my database, so I do not have a screenshot for that. 
 
