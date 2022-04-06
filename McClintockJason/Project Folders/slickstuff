@@ -1,0 +1,40 @@
+
+
+import scala.concurrent.Await
+import scala.concurrent.duration._
+import scala.language.postfixOps
+import java.io.File
+import com.typesafe.config.ConfigFactory
+import jdk.jfr.internal.consumer.EventLog.update
+
+def main(args: Array[String]): Unit = {
+
+  // Read application.conf
+  val parsedConfig = ConfigFactory.parseFile(new File("src/main/scala/application.conf"))
+  val config = ConfigFactory.load(parsedConfig)
+
+  // Extract properties from the loaded config
+  val postgresConfig = config.getConfig("postgres")
+  val connProps = postgresConfig.getConfig("properties")
+  println(connProps.getString("serverName"))
+}
+
+postgres {
+    dataSourceClass = "org.postgresql.ds.PGSimpleDataSource"
+    properties = {
+        serverName = "localhost"
+        portNumber = "5432"
+        databaseName = "postgres"
+        user = "postgres"
+        password = " "
+    }
+}
+
+scalaVersion := "2.13.8"
+name := "game_stats"
+organization := "ch.epfl.scala"
+version := "1.0"
+libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1"
+libraryDependencies += "com.typesafe.slick" %% "slick" % "3.3.3"
+libraryDependencies += "com.h2database" % "h2" % "1.4.200"
+libraryDependencies += "org.postgresql" % "postgresql" % "42.2.14"
