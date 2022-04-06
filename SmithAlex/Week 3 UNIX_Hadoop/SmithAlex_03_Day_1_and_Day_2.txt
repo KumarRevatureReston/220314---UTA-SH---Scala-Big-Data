@@ -1,0 +1,124 @@
+alex@DESKTOP-10C2AUC:~$ ls
+alex@DESKTOP-10C2AUC:~$ mkdir tmp
+alex@DESKTOP-10C2AUC:~$ ls
+tmp
+alex@DESKTOP-10C2AUC:~$ cd tmp
+alex@DESKTOP-10C2AUC:~/tmp$ cd ..
+alex@DESKTOP-10C2AUC:~$ pwd
+/home/alex
+alex@DESKTOP-10C2AUC:~$ cd tmp
+alex@DESKTOP-10C2AUC:~/tmp$ mkdir inner
+alex@DESKTOP-10C2AUC:~/tmp$ cd ..
+alex@DESKTOP-10C2AUC:~$ cd tmp/inner
+alex@DESKTOP-10C2AUC:~/tmp/inner$ cd ..
+alex@DESKTOP-10C2AUC:~/tmp$ mv inner ..
+alex@DESKTOP-10C2AUC:~/tmp$ cd ..
+alex@DESKTOP-10C2AUC:~$ ls
+inner  tmp
+alex@DESKTOP-10C2AUC:~$ cp inner tmp
+cp: -r not specified; omitting directory 'inner'
+alex@DESKTOP-10C2AUC:~$ cp -r inner tmp
+alex@DESKTOP-10C2AUC:~$ cd tmp
+alex@DESKTOP-10C2AUC:~/tmp$ ls
+inner
+alex@DESKTOP-10C2AUC:~/tmp$ cd ..
+alex@DESKTOP-10C2AUC:~$ ls
+inner  tmp
+alex@DESKTOP-10C2AUC:~$ cd tmp
+alex@DESKTOP-10C2AUC:~/tmp$ rmdir
+rmdir: missing operand
+Try 'rmdir --help' for more information.
+alex@DESKTOP-10C2AUC:~/tmp$ rmdir inner
+alex@DESKTOP-10C2AUC:~/tmp$ ls
+alex@DESKTOP-10C2AUC:~/tmp$ cd ..
+alex@DESKTOP-10C2AUC:~$ ls
+inner  tmp
+alex@DESKTOP-10C2AUC:~$ find *.* tmp
+find: ‘*.*’: No such file or directory
+tmp
+alex@DESKTOP-10C2AUC:~$ find * tmp
+inner
+tmp
+tmp
+alex@DESKTOP-10C2AUC:~$ echo asdfasdfasdf >> asdf.txt
+alex@DESKTOP-10C2AUC:~$ ls
+asdf.txt  inner  tmp
+alex@DESKTOP-10C2AUC:~$ cat asdf.txt
+asdfasdfasdf
+alex@DESKTOP-10C2AUC:~$ grep asdf.txt a*
+alex@DESKTOP-10C2AUC:~$ grep asdf.txt \w*
+grep: w*: No such file or directory
+alex@DESKTOP-10C2AUC:~$ grep a* asdf.txt
+alex@DESKTOP-10C2AUC:~$ grep 'asdf' *
+asdf.txt:asdfasdfasdf
+grep: inner: Is a directory
+grep: tmp: Is a directory
+alex@DESKTOP-10C2AUC:~$ wc asdf.txt
+ 1  1 13 asdf.txt
+alex@DESKTOP-10C2AUC:~$ ls -l asdf.txt
+-rw-r--r-- 1 alex alex 13 Apr  6 11:48 asdf.txt
+alex@DESKTOP-10C2AUC:~$ chmod u+x asdf.txt
+alex@DESKTOP-10C2AUC:~$ ls -l asdf.txt
+-rwxr--r-- 1 alex alex 13 Apr  6 11:48 asdf.txt
+alex@DESKTOP-10C2AUC:~$ chmod u-x asdf.txt
+alex@DESKTOP-10C2AUC:~$ ls -l asdf.txt
+-rw-r--r-- 1 alex alex 13 Apr  6 11:48 asdf.txt
+alex@DESKTOP-10C2AUC:~$ ps
+  PID TTY          TIME CMD
+   86 pts/0    00:00:00 bash
+  129 pts/0    00:00:00 ps
+alex@DESKTOP-10C2AUC:~$ date
+Wed Apr  6 11:58:08 EDT 2022
+alex@DESKTOP-10C2AUC:~$ echo qwerqwerqwer >> qwer.txt
+alex@DESKTOP-10C2AUC:~$ diff asdf.txt qwer.txt
+1c1
+< asdfasdfasdf
+---
+> qwerqwerqwer
+alex@DESKTOP-10C2AUC:~$ file asdf.txt
+asdf.txt: ASCII text
+alex@DESKTOP-10C2AUC:~$ wc asdf.txt
+ 1  1 13 asdf.txt
+alex@DESKTOP-10C2AUC:~$ man echo
+alex@DESKTOP-10C2AUC:~$ more asdf.txt
+asdfasdfasdf
+alex@DESKTOP-10C2AUC:~$ echo 'why is vim on this list, that does not really make sense for this assignment'
+why is vim on this list, that does not really make sense for this assignment
+alex@DESKTOP-10C2AUC:~$ sort asdf.txt
+asdfasdfasdf
+alex@DESKTOP-10C2AUC:~$ echo 'there is only one user so I am not going to use chown'
+there is only one user so I am not going to use chown
+alex@DESKTOP-10C2AUC:~$ who
+alex@DESKTOP-10C2AUC:~$ du
+4       ./.landscape
+4       ./inner
+4       ./tmp
+40      .
+alex@DESKTOP-10C2AUC:~$ df
+Filesystem      1K-blocks       Used  Available Use% Mounted on
+/dev/sdb        263174212    1114184  248621872   1% /
+tmpfs            13115828          0   13115828   0% /mnt/wsl
+tools          1023894952  952341740   71553212  94% /init
+none             13113744          0   13113744   0% /dev
+none             13115828          4   13115824   1% /run
+none             13115828          0   13115828   0% /run/lock
+none             13115828          0   13115828   0% /run/shm
+none             13115828          0   13115828   0% /run/user
+tmpfs            13115828          0   13115828   0% /sys/fs/cgroup
+drivers        1023894952  952341740   71553212  94% /usr/lib/wsl/drivers
+lib            1023894952  952341740   71553212  94% /usr/lib/wsl/lib
+C:\            1023894952  952341740   71553212  94% /mnt/c
+D:\            2930265084 2696790832  233474252  93% /mnt/d
+E:\            1953154044  593630988 1359523056  31% /mnt/e
+S:\                358396     286112      72284  80% /mnt/s
+alex@DESKTOP-10C2AUC:~$ echo 'not changing my password so not using passwd'
+not changing my password so not using passwd
+alex@DESKTOP-10C2AUC:~$ compress asdf.txt
+
+Command 'compress' not found, but can be installed with:
+
+sudo apt install ncompress
+
+alex@DESKTOP-10C2AUC:~$ echo 'no'
+no
+alex@DESKTOP-10C2AUC:~$
