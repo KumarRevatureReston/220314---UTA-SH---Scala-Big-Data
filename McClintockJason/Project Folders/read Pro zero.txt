@@ -1,0 +1,24 @@
+Created a working table in PostgreSQL containing information with the best selling video games between 1990 Jan 01 and 2010 Jan 01,
+that has a few errors that need to be updated with the following commands;
+
+ 1)
+// set num_sales to 26662500
+update game_stats
+set num_sales = 26662500
+where game_rank = 15;
+
+2)
+// correct spelling error and set to Super Mario Bros
+update game_stats
+set game_name = 'Super Mario Bros'
+where game_rank = 3;
+
+3)
+//correct release date to 2008 from 2080
+update game_stats
+set release_date = '2008-04-10'
+where game_rank = 7;
+
+After updating the table it can be seen that there are two games that need to be removed that do not fit the criteria of the table,
+as their release date is after the specified cut off for the table.
+
