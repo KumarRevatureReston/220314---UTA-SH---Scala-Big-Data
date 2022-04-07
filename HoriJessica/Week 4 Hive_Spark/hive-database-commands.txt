@@ -16,7 +16,7 @@ hadoop fs -put ratings.dat /user/maria_dev/rating
                     ) ROW FORMAT DELIMITED
                     FIELDS TERMINATED BY '\#'
                     STORED AS TEXTFILE
-                    LOCATION ‘\ /user/maria_dev/rating’;
+                    LOCATION '/user/maria_dev/rating';
                  
        
           CREATE EXTERNAL TABLE movies (
