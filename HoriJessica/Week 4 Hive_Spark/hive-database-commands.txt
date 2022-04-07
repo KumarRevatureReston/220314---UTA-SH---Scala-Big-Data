@@ -1,0 +1,49 @@
+hadoop fs -put occupations.dat /user/maria_dev/rating
+hadoop fs -put users.dat /user/maria_dev/user
+hadoop fs -put movies.dat /user/maria_dev/movie
+hadoop fs -put ratings.dat /user/maria_dev/rating
+
+
+          create database movielens;
+          use movielens;
+       
+     
+          CREATE EXTERNAL TABLE ratings (
+                   userid INT,
+                   movieid INT,
+                   rating INT,
+                   tstamp STRING
+                    ) ROW FORMAT DELIMITED
+                    FIELDS TERMINATED BY '\#'
+                    STORED AS TEXTFILE
+                    LOCATION ‘\ /user/maria_dev/rating’;
+                 
+       
+          CREATE EXTERNAL TABLE movies (
+                    movieid INT,
+                    title STRING,
+                    genres ARRAY<STRING>
+                  ) ROW FORMAT DELIMITED
+                  FIELDS TERMINATED BY '#'
+                  COLLECTION ITEMS TERMINATED BY "|"
+                  STORED AS TEXTFILE
+                  LOCATION '/user/maria_dev/movie';
+               
+          CREATE EXTERNAL TABLE users (
+                    userid INT,
+                    gender STRING,
+                    age INT,
+                    occupation_id INT,
+                    zipcode STRING
+                  ) ROW FORMAT DELIMITED
+                  FIELDS TERMINATED BY '#'
+                  STORED AS TEXTFILE
+                  LOCATION '/user/maria_dev/user';
+         
+           CREATE EXTERNAL TABLE occupations (
+                    id INT,
+                    occupation STRING
+                  ) ROW FORMAT DELIMITED
+                  FIELDS TERMINATED BY '#'
+                  STORED AS TEXTFILE
+                  LOCATION '/user/maria_dev/occupation';
