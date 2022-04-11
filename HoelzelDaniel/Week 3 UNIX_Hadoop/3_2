@@ -1,0 +1,300 @@
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -put test.txt 
+put: `test.txt': File exists
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -get test.txt
+get: `test.txt': File exists
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -cat test.txt
+[root@sandbox-hdp ~]# hadoop fs -mv test.txt tst.txt
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# ls
+anaconda-ks.cfg  test.txt
+[root@sandbox-hdp ~]# vi localTest.txt
+[root@sandbox-hdp ~]# hadoop fs -copyFromLocal localTest.txt 
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -get localTest.txt 
+get: `localTest.txt': File exists
+[root@sandbox-hdp ~]# hadoop fs -head localTest.txt 
+
+
+thsi is a test
+[root@sandbox-hdp ~]# hadoop fs -mkdir newDir
+[root@sandbox-hdp ~]# hadoop fs -ls
+jFound 3 items
+-rw-r--r--   1 root hdfs         17 2022-04-04 01:45 localTest.txt
+drwxr-xr-x   - root hdfs          0 2022-04-04 01:46 newDir
+-rw-r--r--   1 root hdfs          0 2022-04-03 22:14 tst.txt
+[root@sandbox-hdp ~]# ls
+anaconda-ks.cfg  localTest.txt  test.txt
+[root@sandbox-hdp ~]# rm localTest.txt 
+rm: remove regular file ‘localTest.txt’? y
+[root@sandbox-hdp ~]# ls
+anaconda-ks.cfg  test.txt
+[root@sandbox-hdp ~]# hadoop fs -get localTest.txt local.txt
+[root@sandbox-hdp ~]# ls
+anaconda-ks.cfg  local.txt  test.txt
+[root@sandbox-hdp ~]# cat local.txt 
+
+
+thsi is a test
+[root@sandbox-hdp ~]# hadoop fs -cp test.txt newtest.txt
+cp: `test.txt': No such file or directory
+[root@sandbox-hdp ~]# hadoop fs -ls
+Found 3 items
+-rw-r--r--   1 root hdfs         17 2022-04-04 01:45 localTest.txt
+drwxr-xr-x   - root hdfs          0 2022-04-04 01:46 newDir
+-rw-r--r--   1 root hdfs          0 2022-04-03 22:14 tst.txt
+[root@sandbox-hdp ~]# hadoop fs -cp tst.txt newtest.txt
+[root@sandbox-hdp ~]# hadoop fs -ls
+Found 4 items
+-rw-r--r--   1 root hdfs         17 2022-04-04 01:45 localTest.txt
+drwxr-xr-x   - root hdfs          0 2022-04-04 01:46 newDir
+-rw-r--r--   1 root hdfs          0 2022-04-04 01:48 newtest.txt
+-rw-r--r--   1 root hdfs          0 2022-04-03 22:14 tst.txt
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -mv newtest.txt newDir/
+[root@sandbox-hdp ~]# hadoop fs -mkdir emptyDir
+[root@sandbox-hdp ~]# hadoop fs -rm newDir
+rm: `newDir': Is a directory
+[root@sandbox-hdp ~]# hadoop fs -rm emptyDir
+rm: `emptyDir': Is a directory
+[root@sandbox-hdp ~]# hadoop fs -rmr emptyDir
+rmr: DEPRECATED: Please use '-rm -r' instead.
+22/04/04 01:56:38 INFO fs.TrashPolicyDefault: Moved: 'hdfs://sandbox-hdp.hortonworks.com:8020/user/root/emptyDir' to trash at: hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.Trash/Current/user/root/emptyDir
+[root@sandbox-hdp ~]# hadoop fs -rmr newDir
+rmr: DEPRECATED: Please use '-rm -r' instead.
+22/04/04 01:56:50 INFO fs.TrashPolicyDefault: Moved: 'hdfs://sandbox-hdp.hortonworks.com:8020/user/root/newDir' to trash at: hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.Trash/Current/user/root/newDir
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -ls
+Found 3 items
+drwx------   - root hdfs          0 2022-04-04 01:56 .Trash
+-rw-r--r--   1 root hdfs         17 2022-04-04 01:45 localTest.txt
+-rw-r--r--   1 root hdfs          0 2022-04-03 22:14 tst.txt
+[root@sandbox-hdp ~]# hadoop fs -tail .Trash
+tail: `.Trash': Is a directory
+[root@sandbox-hdp ~]# hadoop fs -ls .Trash 
+Found 1 items
+drwx------   - root hdfs          0 2022-04-04 01:56 .Trash/Current
+[root@sandbox-hdp ~]# vi newfile.txt
+[root@sandbox-hdp ~]# hadoop fs -put newfile.txt 
+[root@sandbox-hdp ~]# hadoop fs -cat newfile.txt | more
+ksdflasjdflsajfas
+fsf
+s
+
+
+kdsfjas
+
+
+random text
+
+sdkfjsdlfj
+
+
+more random text
+[root@sandbox-hdp ~]# hadoop fs -tail newfile.txt
+ksdflasjdflsajfas
+fsf
+s
+
+
+kdsfjas
+
+
+random text
+
+sdkfjsdlfj
+
+
+more random text
+[root@sandbox-hdp ~]# tail -h
+tail: invalid option -- 'h'
+Try 'tail --help' for more information.
+[root@sandbox-hdp ~]# tail --h
+Usage: tail [OPTION]... [FILE]...
+Print the last 10 lines of each FILE to standard output.
+With more than one FILE, precede each with a header giving the file name.
+With no FILE, or when FILE is -, read standard input.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -c, --bytes=K            output the last K bytes; or use -c +K to output
+                             bytes starting with the Kth of each file
+  -f, --follow[={name|descriptor}]
+                           output appended data as the file grows;
+                             an absent option argument means 'descriptor'
+  -F                       same as --follow=name --retry
+  -n, --lines=K            output the last K lines, instead of the last 10;
+                             or use -n +K to output starting with the Kth
+      --max-unchanged-stats=N
+                           with --follow=name, reopen a FILE which has not
+                             changed size after N (default 5) iterations
+                             to see if it has been unlinked or renamed
+                             (this is the usual case of rotated log files);
+                             with inotify, this option is rarely useful
+      --pid=PID            with -f, terminate after process ID, PID dies
+  -q, --quiet, --silent    never output headers giving file names
+      --retry              keep trying to open a file if it is inaccessible
+  -s, --sleep-interval=N   with -f, sleep for approximately N seconds
+                             (default 1.0) between iterations;
+                             with inotify and --pid=P, check process P at
+                             least once every N seconds
+  -v, --verbose            always output headers giving file names
+      --help     display this help and exit
+      --version  output version information and exit
+
+If the first character of K (the number of bytes or lines) is a '+',
+print beginning with the Kth item from the start of each file, otherwise,
+print the last K items in the file.  K may have a multiplier suffix:
+b 512, kB 1000, K 1024, MB 1000*1000, M 1024*1024,
+GB 1000*1000*1000, G 1024*1024*1024, and so on for T, P, E, Z, Y.
+
+With --follow (-f), tail defaults to following the file descriptor, which
+means that even if a tail'ed file is renamed, tail will continue to track
+its end.  This default behavior is not desirable when you really want to
+track the actual name of the file, not the file descriptor (e.g., log
+rotation).  Use --follow=name in that case.  That causes tail to track the
+named file in a way that accommodates renaming, removal and creation.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+For complete documentation, run: info coreutils 'tail invocation'
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -tail -n 1 newfile.txt
+-tail: Illegal option -n
+Usage: hadoop fs [generic options]
+	[-appendToFile <localsrc> ... <dst>]
+	[-cat [-ignoreCrc] <src> ...]
+	[-checksum <src> ...]
+	[-chgrp [-R] GROUP PATH...]
+	[-chmod [-R] <MODE[,MODE]... | OCTALMODE> PATH...]
+	[-chown [-R] [OWNER][:[GROUP]] PATH...]
+	[-copyFromLocal [-f] [-p] [-l] [-d] [-t <thread count>] <localsrc> ... <dst>]
+	[-copyToLocal [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+	[-count [-q] [-h] [-v] [-t [<storage type>]] [-u] [-x] [-e] <path> ...]
+	[-cp [-f] [-p | -p[topax]] [-d] <src> ... <dst>]
+	[-createSnapshot <snapshotDir> [<snapshotName>]]
+	[-deleteSnapshot <snapshotDir> <snapshotName>]
+	[-df [-h] [<path> ...]]
+	[-du [-s] [-h] [-v] [-x] <path> ...]
+	[-expunge]
+	[-find <path> ... <expression> ...]
+	[-get [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+	[-getfacl [-R] <path>]
+	[-getfattr [-R] {-n name | -d} [-e en] <path>]
+	[-getmerge [-nl] [-skip-empty-file] <src> <localdst>]
+	[-head <file>]
+	[-help [cmd ...]]
+	[-ls [-C] [-d] [-h] [-q] [-R] [-t] [-S] [-r] [-u] [-e] [<path> ...]]
+	[-mkdir [-p] <path> ...]
+	[-moveFromLocal <localsrc> ... <dst>]
+	[-moveToLocal <src> <localdst>]
+	[-mv <src> ... <dst>]
+	[-put [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+	[-renameSnapshot <snapshotDir> <oldName> <newName>]
+	[-rm [-f] [-r|-R] [-skipTrash] [-safely] <src> ...]
+	[-rmdir [--ignore-fail-on-non-empty] <dir> ...]
+	[-setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]]
+	[-setfattr {-n name [-v value] | -x name} <path>]
+	[-setrep [-R] [-w] <rep> <path> ...]
+	[-stat [format] <path> ...]
+	[-tail [-f] <file>]
+	[-test -[defsz] <path>]
+	[-text [-ignoreCrc] <src> ...]
+	[-touch [-a] [-m] [-t TIMESTAMP ] [-c] <path> ...]
+	[-touchz <path> ...]
+	[-truncate [-w] <length> <path> ...]
+	[-usage [cmd ...]]
+
+Generic options supported are:
+-conf <configuration file>        specify an application configuration file
+-D <property=value>               define a value for a given property
+-fs <file:///|hdfs://namenode:port> specify default filesystem URL to use, overrides 'fs.defaultFS' property from configurations.
+-jt <local|resourcemanager:port>  specify a ResourceManager
+-files <file1,...>                specify a comma-separated list of files to be copied to the map reduce cluster
+-libjars <jar1,...>               specify a comma-separated list of jar files to be included in the classpath
+-archives <archive1,...>          specify a comma-separated list of archives to be unarchived on the compute machines
+
+The general command line syntax is:
+command [genericOptions] [commandOptions]
+
+Usage: hadoop fs [generic options] -tail [-f] <file>
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -tail --help
+-tail: Illegal option --help
+Usage: hadoop fs [generic options]
+	[-appendToFile <localsrc> ... <dst>]
+	[-cat [-ignoreCrc] <src> ...]
+	[-checksum <src> ...]
+	[-chgrp [-R] GROUP PATH...]
+	[-chmod [-R] <MODE[,MODE]... | OCTALMODE> PATH...]
+	[-chown [-R] [OWNER][:[GROUP]] PATH...]
+	[-copyFromLocal [-f] [-p] [-l] [-d] [-t <thread count>] <localsrc> ... <dst>]
+	[-copyToLocal [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+	[-count [-q] [-h] [-v] [-t [<storage type>]] [-u] [-x] [-e] <path> ...]
+	[-cp [-f] [-p | -p[topax]] [-d] <src> ... <dst>]
+	[-createSnapshot <snapshotDir> [<snapshotName>]]
+	[-deleteSnapshot <snapshotDir> <snapshotName>]
+	[-df [-h] [<path> ...]]
+	[-du [-s] [-h] [-v] [-x] <path> ...]
+	[-expunge]
+	[-find <path> ... <expression> ...]
+	[-get [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+	[-getfacl [-R] <path>]
+	[-getfattr [-R] {-n name | -d} [-e en] <path>]
+	[-getmerge [-nl] [-skip-empty-file] <src> <localdst>]
+	[-head <file>]
+	[-help [cmd ...]]
+	[-ls [-C] [-d] [-h] [-q] [-R] [-t] [-S] [-r] [-u] [-e] [<path> ...]]
+	[-mkdir [-p] <path> ...]
+	[-moveFromLocal <localsrc> ... <dst>]
+	[-moveToLocal <src> <localdst>]
+	[-mv <src> ... <dst>]
+	[-put [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+	[-renameSnapshot <snapshotDir> <oldName> <newName>]
+	[-rm [-f] [-r|-R] [-skipTrash] [-safely] <src> ...]
+	[-rmdir [--ignore-fail-on-non-empty] <dir> ...]
+	[-setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]]
+	[-setfattr {-n name [-v value] | -x name} <path>]
+	[-setrep [-R] [-w] <rep> <path> ...]
+	[-stat [format] <path> ...]
+	[-tail [-f] <file>]
+	[-test -[defsz] <path>]
+	[-text [-ignoreCrc] <src> ...]
+	[-touch [-a] [-m] [-t TIMESTAMP ] [-c] <path> ...]
+	[-touchz <path> ...]
+	[-truncate [-w] <length> <path> ...]
+	[-usage [cmd ...]]
+
+Generic options supported are:
+-conf <configuration file>        specify an application configuration file
+-D <property=value>               define a value for a given property
+-fs <file:///|hdfs://namenode:port> specify default filesystem URL to use, overrides 'fs.defaultFS' property from configurations.
+-jt <local|resourcemanager:port>  specify a ResourceManager
+-files <file1,...>                specify a comma-separated list of files to be copied to the map reduce cluster
+-libjars <jar1,...>               specify a comma-separated list of jar files to be included in the classpath
+-archives <archive1,...>          specify a comma-separated list of archives to be unarchived on the compute machines
+
+The general command line syntax is:
+command [genericOptions] [commandOptions]
+
+Usage: hadoop fs [generic options] -tail [-f] <file>
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# hadoop fs -du newfile.txt
+79  79  newfile.txt
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# 
+[root@sandbox-hdp ~]# vi commands.txt
+[root@sandbox-hdp ~]# cat commands.txt 
+The most useful commands are the get, put, and copy commands.
+
+
+Getting a file is really useful and extremely common.
+
+Putting a file to the hdfs is really easy, so many applications can use the feature.
+
+Copying files is an extremely common task and it's nice ot have built in features taht facilitate network level copying.
+[root@sandbox-hdp ~]# 
