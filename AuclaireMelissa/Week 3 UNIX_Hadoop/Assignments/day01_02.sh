@@ -1,14 +1,15 @@
 #!/bin/bash
 
-# 1. Find the sum of first ‘N’ numbers in Fibonacci Series
+# 2. Find the sum of first ‘N’ numbers in Fibonacci Series
+n=$1
+a=0
+b=1
 
-#A=(1+sqrt(5))/2
-#B=(1-sqrt(5))/2
-#c=sqrt(5)
-# d=sqrt(x^2)
-A='scale=30;sqrt(2)'
-echo A
-
-
-#fib = (Math.pow(A,n) - Math.pow(B,n)) / Math.sqrt(5);
-#return Math.ceil(fib);
+for(( i=0; i < n; i++))
+do
+  echo -n "$a "
+  fn=$((a + b))
+  a=$b
+  b=$fn
+done
+echo ""

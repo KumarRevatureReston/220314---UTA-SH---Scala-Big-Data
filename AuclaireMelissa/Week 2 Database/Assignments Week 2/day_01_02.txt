@@ -1,0 +1,118 @@
+B. MySQL Insert Rows into the Table
+
+Write a SQL statement to insert a record with your own value into the table countries against each columns.
+
+Here in the following is the structure of the table countries.
+
++--------------+---------------+------+-----+---------+-------+
+| Field        | Type          | Null | Key | Default | Extra |
++--------------+---------------+------+-----+---------+-------+
+| COUNTRY_ID   | varchar(2)    | YES  |     | NULL    |       |
+| COUNTRY_NAME | varchar(40)   | YES  |     | NULL    |       |
+| REGION_ID    | decimal(10,0) | YES  |     | NULL    |       |
++--------------+---------------+------+-----+---------+-------+	
+
+use revature_demo;
+
+INSERT INTO countries (
+	COUNTRY_ID,
+	COUNTRY_NAME,
+	REGION_ID
+) VALUES (
+	'1',
+	'United States',
+	'1'
+);
+
+
+
+2. Write a SQL statement to insert one row into the table countries against the column country_id and country_name.
+
+Here in the following is the structure of the table countries.
+
++--------------+---------------+------+-----+---------+-------+
+| Field        | Type          | Null | Key | Default | Extra |
++--------------+---------------+------+-----+---------+-------+
+| COUNTRY_ID   | varchar(2)    | YES  |     | NULL    |       |
+| COUNTRY_NAME | varchar(40)   | YES  |     | NULL    |       |
+| REGION_ID    | decimal(10,0) | YES  |     | NULL    |       |
++--------------+---------------+------+-----+---------+-------+	
+
+use revature_demo;
+
+INSERT INTO countries (
+	COUNTRY_ID,
+	COUNTRY_NAME
+) VALUES (
+	'2',
+	'Egypt'
+);
+
+
+
+
+3. Write a SQL statement to create duplicate of countries table named country_new with all structure and data.
+
+Here in the following is the structure of the table countries.
+
++--------------+---------------+------+-----+---------+-------+
+| Field        | Type          | Null | Key | Default | Extra |
++--------------+---------------+------+-----+---------+-------+
+| COUNTRY_ID   | varchar(2)    | YES  |     | NULL    |       |
+| COUNTRY_NAME | varchar(40)   | YES  |     | NULL    |       |
+| REGION_ID    | decimal(10,0) | YES  |     | NULL    |       |
++--------------+---------------+------+-----+---------+-------+	
+
+use revature_demo;
+
+CREATE TABLE countries_new AS
+SELECT COUNTRY_ID, COUNTRY_NAME, REGION_ID
+FROM countries;
+
+SELECT * FROM countries_new;
+
+
+
+4. Write a SQL statement to insert NULL values against region_id column for a row of countries table.
+
+
+use revature_demo;
+
+INSERT INTO countries (
+	REGION_ID
+) VALUES (
+	NULL
+);
+
+SELECT * FROM countries;
+
+
+
+5. Write a SQL statement to insert 3 rows by a single insert statement.
+
+use revature_demo;
+
+INSERT INTO countries (
+	COUNTRY_ID,
+	COUNTRY_NAME,
+	REGION_ID
+) VALUES 
+('81', 'Japan','2'),
+('82', 'South Korea','2'),
+('86', 'China','2');
+
+SELECT * FROM countries;
+
+
+
+6. Write a SQL statement insert rows from country_new table to countries table.
+
+Here is the rows for country_new table. Assume that, the countries table is empty.
+
++------------+--------------+-----------+
+| COUNTRY_ID | COUNTRY_NAME | REGION_ID |
++------------+--------------+-----------+
+| C0001      | India        |      1001 |
+| C0002      | USA          |      1007 |
+| C0003      | UK           |      1003 |
++------------+--------------+-----------+
