@@ -1,0 +1,6 @@
+acc_num,cli_name,cli_lastname,acc_type,acc_montfee,acc_pass,acc_interest_rate,acc_status,acc_balance
+3,Kelly,Peterson,CHECKING,12,1236,0,ACTIVE,5020.42
+4,Jean,Louis,CHECKING,12,1236,0,ACTIVE,100.42
+5,John,Jackson,CHECKING,12,12345,0,ACTIVE,200.10
+6,Pamela,Anderson,SAVING,0,1234,2,ACTIVE,100.00
+2,George,Michael,CHECKING,12,1235,0,ACTIVE,4100.00
