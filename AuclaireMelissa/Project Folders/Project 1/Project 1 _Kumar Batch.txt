@@ -8,8 +8,17 @@ Once imported, create queries to analyze and display data about the movies and t
 
 Example Queries to analyze:
 1.Display first 5 entries from movies table
+
+SELECT * FROM u_data LIMIT 10;
+
 2.Count number of unique movies
+
+SELECT COUNT(DISTINCT(u_data.movieid)) FROM u_data;
+
 3.Which movie received the highest number of ratings
+
+SELECT u_data.movieid, SUM(u_data.rating) AS rating FROM u_data GROUP BY u_data.movieid ORDER BY u_data.movieid DESC;
+
 4.Top 25 most rated movies etc.
 
 Step 1: Verify the Dataset [https://grouplens.org/datasets/movielens/]

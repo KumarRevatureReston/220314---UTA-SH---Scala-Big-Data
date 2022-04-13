@@ -116,3 +116,58 @@ Here is the rows for country_new table. Assume that, the countries table is empt
 | C0002      | USA          |      1007 |
 | C0003      | UK           |      1003 |
 +------------+--------------+-----------+
+
+use revature_demo;
+
+CREATE TABLE countries_table
+  AS (SELECT * FROM country_new);
+  
+  
+ 7. Write a SQL statement to insert one row in jobs table to ensure that no duplicate value will be entered in the job_id column.
+ 
+CREATE TABLE IF NOT EXISTS countriis ( 
+COUNTRY_ID integer NOT NULL UNIQUE , 
+COUNTRY_NAME varchar(35) NOT NULL, 
+REGION_ID decimal(6,0)
+);
+
+-- SELECT * FROM countriis;
+
+INSERT INTO countriis VALUES(1, "America", 1);
+
+SELECT * FROM countriis;
+
+INSERT INTO countriis VALUES(1, "America", 1);
+ 
+ 
+
+
+C.MySQL Update Table
+
+
+1. Write a SQL statement to change the email column of employees table with 'not available' for all employees.
+
+
+use classicmodels;
+
+UPDATE employees SET  email = 'not avilable';
+
+SELECT * FROM employees;
+
+
+2. Write a SQL statement to change the email and commission_pct column of employees table with 'not available' and 0.10 for all employees.
+
+
+use classicmodels;
+
+UPDATE employees SET  email = 'not avilable', commission_pct = 'not_available';
+
+SELECT * FROM employees;
+
+
+
+3. Write a query to get discontinued Product list (Product ID and name). Go to the editor
+
+
+
+
