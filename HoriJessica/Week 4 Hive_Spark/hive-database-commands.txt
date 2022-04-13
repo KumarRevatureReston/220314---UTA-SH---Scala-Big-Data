@@ -4,6 +4,16 @@ hadoop fs -put movies.dat /user/maria_dev/movie
 hadoop fs -put ratings.dat /user/maria_dev/rating
 
 
+
+load data inpath 'hdfs://sandbox-hdp.hortonworks.com:8020/user/hive/rating/ratings.dat' into table myDB.movielens
+LOAD DATA LOCAL INPATH '/~/file_path' INTO TABLE table_name;
+
+
+
+FAILED: HiveAccessControlException Permission denied: user [hive] does not have [ALL] privilege on [hdfs://sandbox-hdp.hortonworks.com:8020
+
+
+
           create database movielens;
           use movielens;
        
