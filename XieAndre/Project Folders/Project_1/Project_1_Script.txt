@@ -1,0 +1,37 @@
+Our project is on the analysis of the Movielens dataset.
+
+
+===THE DATA===
+The dataset comes from the MovieLens service which allows users to rate various movies and build their own custom profiles based on the movies and genres they like. MovieLens would then recommend other movies based on those preferences. 
+
+The data set that we are working with is comprised of 100,000 movie ratings from 943 users which are spread across a total of 1,682 movies. From this dataset we imported data.csv, genre.csv, user.csv, and item.csv into 4 tables that we named movie, genre, users, and item respectively. Below are the various columns for each table. 
+
+
+
+
+
+
+===MISSION STATEMENT===
+The mission statement is divided into 3 distinct parts:
+
+1. To see what theatrical elements work best in a given genre’s production based on existing well-performing releases.
+
+2. To see what theatrical elements were more popular with the general public given statistically significant levels of ratings.
+
+3. To see what users to market specific movies to in order increase popular sentiment towards new releases. 
+
+
+
+
+
+
+
+===INTERPRETATION===
+
+The interpretation of the queries we ran go as following:
+
+1. For the first output, looking at action-comedy movies in particular, film elements with similar theatrical properties to movies such as The Princess Bride would most likely be popular to the general public.
+
+2. For the second output, the most popular movies that were heavily reviewed and watched in the given dataset that garnered good reviews were action or thriller type films. 
+
+3. For the third output, users with the id 404, 157, 233, and 626 all gave incredibly high average ratings for all movies watched in the years that they reviewed them. These users could potentially have new theatrical releases marketed towards them and/or given advanced copies in order to boost the ratings before a given film official release to the general public.
