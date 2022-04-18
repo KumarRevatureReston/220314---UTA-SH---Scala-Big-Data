@@ -13,16 +13,22 @@ Requirements:
 - Optionals:
   - implement logging (with Spark)
   - use Zeppelin (graphics and visuals) for showing trends and data analysis
-  - Implement Agile Scrum methodology for project work (choose Scrum Master who will serve as team lead,and have daily scrum meetings, by end of day report blockers)
+  - Implement Agile Scrum methodology for project work (choose Scrum Master who will serve as team lead,and 
+    have daily scrum meetings, by end of day report blockers)
 
 ### Presentations:
-- Prepare a slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and any assumptions and simplifications you made on the way to those results.
-- The Expected output is different trends that you have observed as part of data collectively and how you can use these trends to make some useful decisions in the business.
+- Prepare a slide deck providing an overview of your results. You should present your results, 
+  a high level overview of the process used to achieve those results, and any assumptions and simplifications
+  you made on the way to those results.
+- The Expected output is different trends that you have observed as part of data collectively and 
+  how you can use these trends to make some useful decisions in the business.
 - Run an analysis on the day of the presentation, Keep your slides, github and the application ready to execute
 - Assign roles within your team team for Git, Github,Powerpoints, Demo Video(Optional), 
 - Include screen shots and practical demo ..[30 Second recorded video - Optional]
-- We'll have 20 - 30 minutes per group, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
+- We'll have 20 - 30 minutes per group, so make sure your presentation can be covered in that time, 
+  focusing on the parts of your analysis you find most interesting.
 - Include a link to your github repository at the end of your slides
+- Give introduction abt ur team, project and do a handover of slides. Formal attire, web cam on and professional.
 
 
 
