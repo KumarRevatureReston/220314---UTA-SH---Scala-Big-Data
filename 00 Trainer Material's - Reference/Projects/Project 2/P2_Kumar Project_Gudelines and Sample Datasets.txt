@@ -1,0 +1,84 @@
+Guidelines:
+
+This is a template, to be filled out by each group and placed in their git repo titled README.md
+
+Requirements:
+- Create a Spark Application that processes your data.
+- Try to include every concept of spark like rdd, dataframes, sql, dataset and optimization methods and persistence.
+- Your project 2 pitch should involve specific analysis of the data selected. This is the central feature. 
+- Git repo should have all the details like Read md with description, Datasets, input files with codes, output etc.,
+- You can run application using spark-submit (in Ubuntu) or in HDP or in Scala SBT or both . 
+- Min 5 queries and Max 10 queries per group 
+- Find a trend through your analysis
+- Optionals:
+  - implement logging (with Spark)
+  - use Zeppelin (graphics and visuals) for showing trends and data analysis
+  - Implement Agile Scrum methodology for project work (choose Scrum Master who will serve as team lead,and have daily scrum meetings, by end of day report blockers)
+
+### Presentations:
+- Prepare a slide deck providing an overview of your results. You should present your results, a high level overview of the process used to achieve those results, and any assumptions and simplifications you made on the way to those results.
+- Run an analysis on the day of the presentation, Keep your slides, github and the application ready to execute
+- Assign roles within your team team for Git, Github,Powerpoints, Demo Video(Optional), 
+- Include screen shots and practical demo ..[30 Second recorded video - Optional]
+- We'll have 20 - 30 minutes per group, so make sure your presentation can be covered in that time, focusing on the parts of your analysis you find most interesting.
+- Include a link to your github repository at the end of your slides
+
+
+
+### Technologies
+
+- Apache Spark
+- Spark SQL
+- YARN
+- HDFS and/or S3
+- SBT
+- Scala 2.12.10
+- Git + GitHub
+- Zeppelin
+- JIRA
+
+
+### Due Date
+- Presentations will take place on Friday, 4/29
+- Send one page Project proposal with MVP clearly labeled with your goals by 4/18
+
+Dataset Samples:
+1.Spark Project - Hotel Booking Analysis
+Dataset: https://www.kaggle.com/jessemostipak/hotel-booking-demand
+Creating Spark jobs in Scala to perform various analysis on a Hotel Booking dataset stored in HDFS in csv format.
+
+
+2.Spark Project - Olympics Analysis
+Dataset: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
+Creating Spark jobs in Scala to perform various analysis on a Olympics dataset stored in HDFS in csv format.
+
+3.P2:Spark Project - Airline Analysis
+Dataset: https://www.kaggle.com/giovamata/airlinedelaycauses
+Spark Project - Airline Analysis
+Creating Spark jobs in Scala to perform various analysis on a Airline dataset stored in HDFS in csv format.
+
+4.P2: Spark Walmart Data Analysis Project
+Walmart Stock from the years 2012-2017
+Create a new dataframe with a column called HV Ratio that is the ratio of the High Price versus
+volume of stock traded for a day.
+What day had the Peak High in Price?
+What is the mean of the Close column?
+What is the max and min of the Volume column?
+How many days was the Close lower than 60 dollars?
+What percentage of the time was the High greater than 80 dollars ?
+In other words, (Number of Days High>80)/(Total Days in the dataset)
+What is the max High per year?
+What is the average Close for each Calendar Month?
+In other words, across all the years, what is the average Close price for Jan,Feb, Mar, etc... Your
+result will have a value for each of these months.
+Ref: https://github.com/pratikbarjatya/spark-walmart-data-analysis-exercise
+Data: https://finance.yahoo.com/quote/wmt/history/
+https://www.macrotrends.net/stocks/charts/WMT/walmart/stock-price-history
+
+5.P2: Walmart’s Sales Data Analysis
+Ref: https://repository.usp.ac.fj/10798/1/Article_93.pdf
+Data: https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data
+Important READ: https://www.projectpro.io/article/how-big-data-analysis-helped-increase-walmarts-sales-turnover/109
+
+
+
