@@ -1,6 +1,6 @@
 # Analyze MovieLens data-P1
-## Max Julian Landa Nunez
 ## Mohammad Aydin
+## Max Julian Landa Nunez
 
 > # 1. Analyze Movielens Project
 
