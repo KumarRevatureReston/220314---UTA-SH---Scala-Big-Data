@@ -30,7 +30,7 @@ Rating would be not accurate in case of few ratings. our aim is to find top rate
 
 ## Contributors
 
-> Mohammad Aydin
+> Mohammad Aydin and
 > Max Julian Landa Nunez
 
 
