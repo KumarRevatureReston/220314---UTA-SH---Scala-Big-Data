@@ -3,6 +3,3 @@ https://docs.google.com/presentation/d/1Yk9ZuNuZUVeew1_YVf0VjnnHGDIUd6zwQAjv63BW
 
 Trello Board
 https://trello.com/b/adWSdLPj/agile-board
-
-Jira Board
-https://nathanjira.atlassian.net/jira/software/projects/RP2/boards/1
