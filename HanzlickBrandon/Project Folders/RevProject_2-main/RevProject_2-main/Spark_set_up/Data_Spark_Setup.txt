@@ -1,0 +1,209 @@
+// download the csv file for walmart data from my google drive at
+https://drive.google.com/drive/folders/1aTLoCy1Cm0pApvYayVbbYqRUUoCym5Tg?usp=sharing
+
+WALMART_SALES_DATA.csv
+
+****NOTE******
+// sqlContext is a variable setup in the spark import file at the bottom of this page. .sql is the spark sql method
+
+//to delete table in spark use the following --  
+sqlContext.sql("use select_database") 
+sqlContext.sql("drop table table_name")
+
+// USE GUI FOR INITIAL PART HERE
+// upload csv file to maria_dev/wmData/WALMART_SALES_DATA.csv
+// this can be done through the gui localhost:8080 
+// after logging in go to files view, users, maria_dev, create the directory wmData, upload the csv to that directory
+----------------------------------------------------------------------------------
+
+// open putty, login as maria_dev, pass maria_dev
+// run hive
+// enter hiveQL command to create the database
+
+ create database if not exists wmdata;
+
+// open a second putty logging in with maria_dev
+// create a hive-site.xml file in spark config file and paste in the hive-site.xml content provided below using Right mouse button
+// dont forget to type i  to insert text into vi editor, when text is pasted in hit escape button then :wq
+
+sudo vi /etc/spark2/conf/hive-site.xml
+
+//create a file using vi editor called sparkImports.scala
+// copy and paste code to import into vi file.. ctrl c to copy, right mouse button to paste into the file.
+
+sudo vi sparkImports.scala
+
+// commands while in vi - i key sets to insert, escape to stop insert, :wq to write changes, :q to quit.
+
+-------------------------------------------
+// code to copy - see bottom sparkImports to copy and paste code.
+
+// after paste is done load spark with includes
+
+spark-shell -i sparkImports.scala
+
+//  when spark starts tell it to use the proper database
+
+useDb()
+
+// create the table in spark
+
+createTable()  
+
+// load the data into the table in the proper format, will print out each column name and the data type of the column
+
+loadDataIntoTable()
+
+// verify that the data loaded properly
+
+val df = loadTable()
+df.show()
+
+
+
+----------------------------------------------------------------------------------------
+///  *********  hive-site.xml   ***********
+
+  <configuration  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <property>
+      <name>hive.exec.scratchdir</name>
+      <value>/tmp/spark</value>
+    </property>
+
+    <property>
+      <name>hive.metastore.client.connect.retry.delay</name>
+      <value>5</value>
+    </property>
+
+    <property>
+      <name>hive.metastore.client.socket.timeout</name>
+      <value>1800</value>
+    </property>
+
+    <property>
+      <name>hive.metastore.uris</name>
+      <value>thrift://sandbox-hdp.hortonworks.com:9083</value>
+    </property>
+
+    <property>
+      <name>hive.server2.enable.doAs</name>
+      <value>false</value>
+    </property>
+
+    <property>
+      <name>hive.server2.thrift.http.port</name>
+      <value>10002</value>
+    </property>
+
+    <property>
+      <name>hive.server2.thrift.port</name>
+      <value>10016</value>
+    </property>
+
+    <property>
+      <name>hive.server2.transport.mode</name>
+      <value>binary</value>
+    </property>
+
+
+  </configuration>
+
+
+
+----------------------------------------------------------------------------------------
+///  *********   Spark Import File   ***********
+
+
+// import org.apache.spark.sql.(Row, SaveMode, SparkSession}
+
+import org.apache.spark.sql._
+import org.apache.log4j._
+import java.io.File
+
+// additional imports as per
+// https://apache.googlesource.com/spark/+/master/examples/src/main/scala/org/apache/spark/examples/sql/SparkSQLExample.scala
+
+import org.apache.spark.sql.Row
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.types._
+
+val warehouseLocation = new File("spark-warehouse").getAbsolutePath
+
+val session = SparkSession.builder()
+.appName("wmData")
+.master("local")
+.config("spark.sql.warehouse.dir", warehouseLocation)
+.enableHiveSupport()
+.getOrCreate()
+
+// attempted session setup
+//val sc = new SparkContext("local", "wmdata")
+//val sqlC = new SQLContext(sc)
+
+// temp commented out as I am trying to use spark sessions
+//val sqlContext = new org.apache.spark.sql.hive.HiveContext(sc)
+
+import spark.implicits._
+
+// user defined functions
+
+// set database for spark to use
+def useDb(dbName:String = "wmdata"):Unit = {
+        val s = SparkSession.builder.getOrCreate()
+        s.sql(s"use ${dbName}")
+}
+
+def loadTable( table:String = "wmdata.sales" ):DataFrame = {
+        val s = SparkSession.builder.getOrCreate()
+        return s.sql(s"SELECT * FROM ${table}")
+}
+
+def q1(df:DataFrame):DataFrame = {
+        val s = SparkSession.builder.getOrCreate()
+        val a =  df.groupBy("store")
+                        .agg(
+                                sum("weekly_sales").as("total_sales"),
+                                avg("temperature").as("avg_temp"),
+                                avg("fuel_price").as("avg_fuel_price"),
+                                avg("unemployment").as("avg_unemployment")
+                        )
+        return a.orderBy(desc("total_sales"))
+}
+
+
+// Setup functions
+
+
+def dropTable(tableName:String = "wmdata.sales"):Unit = {
+        val s = SparkSession.builder.getOrCreate()
+        s.sql(s"DROP TABLE ${tableName}")
+}
+
+def createTable(tableName:String = "sales"):Unit = {
+        val s = SparkSession.builder.getOrCreate()
+        s.sql("create table if not exists sales (store INT, date DATE, weekly_sales DECIMAL(38,2), holiday_flag INT, temperature DECIMAL(4,2), fuel_price DECIMAL(38,3), cpi DECIMAL(38,5), unemployment DECIMAL(5,2) )Stored as ORC tblproperties(\"transactional\"=\"true\")")
+}
+
+def loadDataIntoTable(dataSetLocation:String = "wmData/WALMART_SALES_DATA.csv", inFormat:String = "csv"):Unit = {
+        val s = SparkSession.builder.getOrCreate()
+        val df = s.read.format(inFormat).option("header","true").load(dataSetLocation)
+        val df1 = df.withColumn("Date", date_format(to_date(col("Date"),"dd-MM-yyyy"),"yyyy-MM-dd"))
+        df1.registerTempTable("temptable")
+        s.sql("insert overwrite table sales select * from temptable")
+        val df2 = s.sql("select * from wmdata.sales")
+        println(df2.schema("store").dataType)
+        println(df2.schema("date").dataType)
+        println(df2.schema("weekly_sales").dataType)
+        println(df2.schema("holiday_flag").dataType)
+        println(df2.schema("temperature").dataType)
+        println(df2.schema("fuel_price").dataType)
+        println(df2.schema("cpi").dataType)
+        println(df2.schema("unemployment").dataType)
+}
+
+
+
+
+
+
