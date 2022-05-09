@@ -1,0 +1,58 @@
+
+-- 4. Which store has the maximum standard deviation? What does the standard deviation tell us, and what insights can we gain from it? 
+
+Standard deviation is a direct measurement of risk, which indicates volatility in the market. The average amount by which individual data points differ from the mean (the central point, or figure on our dataset) helps us determine the spread - in other words, the numerical distance that a value will space itself away from our average calculated value. So, by measuring the spread of values over our dataset, we can point out which stores not only are the most unpredictable in terms of performance, but are also most inconsistent in terms of performance. These stores are our outliers. For example, we can see that store 14, has a significant standard deviation in relation to the mean. In terms of the holidays, store 14’s performance sometimes does well during the holidays (specifically during easter), but also on average, does not do well in November, which is the month of Thanksgiving. Off season performance is equally as unpredictable. For example, there is a 15% drop off in total sales between the months of April and May, but then from May to June, there is an 8% increase in total sales performance, and increase from June to July, and then another 9% drop off in total sales performance from July to August. 
+
+On the other hand, store 37 has a standard deviation which is consistently in range of the mean sales, and rarely performs any better or worse regardless of whether it is the holiday season or the off season. We can see now why measuring the standard deviation is arguably one of the most important mathematical calculations we can perform with this data set. It allows us to pinpoint the individual strengths and weaknesses in terms of performance of each store over any selected amount of time. We can now determine that we need to use further data in order to improve store 14’s consistency both during the holiday season and the off-season, and on the other hand, we can now try to understand why store 37 does not peak in performance in comparison to other stores during seasonal holidays. This data is invaluable in assessing specific performance needs of any store - and provides the information we need to specifically address consistency, or lack thereof in terms of performance in any given month.
+
+
+
+Today we will be discussing Sales Data between the years of  2010 and 2012  and what insights we can gain based off this data.    
+
+This data can assist us with everything from maintaining stock during busy seasons to how fuel prices can impact sales.
+
+The data we are reviewing today includes information regarding store numbers, fuel prices, the Prevailing Consumer Price Index and the Unemployment index.
+
+With the advancement of technology, social media and ability to gather and process large quatities of data these insights have become an invaluable commodity.  
+
+Due to time limitations we will only scratch the surface of the insights we can obtain from this data.  
+
+For the first insight we have to ask the question...
+
+
+Which store has the maximum standard deviation? What does the deviation tell us and what insights can we gain?
+
+
+Standard deviation is a direct measurment of risk, which indicates volatility in the market.  Utilizing our dataset we can determine which stores have the most unpredictable and inconsistent performance.  
+
+These stores are our outliers. 
+
+Store 14 for example has a significant deviation in relataion to the mean.
+
+On the holidays, store 14's performance sometimes does well, however they do not perform as expected in November around Thanksgiving.
+
+Off Season for store 14 is also unpredictable. 
+
+Between the months of April until July there are three major fluctuations from a 15% drop to a 8% increase and back down another 9%.
+
+In contrast we can look at the performance of store 37 which performs pretty consistently regardless of holidays or if it is off season.
+
+This shows the real value in measuring standard deviation.
+
+It allows us to pinpoint the individual strengths and weaknesses in terms of the performance of each store over any selected amount of time.
+
+We can now determine that we need to use further data in order to improve store 14’s consistency both during the holiday season and the off-season
+
+We also need to understand why store 37 does not peak in performance in comparison to other stores during seasonal holidays. 
+
+This data is invaluable in assessing specific performance needs of any store and provides the information we need to specifically address consistency, 
+or lack thereof in terms of performance in any given month.
+
+
+
+
+
+
+
+- jessica
+

@@ -1,0 +1,63 @@
+spark.sql("use wmdata")
+
+
+val df = spark.sql("select * from sales")
+val df2 = df.withColumn("month", month(col("date")))
+val df3 = df2.groupBy("store", "month").agg( sum("weekly_sales").cast("decimal(38,2)").as("monthly_sales"))
+val df4 = df3.select( "store", "month", "monthly_sales" )
+
+
+
+val df5 = df4.filter(df4("month") === "2" || df4("month") === "9" || df4("month") === "11" || df4("month") === "12")
+val df5a = df4.filter(df4("month") =!= "2" && df4("month") =!= "9" && df4("month") =!= "11" && df4("month") =!= "12")
+
+val df6 = df5.groupBy("store").agg(
+    mean("monthly_sales").cast("decimal(38,2)").as("holiday_avg_mo_sales")
+)
+
+
+val df7 = df5a.groupBy("store").agg(
+    mean("monthly_sales").cast("decimal(38,2)").as("offseason_avg_mo_sales")
+)
+
+val df8 = df6.join(df7,df6("store") === df7("store"),"inner" )
+
+df8.orderBy(asc("holiday_avg_mo_sales"),desc("offseason_avg_mo_sales")).limit(10).show()
+
+df8.orderBy(desc("holiday_avg_mo_sales"),asc("offseason_avg_mo_sales")).limit(10).show()
+
+
+
+
+
+
++-----+--------------------+-----+----------------------+
+|store|holiday_avg_mo_sales|store|offseason_avg_mo_sales|
++-----+--------------------+-----+----------------------+
+|   33|          2722751.97|   33|            3283651.76|
+|   44|          3236025.87|   44|            3793623.05|
+|    5|          3618638.65|    5|            3875141.79|
+|   36|          3956829.12|   36|            4698112.31|
+|   38|          4125066.02|   38|            4832420.30|
+|    3|          4634684.88|    3|            4880999.44|
+|   30|          4704055.22|   30|            5487583.03|
+|   37|          5631755.03|   37|            6459465.03|
+|   16|          5865134.46|   16|            6348985.95|
+|   42|          5986637.56|   42|            6952400.27|
++-----+--------------------+-----+----------------------+
+
+
++-----+--------------------+-----+----------------------+
+|store|holiday_avg_mo_sales|store|offseason_avg_mo_sales|
++-----+--------------------+-----+----------------------+
+|   20|         24518935.75|   20|           25415256.18|
+|    4|         24139469.05|    4|           25373259.65|
+|   14|         23032620.47|   14|           24608678.68|
+|   13|         22755817.51|   13|           24436804.22|
+|   10|         22432237.35|   10|           22736095.56|
+|    2|         22082213.62|    2|           23381698.31|
+|   27|         19661551.52|   27|           21901213.85|
+|    1|         17524273.04|    1|           19038214.59|
+|    6|         17502978.38|    6|           19218027.14|
+|   19|         16657674.86|   19|           17500520.34|
++-----+--------------------+-----+----------------------+

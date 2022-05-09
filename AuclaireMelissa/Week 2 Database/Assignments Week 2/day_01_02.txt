@@ -147,7 +147,6 @@ C.MySQL Update Table
 
 1. Write a SQL statement to change the email column of employees table with 'not available' for all employees.
 
-
 use classicmodels;
 
 UPDATE employees SET  email = 'not avilable';
@@ -155,8 +154,8 @@ UPDATE employees SET  email = 'not avilable';
 SELECT * FROM employees;
 
 
-2. Write a SQL statement to change the email and commission_pct column of employees table with 'not available' and 0.10 for all employees.
 
+2. Write a SQL statement to change the email and commission_pct column of employees table with 'not available' and 0.10 for all employees.
 
 use classicmodels;
 
@@ -167,6 +166,71 @@ SELECT * FROM employees;
 
 
 3. Write a query to get discontinued Product list (Product ID and name). Go to the editor
+
+use store;
+
+SELECT product_id, name FROM products;
+
+
+
+4. Write a query to get most expense and least expensive Product list (name and unit price). Go to the editor
+
+use store;
+
+SELECT name, unit_price FROM products ORDER BY unit_price DESC LIMIT 1;
+
+SELECT name, unit_price FROM products ORDER BY unit_price ASC LIMIT 1;
+
+SELECT oldest.unit_price, oldest.name, newest.unit_price, newest.name
+FROM (SELECT name, unit_price FROM products ORDER BY unit_price DESC LIMIT 1) AS oldest, (SELECT name, unit_price FROM products ORDER BY unit_price ASC LIMIT 1) AS newest;
+
+
+
+5. Write a query to get Product list (id, name, unit price) where current products cost less than $20. Go to the editor
+
+use store;
+
+SELECT product_id, name, unit_price FROM products WHERE unit_price < 20;
+
+
+
+6. Write a query to get Product list (id, name, unit price) where products cost between $15 and $25. Go to the editor
+
+use store;
+
+SELECT product_id, name, unit_price FROM products WHERE unit_price >= 15 AND unit_price <= 25;
+
+
+
+7. Write a query to get Product list (name, unit price) of above average price. Go to the editor
+
+use store;
+
+SELECT product_id, name, unit_price FROM products WHERE unit_price > (SELECT AVG(unit_price) FROM products);
+
+
+
+8. Write a query to get Product list (name, unit price) of ten most expensive products. Go to the editor
+
+use store;
+
+SELECT product_id, name, unit_price 
+FROM products AS a WHERE 10 > (SELECT COUNT(DISTINCT unit_price) FROM products AS b WHERE b.unit_price >= a.unit_price)
+ORDER BY unit_price DESC;
+
+
+
+9. Write a query to count current and discontinued products. Go to the editor
+
+use store;
+
+SELECT COUNT(name) AS p FROM products;
+
+
+
+10. Write a query to get Product list (name, units on order , units in stock) of stock is less than the quantity on order. Go to the editor
+
+use store;
 
 
 
