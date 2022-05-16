@@ -33,12 +33,14 @@ The Queries:
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
 Project Github:
+
 > https://github.com/KumarRevatureReston/220314---UTA-SH---Scala-Big-Data/tree/master/SmithAlex/Project%20Folders/project_2
+
 Team Trello Board:
+
 > https://trello.com/b/adWSdLPj/agile-board
+
 Data source:
 > https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data
 
