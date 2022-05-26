@@ -1,0 +1,30 @@
+fruits 1-49
+beverages 50-75
+baby food 76-124
+vegetables 125-172
+clothes 173-210
+cereal 211-245
+cosmetics 246-277
+meat 278-296
+office supplies 297-323
+household 324-357
+snacks 358-385
+personal care 386-415
+Hardware 416-441
+tech Hardware 442-467
+
+
+Fruits
+Beverages
+Baby Food
+Vegetables
+Clothes
+Cereal
+Cosmetics
+Meat
+Office Supplies
+Household
+Snacks
+Personal Care
+Hardware
+Tech Hardware

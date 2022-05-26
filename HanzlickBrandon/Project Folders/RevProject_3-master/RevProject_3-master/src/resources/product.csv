@@ -1,0 +1,468 @@
+product_id,product_name,product_category,price
+1,Apple,Fruits,29.54
+2,Apricot,Fruits,34.93
+3,Avocado,Fruits,16.37
+4,Banana,Fruits,25.45
+5,Bilberry,Fruits,49.21
+6,Blackberry,Fruits,35.27
+7,Blackcurrant,Fruits,17
+8,Blueberry,Fruits,24.12
+9,Currant,Fruits,34.32
+10,Cherry,Fruits,9.28
+11,Cherimoya,Fruits,46.49
+12,Clementine,Fruits,48.48
+13,Date,Fruits,0.14
+14,Damson,Fruits,6.34
+15,Durian,Fruits,29.94
+16,Eggplant,Fruits,5.94
+17,Elderberry,Fruits,49.31
+18,Feijoa,Fruits,21.76
+19,Gooseberry,Fruits,8.13
+20,Grape,Fruits,28.14
+21,Grapefruit,Fruits,34.24
+22,Guava,Fruits,47.84
+23,Huckleberry,Fruits,16.26
+24,Jackfruit,Fruits,47.7
+25,Jambul,Fruits,32.87
+26,Kiwi fruit,Fruits,11.89
+27,Kumquat,Fruits,32.73
+28,Legume,Fruits,43.52
+29,Lemon,Fruits,35.37
+30,Lime,Fruits,2.49
+31,Lychee,Fruits,36.22
+32,Mango,Fruits,2.67
+33,Mangostine,Fruits,34.17
+34,Melon,Fruits,20.95
+35,Cantaloupe,Fruits,23.17
+36,Honeydew melon,Fruits,18.09
+37,Watermelon,Fruits,11.56
+38,Rock melon,Fruits,30.57
+39,Nectarine,Fruits,22.89
+40,Orange,Fruits,20.88
+41,Peach,Fruits,12.72
+42,Pear,Fruits,36.01
+43,Williams pear or Bartlett pear,Fruits,23.22
+44,Pitaya,Fruits,25.14
+45,Physalis,Fruits,26.07
+46,Plum/prune (dried plum),Fruits,48.27
+47,Pineapple,Fruits,2.31
+48,Pomegranate,Fruits,47.27
+49,Raisin,Fruits,2.44
+50,Coca-Cola,Beverages,49.3
+51,Pepsi,Beverages,28.75
+52,Red Bull,Beverages,46.48
+53,Nescafe,Beverages,26.33
+54,Monster,Beverages,13.83
+55,Sprite,Beverages,25.61
+56,Gatorade,Beverages,27.8
+57,Dr Pepper,Beverages,6.37
+58,Mountain Dew,Beverages,38.62
+59,Lipton,Beverages,40.56
+60,Fanta,Beverages,4.84
+61,7-Up,Beverages,9.27
+62,Tropicana,Beverages,38.54
+63,Lavazza,Beverages,37.47
+64,Twinings,Beverages,22.48
+65,Mirinda,Beverages,48.08
+66,Milo,Beverages,38.62
+67,Jacobs,Beverages,1.96
+68,Aquafina,Beverages,21.98
+69,Evian,Beverages,41.13
+70,Folgers,Beverages,13.25
+71,San Pellegrino,Beverages,18.82
+72,Ovaltine,Beverages,49.24
+73,Dasani,Beverages,18.37
+74,Nespresso,Beverages,29.79
+75,Water,Beverages,31.8
+76,Chicken Sticks,Baby Food,19.96
+77,Turkey Sticks,Baby Food,38.33
+78,Gerber Graduate Fruit Strips,Baby Food,38.71
+79,Gerber Carrot and Squash,Baby Food,7.89
+80,Gerber Graduate Puffs Apple and Pear,Baby Food,28.04
+81,Gerber Mango and Kiwi,Baby Food,24.94
+82,Tropical Fruit Medley,Baby Food,40.8
+83,Macaroni with Tomato and Beef,Baby Food,8.89
+84,Cheese Filled Ravioli,Baby Food,0.29
+85,Beef Noodles,Baby Food,37.91
+86,Macaroni and Cheese,Baby Food,35.62
+87,Spaghetti with Tomato and Meat,Baby Food,9.54
+88,Vegetables and Beef,Baby Food,49.42
+89,Vegetables and Lamb,Baby Food,16.29
+90,Chicken Noodle Soup,Baby Food,49.37
+91,Chicken Stew,Baby Food,32.22
+92,Vegetables and Chicken,Baby Food,35.28
+93,Pasta and Vegetables ,Baby Food,24.5
+94,Turkey and Rice,Baby Food,43.23
+95,Turkey and Vegetables,Baby Food,34.19
+96,Green Beans,Baby Food,8.15
+97,Diced Green Beans,Baby Food,28.67
+98,Green Beans and Potatoes,Baby Food,32.31
+99,Carrots,Baby Food,16.04
+100,Gerber Dry Oatmeal,Baby Food,37.72
+101,Butternut Squash and Corn,Baby Food,24.93
+102,Diced Apples,Baby Food,45.84
+103,Applesauce,Baby Food,8.47
+104,Apricot and Tapioca,Baby Food,35.34
+105,Creamed Corn,Baby Food,49.22
+106,Creamed Corn with Vegetables,Baby Food,31.26
+107,Peas,Baby Food,42.81
+108,Diced Peas,Baby Food,41.09
+109,Creamed Spinach,Baby Food,24.16
+110,Bananas with Tapioca,Baby Food,1.34
+111,Peaches,Baby Food,3.47
+112,Pears,Baby Food,37.62
+113,Plums with Tapioca,Baby Food,5.91
+114,Prunes with Tapioca,Baby Food,26.05
+115,Mango with Tapioca,Baby Food,11.52
+116,Diced Pears,Baby Food,24.9
+117,Applesauce with Apricots,Baby Food,45.05
+118,Applesauce with Cherries,Baby Food,10.46
+119,Applesauce with Pineapples,Baby Food,27.36
+120,Apple and Raspberry Babyfood,Baby Food,31.39
+121,Apple and Blueberry Babyfood,Baby Food,7.72
+122,Apple Juice,Baby Food,14.3
+123,Cereal with Bananas,Baby Food,21.59
+124,Fruit Cookie,Baby Food,36.1
+125,China Jute,Vegetables,23.92
+126,Climbing wattle,Vegetables,41.51
+127,Paracress,Vegetables,10.21
+128,Common Marshmallow,Vegetables,17.83
+129,Purple amaranth,Vegetables,22.96
+130,Common amaranth,Vegetables,16.11
+131,Prickly amaranth,Vegetables,13.19
+132,Amaranth,Vegetables,8.92
+133,Slender amaranth,Vegetables,10.75
+134,Celery,Vegetables,30.17
+135,Garden orache,Vegetables,9.13
+136,Bank cress,Vegetables,20.99
+137,Chik-nam Kra don,Vegetables,18.02
+138,Indian spinach,Vegetables,11.74
+139,Chard,Vegetables,7.33
+140,Sea Beet,Vegetables,16.87
+141,Common Borage,Vegetables,18.1
+142,Abyssinian Cabbage,Vegetables,4.37
+143,Indian mustard,Vegetables,37.34
+144,Rutabaga,Vegetables,6.3
+145,Rape Kale,Vegetables,14.58
+146,Black Mustard,Vegetables,11.12
+147,Wild Cabbage,Vegetables,0.02
+148,Kale,Vegetables,42.28
+149,Kai-lan,Vegetables,8.42
+150,Cauliflower,Vegetables,46.37
+151,Cabbage,Vegetables,36.3
+152,Brussels Sprouts,Vegetables,40.14
+153,Broccoli,Vegetables,21.26
+154,Turnip,Vegetables,40.76
+155,Bok Choi,Vegetables,45.18
+156,Chinese Savoy,Vegetables,8.64
+157,Mizuna,Vegetables,34.82
+158,Napa Cabbage,Vegetables,41.57
+159,Rapini,Vegetables,49.08
+160,Rampion,Vegetables,23.14
+161,Harebell,Vegetables,44.93
+162,Caper,Vegetables,2.71
+163,Wild Coxcomb,Vegetables,48.67
+164,Asian pennywort Gotukola,Vegetables,36.64
+165,Lamb's Quarters,Vegetables,3.26
+166,American Wormseed,Vegetables,40.11
+167,Southern Huauzontle,Vegetables,10.83
+168,Good King Henry,Vegetables,41.43
+169,Tree Spinach,Vegetables,23.57
+170,Oak-Leaved Goosefoot,Vegetables,29.71
+171,Huauzontle,Vegetables,32.65
+172,Quinoa,Vegetables,10.78
+173,Shirt,Clothes,47.72
+174,Pants,Clothes,10.21
+175,Skirt,Clothes,45.37
+176,Jorts,Clothes,31.84
+177,Jacket,Clothes,11.74
+178,Shoes,Clothes,4.39
+179,Underwear,Clothes,0.33
+180,Button-Down,Clothes,36.36
+181,Tie,Clothes,37.45
+182,Shorts,Clothes,29.35
+183,Socks,Clothes,29.85
+184,Jeans,Clothes,45.04
+185,Sweater,Clothes,21.1
+186,Coat,Clothes,31.85
+187,Tracksuit,Clothes,9.01
+188,Vest,Clothes,32.12
+189,Pajamas,Clothes,29.47
+190,Boots,Clothes,44.97
+191,Raincoat,Clothes,15.23
+192,Tanktop,Clothes,33.52
+193,Swimsuit,Clothes,12.45
+194,Dress,Clothes,33.33
+195,Heels,Clothes,17.17
+196,Blouse,Clothes,29.5
+197,Stockings,Clothes,3.54
+198,Scarf,Clothes,15.97
+199,Backpack,Clothes,9.26
+200,Bag,Clothes,12.47
+201,Earrings,Clothes,36.03
+202,Bracelet,Clothes,11.54
+203,Belt,Clothes,11.1
+204,Necklace,Clothes,33.78
+205,Purse,Clothes,14.08
+206,Wallet,Clothes,35.28
+207,Slippers,Clothes,3.67
+208,Baseball Cap,Clothes,3.74
+209,Watch,Clothes,3.27
+210,Polo Shirt,Clothes,35.83
+211,Bran,Cereal,36.12
+212,Natural Bran,Cereal,28.65
+213,Almond Delight,Cereal,8.54
+214,Apple Cinnamon Cheerios,Cereal,40.19
+215,Apple Jacks,Cereal,42.22
+216,Bran Flakes,Cereal,10.03
+217,Cap'n'Crunch,Cereal,17.24
+218,Cheerios,Cereal,31.44
+219,Cinnamon Toast Crunch,Cereal,22.62
+220,Cocoa Puffs,Cereal,34.16
+221,Corn Flakes,Cereal,18.5
+222,Oatmeal,Cereal,32.95
+223,Corn Pops,Cereal,3.51
+224,Count Chocula,Cereal,4.38
+225,Cream of Wheat,Cereal,46.19
+226,Crispix,Cereal,15.82
+227,Double Chex,Cereal,46.01
+228,Froot Loops,Cereal,41.9
+229,Frosted Flakes,Cereal,4.47
+230,Frosted Mini Wheats,Cereal,19.98
+231,Fruitful Bran,Cereal,8.1
+232,Fruity Pebbles,Cereal,30.75
+233,Golden Crisp,Cereal,37.38
+234,Golden Grahams,Cereal,16.35
+235,Honey Nut Cheerios,Cereal,6.98
+236,Life,Cereal,12.44
+237,Lucky Charms,Cereal,31.57
+238,Multi Grain Cheerios,Cereal,6.17
+239,Rice Krispies,Cereal,18.92
+240,Special K,Cereal,47.5
+241,Total,Cereal,21.15
+242,Total Corn Flakes,Cereal,22.98
+243,Total Raisin Bran,Cereal,24.16
+244,Trix,Cereal,12.89
+245,Wheaties,Cereal,15.52
+246,Moisturizer,Cosmetics,4.36
+247,Facial Cleanser,Cosmetics,17.99
+248,Foundation,Cosmetics,31.33
+249,Lipstick,Cosmetics,36.58
+250,Hair gel,Cosmetics,36.2
+251,Sunscreen,Cosmetics,5.52
+252,Face Mask,Cosmetics,31.1
+253,Eye Cream,Cosmetics,14.51
+254,Lip Gloss,Cosmetics,9.64
+255,Nail File,Cosmetics,49.55
+256,Nail Polish,Cosmetics,21.48
+257,Nail Polish Remover,Cosmetics,18.14
+258,Eye Liner,Cosmetics,29.78
+259,Exfoliator Cream,Cosmetics,37.63
+260,Exfoliating Scrub,Cosmetics,35.85
+261,Makeup Brush,Cosmetics,21.18
+262,Brush Cleanser,Cosmetics,16.24
+263,Concealer,Cosmetics,3.27
+264,Eyelash Extensions,Cosmetics,13.25
+265,Lip Balm,Cosmetics,1.95
+266,Shampoo,Cosmetics,5.12
+267,Conditioner,Cosmetics,16.2
+268,Volumizing Shampoo,Cosmetics,49.22
+269,Makeup Remover,Cosmetics,44.9
+270,Eyelash Curler,Cosmetics,8.18
+271,Toner,Cosmetics,14.32
+272,Eye Shadow,Cosmetics,27.74
+273,Nail Lacquer,Cosmetics,14.24
+274,Eyebrow Pencil,Cosmetics,18.67
+275,Mascara,Cosmetics,23.52
+276,Tweezers,Cosmetics,26.08
+277,Lotion,Cosmetics,10.84
+278,Ground Beef,Meat,7.5
+279,Filet Mignon,Meat,25.11
+280,Beef Chuck,Meat,28.03
+281,Rotisserie Chicken,Meat,45.1
+282,Chicken Nuggies,Meat,3.61
+283,Chicken Breasts,Meat,49.88
+284,Fried Chicken,Meat,44.44
+285,Venison,Meat,2.78
+286,Salmon,Meat,13.83
+287,Tuna,Meat,30.64
+288,Pork,Meat,5.63
+289,Pork Loin,Meat,31.25
+290,Beef Loin,Meat,18.22
+291,The Other Other White Meat,Meat,41.08
+292,Hot Dogs,Meat,11.2
+293,Ribs,Meat,47.96
+294,Lobster,Meat,16.7
+295,Crabs,Meat,34.43
+296,Big Ol' Meat,Meat,19.06
+297,Staples,Office Supplies,32.54
+298,Stapler,Office Supplies,34.37
+299,Pens,Office Supplies,42.89
+300,Pencils,Office Supplies,31.85
+301,Wasp Attractant,Office Supplies,10.52
+302,Erasers,Office Supplies,39.03
+303,Paper,Office Supplies,22.77
+304,Stapler Accessories,Office Supplies,7.85
+305,Markers,Office Supplies,46.16
+306,Highlighters,Office Supplies,27.78
+307,Binder,Office Supplies,46.31
+308,Notebook,Office Supplies,45.71
+309,Paperclips,Office Supplies,10.24
+310,Hole Punch,Office Supplies,41.04
+311,Staple Remover,Office Supplies,32.1
+312,Paper Declippers,Office Supplies,28.75
+313,Glue,Office Supplies,49.72
+314,Reverse Scissors,Office Supplies,14.17
+315,Tape,Office Supplies,16.59
+316,Paper Shredder,Office Supplies,41.23
+317,White Out,Office Supplies,39.88
+318,Folders,Office Supplies,25.05
+319,File Organizer,Office Supplies,35.43
+320,Protractor,Office Supplies,34.68
+321,Ruler,Office Supplies,47.14
+322,File Cabinet,Office Supplies,41.42
+323,Rolly Chair,Office Supplies,27.47
+324,Chair,Household,1.11
+325,Table,Household,8.14
+326,Trash Can,Household,33.67
+327,Trash Bags,Household,48.04
+328,Bookshelf,Household,0.51
+329,Lamp,Household,36.03
+330,Lightbulb,Household,15.93
+331,Fans,Household,48.9
+332,Sheets,Household,22.98
+333,Pillows,Household,3.21
+334,Bath Towel,Household,38.57
+335,Handsoap,Household,25.74
+336,Toilet Brush,Household,19.28
+337,Couch,Household,25.93
+338,Bleach,Household,12.02
+339,Laundry Detergent,Household,26.15
+340,Storage Bin,Household,44.73
+341,Mattress,Household,0.13
+342,Body Pillow,Household,22.48
+343,Surge Protectors,Household,26.93
+344,Hand Towel,Household,14.49
+345,Blanket,Household,12.57
+346,Coasters,Household,37.18
+347,Vase,Household,40.58
+348,Curtains,Household,18.17
+349,Shades,Household,8.84
+350,Tools,Household,5.28
+351,Utensils,Household,24.26
+352,Step Ladder,Household,15.65
+353,Pot,Household,26.76
+354,Pan,Household,40.92
+355,Broom,Household,24.95
+356,Vacuum,Household,1.28
+357,Dustpan,Household,45.19
+358,Snickers,Snacks,31.19
+359,Reeses Peanut Butter Cups,Snacks,15.35
+360,Reeses Pieces,Snacks,40.3
+361,Almond Joy,Snacks,38.95
+362,Baby Ruth,Snacks,23.86
+363,Skittles,Snacks,4.94
+364,Chips,Snacks,20.57
+365,Pretzels,Snacks,0.29
+366,Chex Mix,Snacks,35.91
+367,Tortilla Chips,Snacks,27.06
+368,Mike and Ike's,Snacks,22.19
+369,Sunflower Seeds,Snacks,2.9
+370,Donuts,Snacks,2.2
+371,Mints,Snacks,2.52
+372,Cheese Balls,Snacks,6.08
+373,Starburst,Snacks,45.66
+374,Twinkies,Snacks,7.69
+375,Swedish Fish,Snacks,40.23
+376,Nerds,Snacks,21.42
+377,Twizzlers,Snacks,48.6
+378,Mounds,Snacks,33.98
+379,Triscuits,Snacks,42.81
+380,Nutter Butters,Snacks,4.85
+381,Brownies,Snacks,26.37
+382,Fruit Roll Ups,Snacks,27.72
+383,Nilla Wafers,Snacks,20.85
+384,Milky Way,Snacks,5.97
+385,Animal Crackers,Snacks,15.87
+386,Oderant,Personal Care,7.31
+387,Deoderant,Personal Care,13.4
+388,Tylenol,Personal Care,34.77
+389,Tooth Brush,Personal Care,39.58
+390,Tooth Paste,Personal Care,40.58
+391,Comb,Personal Care,42.52
+392,Hair Brush,Personal Care,31.87
+393,Hand Sanitizer,Personal Care,13.79
+394,Wet Wipes,Personal Care,49.83
+395,Tissues,Personal Care,17.23
+396,Perfume,Personal Care,0.95
+397,Cologne,Personal Care,39.92
+398,Razor,Personal Care,45.72
+399,eau de toilet,Personal Care,40.83
+400,Mouthwash,Personal Care,49.69
+401,Sunglasses,Personal Care,45.45
+402,Hair Spray,Personal Care,28.83
+403,Hair ties,Personal Care,8.39
+404,Hair Dryer,Personal Care,32.54
+405,Electric Razor,Personal Care,48.47
+406,Electric Toothbrush,Personal Care,23.08
+407,Dental Floss,Personal Care,45.33
+408,Band Aids,Personal Care,16.49
+409,Bar Soap,Personal Care,27.53
+410,Body Wash,Personal Care,2.13
+411,Moisturizer,Personal Care,15.92
+412,Toilet Paper,Personal Care,2.85
+413,Shaving Cream,Personal Care,42.78
+414,Facial Cleanser,Personal Care,37.14
+415,Tweezers,Personal Care,22.16
+416,Propane,Hardware,2.17
+417,Propane Accessories,Hardware,1.67
+418,Hammer,Hardware,25.73
+419,Screwdriver,Hardware,26.29
+420,Level,Hardware,10.44
+421,Trowel,Hardware,5.26
+422,Nails,Hardware,34.66
+423,Screws,Hardware,25.74
+424,Tape Measure,Hardware,14.53
+425,Hose,Hardware,19.96
+426,Rope,Hardware,6.47
+427,String line,Hardware,17.79
+428,Utility Knife,Hardware,15.92
+429,Speed Square,Hardware,17.2
+430,Wheel Barrow,Hardware,28.44
+431,Hoe,Hardware,30.76
+432,Rake,Hardware,27.33
+433,lightbulb,Hardware,40.18
+434,Shovel,Hardware,37.76
+435,Pickaxe,Hardware,11.77
+436,Spade,Hardware,26.34
+437,Sandpaper,Hardware,44.45
+438,Wrench,Hardware,24.98
+439,Pliers,Hardware,35.07
+440,Saw,Hardware,23.55
+441,Paint Brush,Hardware,28.28
+442,TV,Tech Hardware,10.97
+443,Computer,Tech Hardware,44.24
+444,Laptop,Tech Hardware,47.99
+445,Monitor,Tech Hardware,15.75
+446,Headphones,Tech Hardware,27.77
+447,Graphics Card,Tech Hardware,13.84
+448,Camera,Tech Hardware,20.32
+449,Keyboard,Tech Hardware,16.5
+450,Mouse,Tech Hardware,13.51
+451,Speakers,Tech Hardware,27.93
+452,Phone,Tech Hardware,28.26
+453,Light Strip,Tech Hardware,49.58
+454,Microphone,Tech Hardware,18.12
+455,Gaming System,Tech Hardware,19.3
+456,SquareHole Gaming System,Tech Hardware,45.54
+457,Printer,Tech Hardware,15.71
+458,CPU,Tech Hardware,17.81
+459,GPS,Tech Hardware,10.45
+460,Ram Sticks,Tech Hardware,17
+461,MotherBoard,Tech Hardware,15.52
+462,Microsoft Office,Tech Hardware,8.74
+463,Tablet,Tech Hardware,34.96
+464,Virtual Reality Headset,Tech Hardware,38.47
+465,Hard Drive,Tech Hardware,27.55
+466,Ethernet Cable,Tech Hardware,44.76
+467,Surge Protectors,Tech Hardware,12.37

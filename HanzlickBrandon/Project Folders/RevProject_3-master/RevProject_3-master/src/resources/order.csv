@@ -1,0 +1,12 @@
+payment_type,datetime,ecommerce_website_name,failure_reason
+debit card,2010,gogogrocery.com,insufficient balance
+credit card,2011,thehardstore.net,invalid debit input
+internet banking,2012,Egad-get.com,invalid credit input
+UPI,2013,allgoods.net,internet banking connection error
+eWallet,2014,NailsNNails.com,UPI connection error
+,2015,memawmall.com,
+,2016,onfice.com,
+,2017,discodiscount.com,
+,2018,petesbigbutcher.net,
+,2019,vis4vegan.com,
+,2020,,

@@ -1,0 +1,2001 @@
+customer_id,customer_name,country,city
+1,Romeo Victory,Japan,Tokyo
+2,Silvia Beatson,Indonesia,Jakarta
+3,Ines Girvin,India,Delhi
+4,Fallon Lysak,Philippines,Manila
+5,Eddy Veselka,Brazil,Sao Paulo
+6,Alanna Lins,South Korea,Seoul
+7,Deangelo Nonroe,India,Mumbai
+8,Raphael Yvon,China,Shanghai
+9,Summer Boomhower,Mexico,Mexico City
+10,Jamee Washpun,China,Guangzhou
+11,Kenton Viker,Egypt,Cairo
+12,Charlie Drollinger,China,Beijing
+13,Marva Arzo,United States,New York
+14,Anamaria Matty,India,Kolkata
+15,China Speraw,Russia,Moscow
+16,Irwin Cloutier,Thailand,Bangkok
+17,Rossie Swelgart,Bangladesh,Dhaka
+18,Patience Galliher,Argentina,Buenos Aires
+19,Tatiana Sergio,Japan,Osaka
+20,Isabell Manin,Nigeria,Lagos
+21,Cristal Packingham,Turkey,Istanbul
+22,Alden Lundahl,Pakistan,Karachi
+23,Cecile Huhta,Congo (Kinshasa),Kinshasa
+24,Jayne Smullen,China,Shenzhen
+25,Melinda Barraza,India,Bangalore
+26,Kerstin Lampron,Vietnam,Ho Chi Minh City
+27,Idella Masupha,Iran,Tehran
+28,Leopoldo Ubry,United States,Los Angeles
+29,Aileen Fruhling,Brazil,Rio de Janeiro
+30,Sherril Yentsch,China,Chengdu
+31,Marybelle Bossi,China,Baoding
+32,Gary Aberle,India,Chennai
+33,Marcella Gossage,Pakistan,Lahore
+34,Caron Miano,United Kingdom,London
+35,Brandon Wittlin,France,Paris
+36,Joy Snellbaker,China,Tianjin
+37,Angella Barnscater,China,Linyi
+38,Jeanette Boldul,China,Shijiazhuang
+39,Manuela Vanderwege,China,Zhengzhou
+40,Brent Morken,China,Nanyang
+41,Qiana Castillanos,India,Hyderabad
+42,Bonny Rodrigeuz,China,Wuhan
+43,Jaqueline Dejohn,China,Handan
+44,Genevie Reefer,Japan,Nagoya
+45,Charisse Losinger,China,Weifang
+46,Rosalia Brumbach,Peru,Lima
+47,Abdul Bleicher,China,Zhoukou
+48,Mistie Rosenwinkel,Angola,Luanda
+49,Joeann Geldmacher,China,Ganzhou
+50,Tameika Breger,China,Tongshan
+51,Jeffie Galardo,Malaysia,Kuala Lumpur
+52,Ligma sfiers,United States,Chicago
+53,Laure Stgelais,China,Heze
+54,Paula Karapetyan,China,Chongqing
+55,Sebrina Sodeman,Vietnam,Hanoi
+56,Phyllis Monge,China,Fuyang
+57,Queen Wiederin,China,Changsha
+58,Lynell Foiles,China,Dongguan
+59,Gilma Van,China,Jining
+60,Valentina Ooton,China,Jinan
+61,Reita Snooks,India,Pune
+62,Angele Noorigian,China,Foshan
+63,Robbin Kerne,Colombia,Bogota
+64,Lurlene Hayoz,India,Ahmedabad
+65,Esther Helfgott,China,Nanjing
+66,Grace Golderer,China,Changchun
+67,Curtis Phuma,China,Tangshan
+68,Glenda Guzewicz,China,Cangzhou
+69,Emely Levitin,Tanzania,Dar es Salaam
+70,Luanna Teach,China,Hefei
+71,Anneliese Perrera,Hong Kong,Hong Kong
+72,Merrie Gillick,China,Shaoyang
+73,Frank Greis,China,Zhanjiang
+74,Isabelle Bokal,China,Shangqiu
+75,Charlette Garrett,China,Nantong
+76,Jenni Majure,China,Yancheng
+77,Esperanza Duggin,China,Nanning
+78,Audria Backhaus,China,Hengyang
+79,Melany Severtson,China,Zhumadian
+80,Meagan Gutzman,China,Shenyang
+81,Jacquelyne Egolf,China,Xingtai
+82,Shena Consolver,China,Xi'an
+83,Halley Celestin,Chile,Santiago
+84,Minna Ruffer,China,Yantai
+85,Alysa Spadard,Saudi Arabia,Riyadh
+86,Gene Mcconn,China,Luoyang
+87,Wilburn Bernier,China,Kunming
+88,Coleen Koepper,China,Shangrao
+89,Jodee Printz,China,Hangzhou
+90,Kimber Ursino,China,Bijie
+91,Trudi Speakman,China,Quanzhou
+92,Lashawna Mcfate,United States,Miami
+93,Nelly Sisler,China,Wuxi
+94,Frederic Fennessey,China,Huanggang
+95,Carlo Michele,China,Maoming
+96,Miranda Stathes,China,Nanchong
+97,Mirian Harp,China,Zunyi
+98,Olive Boesel,China,Qujing
+99,Hulda Mccosker,Iraq,Baghdad
+100,Eloy Okitsu,China,Xinyang
+101,Shayna Schurk,China,Jieyang
+102,Joey Langhorst,Sudan,Khartoum
+103,Estrella Mccreedy,Spain,Madrid
+104,Kaycee Hohm,India,Allahabad
+105,Wade Flahive,China,Yulin
+106,Danille Fishburne,China,Changde
+107,Adele Lichtig,China,Liaocheng
+108,Twana Hitt,China,Qingdao
+109,Dominga Allendorf,United States,Dallas
+110,Johnna Reigner,China,Nangandao
+111,Kazuko Senner,China,Xiangyang
+112,Daniella Weissberg,United States,Philadelphia
+113,Christopher Laza,Egypt,Giza
+114,Parker Mailhot,China,Lu'an
+115,Tesha Moneyhun,China,Zhaotong
+116,Hugh Harutunian,China,Yichun
+117,Maybelle Volden,China,Dezhou
+118,Natalia Tupick,Kenya,Nairobi
+119,Annamaria Baldassano,China,Nanchang
+120,Jenette Steinbauer,China,Tai'an
+121,Breann Cajas,China,Dazhou
+122,Afamefuna Ifesinachukwu,United States,Houston
+123,Ozella Barriault,Mexico,Guadalajara
+124,Ai Cornwell,China,Yongzhou
+125,Hollie Luciano,United States,Atlanta
+126,Nam Rehmer,Myanmar,Rangoon
+127,Rivka Tolmich,Canada,Toronto
+128,Tomasa Helscher,China,Suihua
+129,Domingo Emberton,Russia,Saint Petersburg
+130,Fred Geach,United States,Washington
+131,Greta Souffrant,China,Qiqihar
+132,Velvet Sumption,China,Suzhou
+133,Chauncey Tecklenburg,China,Shantou
+134,Linnea Mattsey,China,Weinan
+135,Ashlea Hisrich,China,Changzhou
+136,Jess Hariston,Singapore,Singapore
+137,Ross Gleaves,China,Fuzhou
+138,Elenora Pears,China,Pudong
+139,Morton Fillyaw,Brazil,Belo Horizonte
+140,Lakia Paramore,China,Zhangzhou
+141,Sharlene Lagerstedt,China,Yuncheng
+142,Jackelyn Smolic,China,Suzhou
+143,Julianne Landherr,China,Xianyang
+144,Jocelyn Maloney,China,Guilin
+145,Gretta Bult,China,Taizhou
+146,Dante Feiler,Côte d'Ivoire,Abidjan
+147,Judith Troester,China,Huaihua
+148,Jim Ageboi,China,Ji'an
+149,Lilliam Newand,China,Xiaoganzhan
+150,Adelaide Homsher,China,Pingdingshan
+151,Saul Argyle,China,Jiujiang
+152,Ena Pinkley,India,Surat
+153,Irving Rolen,China,Guiyang
+154,Alfonso Bettle,Egypt,Alexandria
+155,Latonia Upson,China,Bozhou
+156,Asley Eberl,Australia,Sydney
+157,Mitsue Prusak,China,Huizhou
+158,Kelsi Gauna,China,Huai'an
+159,Diego Cocuzzo,China,Chenzhou
+160,Peggy Sherbo,Spain,Barcelona
+161,Fabiola Melcer,China,Anqing
+162,Luisa Lemp,China,Suqian
+163,Consuelo Shibahara,United States,Boston
+164,Damon Ghormley,China,Jiangmen
+165,Luvenia Demaranville,China,Mianyang
+166,Avelina Rafail,China,Harbin
+167,Jeane Pinchon,China,Huanglongsi
+168,Yu Berube,Australia,Melbourne
+169,Alfred Channey,China,Zibo
+170,Dewayne Labossiere,China,Dalian
+171,Jacqualine Clingenpeel,China,Hengshui
+172,Caryl Brodeur,China,Yibin
+173,Elva Sedwick,China,Yangzhou
+174,Rodger Harthcock,Colombia,Timbio
+175,Mohammad Uccio,South Africa,Johannesburg
+176,Cleora Corbelli,China,Yiyang
+177,Nestor Poon,China,Guigang
+178,Francie Vannaman,China,Xinpu
+179,Gracie Casler,China,Meizhou
+180,Florance Gunzelman,Morocco,Casablanca
+181,Sook Blumenkranz,China,Langfang
+182,Delmar Arch,China,Zhangjiakou
+183,Judy Billock,China,Chifeng
+184,Rich Olliff,China,Linfen
+185,Stacia Hailes,China,Jiangguanchi
+186,Isis Handford,Afghanistan,Kabul
+187,Bell Salmi,United States,Phoenix
+188,Shantelle Merlos,China,Luzhou
+189,Yesenia Fleck,China,Taiyuan
+190,Serafina Hetu,China,Zhaoqing
+191,Granville Fland,China,Xiaoxita
+192,Marchelle Shepley,China,Xiamen
+193,Karan Beresford,China,Fuzhou
+194,Esta Flitton,China,Liuzhou
+195,Renate Mussell,China,Zhuzhou
+196,Vincenzo Stanbaugh,Jordan,Amman
+197,Corene Avers,Saudi Arabia,Jeddah
+198,Shelba Szermer,China,Chuzhou
+199,Lonny Sherratt,China,Loudi
+200,Rosanna Winesett,China,Deyang
+201,Leticia Mccaleb,China,Qingyuan
+202,Tova Vangorden,Nigeria,Kano
+203,Pa Raia,China,Wuhu
+204,Wilda Veld,United States,Seattle
+205,Lori Klebes,Japan,Yokohama
+206,Lawanda Huxford,China,Binzhou
+207,Casimira Anliker,China,Baojishi
+208,Lenna Celeste,China,Zaozhuang
+209,Macy Gembe,China,Neijiang
+210,Adela Pollan,China,Baicheng
+211,Yuk Nagano,Germany,Berlin
+212,Rachele Mcgaffee,China,Anshan
+213,Elmo Bulinski,China,Lanzhou
+214,Barbra Beisser,China,Puyang
+215,Brice Dill,United States,San Francisco
+216,Royce Hardung,China,Jiaozuo
+217,Margeret Ferriera,China,Hechi
+218,Lavonda Pagett,Canada,Montreal
+219,Neely Lecznar,United States,Detroit
+220,Chadwick Netterville,China,Chengde
+221,Karrie Pelak,South Korea,Busan
+222,Elfriede Galeazzi,Algeria,Algiers
+223,Tanesha Hackford,China,Hanzhong
+224,Lin Coen,China,Shiyan
+225,Glenn Penberthy,India,Lucknow
+226,Hershel Hotelling,China,Siping
+227,Chantel Redlinger,China,Yulinshi
+228,Mason Yanagida,China,Changzhi
+229,Tashina Distasio,China,Qinzhou
+230,Lise Martensen,China,Bazhou
+231,Maribeth Petges,China,Qincheng
+232,Micaela Hassinger,China,Zhongshan
+233,Roscoe Scroggs,China,Suining
+234,Blaine Domingues,China,Leshan
+235,Yvone Bonk,United States,San Diego
+236,Ollie Payenda,Pakistan,Faisalabad
+237,Rosario Widgeon,China,Guang'an
+238,Gwendolyn Rodes,China,Tongren
+239,Erwin Lowes,China,Bengbu
+240,Jacquelin Staie,Bolivia,Santa Cruz
+241,Desmond Rily,China,Qinhuangdao
+242,Lizzie Ivy,China,Tongliao
+243,Cathey Venanzi,China,Jinzhou
+244,Harry Bridjmohan,China,Zhenjiang
+245,Milford Brookshier,China,Urumqi
+246,Demetria Morasch,China,Heyuan
+247,Elenore Clayter,India,Jaipur
+248,Ruben Bendall,China,Xinzhou
+249,Josphine Hyacinthe,China,Wuzhou
+250,Corina Claiborne,Ethiopia,Addis Ababa
+251,Sharita Schoeffler,China,Chaoyang
+252,Ginette Sundahl,Brazil,Brasilia
+253,Myrta Fanny,Iran,Mashhad
+254,Arlene Chinnis,China,Shaoguan
+255,Vania Buckett,Kuwait,Kuwait City
+256,Darell Critton,China,Shanwei
+257,Janine Golabek,Philippines,Quezon City
+258,Kathline Macaluso,United States,Minneapolis
+259,Lorine Mccauley,Ukraine,Kyiv
+260,Stacey Belhumeur,Yemen,Sanaa
+261,Lacie Schleicher,China,Meishan
+262,Elias Ishee,Guatemala,Guatemala City
+263,Kayla Shininger,South Korea,Incheon
+264,Jere Brignolo,China,Ningde
+265,Lory Sandstrom,United States,Tampa
+266,Marcy Brunz,China,Daqing
+267,Benjamin Lumbard,China,Putian
+268,Ha Spitale,Indonesia,Bandung
+269,Georgina Vandiver,Indonesia,Surabaya
+270,Lilli Ostenberg,Brazil,Salvador
+271,Charline Dragone,United States,Denver
+272,Arden Kliewer,Italy,Rome
+273,Tiesha Fahrney,Bolivia,La Paz
+274,Will Alsip,China,Hohhot
+275,Elwood Bruley,China,Xiangtan
+276,Tera Lebo,North Korea,Pyongyang
+277,Ashlee Morain,Taiwan,Taichung
+278,Sabine Ladd,China,Weihai
+279,Gisele Bacarella,China,Rizhao
+280,Otilia Deniston,China,Mudanjiang
+281,Gabriella Erven,Taiwan,Kaohsiung
+282,Elinore Arehart,Ecuador,Guayaquil
+283,Teri Moriera,China,Tieling
+284,Susanne Caterina,India,Cawnpore
+285,Donovan Paillet,China,Dingxi
+286,Loris Nquyen,Taiwan,Taipei
+287,Ruthanne Radue,China,Nanping
+288,Page Overholtzer,China,Zigong
+289,Carry Ewton,China,Chaozhou
+290,Kandra Heidrich,China,Baotou
+291,Phylicia Dobrowski,China,Gulou
+292,Mitchel Delapuente,China,Longyan
+293,Brittani Maldanado,China,Ankang
+294,Nila Springer,China,Baoshan
+295,Apolonia Trainor,China,Huludao
+296,Tiffanie Armout,Madagascar,Antananarivo
+297,Lindy Dugay,China,Yanjiang
+298,Sarah Fallenstein,Bangladesh,Chattogram
+299,Scot Gressler,Dominican Republic,Santo Domingo
+300,Alphonso Stemple,China,Sanming
+301,Latashia Ramirec,China,Longba
+302,Blondell Marland,United States,Brooklyn
+303,Kathlyn Sipler,China,Yangjiang
+304,Lisandra Vandall,China,Jiamusi
+305,Mavis Liggin,Nigeria,Ibadan
+306,Kenna Freiermuth,China,Luohe
+307,Kellie Dragg,China,Lincang
+308,Trina Boudinot,Colombia,Medellin
+309,Pamella Havelka,China,Xuanzhou
+310,Shanon Kantarian,China,Yunfu
+311,Kandy Bemrose,United Arab Emirates,Dubai
+312,Patrice Brenton,India,Mirzapur
+313,Joline Shibi,Uzbekistan,Tashkent
+314,Omega Desaulniers,China,Guangyuan
+315,Eura Cavallo,Colombia,Cali
+316,Calvin Kuna,China,Huangshi
+317,Nicol Zephier,Burkina Faso,Ouagadougou
+318,Nerissa Mesch,South Korea,Daegu
+319,Ariana Greiner,Brazil,Fortaleza
+320,Patty Panich,Cameroon,Yaounde
+321,Hisako Joles,Cameroon,Douala
+322,Rosalind Yucha,China,Jilin
+323,Fanny Lienhard,China,Dandong
+324,Delbert Duguay,China,Lianshan
+325,Sal Sitter,China,Yingkou
+326,Beau Pollara,India,Nagpur
+327,Kaitlin Shimp,Sudan,Omdurman
+328,Hung Houdek,Indonesia,Bekasi
+329,Roseann Brandstetter,India,Ghaziabad
+330,Jan Matheu,China,Yuxi
+331,Audrie Remigio,Australia,Brisbane
+332,Khadijah Temp,China,Anshun
+333,Ezekiel Pane,Indonesia,Depok
+334,Ursula Edeline,China,Shangzhou
+335,Elba Clinkingbeard,China,Huainan
+336,Daisy Igler,China,Kuaidamao
+337,Ned Grice,Ghana,Accra
+338,Nickole Pribyl,Japan,Fukuoka
+339,Rocco Urben,China,Jincheng
+340,Rosina Pein,Canada,Vancouver
+341,Laila Keasler,Indonesia,Tangerang
+342,Zenia Vajda,China,Sanmenxia
+343,Sherill Muratore,China,Laibin
+344,Candelaria Borgella,United States,Queens
+345,Dan Roshak,China,Qinbaling
+346,Lessie Morgon,China,Xining
+347,Willette Distefano,China,Ma'anshan
+348,Cyndi Flagg,China,Yan'an
+349,Dong Przybyszewski,Azerbaijan,Baku
+350,Hubert Cowett,China,Gaoping
+351,Natacha Mamone,Zimbabwe,Harare
+352,Delana Berthold,Cuba,Havana
+353,George Olenski,Cambodia,Phnom Penh
+354,Val Coplon,China,Ningbo
+355,Latoria Sorbera,Somalia,Mogadishu
+356,Raymond Pyun,China,Puning
+357,Laverne Darst,Indonesia,Medan
+358,Dionne Hylands,China,Huaibei
+359,Raymonde Artibee,China,Qingyang
+360,Anette Rickard,United States,Riverside
+361,Madelyn Fromdahl,United States,Baltimore
+362,Doreatha Dussault,Vietnam,Haiphong
+363,Kina Gonska,United States,Las Vegas
+364,Muoi Nimox,China,Chongzuo
+365,Tiffiny Tauarez,Pakistan,Rawalpindi
+366,Freda Soltis,Ghana,Kumasi
+367,Danette Chappell,United States,Portland
+368,Simone Hirschi,India,Vadodara
+369,Frederica Rydolph,China,Hezhou
+370,Charlene Batte,China,Pingliang
+371,Kayce Dama,United States,San Antonio
+372,Millard Spinello,Australia,Perth
+373,Mickey Hovard,India,Vishakhapatnam
+374,Tarah Paciorek,China,Shengli
+375,Dorotha Grzelak,Pakistan,Gujranwala
+376,Vannessa Schoch,China,Baicheng
+377,Marylin Czyrnik,China,Fushun
+378,Zella Mcduffy,United States,St. Louis
+379,Thomasine Rosselle,Mali,Bamako
+380,Lyndsey Dearco,Ecuador,Quito
+381,Raeann Fallin,Belarus,Minsk
+382,Edda Palomba,India,Indore
+383,Maxie Amore,China,Yinchuan
+384,Modesta Tork,Congo (Kinshasa),Kananga
+385,Sylvester Roehrs,Pakistan,Peshawar
+386,Carley No,Japan,Sapporo
+387,Eliana Gangel,Iran,Esfahan
+388,Lilly Bredemeier,Venezuela,Caracas
+389,Josefine Rundell,China,Pingxiang
+390,Althea Fenstermacher,Syria,Aleppo
+391,Rosamaria Pflug,Mexico,Tijuana
+392,Tiana Jelle,Kazakhstan,Almaty
+393,Ming Rold,Austria,Vienna
+394,Antione Andrzejczyk,India,Thane
+395,Alonzo Tuholski,United States,Sacramento
+396,Christeen Coverdell,Malawi,Blantyre
+397,Nigel Elfert,Taiwan,Tainan
+398,Elin Obannon,China,Zhuhai
+399,Augustina Gerla,Romania,Bucharest
+400,Karena Lenahan,Brazil,Curitiba
+401,Darleen Scalzo,Pakistan,Multan
+402,Harvey Hunsley,China,Xiping
+403,Neomi Daudelin,Mexico,Ecatepec
+404,Janean Shene,China,Jixi
+405,Maryland Soape,Pakistan,Saidu Sharif
+406,Myrtie Chermak,China,Liaoyang
+407,Donna Alamos,Germany,Hamburg
+408,Jane Rockingham,Kenya,Meru
+409,Agustina Alejandrez,Congo (Brazzaville),Brazzaville
+410,Astrid Rawls,United States,Orlando
+411,Delois Frick,China,Fuxin
+412,Justine Cowell,China,Wuwei
+413,Wiley Abee,Brazil,Manaus
+414,Frederick Recalde,India,Bhopal
+415,Tonita Lorance,United States,San Jose
+416,Fermina Twining,Poland,Warsaw
+417,Edna Camble,Congo (Kinshasa),Lubumbashi
+418,Evelia Millimaki,Philippines,Davao
+419,Seymour Waldenmyer,China,Haikou
+420,Reina Hartsough,Syria,Damascus
+421,Wen Dildine,China,Shuyangzha
+422,Kathern Bouyer,Belgium,Brussels
+423,Oralee Linsley,Zambia,Lusaka
+424,Shelby Roja,Pakistan,Hyderabad City
+425,Jillian Rielly,Hungary,Budapest
+426,Kendall Zelasco,China,Shuozhou
+427,Rogelio Grieb,United States,Cleveland
+428,Ricardo Loflin,China,Benxi
+429,Mazie Repp,China,Baiyin
+430,Ronny Papps,United States,Pittsburgh
+431,Tobie Bloomstrom,India,Patna
+432,Margit Garnick,Iraq,Mosul
+433,Laurel Pesnell,Philippines,Caloocan City
+434,Sharyn Duke,United States,Austin
+435,Lourie Adesso,China,Sanzhou
+436,Esmeralda Geohagan,China,Beihai
+437,Mariette Manser,Saudi Arabia,Mecca
+438,Kandace Tam,China,Heihe
+439,Ileana Bollard,China,Jingdezhen
+440,Augustine Keavney,Guinea,Conakry
+441,Dominque Rebik,Uganda,Kampala
+442,Eneida Rieff,United States,Cincinnati
+443,Sabrina Kucel,Brazil,Recife
+444,Shon Zatorski,China,Yushan
+445,Catherin Hilderman,Taiwan,Zhongli
+446,Carole Mallar,United States,Kansas City
+447,Amira Mettler,United States,Manhattan
+448,Edyth Farrill,India,Bilaspur
+449,Theresia Gaulzetti,Indonesia,Semarang
+450,Hobert Trinca,India,Ludhiana
+451,Selma Stephanski,Russia,Novosibirsk
+452,Shu Herbel,China,Chengtangcun
+453,Romona Degonia,India,Agra
+454,Leonida Branciforte,Iran,Karaj
+455,Micki Guilfoyle,China,Wenzhou
+456,Anibal Swigart,United States,Indianapolis
+457,Shella Gitt,Mexico,Leon de los Aldama
+458,Myrna Southwick,Mexico,Puebla
+459,Marta Mork,India,Kalyan
+460,Laurence Yelder,India,Madurai
+461,Riley Nation,Congo (Kinshasa),Mbuji-Mayi
+462,Nancy Stille,China,Hebi
+463,Benton Mezzanotte,Iran,Shiraz
+464,Mike Woudenberg,India,Jamshedpur
+465,Tommie Bienvenue,United States,Columbus
+466,Lakita Ennals,Iran,Tabriz
+467,Dell Crater,Venezuela,Maracaibo
+468,Soraya Bullo,Japan,Kawasaki
+469,Alberta Beckles,Nigeria,Aba
+470,Pearline Sifford,Indonesia,Palembang
+471,Mollie Abruzzo,China,Zhangjiajie
+472,Ty Mcalvain,Japan,Kobe
+473,Karole Bellavance,United States,Charlotte
+474,Ngoc Oblow,China,Changshu
+475,Nita Pomerantz,China,Lianjiang
+476,Ludie Pravata,China,Ximeicun
+477,Naomi Bybee,China,Jianguang
+478,Katelynn Carlyon,China,Yucheng
+479,Cori Renouf,Brazil,Belem
+480,Lizbeth Keemer,China,Guiping
+481,Launa Ganer,China,Leizhou
+482,Maire Ripper,South Korea,Gwangju
+483,Adelle Wiederstein,Germany,Munich
+484,Eduardo Livernash,India,Nasik
+485,Shaunta Barkdoll,Brazil,Porto Alegre
+486,Aleshia Laurita,Venezuela,Valencia
+487,Arlen Frend,Nigeria,Onitsha
+488,Kanesha Hoehn,United Arab Emirates,Abu Dhabi
+489,Haywood Reist,United States,Virginia Beach
+490,Carleen Ogwin,South Korea,Daejeon
+491,Dot Hootman,Mexico,Zapopan
+492,Willow Velovic,Russia,Yekaterinburg
+493,Sydney Perkey,China,Huazhou
+494,Yolando Ritchko,Japan,Kyoto
+495,Glennis Dovel,China,Shuangyashan
+496,Chantal Dubuisson,China,Pizhou
+497,Lois Rabin,Morocco,El Kelaa des Srarhna
+498,Ardith Chou,Ukraine,Kharkiv
+499,Bennett Arbetman,China,Yangshe
+500,Dinah Morgner,China,Guyuan
+501,Imelda Wynkoop,Bangladesh,Khulna
+502,Jose Zaspel,Oman,Muscat
+503,Barbar Pestoni,United States,Bronx
+504,Beverley Gazo,China,Gaozhou
+505,Micheal Kroupa,China,Chizhou
+506,Celeste Zimlich,India,Faridabad
+507,Moon Prins,Mongolia,Ulaanbaatar
+508,Jerri Scaringi,Brazil,Goiania
+509,Michelle Hughes,China,Fuqing
+510,Asuncion Lockard,Serbia,Belgrade
+511,Shasta Schwartzkopf,China,Pingdu
+512,Rubie Briar,Italy,Milan
+513,Lolita Sittig,India,Aurangabad
+514,Chanda Vanbrunt,China,Yutan
+515,Keiko Evens,United States,Milwaukee
+516,Suzette Vaness,China,Huangshan
+517,Keely Lillehaug,New Zealand,Auckland
+518,Kamilah Wiesemann,Indonesia,Makassar
+519,Shea Zinke,Dominican Republic,Santiago
+520,Iliana Mcmanemy,Czechia,Prague
+521,Byron Miyahira,India,Rajkot
+522,Leesa Williar,China,Liangshi
+523,Stasia Leed,Argentina,Cordoba
+524,Vida Mihalchik,Brazil,Guarulhos
+525,Phyliss Lombard,Iraq,Al Basrah
+526,Alec Koguchi,Japan,Saitama
+527,Lynsey Vedia,Mexico,Juarez
+528,Celia Overfield,Uruguay,Montevideo
+529,Adena Cea,China,Xintai
+530,Lekisha Fiorini,China,Wusong
+531,Joana Muddiman,India,Meerut
+532,Marguerite Getzschman,China,Yushu
+533,Cleopatra Rainer,China,Rongcheng
+534,Erline Stepter,China,Huazhou
+535,Emeline Blincoe,China,Yangquan
+536,Lindsay Jacobsen,Australia,Adelaide
+537,Ernestina Shenassa,China,Baishan
+538,Alejandrina Creten,China,Dayan
+539,Karol Krebbs,China,Haicheng
+540,Theresa Halifax,China,Jiangyin
+541,Adrian Bradby,China,Huaiyin
+542,Randi Marrier,China,Wuzhong
+543,Paris Ringeisen,Angola,Cacuaco
+544,Kami Marsh,Colombia,Barranquilla
+545,Leonard Lungsford,Bulgaria,Sofia
+546,Lavonne Simkulet,South Africa,Soweto
+547,Shannon Rosado,India,Jabalpur
+548,Arleen Munier,China,Rucheng
+549,Joanna Gish,Russia,Nizhniy Novgorod
+550,Gerardo Aboulahoud,China,Shaoyang
+551,Caprice Chynoweth,India,Dhanbad
+552,Bailey Arichabala,Honduras,Comayaguela
+553,Colton Wigginton,China,Laiwu
+554,Michale Starrick,United Arab Emirates,Sharjah
+555,Taina Harrier,China,Jingling
+556,Matt Lokietek,Russia,Kazan
+557,Eric Doino,South Korea,Suwon
+558,Tifa Lockhart,China,Yongcheng
+559,Percy Steckline,Canada,Calgary
+560,Jonie Buja,Vietnam,Can Tho
+561,Lesli Jiles,Nigeria,Abuja
+562,Jeanine Boerm,Myanmar,Mandalay
+563,Carlota Fenbert,China,Beidao
+564,Ricki Ribot,China,Xiangshui
+565,Damion Clennon,China,Dadukou
+566,Evette Alwardt,Brazil,Vila Velha
+567,Gregoria Weafer,Russia,Chelyabinsk
+568,Antony Brynestad,Kenya,Mombasa
+569,Normand Schildgen,United States,Providence
+570,Carina Lopze,India,Varanasi
+571,Bryant Hwee,Iran,Qom
+572,Lan Renzulli,China,Zhangye
+573,Freddie Skousen,Japan,Hiroshima
+574,Annabel Baka,Nigeria,Maiduguri
+575,Margery Carlan,Mozambique,Maputo
+576,Ivy Rehnert,Qatar,Doha
+577,Catherine Walema,Argentina,Rosario
+578,Carolyne Estabillo,Senegal,Pikine
+579,Chassidy Brockmeyer,China,Xinyu
+580,Madaline Stars,Iran,Ahvaz
+581,Marivel Mcclester,United States,Jacksonville
+582,Laci Gruenewald,Saudi Arabia,Medina
+583,Pearlie Podewils,India,Srinagar
+584,Carmine Thoburn,Russia,Omsk
+585,Georgeann Miyanaga,China,Liaoyuan
+586,Andera Kaul,Indonesia,Cilacap
+587,Cathy Hastings,China,Yingtan
+588,Filomena Zebel,Indonesia,Bandar Lampung
+589,Shandi Spene,Russia,Samara
+590,Reba Haygood,China,Guankou
+591,Paige Prehoda,South Korea,Ulsan
+592,Hyon Vivion,China,Dingzhou
+593,Elwanda Brueggemann,Brazil,Campinas
+594,Emerita Fonder,China,Lianyuan
+595,Tangela Phurrough,Senegal,Dakar
+596,Kelle Desimas,China,Rongcheng
+597,Ian Mersereau,China,Kaiyuan
+598,Leanora Lebby,Myanmar,Nay Pyi Taw
+599,Sherry Ritzman,Rwanda,Kigali
+600,Logan Kendi,China,Leiyang
+601,Bobette Manolakis,China,Yichun
+602,Bianca Ernspiker,Nigeria,Benin City
+603,Adrienne Isola,United Kingdom,Birmingham
+604,Francoise Carlo,China,Xiantao
+605,Lakeisha Auston,India,Amritsar
+606,Mabelle Roker,Peru,Callao
+607,Chang Renigar,Mexico,Monterrey
+608,Maryetta Farfaglia,India,Aligarh
+609,Kaitlyn Santilukka,China,Yingchuan
+610,Duane Bulger,Mexico,Ciudad Nezahualcoyotl
+611,Maisie Cyprian,Libya,Tripoli
+612,Deena Ponton,North Korea,Nampo
+613,Herschel Lavi,Russia,Rostov
+614,Ilda Shroyer,Honduras,Tegucigalpa
+615,Daniell Stuard,Georgia,Tbilisi
+616,Myong Exe,India,Guwahati
+617,Jessi Gallogly,Russia,Ufa
+618,Merlin Eisenzimmer,Morocco,Fes
+619,Angelia Easler,Vietnam,Bien Hoa
+620,Lenita Watkins,Chad,N'Djamena
+621,Nickolas Willmon,Nigeria,Ikare
+622,Donita Forstedt,United States,Salt Lake City
+623,Larhonda Tollerson,India,Bhilai
+624,Sylvie Aguillard,India,Haora
+625,Ruthe Baraw,Ghana,Tamale
+626,Donette Keadle,China,Xibeijie
+627,Nana Pahls,Denmark,Copenhagen
+628,Layla Watters,Mexico,Nezahualcoyotl
+629,Araceli Keto,China,Hanchuan
+630,Sondra Spriggle,China,Gongzhuling
+631,Jonnie Kilbride,Russia,Krasnoyarsk
+632,Jesse Scadden,Germany,Cologne
+633,Emmy Estill,China,Yicheng
+634,Dominic Tapp,China,Zhufeng
+635,Parthenia Vijayan,Brazil,Sao Goncalo
+636,Phung Metallo,United States,Nashville
+637,Cassy Bissonnette,Armenia,Yerevan
+638,Jina Warlick,Kazakhstan,Nur-Sultan
+639,Shalonda Rettke,Mauritania,Nouakchott
+640,Lelia Pastora,South Africa,Vereeniging
+641,Becki Schlieper,United States,Richmond
+642,Carlton Tram,Brazil,Sao Luis
+643,Albertina Wilfinger,India,Ranchi
+644,Ernie Hytros,Honduras,San Pedro Sula
+645,Shila Titsworth,China,Taixing
+646,Milissa Terrett,India,Gwalior
+647,Colin Flower,United States,Memphis
+648,Galen Seyller,South Korea,Goyang
+649,Eli Sandona,India,Bezwada
+650,Treva Siok,Canada,Edmonton
+651,Vinita Eggins,Kyrgyzstan,Bishkek
+652,Stephany Merante,China,Mizhou
+653,Ona Akright,Tunisia,Tunis
+654,Velva Ruffini,China,Xishan
+655,Alvaro Archuleta,China,Ezhou
+656,Lucilla Croshaw,Venezuela,Barquisimeto
+657,Katlyn Doersam,Japan,Sendai
+658,Sarai Moura,China,Hegang
+659,Joie Syed,Nepal,Kathmandu
+660,Oleta Ranaudo,Mexico,Mexicali
+661,Chantay Cribbin,Russia,Voronezh
+662,Denny Reitema,Russia,Perm
+663,Eulalia Duin,South Korea,Changwon
+664,Roger Pritchett,China,Zhongwei
+665,Windy Hinckson,China,Shouguang
+666,Allyson Woodall,Indonesia,Bogor
+667,Kaleigh Ventresca,United States,Raleigh
+668,Mac Schul,Colombia,Cartagena
+669,Brianne Vuyovich,India,Chandigarh
+670,Thu Choiniere,Mozambique,Matola
+671,Hal Desir,India,Jodhpur
+672,Jadwiga Mysinger,Nigeria,Ogbomoso
+673,Howard Buel,Kazakhstan,Shymkent
+674,Junita Totino,Niger,Niamey
+675,Savanna Shames,China,Taizhou
+676,Maryln Drube,Nicaragua,Managua
+677,Barbie Glauner,Indonesia,Bagam
+678,Mariko Glenister,Egypt,Shubra al Khaymah
+679,Dorothea Ehli,Brazil,Maceio
+680,Cathleen Maldomado,Liberia,Monrovia
+681,Chu Elbahtity,China,Wafangdian
+682,Loren Gomoll,China,Zhongxiang
+683,Jacinto Barcellos,Ukraine,Odesa
+684,Candida Grabowiecki,Haiti,Port-au-Prince
+685,Shae Ryon,United States,New Orleans
+686,Muriel Dalmida,Mexico,Villahermosa
+687,Kimberley Fousek,Vietnam,Thu Duc
+688,Glendora Neely,Russia,Volgograd
+689,Elaine Enocencio,India,Mysore
+690,Lynwood Seldomridge,Pakistan,Islamabad
+691,Nan Mackler,China,Xinyi
+692,Gaynell Agerter,India,Raipur
+693,Shavon Godar,Peru,Arequipa
+694,Anh Guay,Nigeria,Port Harcourt
+695,Nicholle Rotunda,United States,Louisville
+696,Akiko Lopes,China,Zaoyang
+697,Stephnie Lifland,China,Shuizhai
+698,Magaly Pyrdum,China,Xingyi
+699,Thurman Hoffmeyer,India,Kota
+700,Melissia Moote,Pakistan,Quetta
+701,Francene Challa,Canada,Ottawa
+702,Heidi Svatek,Sweden,Stockholm
+703,Vina Milbrandt,Eritrea,Asmara
+704,Marc Mak,Sierra Leone,Freetown
+705,Deandra Rowling,Laos,Vientiane
+706,Maricela Crossen,Israel,Jerusalem
+707,Paola Nicklous,Central African Republic,Bangui
+708,Tia Sewer,Panama,Panama City
+709,Florentina Stanhope,Netherlands,Amsterdam
+710,Aubrey Trider,Togo,Lome
+711,Nu Falk,Gabon,Libreville
+712,Mercy Zubik,Croatia,Zagreb
+713,Ruthann Bettcher,Tajikistan,Dushanbe
+714,Patrina Salsedo,Malawi,Lilongwe
+715,Moriah Zinsli,Benin,Cotonou
+716,Clarinda Spangle,Sri Lanka,Colombo
+717,Shelley Purter,South Africa,Pretoria
+718,Delores Celia,Canada,Winnipeg
+719,Yaeko Berno,Canada,Quebec City
+720,Camelia Reidy,Norway,Oslo
+721,Kayleigh Heaps,Greece,Athens
+722,Arlyne Waskiewicz,Burundi,Bujumbura
+723,Alma Kenoyer,Finland,Helsinki
+724,Florentino Gauthreaux,Macedonia,Skopje
+725,Cyndy Ennes,Moldova,Chisinau
+726,Ophelia Sipe,Latvia,Riga
+727,Hayley Dacunto,Jamaica,Kingston
+728,Dannette Mrochek,Morocco,Rabat
+729,Lavera Fogerson,Lithuania,Vilnius
+730,Corie Georgopoulos,El Salvador,San Salvador
+731,Joni Emard,Djibouti,Djibouti
+732,Eula Packham,Ireland,Dublin
+733,Vena Survis,Netherlands,The Hague
+734,Erika Caballes,Paraguay,Asuncion
+735,Winifred Rieland,Portugal,Lisbon
+736,Candie Sheriff,Slovakia,Bratislava
+737,Devona Berbereia,Canada,Kitchener
+738,Leatrice Baldacci,Estonia,Tallinn
+739,Avery Guggemos,Lebanon,Beirut
+740,Annamarie Barras,South Africa,Cape Town
+741,Alta Hineline,Albania,Tirana
+742,Tam Vallario,New Zealand,Wellington
+743,Lakesha Hillesheim,Tanzania,Dodoma
+744,Marget Doorn,Canada,Halifax
+745,Melanie Pardieck,Guinea-Bissau,Bissau
+746,Laronda Tufnell,Australia,Canberra
+747,Margart Council,South Sudan,Juba
+748,Norris Grosshans,Côte d'Ivoire,Yamoussoukro
+749,Jettie Doler,Canada,Victoria
+750,Eartha Markovich,Lesotho,Maseru
+751,Wilfred Courtright,Cyprus,Nicosia
+752,Antoine Brillon,Namibia,Windhoek
+753,Suzan Carboneau,Papua New Guinea,Port Moresby
+754,Ava Terboss,Benin,Porto-Novo
+755,Letisha Praino,Bolivia,Sucre
+756,Chaya Ogrady,Costa Rica,San Jose
+757,Celsa Hynum,Slovenia,Ljubljana
+758,Gonzalo Ginder,Bosnia And Herzegovina,Sarajevo
+759,Harland Barlage,The Bahamas,Nassau
+760,Sara Bressman,South Africa,Bloemfontein
+761,Misha Saik,Martinique,Fort-de-France
+762,Kenda Seydel,India,New Delhi
+763,Huong Brandel,Botswana,Gaborone
+764,Creola Tjaden,Suriname,Paramaribo
+765,Sheilah Horrigan,Timor-Leste,Dili
+766,Twanna Meloy,Maldives,Male
+767,Sidney Bemis,Guyana,Georgetown
+768,Joya Mcnatt,Gibraltar,Gibraltar
+769,Dottie Siew,Reunion,Saint-Denis
+770,Divina Frishkorn,Equatorial Guinea,Malabo
+771,Patria Gasior,Montenegro,Podgorica
+772,Wilhemina Cruse,Bahrain,Manama
+773,Ofelia Vigilante,Mauritius,Port Louis
+774,Margaret Iniquez,Curaçao,Willemstad
+775,Neva Sandra,Switzerland,Bern
+776,Nilda Ledbetter,French Polynesia,Papeete
+777,Lenny Guillemette,Luxembourg,Luxembourg
+778,Lino Collopy,Iceland,Reykjavik
+779,Dusty Balo,Cabo Verde,Praia
+780,Takako Sharrer,Sri Lanka,Sri Jayewardenepura Kotte
+781,Teresa Naffziger,Barbados,Bridgetown
+782,Lawerence Giscombe,Comoros,Moroni
+783,Nicolasa Stang,Bhutan,Thimphu
+784,Jack Nishitani,Swaziland,Mbabane
+785,Rolanda Krakowsky,New Caledonia,Noumea
+786,Collette Duval,Solomon Islands,Honiara
+787,Vanetta Iba,Fiji,Suva
+788,Juliann Westby,Turkey,Ankara
+789,Ewa Hermanns,Saint Lucia,Castries
+790,Adriane Legrow,French Guiana,Cayenne
+791,Jann Roepke,Sao Tome And Principe,Sao Tome
+792,Epifania Kopelman,Vanuatu,Port-Vila
+793,Christian Zitzow,Bermuda,Hamilton
+794,Leann Fonteno,Brunei,Bandar Seri Begawan
+795,Francisca Tschannen,Monaco,Monaco
+796,Tori Barraclough,Burundi,Gitega
+797,Cary Hartsook,Trinidad And Tobago,Port of Spain
+798,Laurie Eckersley,Samoa,Apia
+799,Ignacia Kutil,Kiribati,Tarawa
+800,Belkis Beresik,Aruba,Oranjestad
+801,Ben Pietrzyk,Jersey,Saint Helier
+802,Oswaldo Leifer,The Gambia,Banjul
+803,Barbera Lizaola,Mayotte,Mamoudzou
+804,Celena Kietzer,Marshall Islands,Majuro
+805,Leland Harada,Isle Of Man,Douglas
+806,Lesha Wooderson,Cayman Islands,George Town
+807,My Yoon,Seychelles,Victoria
+808,Earlene Groman,Saint Vincent And The Grenadines,Kingstown
+809,Tamika Vanegas,Andorra,Andorra la Vella
+810,Verline Isabella,Antigua And Barbuda,Saint John's
+811,Maple Lynott,Tonga,Nuku`alofa
+812,Christena Simley,Turkmenistan,Ashgabat
+813,Ocie Youket,Greenland,Nuuk
+814,Mendy Brundrett,Belize,Belmopan
+815,Janetta Landwehr,Dominica,Roseau
+816,Ela Storck,Saint Kitts And Nevis,Basseterre
+817,Jefferson Cwiklinski,Faroe Islands,Torshavn
+818,Laurinda Entrikin,American Samoa,Pago Pago
+819,Jarred Tockey,Malta,Valletta
+820,Lynn Decelle,Gaza Strip,Gaza
+821,Gabriel Belancer,Turks And Caicos Islands,Grand Turk
+822,Selene Pu,Federated States of Micronesia,Palikir
+823,Zachery Concha,Tuvalu,Funafuti
+824,Rochell Gulinson,Liechtenstein,Vaduz
+825,Diamond Muirhead,Swaziland,Lobamba
+826,Yevette Provino,Cook Islands,Avarua
+827,Thea Lounsberry,Grenada,Saint George's
+828,Marya Mytych,San Marino,San Marino
+829,Kyong Lejune,West Bank,Al Quds
+830,Tyra Malmanger,Northern Mariana Islands,Capitol Hill
+831,Nichelle Lofthus,Falkland Islands (Islas Malvinas),Stanley
+832,Vivian Maltais,Vatican City,Vatican City
+833,Dakota Toren,Niue,Alofi
+834,Chase Nigro,Guadeloupe,Basse-Terre
+835,Moira Cobell,Guam,Hagta
+836,Kali Andary,Saint Martin,Marigot
+837,Elliott Parmeter,Saint Helena Ascension And Tristan Da Cunha,Jamestown
+838,Nicola Rohner,Montserrat,Brades
+839,Theodore Glasow,Sint Maarten,Philipsburg
+840,Oma Blacknall,Nauru,Yaren
+841,Wilfredo Methven,Kosovo,Pristina
+842,Kristian Simkin,Saint Barthelemy,Gustavia
+843,Jen Rafalko,British Virgin Islands,Road Town
+844,Johnny Lary,Palau,Ngerulmud
+845,Shamika Spearmon,Saint Pierre And Miquelon,Saint-Pierre
+846,Annetta Riston,Anguilla,The Valley
+847,Herbert Mego,Wallis And Futuna,Mata-Utu
+848,Pura Burkhalter,Norfolk Island,Kingston
+849,Luise Norfleet,Svalbard,Longyearbyen
+850,Guy Dossantos,Morocco,Tifariti
+851,Xavier Sanmarco,Pitcairn Islands,Adamstown
+852,Elizebeth Belmarez,Christmas Island,Flying Fish Cove
+853,Jung Gentleman,South Georgia And South Sandwich Islands,King Edward Point
+854,Sona Keziah,India,Bareilly
+855,Hiroko Caffery,Vietnam,Quang Ha
+856,Solange Topal,China,Xingcheng
+857,Caitlin Portera,China,Dongtai
+858,Josiah Huck,Egypt,Al Mansurah
+859,Tamra Leofsky,China,Yingcheng
+860,Malena Carston,Japan,Chiba
+861,Tomi Darienzo,Indonesia,Pekanbaru
+862,Natisha Remaley,China,Luocheng
+863,Reed Higashi,Ukraine,Dnipro
+864,Lucila Unnewehr,China,Danyang
+865,Oda Stanback,Brazil,Natal
+866,Roy Bompiani,China,Nada
+867,Hermina Hilleary,Philippines,Zamboanga City
+868,Cecily Gramling,Iraq,Kirkuk
+869,Gisela Girad,Italy,Naples
+870,Federico Dubre,China,Wuchuan
+871,Faustino Grimaldi,China,Huilong
+872,Allegra Quijano,United States,Oklahoma City
+873,Jacklyn Wichert,Mexico,Morelia
+874,Phillis Dejoseph,Philippines,Cebu City
+875,Awilda Skevofilakas,China,Shaoxing
+876,Leola Littler,India,Coimbatore
+877,Solomon Reliford,Dominican Republic,Santo Domingo Este
+878,Gricelda Canul,Japan,Setagaya
+879,Tyesha Kukahiko,South Korea,Songnam
+880,Roderick Selinger,China,Taishan
+881,Rose Dottle,China,Fangchenggang
+882,Kathyrn Bussone,India,Solapur
+883,September Hultquist,Morocco,Tangier
+884,Samual Hyer,China,Anqiu
+885,Kris Winland,China,Feicheng
+886,Brock Gleim,Iran,Kermanshah
+887,Tisha Burlison,Japan,Kitakyushu
+888,Myrle Noggles,China,Meishan
+889,Yolande Brattain,Sudan,Khartoum North
+890,Seth Denn,Congo (Kinshasa),Kisangani
+891,Crista Callins,Mexico,Aguascalientes
+892,Rudolph Montealegre,Morocco,Marrakech
+893,Cole Weiss,Ukraine,Donetsk
+894,Hazel Mitcheltree,Peru,Trujillo
+895,Maurice Rehmert,China,Taihe
+896,Fernanda Prowse,United States,Bridgeport
+897,Quiana Sernas,India,Trichinopoly
+898,Shari Hunkins,China,Xin'an
+899,Joanie Huckaby,China,Taihecun
+900,Ta Wilder,Mexico,Naucalpan de Juarez
+901,Lorene Marez,Nigeria,Owerri
+902,Maura Confair,Indonesia,Padang
+903,Marcelene Cundy,China,Qingzhou
+904,Rozanne Mataka,United States,Buffalo
+905,Gregg Lasker,China,Lichuan
+906,Lucinda Kenebrew,China,Daye
+907,Salena Borgos,United States,Fort Worth
+908,Viki Towers,China,Hengzhou
+909,Glynis Bane,Brazil,Campo Grande
+910,Ferdinand Angel,China,Zhuanghe
+911,Devora Gaudioso,United States,Hartford
+912,Trinidad Klyn,Burkina Faso,Bobo-Dioulasso
+913,Rashida Foppe,Saudi Arabia,Ad Dammam
+914,Darrick Gunkel,China,Lhasa
+915,Walter Dewispelaere,China,Jiaozhou
+916,Lucas Nieto,Philippines,Taguig City
+917,Clemencia Steffens,Mexico,Merida
+918,Nelda Dellagatta,China,Yangchun
+919,Gertrude Media,South Korea,Bucheon
+920,Hannelore Humbird,China,Dengtalu
+921,Renata Haws,Philippines,Antipolo
+922,Jammie Tolayo,India,Hubli
+923,Karolyn Plaas,Nigeria,Abeokuta
+924,Berniece Perow,Mexico,Cancun
+925,Regine Willitzer,United States,Tucson
+926,Otto Forister,Russia,Krasnodar
+927,Dacia Feerst,Brazil,Natal
+928,Fritz Fedder,Mexico,Chihuahua
+929,Jarrett Alirez,Malaysia,Klang
+930,Nubia Kallman,Italy,Turin
+931,Lovetta Siona,Iraq,Ar Ramadi
+932,Conrad Schwind,China,Laiyang
+933,Sharla Human,Morocco,Sale
+934,Nichole Stader,India,Jalandhar
+935,Luann Josephs,China,Kaifeng Chengguanzhen
+936,Tai Sinistore,Nigeria,Ikeja
+937,Darcey Sarka,Indonesia,Malang
+938,Geoffrey Tulk,France,Marseille
+939,Lorilee Ganiron,Mexico,Saltillo
+940,Maribel Jeanlouis,China,Gaomi
+941,Levi Lain,Malaysia,Ipoh
+942,Melania Carmean,China,Hai'an
+943,Clinton Jonassen,Algeria,Oran
+944,Lady Korus,Mexico,Hermosillo
+945,Sheri Lovejoy,China,Weichanglu
+946,Linnie Kolodziej,China,Shache
+947,Antonia Reza,China,Leping
+948,Vito Granquist,China,Hailun
+949,Kenny Tenenbaum,China,Macheng
+950,Aurore Vanvoorhis,Nigeria,Akure
+951,Tobias Gassaway,Nigeria,Ilorin
+952,Teodoro Schoultz,Brazil,Teresina
+953,Shakita Tifft,China,Yuci
+954,Hank Giannotti,United States,Omaha
+955,Soledad Coyazo,Russia,Saratov
+956,Idell Doffing,Iraq,Erbil
+957,Grayce Clauss,Brazil,Iguacu
+958,In Vess,United States,El Paso
+959,Kyra Dino,Philippines,Pasig City
+960,Renda Delaroca,Indonesia,Denpasar
+961,Grazyna Swansbrough,China,Dehui
+962,Broderick Nowlan,India,Bhubaneshwar
+963,Tuan Nishioka,China,Tongchuan
+964,Melia Hersberger,South Korea,Cheongju
+965,Yuette Selic,Nigeria,Warri
+966,Elli Holloran,Congo (Brazzaville),Pointe-Noire
+967,Ronald Nilles,Japan,Sakai
+968,Lottie Bleazard,China,Rongjiawan
+969,Dreama Hossain,Malaysia,Butterworth
+970,Renay Cromey,China,Renqiu
+971,Andreas Mangiaracina,United States,Honolulu
+972,Reda Muhlbauer,China,Xindi
+973,Loura Burrs,China,Wu'an
+974,Ashleigh Ayala,Brazil,Sao Bernardo do Campo
+975,Sharen Gaughan,China,Gaoyou
+976,Ute Arguelles,Mexico,Culiacan
+977,Krystyna Malensek,China,Hejian
+978,Lura Engler,China,Yiyang
+979,Lauryn Wilkinson,China,Puxi
+980,Malik Kirovac,China,Zijinglu
+981,Marilyn Larimore,Brazil,Joao Pessoa
+982,Faviola Cinelli,United States,McAllen
+983,Daniele Mends,Mexico,Queretaro
+984,Lon Lyew,Brazil,Abaete
+985,Beatris Schmeltzer,Colombia,Palermo
+986,Necole Wehunt,China,Qingping
+987,Petrina Hessing,Spain,Valencia
+988,Frieda Shetrawski,Japan,Niigata
+989,Emilia Rigaud,United Kingdom,Leeds
+990,Evan Dansereau,India,Moradabad
+991,Brittni Treglia,Japan,Hamamatsu
+992,Lavina Grosskopf,China,Xiangxiang
+993,Fredericka Valgren,China,Chaohucun
+994,Alissa Conde,China,Fuyang
+995,Erna Zak,Syria,Homs
+996,Ruth Schumucker,Angola,Lubango
+997,Emilio Brackney,Mexico,San Luis Potosi
+998,Charles Bieker,China,Cencheng
+999,Andrew Sonoda,China,Dali
+1000,ba-lacke Orne,North Korea,Hamhung
+1001,Jay-Queline Hamontree,Poland,Krakow
+1002,A-aron Bae,United States,Hempstead
+1003,D-nice Nantwi,Germany,Frankfurt
+1004,Raylene Nicks,United Arab Emirates,Al `Ayn
+1005,Ayako Cuthbert,China,Songzi
+1006,Emelina Cyfers,China,Laixi
+1007,Lane Zuck,Pakistan,Bahawalpur
+1008,Lyla Stambough,China,Zhongba
+1009,Emanuel Niemeier,Nigeria,Kaduna
+1010,Sheree Larate,China,Qingnian
+1011,Malcom Ettienne,United States,Albuquerque
+1012,Delaine Frayer,China,Xinhualu
+1013,Adina Lathem,Japan,Nerima
+1014,Tona Jozwiak,China,Guangshui
+1015,Adolfo Krogh,Mexico,Tlajomulco de Zuniga
+1016,Karen Browers,Indonesia,Samarinda
+1017,Sally Naselli,South Africa,Pietermaritzburg
+1018,Bernadette Scheiner,Taiwan,Changhua
+1019,Adriene Lancey,India,Kolhapur
+1020,Richard Lovenbury,China,Sizhan
+1021,Keren Lowrimore,Venezuela,Ciudad Guayana
+1022,See Kutcher,Colombia,Cucuta
+1023,Mervin Leaven,China,Licheng
+1024,Keshia Restifo,Japan,Ota-ku
+1025,Ruby Duca,India,Thiruvananthapuram
+1026,Todd Malta,Russia,Tyumen
+1027,Gilda Leisure,Mozambique,Nampula
+1028,Soila Pataki,Ukraine,Zaporizhzhia
+1029,Katie Dense,China,Chengguan
+1030,Bee Bodon,Japan,Kumamoto
+1031,Octavia Buckhanan,China,Nehe
+1032,Norah Wethern,United States,Birmingham
+1033,Bernarda Kurtzer,China,Zunhua
+1034,Stella Velaquez,Philippines,Valenzuela
+1035,Myron Galmore,Iran,Orumiyeh
+1036,Reatha Malek,China,Wugang
+1037,Winter Kisak,Nigeria,Osogbo
+1038,Vernie Karnes,China,Shuangqiao
+1039,Cherlyn Kaitz,Argentina,Comodoro Rivadavia
+1040,Eugenio Pfieffer,Philippines,Cagayan de Oro
+1041,Libby Vanetten,China,Langzhong
+1042,Soo Savilla,China,Qian'an
+1043,Phoebe Buttz,Ukraine,Lviv
+1044,Weston Gjesdal,China,Zouping
+1045,Laurette Horaney,Iraq,An Najaf
+1046,Natalie Grella,Japan,Sagamihara
+1047,Daniel Mckethan,United States,Sarasota
+1048,Gaylord Mullinex,Canada,Mississauga
+1049,Stepanie Zomorodi,Japan,Okayama
+1050,Stan Russum,China,Anlu
+1051,Elizbeth Golda,United States,Dayton
+1052,Camille Tinius,China,Changsha
+1053,Colette Altamiruno,Mexico,Torreon
+1054,Sharri Wilkerson,China,Shihezi
+1055,Michell Numan,Malaysia,George Town
+1056,Guillermina Abernatha,Nigeria,Enugu
+1057,Izola Fallow,Colombia,Soledad
+1058,Marylou Niffenegger,Brazil,Jaboatao
+1059,Dora Astolfi,South Korea,Yanggok
+1060,Dollie Levister,China,Yatou
+1061,Kellye Hartzfeld,Brazil,Santo Andre
+1062,Caroll Hilbert,China,Xichang
+1063,Cathi Decamp,India,Bhiwandi
+1064,Corazon Allbones,Philippines,City of Paranaque
+1065,Athena Charles,Philippines,Dasmarinas
+1066,Dorla Avon,China,Chengxiang
+1067,Lily Colasuonno,India,Saharanpur
+1068,Flo Lemasters,India,Warangal
+1069,Chris Komada,Japan,Edogawa
+1070,Robin Carnohan,Brazil,Osasco
+1071,Taylor Busenbark,China,Dashiqiao
+1072,Breana Faglie,Syria,Latakia
+1073,Raven Dunmore,United States,Rochester
+1074,Marcelle Larcher,United States,Fresno
+1075,Lyman Gamet,Indonesia,Banjarmasin
+1076,Harriett Gwynn,India,Salem
+1077,Carlos Tizon,Philippines,General Santos
+1078,Andrea Mayol,Syria,Hamah
+1079,Lida Wies,Philippines,Bacoor
+1080,Vanita Mcgwier,China,Shishi
+1081,Beulah Dalziel,Mexico,Guadalupe
+1082,Gayla Edgman,Japan,Adachi
+1083,Petra Chick,China,Qianxi
+1084,Aretha Karapetian,Russia,Tolyatti
+1085,Toney Boursiquot,Macau,Macau
+1086,Lincoln Camaeho,Nigeria,Bauchi
+1087,Marisha Kveton,Canada,Hamilton
+1088,Bertie Holifield,Poland,Lodz
+1089,Estella Philippi,China,Miluo Chengguanzhen
+1090,Zora Ringland,China,Gaizhou
+1091,Teisha Diperna,India,Malegaon
+1092,Hassie Nicholl,Iraq,Karbala'
+1093,Camilla Mcconaghy,China,Leling
+1094,Chara Saraniti,Brazil,Sao Jose dos Campos
+1095,Monique Wireman,Spain,Sevilla
+1096,Lamar Wallaert,China,Jianshe
+1097,Isiah Laruffa,Japan,Shizuoka
+1098,Della Kastendieck,China,Jingcheng
+1099,Joaquin Sartorio,India,Kochi
+1100,Cherish Laney,United States,Allentown
+1101,Olympia Engelke,Indonesia,Tasikmalaya
+1102,Velda Taheri,Iran,Rasht
+1103,Mauricio Franza,China,Xinmin
+1104,Ardelle Huelse,China,Zhongshu
+1105,Chanell Veysey,China,Xigaze
+1106,Sanda Ma,India,Gorakhpur
+1107,Helen Pantalone,Iraq,As Sulaymaniyah
+1108,Marylee Bushaw,Spain,Zaragoza
+1109,Dagny Serfling,Mexico,Acapulco de Juarez
+1110,Christa Levee,Iran,Bahar
+1111,Korey Kiper,Italy,Palermo
+1112,Christine Kvamme,China,Guankou
+1113,Neida Cowee,United States,Tulsa
+1114,Meg Edley,Mexico,Tlaquepaque
+1115,Warren Dejardin,Mexico,Mazatlan
+1116,Inez Brehmer,China,Songyang
+1117,Jenell Whipp,United States,Cape Coral
+1118,Bethel Fauci,North Korea,Ch'ongjin
+1119,Guillermo Shelkoff,China,Puyang Chengguanzhen
+1120,Thomasina Plata,China,Qionghu
+1121,Lizzette Kuchinski,Brazil,Ribeirao Preto
+1122,Wendi Candy,China,Zhaodong
+1123,Precious Hellen,Angola,Huambo
+1124,Tula Blakeway,China,Wenchang
+1125,Ayesha Tachauer,China,Shulan
+1126,Rosalba Donelly,Mexico,Tlalnepantla
+1127,Kareem Untalan,Venezuela,Catia La Mar
+1128,Reinaldo Lutterman,Pakistan,Sargodha
+1129,Jenna Cimmino,Saudi Arabia,Al Hufuf
+1130,Luis Schweizer,Mexico,Durango
+1131,Stephanie Rossean,Nigeria,Jalingo
+1132,Rebekah Cordova,Côte d'Ivoire,Bouake
+1133,Santana Igtanloc,Pakistan,Sialkot City
+1134,Kindra Joesph,Philippines,San Jose del Monte
+1135,Gil Buczek,South Korea,Ansan
+1136,Scarlet Hale,China,Lingbao Chengguanzhen
+1137,Marcene Bellantuono,South Korea,Hwasu-dong
+1138,Gala Schmelz,Vietnam,Hue
+1139,Elisabeth Lobell,India,Shimoga
+1140,Jacquetta Reisner,Zimbabwe,Bulawayo
+1141,Veda Pytlovany,China,Xiping
+1142,Telma Gianotti,China,Sanhe
+1143,Ileen Pfefferle,India,Guntur
+1144,Denisha Tagaban,United States,Concord
+1145,Georgene Punches,Brazil,Contagem
+1146,Dina Jarboe,India,Tiruppur
+1147,Lennie Buchs,South Korea,Ch'onan
+1148,Trinity Critchfield,Lebanon,Tripoli
+1149,Stanton Lile,Japan,Honcho
+1150,Danny Freidkin,Germany,Dusseldorf
+1151,Gertrudis Franciosa,Russia,Izhevsk
+1152,Terresa Spielberg,China,Guixi
+1153,Dodie Traffanstedt,Brazil,Sorocaba
+1154,Brinda Behun,Malaysia,Petaling Jaya
+1155,Lahoma Brockway,China,Tengyue
+1156,Joel Cleverly,China,Wuxue
+1157,Fredricka Jimmison,Congo (Kinshasa),Kikwit
+1158,Sean Mullany,United States,Colorado Springs
+1159,Chin Poot,China,Qufu
+1160,Raymon Ambler,China,Gaobeidian
+1161,Chante Jarrell,China,Ruiming
+1162,Eugene Solonika,Poland,Wroclaw
+1163,Shaunda Monsees,Australia,Gold Coast
+1164,Billie Whittenbeck,China,Xinshi
+1165,Lorrine Orandello,Yemen,Ta`izz
+1166,Denyse Czapor,Brazil,Aracaju
+1167,Reagan Cianflone,Bolivia,Cochabamba
+1168,Maynard Niccum,South Korea,Jeonju
+1169,Thora Belski,China,Jin'e
+1170,Ardell Tripi,Russia,Barnaul
+1171,Felicia Rebell,Philippines,Makati City
+1172,Maranda Hottinger,Germany,Stuttgart
+1173,Reena Jager,Netherlands,Rotterdam
+1174,Aurelia Mancusi,China,Changping
+1175,Lilla Morris,Libya,Benghazi
+1176,Kyoko Kjar,Ukraine,Kryvyi Rih
+1177,Alleen Gubser,India,Raurkela
+1178,Anabel Midthun,Egypt,Halwan
+1179,Manuel American,United States,Charleston
+1180,Madie Kubala,Mexico,Chimalhuacan
+1181,Palmer Pode,China,Xinxing
+1182,Teofila Reichardt,China,Suohe
+1183,Ryan Czap,India,Mangalore
+1184,Jonas Pennewell,China,Zhuangyuan
+1185,Gerda Breeman,United Kingdom,Glasgow
+1186,Mitchell Tollinchi,Uzbekistan,Namangan
+1187,Geraldo Berishaj,Russia,Ulyanovsk
+1188,Mahalia Fitzmaurice,Russia,Irkutsk
+1189,Concetta Geney,India,Nanded
+1190,Bradley Lestelle,Nigeria,Jos
+1191,Loida Micheletti,Indonesia,Pontianak
+1192,Angila Robeza,Guatemala,Villa Nueva
+1193,Goldie Bellefleur,China,Bazhou
+1194,Ignacio Langsdale,United States,Springfield
+1195,Sam Morelos,China,Turpan
+1196,Katheleen Iarussi,Philippines,Las Pinas City
+1197,Katharina Keppner,China,Meihekou
+1198,Jamar Semenza,China,Jurong
+1199,Phebe Vierthaler,Brazil,Feira de Santana
+1200,Margret Montijano,Russia,Khabarovsk
+1201,Charlyn Mountain,China,Xinji
+1202,Celinda Raymore,Indonesia,Serang
+1203,Lauran Brinkerhoff,Afghanistan,Kandahar
+1204,Hilary Hudecek,China,Sanya
+1205,Alaine Detty,Argentina,San Miguel de Tucuman
+1206,Lynna Hullihen,Russia,Yaroslavl
+1207,Rodolfo Ahlbrecht,China,Zhangshu
+1208,Shin Peralto,Turkey,Bagcilar
+1209,Ngan Dallam,United States,Grand Rapids
+1210,Karyn Reinholtz,Russia,Vladivostok
+1211,Clark Binetti,Malaysia,Kuantan
+1212,Carline Goldfischer,Sweden,Gothenburg
+1213,Georgianne Muhs,India,Cuttack
+1214,Carma Faubel,Indonesia,Jambi
+1215,Sherice Birdin,Indonesia,Cimahi
+1216,Latoya Timbrell,Philippines,Bacolod
+1217,Almeda Lolagne,China,Zhuozhou
+1218,Karla Carmel,Brazil,Uberlandia
+1219,Zoraida Mackillop,China,Tianchang
+1220,Classie Sioma,Japan,Kawaguchi
+1221,Barton Okrent,Japan,Itabashi
+1222,Juliane Bromberg,Japan,Suginami-ku
+1223,Elma Sackett,Mexico,Tuxtla
+1224,Jimmy Bochat,India,Tumkur
+1225,Malika Somera,Germany,Leipzig
+1226,Kymberly Bartron,Indonesia,Balikpapan
+1227,Dorinda Bolstad,China,Qamdo
+1228,Doloris Madine,South Africa,Durban
+1229,Nenita Sarkisian,India,Chanda
+1230,Edgar Dejackome,Japan,Kagoshima
+1231,Alethea Dyreson,Saudi Arabia,Al Hillah
+1232,Lauralee Vanlaar,Russia,Makhachkala
+1233,Noah Skrabanek,China,Sihui
+1234,Lucrecia Carella,Argentina,Mar del Plata
+1235,Daisey Mccamant,Mexico,Irapuato
+1236,Annmarie Bruning,Canada,Brampton
+1237,Evie Parron,China,Luocheng
+1238,Cordelia Kasun,Colombia,Pereira
+1239,Freddy Tirone,United States,Mission Viejo
+1240,Janeth Wareing,Germany,Dortmund
+1241,Serita Rahal,Mexico,Reynosa
+1242,Leslee Grossberg,China,Chuxiong
+1243,Lakisha Hartis,Iran,Zahedan
+1244,Branden Hilado,China,Jinhua
+1245,Arnetta Marroquin,United States,Albany
+1246,Leana Grimaldo,Malaysia,Shah Alam
+1247,Hoa Barksdale,United States,Knoxville
+1248,Paz Whitis,Brazil,Cuiaba
+1249,Shayla Villot,China,Shangzhi
+1250,Marhta Botcher,Germany,Essen
+1251,Corine Snow,China,Botou
+1252,Lorri Arrellano,Colombia,Bucaramanga
+1253,Christal Cocca,South Korea,Anyang
+1254,Kasey Zaborac,Italy,Genoa
+1255,Ina Bruyn,Sudan,Port Sudan
+1256,Senaida Starnaud,Chile,Puente Alto
+1257,Abigail Distler,India,Dehra Dun
+1258,Meghann Ciocca,Saudi Arabia,At Ta'if
+1259,Francesca Flanery,United States,Bakersfield
+1260,Leroy Ekis,China,Wancheng
+1261,Lesley Persing,Spain,Malaga
+1262,Fletcher Richer,Japan,Hachioji
+1263,Michaela Dushane,United States,Ogden
+1264,Elton Sachez,China,Xiulin
+1265,Alejandro Gershman,China,Fu'an
+1266,Delphia Mcmenamin,Russia,Tomsk
+1267,King Escanlar,Mexico,Tonala
+1268,Eleni Zuppa,China,Kumul
+1269,Sherlyn Gelinas,United Kingdom,Bristol
+1270,Roselee Fujimura,China,Luofeng
+1271,Merlyn Consoli,China,Lingyuan
+1272,Marian Jagers,Jordan,Irbid
+1273,June Uzzell,United States,Baton Rouge
+1274,Randal Uber,China,Huzhou
+1275,Noel Deaton,China,Wencheng
+1276,Man Leininger,Germany,Bremen
+1277,Shanti Carda,Venezuela,Ciudad Bolivar
+1278,Sindy Newer,India,Durgapur
+1279,Leigha Rougeaux,Russia,Orenburg
+1280,Jeanie Skoff,China,Shenzhou
+1281,Ashley Vandertuig,India,Asansol
+1282,Odelia Seufer,United States,Akron
+1283,Daren Pohlman,China,Kuiju
+1284,Sung Shepps,United States,New Haven
+1285,Ellie Hennessy,China,Zhenzhou
+1286,Roselyn Kriger,Indonesia,Surakarta
+1287,Romaine Wison,China,Jieshou
+1288,Shala Ogarro,Angola,Benguela
+1289,Demetrius Anderl,Mexico,Ensenada
+1290,Juanita Parziale,China,Dangyang
+1291,Adrien Vanderen,United States,Columbia
+1292,Mack Brisby,Russia,Kemerovo
+1293,Darci Segroves,Afghanistan,Herat
+1294,Cecelia Pistorius,Germany,Dresden
+1295,Darcy Susla,India,Bhavnagar
+1296,Elanor Keogan,Brazil,Juiz de Fora
+1297,Jovita Westermeier,China,Luanzhou
+1298,Letitia Keys,Iran,Hamadan
+1299,Bridgette Smoker,Russia,Novokuznetsk
+1300,Savannah Sessum,India,Nellore
+1301,Zana Feichter,Peru,Chiclayo
+1302,Cornelius Render,United Kingdom,Manchester
+1303,Alyse Chiesa,Yemen,Al Hudaydah
+1304,Sharell Weary,India,Amravati
+1305,Edwardo Menke,Angola,Cabinda
+1306,Alexia Vitera,China,Korla
+1307,Whitney Smola,China,Huanghua
+1308,Maisha Morrow,Philippines,Muntinlupa City
+1309,Irene Gain,Brazil,Londrina
+1310,Vance Delehanty,Saudi Arabia,Tabuk
+1311,Cherrie Meddaugh,Mexico,Heroica Matamoros
+1312,Wenona Hunnewell,Uzbekistan,Samarkand
+1313,Rico Petsche,China,Xingcheng
+1314,Arletta Marksbury,China,Kaiyuan
+1315,Leilani Czysz,Germany,Hannover
+1316,Lucius Wortz,Colombia,Valledupar
+1317,Arron Phippard,China,Fengcheng
+1318,Virgie Excell,India,Ajmer
+1319,Paulita Hammonds,China,Ghulja
+1320,Pansy Develice,India,Tinnevelly
+1321,Lilian Lockyer,Philippines,City of Calamba
+1322,Gaston Mandahl,China,Xiangyang
+1323,Christi Rodar,China,Fuding
+1324,Tosha Naron,Iraq,An Nasiriyah
+1325,Kori Paull,Iraq,Al Hillah
+1326,Art Kues,Colombia,Ibague
+1327,Garland Veneri,Russia,Ryazan
+1328,Nellie Koiner,Sudan,Kassala
+1329,Sheldon Simek,China,Chang'an
+1330,Darlena Liss,Iran,Kerman
+1331,Rosio Brociner,Japan,Koto-ku
+1332,Allena Devel,Poland,Poznan
+1333,Eunice Pellom,China,Aksu
+1334,Easter Fonua,Argentina,Salta
+1335,Reva Campione,Russia,Astrakhan
+1336,Lucretia Wickizer,China,Wuhai
+1337,Viva Fluitt,China,Mingguang
+1338,Jerrica Simmond,Russia,Naberezhnyye Chelny
+1339,Britni Ferrusi,Belgium,Antwerp
+1340,Arnold Sasser,Senegal,Touba
+1341,Artie Ehorn,Iran,Ardabil
+1342,Peg Frist,India,Bikaner
+1343,Anjanette Magsby,France,Lyon
+1344,Mandy Lambros,India,Agartala
+1345,Neal Bucaram,Zambia,Ndola
+1346,Dale Synnott,Japan,Himeji
+1347,Regina Lauser,Mexico,Tultitlan de Mariano Escobedo
+1348,Carlene Babin,Colombia,Villavicencio
+1349,Daphine Wisseh,China,Ailan Mubage
+1350,Curt Lance,Iran,Bandar `Abbas
+1351,Melita Elsheimer,Vietnam,Bac Ninh
+1352,Ranee Holey,Mexico,Ciudad Apodaca
+1353,Loma Kinch,Venezuela,Santa Teresa del Tuy
+1354,Dominique Menges,Chile,Maipu
+1355,Renaldo Bakkum,Russia,Penza
+1356,Inge Hordge,Colombia,Soacha
+1357,Lavonna Affeld,Egypt,Port Said
+1358,Billy Audie,China,Yucheng
+1359,Rasheeda Herford,Morocco,Meknes
+1360,Abram Stremel,Iran,Arak
+1361,Estefana Alfonso,South Korea,Pohang
+1362,Leonor Mcclaine,China,Longzhou
+1363,Usha Player,China,Anda
+1364,Malinda Folsom,China,Jinghong
+1365,Erlene Bodie,United Kingdom,Sheffield
+1366,Aleisha Bowlan,Japan,Utsunomiya
+1367,Lavenia Euton,Egypt,Suez
+1368,Alene Hosse,Germany,Nuremberg
+1369,Debrah Brumleve,United Kingdom,Liverpool
+1370,Alena Eychaner,United States,Mesa
+1371,Valene Ek,Canada,Surrey
+1372,Kaley Stirewalt,China,Heshan
+1373,Concepcion Vangemert,China,Zhoushan
+1374,Jerrold Lourentzos,India,Ujjain
+1375,Vasiliki Chihak,China,Jiaji
+1376,Myung Rappl,Colombia,Santa Marta
+1377,Deann Gossling,Brazil,Joinvile
+1378,Joan Breuer,China,Beining
+1379,Buddy Rangnow,Vietnam,Hai Duong
+1380,Melba Shope,Haiti,Carrefour
+1381,Crystal Cancro,Venezuela,Maturin
+1382,Marvella Russotto,Belarus,Homyel'
+1383,Lorena Jadlowiec,Brazil,Ananindeua
+1384,Stephan Antoine,China,Yanji
+1385,Hedy Durnan,China,Yicheng
+1386,Kandi Arviso,India,Ulhasnagar
+1387,Janene Mahajan,Russia,Lipetsk
+1388,Elidia Hilsinger,Iraq,Al `Amarah
+1389,Steven Vilcan,Honduras,Choloma
+1390,Audry Schrader,Ukraine,Sevastopol
+1391,Shanel Stringari,China,Encheng
+1392,Yulanda Larcade,Yemen,Aden
+1393,Kiana Carleo,Zambia,Kitwe
+1394,Gracia Gosewisch,Japan,Matsuyama
+1395,Delmy Arrisola,India,Jhansi
+1396,Jayna Beissel,China,Kashgar
+1397,Sina Siske,United States,Palm Bay
+1398,Sarita Threat,Taiwan,Pingtung
+1399,Leila Eledge,Philippines,Lapu-Lapu City
+1400,Haley Quickle,Colombia,Monteria
+1401,Felton Sanjuan,Japan,Ichikawa
+1402,Kylee Kalamaras,Philippines,Imus
+1403,Milagro Pinto,India,Davangere
+1404,Charita Lagace,India,Jammu
+1405,Rudy Launey,China,Yiwu
+1406,Marcie Boddeker,Angola,Belas
+1407,Renna Bergeson,Angola,Talatona
+1408,Elmira Paulo,Nigeria,Ile-Ife
+1409,Londa Behmer,Russia,Kirov
+1410,Sherrell Rezak,China,Jiaxing
+1411,Silva Rickerson,Ukraine,Mykolaiv
+1412,Heide Barbalich,United States,Provo
+1413,Eusebia Dombrosky,China,Meicheng
+1414,Mercedes Scovell,Brazil,Niteroi
+1415,Karin Brusuelas,Japan,Matsudo
+1416,Nilsa Cordier,Pakistan,Sukkur
+1417,Kirstie Stoltenberg,Morocco,Oujda-Angad
+1418,Tish Kenmore,China,Taozhou
+1419,Lacresha Vanos,Japan,Higashi-osaka
+1420,Karri Wirth,Malaysia,Johor Bahru
+1421,Ramonita Mintreas,United States,Worcester
+1422,Tambra Mcmath,China,Hongjiang
+1423,Cheri Bevans,Peru,Chimbote
+1424,Celestine Sampieri,Germany,Duisburg
+1425,Lera Flemings,Kazakhstan,Qaraghandy
+1426,Harrison Karwoski,Mexico,Ixtapaluca
+1427,Tatum Burdett,China,Dengtacun
+1428,Deeann Picker,China,Zhijiang
+1429,Melaine Sazama,China,Chengjiao
+1430,Eloisa Blonder,China,Beipiao
+1431,Hilda Magario,China,Suoluntun
+1432,Randa Shobe,United States,Murrieta
+1433,Marry Schurz,Malaysia,Kota Bharu
+1434,Suzy Gosch,Mexico,Ciudad Lopez Mateos
+1435,Freeman Barren,Mexico,Celaya
+1436,Zaida Jennett,Vietnam,Vinh
+1437,Josephina Nipple,China,Duyun
+1438,Jesusita Delarge,Mexico,Los Mochis
+1439,Jo Kneedler,Sudan,Nyala
+1440,Vanda Ledee,Pakistan,Larkana
+1441,Palma Freudenthal,Japan,Nishinomiya-hama
+1442,Jude Dudziak,United Arab Emirates,`Ajman
+1443,Marketta Mcnichols,Russia,Cheboksary
+1444,Lisabeth Hutch,China,Yuanping
+1445,Issac Wilfred,France,Toulouse
+1446,Marceline Dy,United Kingdom,Edinburgh
+1447,Johna Valtierra,India,Belgaum
+1448,Jerrell Steib,Russia,Tula
+1449,Brooke Kimpel,China,Shahe
+1450,Rhea Dillin,Brazil,Serra
+1451,Katharyn Radway,China,Gaoping
+1452,Chloe Stickley,United States,Greenville
+1453,Shaunte Murphrey,India,Gulbarga
+1454,Phylis Salines,China,Dunhua
+1455,Ria Pelissier,United States,Brookhaven
+1456,Lael Mecham,Jordan,Az Zarqa'
+1457,Evia Tengben,Bangladesh,Sylhet
+1458,Kiesha Jurgenson,United States,Wichita
+1459,Linn Cameli,United States,Toledo
+1460,Marianne Albini,China,Kaihua
+1461,Annelle Doemelt,India,Jamnagar
+1462,Melodee Wamser,China,Fuyuan
+1463,Venus Hunzelman,India,Dhulia
+1464,Jake Amend,India,Gaya
+1465,Tasha Bahe,Brazil,Florianopolis
+1466,Farah Frazzano,Pakistan,Chiniot
+1467,Quincy Angolo,China,Jiannan
+1468,Tammara Zahnke,Japan,Oita
+1469,Joseph Nicolson,Russia,Kaliningrad
+1470,Colene Ebey,China,Nangong
+1471,Pandora Matuszak,Japan,Kurashiki
+1472,Gregory Salaam,United States,Staten Island
+1473,Armand Dickman,Turkey,Kucukcekmece
+1474,Brigette Goldhirsh,Argentina,San Juan
+1475,Jordon Uhlman,Brazil,Vila Velha
+1476,Willy Darity,Afghanistan,Mazar-e Sharif
+1477,Yoshiko Cosico,Brazil,Macapa
+1478,Marline Hirkaler,Pakistan,Shekhupura
+1479,Vallie Pellin,United States,Des Moines
+1480,Yee Dermer,Peru,Piura
+1481,Preston Werthman,Philippines,Mandaluyong City
+1482,Calista Gayler,China,Jiaojiangcun
+1483,Dallas Blackmore,China,Laohekou
+1484,Erlinda Sedenko,Turkey,Kagithane
+1485,Fatimah Weltha,Philippines,Angeles City
+1486,Ashton Wendelken,Philippines,Pasay City
+1487,Marlys Tremaine,China,Beian
+1488,Titus Mohamad,China,Fujin
+1489,Carri Conaway,United Kingdom,Leicester
+1490,Candis Gadson,China,Xiaoyi
+1491,Magdalena Reith,Argentina,Lanus
+1492,Doria Copsey,China,Qingzhen
+1493,Dagmar Turlington,Iraq,Ba`qubah
+1494,Mireille Spingler,Japan,Katsushika-ku
+1495,Marquerite Yuen,Saudi Arabia,Buraydah
+1496,Doreen Robinsons,Poland,Gdansk
+1497,Camila Liepins,Philippines,Marikina City
+1498,Efrain Honas,Indonesia,Manado
+1499,Kathe Perrotta,Brazil,Campos
+1500,Katia Alfson,Nigeria,Calabar
+1501,Marlon Wetherell,Japan,Kanazawa
+1502,Coralee Ninh,Philippines,Iloilo
+1503,Raina Moyle,United States,Long Beach
+1504,Dawn Mandino,China,Kuqa
+1505,Justin Dolen,India,Jalgaon
+1506,Kelly Matonak,Australia,Cranbourne
+1507,Naida Ratterman,United States,Port St. Lucie
+1508,Lashunda Coram,Spain,Murcia
+1509,Christiana Trautwein,Brazil,Maua
+1510,Faith Harriston,Japan,Fukuyama
+1511,Denver Rogacki,Israel,Tel Aviv-Yafo
+1512,Leeanna Luka,China,Xicheng
+1513,Fannie Vaupel,Japan,Amagasaki
+1514,Johnathan Dire,South Korea,Pyeongtaek
+1515,Cathryn Koziol,India,Kurnool
+1516,Terrance Baysinger,United States,Denton
+1517,Adalberto Economy,Malaysia,Melaka
+1518,Margrett Hollinger,Taiwan,Taoyuan District
+1519,Claudine Eddie,Philippines,General Trias
+1520,Mandie Dyals,China,Jian'ou
+1521,Irmgard Jongsma,China,Huadian
+1522,Alyce Jedziniak,Egypt,Tanta
+1523,Sabina Ameling,Malaysia,Kota Kinabalu
+1524,Analisa Burlingame,China,Minzhu
+1525,Donya Rainha,Congo (Kinshasa),Bukavu
+1526,Freida Stlaurent,Bangladesh,Rajshahi
+1527,Ferne Roton,Russia,Balashikha
+1528,Charmain Hankel,India,Udaipur
+1529,Leida Gochnauer,Russia,Kursk
+1530,Nakesha Altschuler,Ukraine,Mariupol
+1531,Marlin Golebiowski,Iran,Eslamshahr
+1532,Dian Zion,Mexico,San Nicolas de los Garza
+1533,Kathlene Boulerice,Taiwan,Hsinchu
+1534,Keena Furgerson,Venezuela,Barcelona
+1535,Shonta Trussel,Algeria,Constantine
+1536,Cristine Eriquez,China,Tanbei
+1537,Tashia Billiter,Nigeria,Ado-Ekiti
+1538,Roberta Reidhaar,United States,Madison
+1539,Janette Mozzone,India,Bellary
+1540,Shantell Overbeck,Philippines,Rodriguez
+1541,Leah Bozich,Cuba,Santiago de Cuba
+1542,Rafaela Landsman,China,Yongji
+1543,Flavia Gayoso,United States,Reno
+1544,Nedra Starkes,China,Danjiangkou
+1545,Ulysses Hirschfeld,Brazil,Sao Jose do Rio Preto
+1546,Junko Chappelear,Japan,Fujisawa
+1547,Bao Folkman,Uzbekistan,Andijon
+1548,Yelena Wiegel,United States,Harrisburg
+1549,Randolph Bertot,Japan,Machida
+1550,Dalene Bisch,China,Ning'an
+1551,Belen Bagnall,United States,Little Rock
+1552,Faye Borys,China,Zhangjiakou Shi Xuanhua Qu
+1553,Wilton Husted,Switzerland,Zurich
+1554,Jama Fykes,North Korea,Sunch'on
+1555,Jacinda Quine,China,Jinchang
+1556,Earl Gassett,Japan,Kashiwa
+1557,Ed Pocchia,China,Guangming
+1558,Rosemary Sproull,India,Sangli
+1559,Martin Schwentker,India,Tuticorin
+1560,Marlen Christon,Mozambique,Beira
+1561,Kelsie Kovalsky,Indonesia,Kupang
+1562,Delcie Nabor,South Korea,Jeju
+1563,Sommer Stanwood,Brazil,Caxias do Sul
+1564,Lashawnda Cumming,Brazil,Santos
+1565,Alisha Plotts,Colombia,Manizales
+1566,Marcia Perra,Russia,Stavropol
+1567,Porsha Ogorman,Indonesia,Yogyakarta
+1568,Jessia Spradley,India,Calicut
+1569,Mindi Sigafus,Mexico,Veracruz
+1570,Dione Dahme,Iran,Zanjan
+1571,Xochitl Pearlstein,Peru,Cusco
+1572,Valorie Korbal,South Africa,Welkom
+1573,Jeremy Ysaguirre,Russia,Ulan-Ude
+1574,Alina Byas,United States,Oakland
+1575,Cierra Dainels,Japan,Shinagawa-ku
+1576,Marisa Finger,Iran,Kashan
+1577,Toni Todman,Morocco,Kenitra
+1578,Bennie Kintzel,Nigeria,Uyo
+1579,Eusebio Southwell,Nigeria,Sokoto
+1580,Rodrick Gurnee,South Korea,Masan
+1581,Bradly Huscher,Tunisia,Sidi Bouzid
+1582,Margareta Urry,Brazil,Porto Velho
+1583,Katy Truscott,South Korea,Sihung
+1584,Alverta Macintyre,Mexico,Xalapa
+1585,Jodie Jetton,Argentina,Florencio Varela
+1586,Britt Latus,South Korea,Uijeongbu
+1587,Joe Unangst,India,Akola
+1588,Rodney Dunston,Japan,Aomori
+1589,Hallie Hembrey,China,Yan'an Beilu
+1590,Nova Gopen,Morocco,Agadir
+1591,Racquel Maga,Brazil,Mogi das Cruzes
+1592,Angie Dalrymple,United States,Durham
+1593,Maurine Hausen,Brazil,Diadema
+1594,Lorinda Scoggin,Congo (Kinshasa),Likasi
+1595,Bernita Gentner,Colombia,Buenaventura
+1596,Cecila Pleau,Iran,Yazd
+1597,Palmira Cajigas,Canada,Laval
+1598,Rheba Bronner,Japan,Toyota
+1599,Dyan Nield,Philippines,Santa Rosa
+1600,Camie Casano,United States,Winston-Salem
+1601,Jessica Hosie,Russia,Tver
+1602,Lacy Koutz,Turkey,Elazig
+1603,Tinisha Nuner,Myanmar,Hpa-An
+1604,Santos Dittmar,Spain,Palma
+1605,Dwayne Teekasingh,United States,Bonita Springs
+1606,James Kocurek,China,Mishan
+1607,Angelo Mccall,China,Hailin
+1608,Mina Khalid,Malaysia,Seremban
+1609,Antionette Ruyz,China,Lecheng
+1610,Gema Demirjian,China,Zhengjiatun
+1611,Porfirio Frayre,Ukraine,Luhansk
+1612,Flor Alterio,China,Pencheng
+1613,Nanette Loehrs,Russia,Magnitogorsk
+1614,Tonie Canup,Japan,Takamatsu
+1615,Belle Oquendo,Sudan,El Obeid
+1616,Melva Bertolami,China,Dalai
+1617,Kimi Mcbrearty,China,Xingren
+1618,Lanette Ingwersen,Congo (Kinshasa),Kolwezi
+1619,Leandra Spadafore,China,Wenlan
+1620,Jong Boozer,United States,Indio
+1621,Keeley Coppa,United States,Palm Coast
+1622,Tenisha Szumny,Philippines,Binan
+1623,Antone Flakne,Tanzania,Arusha
+1624,Etsuko Risto,China,Fenyang
+1625,Clemmie Hulett,South Korea,Paju
+1626,Dona Amir,Indonesia,Mataram
+1627,Georgette Romito,United States,Chattanooga
+1628,Mariana Curlis,Kenya,Kisumu
+1629,Earline Zoellick,Pakistan,Jhang City
+1630,Leontine Vasiliou,China,Nagqu
+1631,Francisco Peeters,Indonesia,Jayapura
+1632,Emmie Woods,Brazil,Rio Branco
+1633,Lachelle Yelverton,Japan,Toyama
+1634,Dorathy Lais,China,Fangting
+1635,Cecille Caputi,Iran,Sanandaj
+1636,Oren Finello,China,Linghai
+1637,Pablo Honegger,Japan,Toyonaka
+1638,Jules Plegge,United States,Spokane
+1639,Nannie Romprey,Russia,Sochi
+1640,Janice Girgis,India,Bhagalpur
+1641,Jimmie Shariff,Russia,Ivanovo
+1642,Justina Scalzi,Turkmenistan,Turkmenabat
+1643,Emil Spomer,Nigeria,Zaria
+1644,Wonda Feierman,Russia,Bryansk
+1645,Winnifred Nason,Egypt,Asyut
+1646,Margarito Retana,China,Taiping
+1647,Williemae Diersen,Uganda,Mbale
+1648,Terrie Manfred,Venezuela,Maracay
+1649,Jonah Stimer,China,Jiexiu
+1650,Tonya Roudabush,Argentina,Santa Fe
+1651,Antonina Colgrove,Brazil,Campina Grande
+1652,Shonna Feuer,Japan,Nagasaki
+1653,Elizabeth Braswell,Poland,Szczecin
+1654,Alfreda Mcnab,United States,Syracuse
+1655,Karoline Winge,Brazil,Maringa
+1656,John Weightman,Brazil,Carapicuiba
+1657,Arnulfo Willimas,Iran,Qazvin
+1658,Eldridge Overlie,India,Quilon
+1659,Patti Travino,Brazil,Jundiai
+1660,Tifany Barona,Japan,Hirakata
+1661,Eveline Danker,Japan,Gifu
+1662,Dayna Cipponeri,United States,Lancaster
+1663,Lorenzo Stample,India,Sikar
+1664,Julissa Dockus,China,Jiangjiafan
+1665,Boris Dobberstein,Pakistan,Dera Ghazi Khan
+1666,Sanford Mooradian,Tanzania,Mwanza
+1667,Josefina Thorman,United States,Arlington
+1668,Le Fringer,China,Xushan
+1669,Zelma Kapper,Japan,Miyazaki
+1670,Xenia Spano,China,Yuyao
+1671,Ada Skrocki,United States,Stockton
+1672,Derek Suben,India,Bhatpara
+1673,Lanell Dettling,Malaysia,Sandakan
+1674,Giselle Bollaert,Philippines,Taytay
+1675,Vivan Stavinoha,China,Hejin
+1676,Derrick Reihl,Vietnam,Thanh Hoa
+1677,Donn Larcom,Japan,Minamisuita
+1678,Trudie Gimbel,United States,Poughkeepsie
+1679,Arnette Wasmer,Japan,Yokosuka
+1680,Drucilla Ohland,Vietnam,Nha Trang
+1681,Barb Thesing,Russia,Belgorod
+1682,Andy Maeda,Philippines,Malabon
+1683,Euna Seidl,Nigeria,Yola
+1684,Leonore Komorowski,Angola,Lobito
+1685,Torri Shenberger,Angola,Saurimo
+1686,Lai Cunio,Brazil,Olinda
+1687,Rigoberto Swanger,Turkey,Esenler
+1688,Venessa Kautz,Pakistan,Gujrat
+1689,Azzie Buyck,Iraq,Ad Diwaniyah
+1690,Leslie Lefore,Brazil,Piracicaba
+1691,Shirely Roethel,China,Hancheng
+1692,Lorna Rain,China,Karamay
+1693,Lawana Gram,India,Kakinada
+1694,Darlene Boane,United States,Augusta
+1695,France Joun,India,Bhilwara
+1696,Racheal Mckell,China,Tieli
+1697,Hien Bekhit,Indonesia,Cilegon
+1698,Sage Bachhuber,India,Nizamabad
+1699,Norbert Tobar,Italy,Bologna
+1700,Aida Tervort,United States,Boise
+1701,Beula Maybury,Turkey,Esenyurt
+1702,Maximo Divens,Morocco,Tetouan
+1703,Carita Mangiamele,Kazakhstan,Aqtobe
+1704,Daine Shina,United States,Oxnard
+1705,Linsey Tilly,Nigeria,Oyo
+1706,Johnathon Brannick,Philippines,Tarlac City
+1707,Kathrin Fleener,Japan,Okazaki
+1708,Kallie Salameh,Philippines,Cainta
+1709,Shaunna Kreinbring,Saudi Arabia,Ha'il
+1710,Elna Spann,China,Yidu
+1711,Marlyn Perper,China,Lianzhou
+1712,Jule Dalesandro,Italy,Florence
+1713,Brenton Sellen,New Zealand,Christchurch
+1714,Angelena Sellman,Mexico,Nuevo Laredo
+1715,Desirae Zablonski,United States,Scranton
+1716,Dorsey Jurgensmeier,Czechia,Brno
+1717,Zofia Biamonte,Canada,London
+1718,Nick Lantgen,Serbia,Novi Sad
+1719,Tammy Dalere,Nigeria,Gusau
+1720,Bryon Orochena,United States,Modesto
+1721,Caitlyn Terris,Colombia,Pasto
+1722,Berna Esau,United States,Kissimmee
+1723,Felicidad Abadi,Spain,Las Palmas
+1724,Iraida Dove,Japan,Ichinomiya
+1725,Maudie Gilley,India,Panihati
+1726,Wilber Grajek,Peru,Huancayo
+1727,Waltraud Klande,United States,Aurora
+1728,Jennie Marero,Brazil,Betim
+1729,Susanna Pursley,Portugal,Sintra
+1730,Alonso Filkins,India,Parbhani
+1731,Annalee Starke,El Salvador,Usulutan
+1732,Ingeborg Bickell,United States,Youngstown
+1733,Rufina Prescott,Peru,Iquitos
+1734,Phillip Compston,China,Helixi
+1735,Marinda Fedor,New Zealand,Manukau City
+1736,Bonita Kief,Venezuela,Cumana
+1737,Nathalie Ready,India,Rohtak
+1738,Carmela Gones,Ukraine,Vinnytsia
+1739,Clyde Kinlock,India,Latur
+1740,Isobel Bobadilla,Philippines,Lipa City
+1741,Bula Calarco,Philippines,Mandaue City
+1742,Tayna Newhall,Colombia,Bello
+1743,Carletta Wallaker,Iran,Khorramabad
+1744,Shantae Dodgen,Indonesia,Ambon
+1745,Johnson Potanovic,Philippines,Butuan
+1746,Janella Mullally,Taiwan,Keelung
+1747,Toshiko Burrus,Japan,Toyohashi
+1748,Jessika Booher,Philippines,Baguio City
+1749,Brandee Petrakis,Chile,La Florida
+1750,Ciera Jansing,China,Lengshuijiang
+1751,Kristal Fesler,China,Anguo
+1752,Cordie Lofstead,Japan,Kita-ku
+1753,Anne Conwell,India,Rajapalaiyam
+1754,Zula Lairmore,China,Panshi
+1755,Crysta Eschette,Iran,Madan
+1756,Cortney Witosky,Bulgaria,Plovdiv
+1757,Kiersten Jeanpaul,Iraq,Az Zubayr
+1758,Kirstin Streams,Saudi Arabia,Al Qatif
+1759,Kay Ogata,Japan,Takasaki
+1760,Nieves Cousineau,China,Huichang
+1761,Kit Melgar,Belarus,Vitsyebsk
+1762,Shalanda Huey,Japan,Nagano
+1763,Domitila Villeda,Brazil,Bauru
+1764,Bud Grochow,China,Yanjiao
+1765,Edmond Stith,Germany,Bochum
+1766,Jannie Vanroekel,Mexico,Tecamac
+1767,Lashon Gigantino,Brazil,Anapolis
+1768,Arvilla Kleindienst,United Kingdom,Coventry
+1769,Arthur Kutch,Japan,Shinjuku
+1770,Carylon Fenimore,North Korea,Wonsan
+1771,Cristie Owensby,United Kingdom,Caerdydd
+1772,Tamar Bernitsky,Philippines,Iligan
+1773,Toby Bischel,Philippines,Cabuyao
+1774,Shera Tobiassen,Japan,Nakano
+1775,Elijah Wurdeman,Indonesia,Bengkulu
+1776,Rosita Zaltz,Mexico,Orizaba
+1777,Dorine Grabarczyk,Brazil,Blumenau
+1778,Grover Fitzrandolph,Brazil,Montes Claros
+1779,Syble Drummer,Haiti,Petion-Ville
+1780,Almeta Zarzuela,China,Shuanghejiedao
+1781,Arlena Losh,Nigeria,Umuahia
+1782,Jaye Arron,Russia,Surgut
+1783,Yasuko Turchi,Sudan,Gedaref
+1784,Daria Nadine,Indonesia,Palu
+1785,Delphine Thal,Nepal,Pokhara
+1786,Tabitha Handsom,Belarus,Mahilyow
+1787,Lucina Davick,China,Wudalianchi
+1788,Signe Goodsell,Malaysia,Sungai Petani
+1789,Elease Tye,Vietnam,Nam Dinh
+1790,Melodi Mccanse,Brazil,Vitoria
+1791,Darby Jagger,Belarus,Hrodna
+1792,Buffy Growcock,Russia,Vladimir
+1793,Willodean Thebo,Brazil,Sao Vicente
+1794,Brittny Fyock,Kazakhstan,Taraz
+1795,Jamel Baumgartner,Angola,Cubal
+1796,Zachary Signs,Japan,Kawagoe
+1797,Noma Lemery,Yemen,Ibb
+1798,Wei Gorey,China,Yong'an
+1799,Twyla Yapp,Germany,Wuppertal
+1800,Fernando Conger,Turkey,Manisa
+1801,Siu Longe,Philippines,San Fernando
+1802,Jorge Bracks,Mexico,Minatitlan
+1803,Diana Garzia,Russia,Nizhniy Tagil
+1804,Marla Monarch,Philippines,San Pedro
+1805,Susann Eggebrecht,China,Hongzhai
+1806,Exie Weagraff,Japan,Wakayama
+1807,Robbyn Czwakiel,Spain,Bilbao
+1808,Leanna Chmelik,Pakistan,Rahimyar Khan
+1809,Sid Aye,Kazakhstan,Pavlodar
+1810,Sheena Juliar,South Korea,Gimpo
+1811,Markus Pagliaro,Brazil,Itaquaquecetuba
+1812,Tiffany Scahill,Japan,Nara
+1813,Monnie Speziale,Turkey,Van
+1814,Alida Matsuki,Argentina,Corrientes
+1815,Ardella Hartford,Colombia,Neiva
+1816,Shandra Yaklich,Russia,Arkhangelsk
+1817,Nidia Henggeler,Philippines,Batangas
+1818,Delilah Outhouse,China,Licheng
+1819,Marion Wilebski,Japan,Koshigaya
+1820,Norine Fralix,North Korea,Sinuiju
+1821,Kourtney Schnetzer,Venezuela,Cabimas
+1822,Yoko Coyier,China,Yueqing
+1823,Ashly Pintor,China,Yakeshi
+1824,Damian Volle,India,Ahmadnagar
+1825,Candra Tujague,United States,Fayetteville
+1826,Seema Kammerzell,Japan,Takatsuki
+1827,Elbert Blumenthal,Cuba,Holguin
+1828,Alisa Maratre,Uzbekistan,Qoqon
+1829,Lazaro Pennig,United States,Anaheim
+1830,Jenae Garibaldi,Kazakhstan,Semey
+1831,Krysten Opal,Bulgaria,Varna
+1832,Hui Galvin,China,Yingmen
+1833,Rafael Slagowski,Brazil,Cariacica
+1834,Lauri Burres,Colombia,Palmira
+1835,Lorrie Spruit,Mexico,Tapachula
+1836,Pinkie Minero,Turkey,Konak
+1837,Sherwood Doughtie,Poland,Bydgoszcz
+1838,Odilia Gropp,Turkey,Hatay
+1839,Catheryn Kochkodin,Chile,Antofagasta
+1840,Quinton Garff,India,Rajahmundry
+1841,Bryan Fillhart,Russia,Chita
+1842,Cyrus Spalter,Zimbabwe,Chitungwiza
+1843,Malisa Sinatra,Brazil,Caruaru
+1844,Jeanna Jankins,Netherlands,Utrecht
+1845,Billi Mailes,United States,Pensacola
+1846,Natosha Serini,United States,Victorville
+1847,Juliana Apaez,North Korea,Tanch'on
+1848,Hortensia Moh,Japan,Tokorozawa
+1849,Tressie Clapp,France,Nice
+1850,Ressie Priolean,Azerbaijan,Sumqayit
+1851,Cassidy Hanel,Sudan,Kusti
+1852,Mariann Knutsen,India,Cuddapah
+1853,Rubye Gravelin,Ukraine,Simferopol
+1854,Harley Roussos,Japan,Otsu
+1855,Ernestine Greinke,Brazil,Vitoria da Conquista
+1856,Sue Fallo,United States,Lancaster
+1857,Mozelle Damm,Ukraine,Makiivka
+1858,Grisel Sigers,South Africa,East London
+1859,Cassi Staadt,United States,Greensboro
+1860,Jolynn Kresky,Mexico,Uruapan
+1861,Tony Pilant,Mexico,Gomez Palacio
+1862,Melissa Lippincott,Brazil,Franca
+1863,Doyle Cotta,Belarus,Brest
+1864,Louvenia Strum,Russia,Kaluga
+1865,Bobbi Philson,United States,Corpus Christi
+1866,German Forbush,India,Muzaffarpur
+1867,Christin Gilder,South Korea,Yeosu
+1868,Alla Mczeal,Poland,Lublin
+1869,Eldon Leiding,India,Alwar
+1870,Miki Huelskamp,India,Brahmapur
+1871,Ardis Poetzsch,China,Lianran
+1872,Cherly Werger,Vietnam,Buon Ma Thuot
+1873,Carlotta Hossfeld,Mexico,Cuernavaca
+1874,Joslyn Sinor,Congo (Kinshasa),Beni
+1875,Vonnie Vaught,South Africa,Randburg
+1876,Israel Hedrich,Spain,Alicante
+1877,Hettie Bevly,Nepal,Jitpur
+1878,Ted Mesta,North Korea,Kaesong
+1879,Ling Benke,Brazil,Petrolina
+1880,Violette Puddy,South Korea,Chinju
+1881,Edythe Neborak,China,Tangdong
+1882,Joycelyn Busard,China,Hangu
+1883,Georgiann Drish,United Kingdom,Belfast
+1884,Marica Vendig,Japan,Iwaki
+1885,Blythe Rastegar,Algeria,Blida
+1886,Florine Fonte,Mexico,Salamanca
+1887,Vincent Brening,China,Yingzhong
+1888,Margo Vrias,Japan,Hirosaki
+1889,Tameka Wolman,Chile,Vina del Mar
+1890,Kiyoko Bulter,Ethiopia,Nazret
+1891,Helaine Monforte,Germany,Bielefeld
+1892,Gustavo Fitser,Ecuador,Cuenca
+1893,Micah Ryser,Egypt,Al Fayyum
+1894,Leatha Beckton,United States,Fort Wayne
+1895,Livia Hoeffner,Mexico,Ciudad Obregon
+1896,Jeramy Vanlent,Sudan,Wad Medani
+1897,Marlana Maurice,Brazil,Ribeirao das Neves
+1898,Shoshana Konig,Mexico,Soledad de Graciano Sanchez
+1899,Su Gawlas,Germany,Bonn
+1900,Angela Rataczak,India,Kamarhati
+1901,Lavelle Caracci,Japan,Maebashi
+1902,Shaquana Cham,Greece,Thessaloniki
+1903,Wanda Bertch,Azerbaijan,Ganca
+1904,Riva Angustia,Bangladesh,Mymensingh
+1905,Adolph Hanscom,United States,Santa Ana
+1906,Hwa Enger,United States,Flint
+1907,Suzi Ovens,Indonesia,Kendari
+1908,Sterling Oslund,Vietnam,Thai Nguyen
+1909,Genia Tanigawa,Russia,Smolensk
+1910,Florida Tobiasz,Japan,Asahikawa
+1911,Zada Iwasa,United States,Islip
+1912,Rosaline Karimi,Iraq,Dahuk
+1913,Marcelina Antigua,South Korea,Wonju
+1914,Birdie Cheroki,India,Mathura
+1915,Jeanetta Ragusano,Kenya,Nakuru
+1916,Yajaira Livasy,Nigeria,Lafia
+1917,Dotty Gatica,Japan,Koriyama
+1918,Del Arlan,China,Bamiantong
+1919,Aldo Rosencrans,India,Patiala
+1920,Waylon Erler,Morocco,Taourirt
+1921,Newton Phetsanghane,Turkey,Izmir
+1922,Latrina Enrique,Vietnam,Vung Tau
+1923,Magen Benninger,Philippines,Cabanatuan City
+1924,Eloise Gerrald,Canada,Markham
+1925,Deandrea Michno,India,Saugor
+1926,Shara Liptak,Brazil,Pelotas
+1927,Darius Jawad,South Africa,Roodepoort
+1928,Silas Yungclas,Russia,Volzhskiy
+1929,Brendan Meinhardt,India,Bijapur
+1930,Magan Czekanski,Indonesia,Sukabumi
+1931,Quyen Barkman,United States,Fayetteville
+1932,Darline Gelber,China,Ulanhot
+1933,Ernesto Keville,China,Yunzhong
+1934,Hilde Overbee,Philippines,Cotabato
+1935,Ralph Nist,Iraq,Al Fallujah
+1936,Dorethea Gallian,Japan,Kochi
+1937,Shani Goulden,Nigeria,Minna
+1938,Miyoko Racedo,Brazil,Boa Vista
+1939,Jami Ruts,Romania,Cluj-Napoca
+1940,Fransisca Renell,Brazil,Canoas
+1941,Chung Dammeyer,South Korea,Gwangmyeongni
+1942,Sheila Mahoe,Italy,Bari
+1943,Lavern Hedrick,Peru,Pucallpa
+1944,Lonna Gainer,Turkey,Yildirim
+1945,Margarete Dark,Malaysia,Kuching
+1946,Leonora Burlson,Mexico,Tepic
+1947,Pearly Ottilige,Brazil,Caucaia
+1948,Linette Propst,Ethiopia,Gonder
+1949,Clifton Huyard,Brazil,Uberaba
+1950,Jolanda Ollila,United States,Jackson
+1951,Makeda Cuccaro,Ethiopia,Mekele
+1952,Roselia Legrand,United States,Santa Rosa
+1953,Bibi Sajous,Haiti,Gonaives
+1954,Isaias Mccurtain,Mexico,Guasave
+1955,Shawanda Ichikawa,United States,Lansing
+1956,Noreen Lolley,Japan,Naha
+1957,Kasi Ulanski,China,Binxian
+1958,Saturnina Palenik,Puerto Rico,San Juan
+1959,Rosalinda Scollan,United States,Lexington
+1960,Steve Emeru,China,Hotan
+1961,Garfield Hanshew,China,Dongyang
+1962,Merry Duncklee,Paraguay,Ciudad del Este
+1963,Antoinette Hironaka,China,Kaiyuan
+1964,Keli Pille,Morocco,Temara
+1965,Dana Wenclawiak,Angola,Uige
+1966,Louise Ofsak,Spain,Cordoba
+1967,Bernetta Hardigree,Cuba,Camaguey
+1968,Catharine Fragoso,United States,Ann Arbor
+1969,Jenifer Osias,Argentina,San Salvador de Jujuy
+1970,Brittanie Eccleston,Romania,Timisoara
+1971,Luella Barcello,Iraq,Al Kut
+1972,Maryalice Held,India,Shahjanpur
+1973,Sau Toruno,Russia,Cherepovets
+1974,Mirta Mcvea,Panama,San Miguelito
+1975,Alease Dubinsky,Angola,Menongue
+1976,Eva Rogue,India,Junagadh
+1977,Betsey Casado,Nigeria,Katsina
+1978,Amos Sutterfield,United States,Henderson
+1979,Nisha Primack,Ukraine,Poltava
+1980,Bethany Bovey,Cameroon,Maroua
+1981,Sadie Brentson,North Korea,Kaech'on
+1982,Sherrill Lovering,South Korea,Asan
+1983,Zulma Gau,Mexico,Tehuacan
+1984,Brandi Redwine,Mexico,Coatzacoalcos
+1985,Maia Burriesci,Uzbekistan,Nukus
+1986,Marylouise Dement,United States,Huntsville
+1987,Lasonya Raugust,Kazakhstan,Oskemen
+1988,Lashell Swanston,France,Nantes
+1989,Elda Coonradt,China,Zalantun
+1990,Robbie Meldahl,India,Trichur
+1991,Donte Gerow,Philippines,Binangonan
+1992,Sonia Milder,Indonesia,Cirebon
+1993,Trent Trovinger,Germany,Munster
+1994,Lidia Loera,Egypt,Az Zaqaziq
+1995,Roxanne Montan,Nicaragua,Boaco
+1996,Sima Revira,Vietnam,Ca Mau
+1997,Karma Knaff,Japan,Toshima
+1998,Linwood Yax,Russia,Vologda
+1999,Penney Aquil,Russia,Saransk
+2000,Jeanmarie Miskiewicz,United States,Mobile
